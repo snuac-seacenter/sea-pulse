@@ -1,0 +1,524 @@
+{
+ "schema": "sea-pulse-brief/v0",
+ "date": "2026-08-21",
+ "weekday": "금",
+ "title": "동남아 데일리 브리프",
+ "series": null,
+ "editor": null,
+ "headline": "미국의 환적 단속이 공급망 규칙을 바꾸는 가운데, 남중국해와 캄보디아-태국 국경에서는 군사적 긴장과 제도적 관리가 동시에 진행되고 있다.",
+ "regional": [
+  {
+   "title": "필리핀-중국 남중국해 갈등",
+   "body": "7월 20일 세컨드 토마스 숄 인근에서 중국 해경정과 필리핀 해군 보급 활동이 충돌해 필리핀 군인 1명이 부상을 입었다. 필리핀군은 중국 해경이 곤봉으로 머리를 가격했다고 밝혔고, 중국 해경은 필리핀 선박이 먼저 순찰정을 들이받았다고 주장했다. 8월 초 중국이 스카버러 숄 인근에서 폭격기·군함을 동원한 훈련을 실시하자 미국 국무부는 이를 위험하고 공세적인 행위라고 비판했다.",
+   "point": "현장 충돌과 대규모 훈련이 결합되면서 남중국해 경쟁이 해경·군사·외교의 다층 경쟁으로 전개되고 있다. 책임 소재는 양측 주장이 충돌하므로 단정하지 않는다.",
+   "countries": [
+    "PH"
+   ]
+  },
+  {
+   "title": "캄보디아-태국 국경 장기 봉쇄",
+   "body": "국경 통제가 1년 넘게 이어지며 캄보디아 반테아이메안체이 접경 제조업 공급망에 실물 타격이 나타났다. 현지 보도에 따르면 물류비 급증으로 공장 3곳이 폐쇄 또는 폐쇄 예정이며 약 4,000명의 근로자가 영향을 받았다.",
+   "point": "분쟁의 비용이 군사·외교 영역을 넘어 제조업·노동시장·접경경제로 확산되고 있다. 휴전 감시와 국경 정상화가 경제 회복의 직접 변수다.",
+   "countries": [
+    "KH",
+    "TH"
+   ]
+  },
+  {
+   "title": "미국의 환적 단속",
+   "body": "미 백악관 무역제조정책국(OTMP)은 8월 중순 중국산 제품의 제3국 우회 수출을 다룬 보고서를 발표해 말레이시아·인도네시아·태국·베트남 등을 규제 리스크가 큰 생산거점으로 지목했다. 역내 정부와 업계는 합법적인 공급망 다변화까지 규제 대상이 될 수 있다고 반발하고 있다.",
+   "point": "미국의 대동남아 통상 압박이 단순 관세율에서 원산지, 중국산 중간재, 현지부가가치 검증으로 이동할 가능성이 있다.",
+   "countries": [
+    "MY",
+    "ID",
+    "TH",
+    "VN"
+   ]
+  },
+  {
+   "title": "미얀마-러시아 밀착",
+   "body": "민 아웅 흘라잉 미얀마 군정 최고사령관은 8월 18일 모스크바에서 블라디미르 푸틴 러시아 대통령과 회담하며 서방의 정당성 불인정 속에서도 러시아와의 전략적 밀착을 이어갔다.",
+   "point": "러시아는 미얀마 군정의 외교·방산·에너지 파트너로서 중요성을 높이고 있으며 ASEAN의 미얀마 접근과 별개 축을 형성한다.",
+   "countries": [
+    "MM"
+   ]
+  },
+  {
+   "title": "라오스 국가 애도",
+   "body": "사이솜폰 폼비한 국회의장이 8월 8일 별세한 뒤 라오스 정부는 5일간 국가 애도 기간을 선포했고 역내국들의 조전이 이어졌다.",
+   "point": "국회의장 공석 이후 후속 인선과 국회 운영, 정치 엘리트 재배치 여부를 추적할 필요가 있다.",
+   "countries": [
+    "LA"
+   ]
+  }
+ ],
+ "special": null,
+ "countries": [
+  {
+   "code": "TH",
+   "name": "태국",
+   "update": "업데이트 · 8월 20~21일",
+   "paragraphs": [
+    {
+     "field": "사회",
+     "text": "태국 기상청(TMD)은 북부·북동부·중부·동부 등 전국 39개 주에 21일 오전까지 유효한 폭우·돌발홍수 경보를 발령했다. 치앙마이·치앙라이 등 북부 산간지역에는 매우 강한 비와 산사태 위험이 예보됐고, 해상에는 2~3m의 높은 파도 특보가 내려졌다. 기상 악화는 농업·관광·내륙물류에도 단기 부담으로 작용할 가능성이 있어 지방정부의 대피·재난 대응을 함께 추적할 필요가 있다."
+    },
+    {
+     "field": "정치",
+     "text": "아누틴 짠위라꾼 총리 정부는 8월 25일 하원 개원과 함께 첫 불신임 토론을 앞두고 있다. 야당 인민당은 상원의원 선거 담합 의혹(상원의원 138명·정치인 91명 연루설), 내무부 채용 비리, 태국-AI 전자여권 사업 특혜 의혹, 4,000억 바트 규모 긴급 국채 발행의 정당성 등을 핵심 쟁점으로 제기할 방침이다. 정부가 의회 다수와 연정 결속을 얼마나 안정적으로 유지하는지가 아누틴 내각의 초기 정치적 시험대가 된다."
+    },
+    {
+     "field": "경제·대외",
+     "text": "NESDC에 따르면 2분기 GDP 성장률은 1.9%로 주요 ASEAN 국가 중 낮은 수준을 기록했다. 다만 수출 개선을 근거로 연간 성장률 전망치는 2.0~2.5%로 소폭 상향됐다. 아누틴 총리는 8월 17~22일 호주·뉴질랜드 순방을 통해 투자 유치와 통상 협력을 추진했고, 8월 18일 Lowy Institute 연설에서는 미중 경쟁 속에서 어느 한쪽을 택하지 않는 실용주의를 강조했다. 국내 성장 둔화와 대외 경제다변화 전략이 동시에 진행되는 국면이다."
+    }
+   ],
+   "point": null,
+   "next_check": null
+  },
+  {
+   "code": "VN",
+   "name": "베트남",
+   "update": "업데이트 · 8월 17일",
+   "paragraphs": [
+    {
+     "field": "사회·재난",
+     "text": "레민흥 총리는 북부·북중부 지역의 폭우·홍수·산사태에 긴급 대응하라는 정부 지시를 발령했다. 정부 집계에 따르면 2026년 들어 사망·실종 52명, 부상 80명, 주택 173채 붕괴와 23,200여 채 파손이 보고됐다. 정부는 군·경 합동 구조와 위험지역 주민 대피를 강화하고 있으며, 북부 산업·물류축에 대한 피해 확대 여부도 확인이 필요하다."
+    },
+    {
+     "field": "경제",
+     "text": "베트남 통계당국에 따르면 2분기 GDP는 8.39%, 상반기 누적 성장률은 8.18%로 역내 최고 수준의 성장세를 이어갔다. 7월 제조업 PMI도 확장 국면을 나타냈고, 수출·산업생산이 성장을 견인하고 있다. 다만 미국의 환적·원산지 단속 강화가 베트남의 대미 수출모델과 중국산 중간재 활용 구조에 새로운 통상 리스크로 부상하고 있다."
+    },
+    {
+     "field": "정치·대외",
+     "text": "또 럼 지도부는 8월 9~14일 호주·뉴질랜드 방문을 통해 디지털 전환, 녹색기술, 농업, 핵심광물 가치사슬 협력 확대를 추진했다. 고성장 유지와 공급망 다변화를 외교적으로 뒷받침하려는 행보다. 동시에 미국의 환적 문제 제기에 대해서는 8월 20일 외교부가 건설적 협의 방침을 밝히며 통상 마찰의 관리에 나섰다."
+    }
+   ],
+   "point": null,
+   "next_check": null
+  },
+  {
+   "code": "ID",
+   "name": "인도네시아",
+   "update": "업데이트 · 8월 20일",
+   "paragraphs": [
+    {
+     "field": "시장",
+     "text": "인도네시아 증권거래소(IDX)에서는 8월 20일 전 업종 주가지수가 일제히 상승했고 기초소재 업종이 상승세를 주도했다. 단기 반등에도 불구하고 루피아 약세와 시장심리 변동성이 지속되고 있어, 자원·산업주 중심의 상승이 광범위한 투자심리 회복으로 이어지는지는 더 지켜볼 필요가 있다."
+    },
+    {
+     "field": "정치",
+     "text": "SMRC 조사로 보도된 수치에 따르면 프라보워 수비안토 대통령의 국정 지지율은 집권 초기 80%대에서 2026년 7월 51.1%까지 하락했다. 통화 약세, 증시 부진, 무상급식 등 핵심 복지공약의 이행 속도에 대한 실망이 배경으로 거론된다. 다만 조사기관·표본·문항에 따른 변동 가능성이 있으므로 다른 여론조사와 함께 추세를 확인해야 한다."
+    },
+    {
+     "field": "사회·정국",
+     "text": "독립기념일 전후 자카르타 도심에서 대학생 시위가 발생해 경찰이 최소 21명을 구금했다가 석방했다. 시위는 정치적 자유와 민주주의 후퇴 우려를 제기했다. 한편 프라보워 대통령은 8월 20일 조코 위도도 전 대통령 및 지브란 부통령과 공식 행사에 함께 참석해 정계 내부 갈등설을 진화하며 엘리트 결속을 부각시켰다."
+    },
+    {
+     "field": "경제",
+     "text": "BPS에 따르면 2분기 GDP 성장률은 5.29%로 시장 전망을 웃돌았다. 정부는 하반기 성장률이 6%에 근접할 수 있다고 보고 있으며, 산업 다운스트리밍·공공지출·내수 확대를 성장 동력으로 제시한다. 반면 미국의 환적 단속과 대중 공급망 연계에 대한 scrutiny는 수출 제조업과 Batam·Bekasi 등 생산거점에 새로운 외부 변수다."
+    }
+   ],
+   "point": null,
+   "next_check": null
+  },
+  {
+   "code": "PH",
+   "name": "필리핀",
+   "update": "업데이트 · 8월 18일",
+   "paragraphs": [
+    {
+     "field": "정치·사법",
+     "text": "사라 두테르테 부통령에 대한 상원 탄핵재판은 악천후로 다시 연기됐다. 7월 개시 이후 기상 악화로 일정이 여러 차례 조정됐으며, 부통령실의 2022~2023년 기밀자금 집행 내역이 핵심 쟁점으로 남아 있다. 재판의 법적 절차뿐 아니라 마르코스-두테르테 정치연합의 해체 이후 2028년 대선 구도에 미칠 영향도 커지고 있다."
+    },
+    {
+     "field": "경제",
+     "text": "PSA에 따르면 2분기 GDP 성장률은 2.3%로 크게 둔화됐다. 세계은행은 대규모 홍수방지 사업 관련 부패 문제와 투자심리 악화를 주요 하방요인으로 지적했다. 기후재난 대응 인프라의 집행 신뢰성과 공공지출의 질이 거시경제 리스크로 연결되고 있다는 점이 중요하다."
+    },
+    {
+     "field": "안보·대외",
+     "text": "남중국해에서는 중국 해경·군함 활동과 필리핀의 보급·해양법 집행 활동이 반복적으로 충돌하고 있다. 8월 초 스카버러 숄 인근 중국의 군사훈련과 이후 해경·조사선 활동 확대에 대해 필리핀과 미국이 우려를 표명했고, 동시에 필리핀은 COC 협상 진전 가능성도 언급했다. 현장 압박과 제도 협상이 병행되는 이중적 국면이다."
+    }
+   ],
+   "point": null,
+   "next_check": null
+  },
+  {
+   "code": "MY",
+   "name": "말레이시아",
+   "update": "업데이트 · 8월 20일",
+   "paragraphs": [
+    {
+     "field": "경제",
+     "text": "말레이시아산 팜유(CPO) 가격은 공급과잉 우려가 완화되면서 견조한 흐름을 이어갔다. 2분기 성장도 E&E 수출과 내수에 힘입어 상대적으로 양호한 것으로 평가된다. 다만 대외적으로는 미국의 환적 단속이 Penang-Kulim 등 전자·반도체 생산축에 미칠 영향이 새로운 리스크다."
+    },
+    {
+     "field": "정치",
+     "text": "안와르 이브라힘 총리는 학생운동을 제약해온 대학교육기관법(AUKU)의 폐지 법안을 연내 상정하겠다고 재확인했다. 이는 최근 느그리슴빌란 주의회 선거에서 집권연합 PH가 부진한 성적을 거둔 뒤 나온 개혁 행보로, 청년층·도시 유권자에 대한 정치적 재접근이라는 해석이 가능하다. 법안의 실제 폐지 범위와 대체 규제체계가 핵심 관전점이다."
+    },
+    {
+     "field": "대외·통상",
+     "text": "미 백악관 환적 보고서에서 말레이시아가 규제 리스크가 높은 생산거점으로 거론되자 현지 통상업계는 합법적인 China+1 공급망 다변화 투자까지 문제시될 수 있다고 반발했다. 동시에 8월 20일 안와르 총리는 말레이시아의 One China 정책을 재확인하면서도 평화적 해결을 강조했다. 대만계 전자·반도체 투자가 큰 만큼 외교적 표현이 투자환경에 미치는 파급 여부를 추적할 필요가 있다."
+    }
+   ],
+   "point": null,
+   "next_check": null
+  },
+  {
+   "code": "MM",
+   "name": "미얀마",
+   "update": "업데이트 · 8월 18일",
+   "paragraphs": [
+    {
+     "field": "대외",
+     "text": "민 아웅 흘라잉 군정 최고사령관은 모스크바에서 블라디미르 푸틴 러시아 대통령과 회담하며 러시아와의 전략적 밀착을 재확인했다. 서방이 군정의 정치적 정당성을 인정하지 않는 상황에서 러시아와의 정상급 접촉은 외교적 돌파구이자 방산·에너지·인프라 협력의 통로로 기능한다. 실제 후속 사업이 어느 정도 집행되는지가 중요하다."
+    },
+    {
+     "field": "안보",
+     "text": "군정 부대는 마궤주 먕 지역의 유전지대, 이른바 Anyar Dubai의 장악을 둘러싸고 PDF와 교전을 이어가고 있다. 해당 지역은 저항세력의 재정·연료 공급과 연결된 전략적 자산으로 평가된다. 현장 전황과 피해 규모는 군정·저항세력 자료가 상충할 수 있어 신중하게 다뤄야 한다."
+    },
+    {
+     "field": "사회·재해",
+     "text": "7월 말부터 이어진 몬순 폭우로 아예야와디·카인·라카인 등에서 홍수와 산사태가 발생해 대규모 주민 대피가 이어졌다. AHA Centre 등 국제기구는 8월 19일에도 피해를 갱신했으며, 분쟁지역에서는 구호 접근 제한이 별도 위험요인이다. 자연재난이 내전·통치 접근성 문제와 결합하면서 인도주의 위기의 복합성이 커지고 있다."
+    }
+   ],
+   "point": null,
+   "next_check": null
+  }
+ ],
+ "countries_brief": [
+  {
+   "code": "SG",
+   "name": "싱가포르",
+   "trend": "경제·산업 | MTI는 8월 11일 상반기 성장세와 AI·데이터센터 관련 투자 확대를 근거로 2026년 연간 GDP 성장률 전망치를 4.5~5.5%로 상향했다. 대외 | 8월 20일 인도와 제4차 장관급 라운드테이블을 열어 반도체, 첨단제조, 디지털화, 기술훈련, 식량안보와 연결성 협력을 확대했다.",
+   "next_check": "하반기 전자·서비스 수출, 데이터센터 투자 지속 여부와 인도-싱가포르 반도체 협력의 실제 프로젝트 전환"
+  },
+  {
+   "code": "KH",
+   "name": "캄보디아",
+   "trend": "정치 | 훈 마넷 총리는 8월 17일 캄 소카 전 야당 대표의 딸 캄 모노비타를 특별보좌관으로 임명해 정치적 유화 또는 야권 분화 전략이라는 상반된 평가를 낳았다. 경제·국경 | 태국과의 국경 통제 장기화로 반테아이메안체이 접경 제조업에서 공장 폐쇄와 약 4,000명 규모의 고용 충격이 보도됐다. 안보 | ASEAN 관찰단의 휴전 검증이 계속되고 있다.",
+   "next_check": "캄 모노비타 임명의 후속 정치효과, ASEAN 관찰단의 정례 검증, 국경 정상화와 물류비 회복 여부"
+  },
+  {
+   "code": "LA",
+   "name": "라오스",
+   "trend": "정치 | 8월 8일 사이솜폰 폼비한 국회의장 별세 이후 국가 애도와 후속 국회 운영이 이어지고 있다. 경제 | 소넥사이 시판돈 총리는 8월 17일 보텐 경제특구를 시찰해 토지 이용, 노동력 확보, 통관 절차 간소화를 지시했다. 치안 | 6월 말 대규모 투자사기·온라인 도박 조직 검거에 이어 8월 12일 중국·미얀마·베트남과 마약·온라인 스캠 공동대응 체계를 강화했다.",
+   "next_check": "국회의장 후속 인선, 보텐 SEZ 관리개혁, 국경 범죄 단속의 지속성과 세입·투자 지표 개선 여부"
+  },
+  {
+   "code": "BN",
+   "name": "브루나이",
+   "trend": "왕실·정치 | 하사날 볼키아 국왕은 8월 14일 왕실 칙령을 통해 둘째 왕자비 라비아툴 아다위야의 왕실 작호와 지위를 박탈했다. 사회·대외 | 왕실 사안은 정치체제 특성상 공적 관심이 크지만 구체 사유는 공식 발표 범위 안에서만 다뤄야 한다. 브루나이는 동시에 ASEAN의 마약·초국경 범죄 대응과 에너지 경제 다변화 의제를 지속하고 있다.",
+   "next_check": "왕실의 추가 공식조치, 에너지 가격·재정 여건, ASEAN 초국경 범죄 협력에서 브루나이 역할"
+  },
+  {
+   "code": "TL",
+   "name": "동티모르",
+   "trend": "ASEAN 통합 | 딜리에서는 8월 20~21일 ASEAN 인간의 발전권 협의가 열려 완전 가입 이후 기능별 제도 참여가 확대됐다. 대외·제도 | 동티모르는 단순 정상회의 참석을 넘어 AICHR 등 분야별 회의의 개최·의제 참여 단계로 이동하고 있으며, 국내 행정역량과 ASEAN 의무 이행을 동시에 강화해야 하는 과제를 안고 있다.",
+   "next_check": "분야별 ASEAN 회의에서의 의제 제안, 사무국·인력 역량 강화, 가입 후 제도이행 일정"
+  }
+ ],
+ "macro": {
+  "title": "핵심 거시경제 지표 비교 — 2Q 2026",
+  "columns": [
+   "국가",
+   "2Q 성장률",
+   "핵심 동력·리스크",
+   "메모"
+  ],
+  "rows": [
+   [
+    "베트남",
+    "8.39%",
+    "수출·제조업 호조, PMI 확장",
+    "역내 고성장"
+   ],
+   [
+    "말레이시아",
+    "약 6.0%",
+    "E&E·내수 견조",
+    "BNM 전망 병행 확인"
+   ],
+   [
+    "싱가포르",
+    "5.9%",
+    "AI·데이터센터·서비스",
+    "연간 전망 상향"
+   ],
+   [
+    "인도네시아",
+    "5.29%",
+    "내수·공공지출",
+    "루피아·시장심리 리스크"
+   ],
+   [
+    "필리핀",
+    "2.3%",
+    "투자심리 둔화",
+    "부패·인프라 이슈"
+   ],
+   [
+    "태국",
+    "1.9%",
+    "수출 회복",
+    "내수 둔화"
+   ]
+  ]
+ },
+ "chronology": [
+  {
+   "id": "scs",
+   "issue": "남중국해",
+   "events": [
+    {
+     "date": "8월 3일",
+     "text": "스카버러 숄 인근 중국 폭격기·군함 훈련"
+    },
+    {
+     "date": "8월 9일",
+     "text": "미국, 중국의 군사활동에 공개 우려 표명"
+    },
+    {
+     "date": "8월 18~19일",
+     "text": "필리핀군, 중국 해경·조사선 활동 비중 확대 평가"
+    },
+    {
+     "date": "8월 20일",
+     "text": "필리핀, COC 미해결 쟁점 진전 가능성 언급"
+    }
+   ],
+   "status": "고조 + 제도협상 병행"
+  },
+  {
+   "id": "th-kh-border",
+   "issue": "캄보디아-태국 국경",
+   "events": [
+    {
+     "date": "8월 18일",
+     "text": "태국 내각, 접경 7개 주 대피소·경보체계 예산 승인"
+    },
+    {
+     "date": "8월 19일",
+     "text": "Poipet 접경 제조업 공장 폐쇄·고용충격 보도"
+    },
+    {
+     "date": "8월 20일",
+     "text": "ASEAN Observer Team, Stung Bot/Poipet 현장 검증"
+    },
+    {
+     "date": "8월 21일 현재",
+     "text": "휴전 감시와 국경·물류 정상화가 핵심 과제"
+    }
+   ],
+   "status": "분쟁관리 + 실물경제 충격"
+  },
+  {
+   "id": "us-trade",
+   "issue": "미국 환적·관세 정책",
+   "events": [
+    {
+     "date": "8월 14일",
+     "text": "미 백악관 OTMP, Great Transshipment Scam 보고서 공개"
+    },
+    {
+     "date": "8월 20일",
+     "text": "베트남 외교부, 미국 우려와 건설적 협의 방침 표명"
+    },
+    {
+     "date": "8월 20일",
+     "text": "말레이시아 업계, 합법적 China+1 투자까지 규제될 수 있다고 반발"
+    },
+    {
+     "date": "8월 21일 현재",
+     "text": "관세율보다 원산지·환적·현지부가가치 검증이 핵심 쟁점"
+    }
+   ],
+   "status": "관세율 → 원산지·환적 검증"
+  },
+  {
+   "id": "asean-agenda",
+   "issue": "ASEAN 일정·대외관계",
+   "events": [
+    {
+     "date": "8월 20~21일",
+     "text": "Dili: ASEAN 인간의 발전권 협의"
+    },
+    {
+     "date": "8월 26~27일",
+     "text": "Cebu: 제50차 HLTF-EI"
+    },
+    {
+     "date": "8월 27~28일",
+     "text": "ASEAN 농림·산업 관련 실무회의"
+    },
+    {
+     "date": "8월 28일",
+     "text": "ASEAN-IPR Governing Council 관련 회의"
+    }
+   ],
+   "status": "경제통합·대외관계 병렬 전개"
+  }
+ ],
+ "asean_overview": [],
+ "research": [],
+ "tracker": [],
+ "watchlist": [],
+ "watch_next": [
+  "미국이 환적·원산지 판정의 구체적인 집행기준을 추가 공개하는가?",
+  "베트남에 이어 말레이시아·태국·인도네시아가 미국 보고서에 공식 대응하는가?",
+  "필리핀-중국 남중국해 충돌의 책임 소재와 COC 협상 쟁점에 추가 공식자료가 나오는가?",
+  "캄보디아-태국 국경에서 휴전 검증이 국경 정상화와 물류 복원으로 이어지는가?",
+  "태국의 8월 25일 하원 개원과 불신임 토론이 아누틴 정부의 국정운영에 실질적 부담을 주는가?",
+  "미얀마-러시아 정상급 접촉의 후속 합의가 에너지·방산·인프라 사업으로 구체화되는가?"
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "text": "Al Jazeera — China and Philippines trade accusations after sailor injured at sea",
+   "url": null
+  },
+  {
+   "text": "USNI News — Chinese Warships, Bombers Surge to Scarborough Shoal for Drills",
+   "url": null
+  },
+  {
+   "text": "Khaosod English — Cambodia blames border closure as 3 factories shut",
+   "url": null
+  },
+  {
+   "text": "Cambodianess — Poipet Factory Closures Put Thousands of Jobs at Risk",
+   "url": null
+  },
+  {
+   "text": "Nikkei Asia — US claims China-led Great Transshipment Scam costs it billions",
+   "url": null
+  },
+  {
+   "text": "SCMP — US transshipment scam claims put Asean exporters in a bind",
+   "url": null
+  },
+  {
+   "text": "Washington Post — Myanmar Min Aung Hlaing Russia visit",
+   "url": null
+  },
+  {
+   "text": "Laotian Times — Xaysomphone Phomvihane Dies at 69",
+   "url": null
+  },
+  {
+   "text": "Khaosod English — Laos declares five-day mourning",
+   "url": null
+  },
+  {
+   "text": "The Nation Thailand — Four controversies put Anutin government under pressure",
+   "url": null
+  },
+  {
+   "text": "The Nation Thailand — Thailand Q2 GDP beats forecast",
+   "url": null
+  },
+  {
+   "text": "U.S. Department of State — Election of Vietnamese President To Lam and PM Le Minh Hung",
+   "url": null
+  },
+  {
+   "text": "Vietnam Plus — Vietnam Q2 GDP rises 8.39%",
+   "url": null
+  },
+  {
+   "text": "Asia News Network — Vietnam flood damage rises",
+   "url": null
+  },
+  {
+   "text": "U.S. News — Prabowo Approval Rating Drops to 51.1%",
+   "url": null
+  },
+  {
+   "text": "Tempo — Jakarta Police Release 21 Detained",
+   "url": null
+  },
+  {
+   "text": "The Jakarta Post — Prabowo, Jokowi display unity",
+   "url": null
+  },
+  {
+   "text": "Indonesia Investments — Indonesia GDP Growth 5.29% in Q2",
+   "url": null
+  },
+  {
+   "text": "GMA News — Sara Duterte impeachment trial updates",
+   "url": null
+  },
+  {
+   "text": "Rappler — Philippine economy slows to 2.3% in Q2",
+   "url": null
+  },
+  {
+   "text": "Rappler / World Bank — Flood control corruption cleanup spooks investors",
+   "url": null
+  },
+  {
+   "text": "The Edge Malaysia — Negeri Sembilan state election result",
+   "url": null
+  },
+  {
+   "text": "Malay Mail — Anwar pledges full repeal of UUCA",
+   "url": null
+  },
+  {
+   "text": "HNGN — Myanmar Junta Bombs Flood Zones, Blocks Aid",
+   "url": null
+  },
+  {
+   "text": "AHA Centre — Flooding in Ayeyarwady and Kayin, Myanmar",
+   "url": null
+  },
+  {
+   "text": "MTI Singapore — 2026 GDP Growth Forecast 4.5 to 5.5%",
+   "url": null
+  },
+  {
+   "text": "The Week — Sultan of Brunei strips daughter-in-law of royal titles",
+   "url": null
+  },
+  {
+   "text": "Khaosod English — TMD warns of heavy rain",
+   "url": null
+  },
+  {
+   "text": "The Nation Thailand — Flash flood warning for 39 provinces",
+   "url": null
+  },
+  {
+   "text": "Vietnam Plus — PM orders response to heavy rains",
+   "url": null
+  },
+  {
+   "text": "Databoks — All IDX Stock Sectors Are Rising",
+   "url": null
+  },
+  {
+   "text": "Rappler — Sara Duterte impeachment trial postponed again",
+   "url": null
+  },
+  {
+   "text": "Xinhua — Malaysia CPO prices seen firm",
+   "url": null
+  },
+  {
+   "text": "Free Malaysia Today — Bill to repeal Auku to be tabled this year",
+   "url": null
+  },
+  {
+   "text": "The Diplomat — Daughter of Former Cambodian Opposition Leader Appointed Special Envoy",
+   "url": null
+  },
+  {
+   "text": "The Cambodia Daily — Analysts Divided Over Appointment of Kem Sokha Daughter",
+   "url": null
+  },
+  {
+   "text": "Laotian Times — Prime Minister Calls for Tighter Oversight of Boten SEZ",
+   "url": null
+  }
+ ]
+}

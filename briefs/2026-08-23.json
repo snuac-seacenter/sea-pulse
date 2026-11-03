@@ -1,0 +1,482 @@
+{
+ "schema": "sea-pulse-brief/v0",
+ "date": "2026-08-23",
+ "weekday": "일",
+ "title": "동남아 데일리 브리프",
+ "series": "SEA Pulse | Southeast Asia & ASEAN Brief",
+ "editor": "김형종",
+ "headline": "이번 주말 동남아 정세에서는 인도네시아-중국 방산협력의 산업화, 말레이시아-브루나이 정상협의, 태국-캄보디아 국경의 ASEAN 관찰 활동이 겹치며 전략적 다변화와 분쟁관리의 제도화가 동시에 부각됐다.",
+ "regional": [
+  {
+   "title": "인도네시아-중국 방산협력, 기술이전·공동생산 단계로 확대",
+   "body": "8월 21일 자카르타에서 열린 제2차 2+2 외교·국방장관회의에서 양국은 합동훈련 확대와 함께 인도네시아 내 탄약공장, 로켓·미사일 공동생산 및 2027년부터의 중국 기술이전 구상을 공개했다. 아직 구체 계약·예산·생산주체는 추가 확인이 필요하다.",
+   "point": "인도네시아의 전략적 다변화가 정상외교를 넘어 방산산업 현지화와 기술이전으로 내려가고 있다. 한국의 대인도네시아 방산협력에도 직접적인 경쟁환경 변수다.",
+   "countries": [
+    "ID"
+   ]
+  },
+  {
+   "title": "태국-캄보디아 국경, ASEAN Observer Team의 현장 검증 지속",
+   "body": "8월 22일 AOT-KH는 반테아이메안체이주 접경지역의 컨테이너 배치 현장을 관찰·검증했다고 캄보디아 국방부 계열 발표가 전했다. 다만 배치의 불법성과 귀환 제한 인원은 캄보디아 측 주장으로 태국 측 독립 확인이 필요하다.",
+   "point": "ASEAN의 역할이 분쟁 해결 자체보다 휴전 이후의 관찰·검증·보고 단계에서 가시화되고 있다.",
+   "countries": [
+    "TH",
+    "KH"
+   ]
+  },
+  {
+   "title": "미얀마, 외교적 재관여 확대와 국내 폭력 지속의 괴리",
+   "body": "AP는 8월 21일 사가잉 지역 불교 사원 공습으로 14명이 숨지고 20명이 다쳤다는 현지 반군 조직과 주민 증언을 보도했다. 군정은 해당 사건에 즉각 입장을 내지 않았다.",
+   "point": "외교적 정상화가 국내 분쟁 완화나 인권 개선을 자동으로 의미하지 않는다는 점이 다시 확인된다.",
+   "countries": [
+    "MM"
+   ]
+  },
+  {
+   "title": "말레이시아-브루나이 ALC-27, 국경 획정과 재난관리 협력 진전",
+   "body": "8월 22일 제27차 연례 정상협의에서 안와르 이브라힘 총리는 양국 국경 획정이 약 50% 진행됐다고 밝혔고, 양국 정상은 재난관리 협력 MoU 체결을 지켜봤다.",
+   "point": "회원국 간 장기 현안이 국경·재난관리 같은 실무 협력 틀에서 조정되는 사례다.",
+   "countries": [
+    "MY",
+    "BN"
+   ]
+  },
+  {
+   "title": "ASEAN 일정, Blue Economy에서 노동·연결성·경제통합 의제로 이동",
+   "body": "ASEAN 공개 캘린더상 제4차 ASEAN Blue Economy Forum이 8월 22~23일 세부에서 열리고, 23~27일 방콕의 노동 관련 회의와 26~28일 Cebu의 50th HLTF-EI 등이 이어진다.",
+   "point": "다음 주는 경제통합·노동·연결성 의제가 연속적으로 열리는 만큼 DEFA·공급망·경제안보가 실제 회의 문안에서 어떻게 연결되는지 확인할 필요가 있다.",
+   "countries": []
+  }
+ ],
+ "special": null,
+ "countries": [
+  {
+   "code": "TH",
+   "name": "태국",
+   "update": "업데이트 · 8월 25일 예정",
+   "paragraphs": [
+    {
+     "field": "정치",
+     "text": "의회가 8월 25일 재개될 예정이며 야권은 상원의원 선거 담합 의혹, 내무부 채용 문제, TH-AI Passport 사업, 4,000억 바트 긴급차입을 주요 공세 쟁점으로 준비하고 있다."
+    },
+    {
+     "field": "경제",
+     "text": "NESDC의 8월 17일 발표에 따르면 2분기 GDP 성장률은 전년동기 대비 1.9%였다."
+    }
+   ],
+   "point": "성장둔화 국면에서 의회 재개와 정치적 책임 공방이 겹치며 아누틴 정부의 정책 집행력이 시험대에 오른다.",
+   "next_check": "8월 25일 의회 재개 후 야권의 쟁점이 실제 불신임 절차·반부패 조사·예산 심사로 연결되는가?"
+  },
+  {
+   "code": "VN",
+   "name": "베트남",
+   "update": "오늘 신규 아님 · 8월 20일",
+   "paragraphs": [
+    {
+     "field": "경제·대외",
+     "text": "베트남 외교부는 미국이 제기한 제3국 환적 우려에 대해 건설적으로 협의하겠다고 밝혔다. 아직 후속 통관·원산지 규정의 구체적 변경은 확인되지 않았다."
+    },
+    {
+     "field": "경제",
+     "text": "2분기 GDP는 8.39% 증가했다."
+    }
+   ],
+   "point": "대미 통상 리스크의 핵심이 관세율보다 원산지·현지부가가치·중간재 추적으로 이동할 경우 베트남의 compliance 역량이 중요해진다.",
+   "next_check": "베트남 정부가 원산지 검증, 세관조사 또는 중국산 중간재 추적과 관련한 새 지침을 발표하는가?"
+  },
+  {
+   "code": "ID",
+   "name": "인도네시아",
+   "update": "업데이트 · 8월 21~22일",
+   "paragraphs": [
+    {
+     "field": "대외·안보",
+     "text": "중국과의 2+2 회의에서 합동훈련 확대와 방산 현지생산·기술이전 구상이 공개됐다."
+    },
+    {
+     "field": "경제",
+     "text": "BPS에 따르면 2분기 GDP는 5.29% 성장했다."
+    }
+   ],
+   "point": "인도네시아의 비동맹적 다변화가 중국과의 방산산업 결합을 허용하는 수준까지 심화되는지 여부가 핵심 관전점이다.",
+   "next_check": "공동 탄약공장과 로켓·미사일 생산이 국영 방산기업 계약, 예산, 입지 계획으로 구체화되는가?"
+  },
+  {
+   "code": "PH",
+   "name": "필리핀",
+   "update": null,
+   "paragraphs": [
+    {
+     "field": "정치·안보",
+     "text": "지난 24시간 내 Sara Duterte 탄핵절차나 남중국해에서 이전 평가를 바꿀 만한 중대 신규 공식 발표는 확인하지 못했다. 탄핵 절차와 COC 협상은 계속 추적한다."
+    },
+    {
+     "field": "경제",
+     "text": "PSA에 따르면 2분기 GDP는 2.3% 성장했고 총고정자본형성은 약화됐다."
+    }
+   ],
+   "point": "정치적 불확실성과 투자 둔화가 동시에 이어지는 가운데 남중국해 대응과 국내 제도정치가 서로 다른 정책 자원을 요구하고 있다.",
+   "next_check": "Sara Duterte 탄핵심리 일정과 대법원 관련 절차가 언제 확정되는가?"
+  },
+  {
+   "code": "MY",
+   "name": "말레이시아",
+   "update": "업데이트 · 8월 22~23일",
+   "paragraphs": [
+    {
+     "field": "정치",
+     "text": "DAP의 정부 잔류 결정 이후 개혁 이행을 둘러싼 압박이 이어지고 있다. Rafizi Ramli는 개혁안이 내각에 올라가는 데 총리의 역할이 결정적이라고 지적했고, 23일 FMT는 DAP 잔류전략을 둘러싼 상반된 전문가 평가를 보도했다."
+    },
+    {
+     "field": "대외",
+     "text": "안와르 총리의 브루나이 방문에서 국경 획정과 재난관리 협력이 진전됐다."
+    }
+   ],
+   "point": "연정 붕괴 여부보다 정부 안에 남아 개혁을 얼마나 실현할 수 있는가가 당면 시험으로 이동하고 있다.",
+   "next_check": "DAP가 제시한 연말 개혁 시한이 실제 정부 법안·의회 일정으로 전환되는가?"
+  },
+  {
+   "code": "MM",
+   "name": "미얀마",
+   "update": "업데이트 · 8월 21~22일",
+   "paragraphs": [
+    {
+     "field": "사회·안보",
+     "text": "사가잉 지역 사원 공습 사상자 보도가 나왔다. 해당 수치는 AP가 현지 반군조직·주민을 인용한 것이므로 추가 교차검증이 필요하다."
+    },
+    {
+     "field": "대외",
+     "text": "최근 러시아 정상외교와 태국 군 수뇌부 접촉은 계속되는 반면 Five-Point Consensus의 핵심 정치조건에는 뚜렷한 진전이 확인되지 않았다."
+    }
+   ],
+   "point": "미얀마의 외교적 정상화와 국내 정치·안보 정상화를 별도 지표로 추적해야 한다.",
+   "next_check": "외교접촉 확대가 폭력 감소, 정치범 접근, 인도지원 확대 등 검증 가능한 양보로 연결되는가?"
+  }
+ ],
+ "countries_brief": [
+  {
+   "code": "SG",
+   "name": "싱가포르",
+   "trend": "8월 20일 제4차 인도-싱가포르 장관 라운드테이블에서 반도체·첨단제조·디지털·식량안보 협력을 논의하고 일부 MoU를 체결했다.",
+   "next_check": "반도체·첨단제조 논의가 실제 투자·공동사업으로 구체화되는가?"
+  },
+  {
+   "code": "KH",
+   "name": "캄보디아",
+   "trend": "8월 22일 AOT-KH의 국경 현장 검증이 이어졌다. 다만 세부 주장 대부분은 캄보디아 측 발표에 기반한다.",
+   "next_check": "태국 측 공식 확인이나 공동 검증·보고가 나오는가?"
+  },
+  {
+   "code": "LA",
+   "name": "라오스",
+   "trend": "8월 19일 보텐 경제특구의 토지·전력·노동·통관 관리 강화가 정책과제로 부상했다.",
+   "next_check": "관리개선 지시가 실제 통관·노동·불법 온라인 활동 단속으로 이어지는가?"
+  },
+  {
+   "code": "BN",
+   "name": "브루나이",
+   "trend": "8월 22일 ALC-27에서 말레이시아와 국경 획정·재난관리 협력을 논의했다.",
+   "next_check": "국경 획정 잔여 구간의 구체 일정과 공동 실무회의가 발표되는가?"
+  },
+  {
+   "code": "TL",
+   "name": "동티모르",
+   "trend": "8월 20일 ASEAN/AICHR 관련 발전권 논의를 개최하며 완전가입 이후 기능별 제도 참여를 확대했다.",
+   "next_check": "단순 참가를 넘어 ASEAN 의제 제안이나 후속 프로그램 주도로 발전하는가?"
+  }
+ ],
+ "macro": {
+  "title": "핵심 거시경제 지표 비교",
+  "columns": [
+   "국가",
+   "최신 성장률/지표",
+   "핵심 동력·리스크"
+  ],
+  "rows": [
+   [
+    "태국",
+    "Q2 GDP +1.9% y/y",
+    "수출 회복에도 내수·정치 불확실성 부담"
+   ],
+   [
+    "베트남",
+    "Q2 GDP +8.39% y/y",
+    "제조·건설·서비스 강세, 대외통상 리스크"
+   ],
+   [
+    "인도네시아",
+    "Q2 GDP +5.29% y/y",
+    "정부소비·내수 지지, 투자·정책 효율성 점검"
+   ],
+   [
+    "필리핀",
+    "Q2 GDP +2.3% y/y",
+    "서비스·정부지출 지지, 투자 감소가 부담"
+   ],
+   [
+    "말레이시아",
+    "Q2 실질 GDP RM445.9bn",
+    "서비스·제조업 지지, 대외수요·개혁 변수"
+   ],
+   [
+    "미얀마",
+    "World Bank 2026 전망 +2.0%",
+    "분쟁·제재·전력·물류 제약"
+   ]
+  ]
+ },
+ "chronology": [
+  {
+   "id": "scs",
+   "issue": "남중국해",
+   "events": [
+    {
+     "date": "8월 3일",
+     "text": "중국의 스카버러 숄 인근 대규모 훈련 관련 보도."
+    },
+    {
+     "date": "8월 18~20일",
+     "text": "필리핀 측은 중국 해경·조사선 활동 비중 증가를 제기하고 COC 미해결 쟁점의 진전 가능성을 언급."
+    }
+   ],
+   "status": "회색지대 현장활동과 협상 채널이 병존."
+  },
+  {
+   "id": "th-kh-border",
+   "issue": "태국-캄보디아 국경",
+   "events": [
+    {
+     "date": "8월 20일",
+     "text": "AOT-KH가 Stung Bot 일대 휴전 이행을 관찰·검증."
+    },
+    {
+     "date": "8월 22일",
+     "text": "AOT-KH가 Prey Chan·Chok Chey 일대 컨테이너 배치를 점검했다고 캄보디아 측 발표."
+    }
+   ],
+   "status": "휴전 검증은 지속되나 경계·민간인 귀환 관련 양측 확인 격차 존재."
+  },
+  {
+   "id": "us-trade",
+   "issue": "미국 관세·환적",
+   "events": [
+    {
+     "date": "8월 13일",
+     "text": "미 백악관이 환적 위험을 강조한 보고서를 공개."
+    },
+    {
+     "date": "8월 20일",
+     "text": "베트남 외교부가 미국 측 우려와 건설적으로 협의하겠다고 발표."
+    }
+   ],
+   "status": "관세율보다 원산지·현지부가가치·환적 판정기준이 핵심 후속 의제로 이동."
+  },
+  {
+   "id": "asean-agenda",
+   "issue": "ASEAN 일정·대외관계",
+   "events": [
+    {
+     "date": "8월 22~23일",
+     "text": "제4차 ASEAN Blue Economy Forum, Cebu."
+    },
+    {
+     "date": "8월 23~27일",
+     "text": "ASEAN 노동 고위관리·장관 관련 일정, Bangkok."
+    },
+    {
+     "date": "8월 24~25일",
+     "text": "ASEAN Blue Economy Task Force 관련 회의."
+    },
+    {
+     "date": "8월 26~28일",
+     "text": "50th HLTF-EI, Cebu(공개 캘린더 기준)."
+    }
+   ],
+   "status": "다음 주 경제통합·노동·연결성 회의가 연속적으로 예정."
+  }
+ ],
+ "asean_overview": [
+  {
+   "label": null,
+   "text": "ASEAN 공개 캘린더상 8월 23일 현재 Blue Economy Forum이 진행 중이며, 다음 주에는 노동, 연결성, 경제통합 관련 회의가 이어진다. 특히 50th HLTF-EI는 ASEAN 경제통합 의제의 실행 속도와 차기 제도설계 방향을 확인할 수 있는 일정이다."
+  }
+ ],
+ "research": [],
+ "tracker": [
+  {
+   "id": "malaysia-politics",
+   "name": "말레이시아 정치",
+   "name_src": "Malaysia Politics",
+   "level": "orange",
+   "change": null,
+   "judgement": "연정 잔류는 유지되지만 개혁 시한·책임을 둘러싼 압박 증가.",
+   "next_check": null
+  },
+  {
+   "id": "myanmar-normalisation",
+   "name": "미얀마 정상화",
+   "name_src": "Myanmar Normalisation",
+   "level": "red",
+   "change": null,
+   "judgement": "대외접촉 확대와 국내 폭력 지속이 동시에 확인됨.",
+   "next_check": null
+  },
+  {
+   "id": "th-kh-border",
+   "name": "태국-캄보디아 국경",
+   "name_src": "Thailand-Cambodia Border",
+   "level": "red",
+   "change": null,
+   "judgement": "AOT 현장검증은 지속되나 경계·민간인 귀환 관련 주장 상충 가능성.",
+   "next_check": null
+  },
+  {
+   "id": "us-trade",
+   "name": "미국 대ASEAN 관세",
+   "name_src": "US-ASEAN Tariffs",
+   "level": "orange",
+   "change": null,
+   "judgement": "베트남 반응 이후 구체 집행기준을 대기.",
+   "next_check": null
+  },
+  {
+   "id": "scs-coc",
+   "name": "남중국해 COC",
+   "name_src": "South China Sea COC",
+   "level": "orange",
+   "change": null,
+   "judgement": "현장 압박과 협상 진전 가능성 병존.",
+   "next_check": null
+  },
+  {
+   "id": "sara-duterte",
+   "name": "Sara Duterte 탄핵",
+   "name_src": "Sara Duterte Impeachment",
+   "level": "orange",
+   "change": null,
+   "judgement": "절차가 지속 추적 대상이나 지난 24시간 내 중대 신규변화는 확인되지 않음.",
+   "next_check": null
+  }
+ ],
+ "watchlist": [],
+ "watch_next": [
+  "인도네시아-중국 방산 공동생산이 국영기업 계약·예산·기술이전 문서로 구체화되는가?",
+  "태국-캄보디아 국경에서 AOT 현장활동에 대한 태국 측 공식 확인 또는 공동보고가 나오는가?",
+  "미국이 ASEAN 생산거점에 적용할 원산지·환적 집행기준을 구체화하는가?",
+  "말레이시아 정부가 DAP가 요구한 개혁 시한에 맞춰 실제 법안 일정을 공개하는가?",
+  "Sara Duterte 탄핵심리의 다음 일정과 증거·증언 절차가 확정되는가?",
+  "다음 주 ASEAN 경제통합 회의에서 DEFA·공급망·연결성이 구체 문안으로 연결되는가?"
+ ],
+ "verification_notes": [
+  "캄보디아-태국 국경의 컨테이너 배치 불법성 및 귀환 제한 인원 수치는 캄보디아 국방부 계열 발표에 의존한다.",
+  "미얀마 사원 공습 사상자 수는 AP가 현지 반군조직·주민을 인용한 보도이며 군정의 즉각 확인은 없다.",
+  "태국 8월 25일 의회 재개 관련 쟁점은 예정 일정으로, 실제 절차는 당일 재확인해야 한다.",
+  "라오스·동티모르 일부 동향은 48시간을 넘은 배경 업데이트다."
+ ],
+ "sources": [
+  {
+   "text": "Indonesia and China discuss increasing defense cooperation and energy security — AP, 2026-08-22",
+   "url": "https://apnews.com/article/139f56e6084aba4e6a25db17974686d4"
+  },
+  {
+   "text": "Indonesia’s Economic in Q2-2026 was 5.29 Percent — BPS Statistics Indonesia, 2026-08-05",
+   "url": "https://www.bps.go.id/en/pressrelease/2026/08/05/2605/ekonomi-indonesia-triwulan-ii-2026-tumbuh-5-29-persen--y-on-y-.html"
+  },
+  {
+   "text": "Malaysia-Brunei Border Issue Among Matters Discussed At ALC-27 - PM Anwar — BERNAMA, 2026-08-22",
+   "url": "https://majujohor.bernama.com/news-en.php?id=2597775"
+  },
+  {
+   "text": "Anwar: ALC-27 Achieves Objective, Strengthens Malaysia-Brunei Ties, Strategic Cooperation — BERNAMA, 2026-08-22",
+   "url": "https://majujohor.bernama.com/news-en.php?id=2597906"
+  },
+  {
+   "text": "PM Anwar Thanks Brunei For Warm Welcome, Hospitality During Working Visit — BERNAMA, 2026-08-22",
+   "url": "https://majujohor.bernama.com/news-en.php?id=2597868"
+  },
+  {
+   "text": "ASEAN Observer Team Inspects Thai Military’s Deployment of Shipping Containers in Prey Chan Village — AKP, 2026-08-22",
+   "url": "https://akp.gov.kh/post/detail/379087"
+  },
+  {
+   "text": "AOT Visit Underscores Urgent Need for Cambodia-Thailand Border Demarcation — AKP, 2026-08-22",
+   "url": "https://akp.gov.kh/post/detail/379084"
+  },
+  {
+   "text": "Myanmar military strike kills 14 people at a Buddhist monastery, opposition group says — AP, 2026-08-22",
+   "url": "https://apnews.com/article/689276155a50525c52811297c15bef83"
+  },
+  {
+   "text": "Govt’s reform agenda rests with PM, says Rafizi — Free Malaysia Today, 2026-08-22",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/08/22/govt-s-reform-agenda-rests-with-pm-says-rafizi"
+  },
+  {
+   "text": "Analysts split over DAP’s stay for now strategy — Free Malaysia Today, 2026-08-23",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/08/23/analysts-split-over-dap-s-stay-for-now-strategy"
+  },
+  {
+   "text": "DAP stays in govt with convincing majority — Malaysiakini, 2026-08-16",
+   "url": "https://www.malaysiakini.com/news/782294"
+  },
+  {
+   "text": "DAP to discuss timeline for reforms with PM and cabinet, says Loke — Malaysiakini, 2026-08-16",
+   "url": "https://www.malaysiakini.com/news/782305"
+  },
+  {
+   "text": "Four controversies put Anutin government under pressure before censure debate — The Nation Thailand, 2026-08-10",
+   "url": "https://www.nationthailand.com/news/politics/40069609"
+  },
+  {
+   "text": "Quarterly Economic Report Q2/2026 — NESDC Thailand, 2026-08-17",
+   "url": "https://www.nesdc.go.th/en/"
+  },
+  {
+   "text": "Việt Nam lên tiếng việc Mỹ nêu 40 đối tác thương mại có nguy cơ bị lợi dụng — Thanh Nien, 2026-08-20",
+   "url": "https://thanhnien.vn/viet-nam-len-tieng-viec-my-neu-40-doi-tac-thuong-mai-co-nguy-co-bi-loi-dung-185260820162549743.htm"
+  },
+  {
+   "text": "Vietnam Q2 GDP rises 8.39% amid broad-based economic growth — VietnamPlus/VNA, 2026-07-03",
+   "url": "https://en.vietnamplus.vn/vietnams-q2-gdp-rises-839-amid-broad-based-economic-growth-post347676.vnp"
+  },
+  {
+   "text": "GDP Grows by 2.3 Percent in the Second Quarter of 2026 — Philippine Statistics Authority, 2026-08-07",
+   "url": "https://psa.gov.ph/content/gdp-grows-23-percent-second-quarter-2026"
+  },
+  {
+   "text": "Fourth India-Singapore Ministerial Roundtable and ISBR, 20 August 2026 — Singapore MTI, 2026-08-20",
+   "url": "https://www.mti.gov.sg/newsroom/fourth-india-singapore-ministerial-roundtable--ismr--and-the-india-singapore-business-roundtable--isbr---20-august-2026/"
+  },
+  {
+   "text": "Transcript of doorstop by DPM Gan Kim Yong at 4th ISMR — Singapore MTI, 2026-08-20",
+   "url": "https://www.mti.gov.sg/newsroom/transcript-of-doorstop-by-deputy-prime-minister-and-minister-for-trade-and-industry--trade--gan-kim-yong-at-the-4th-india-singapore-ministerial-roundtable/"
+  },
+  {
+   "text": "Singapore and India discuss cooperation on semiconductors, food security — CNA, 2026-08-20",
+   "url": "https://www.channelnewsasia.com/singapore/india-singapore-semiconductors-food-safety-6330246"
+  },
+  {
+   "text": "Prime Minister Calls for Tighter Oversight of Boten SEZ Amid Development Challenges — Laotian Times, 2026-08-19",
+   "url": "https://laotiantimes.com/2026/08/19/prime-minister-calls-for-tighter-oversight-of-boten-sez-amid-development-challenges/"
+  },
+  {
+   "text": "Timor-Leste hosts AICHR-related development rights discussion — TATOLI, 2026-08-20",
+   "url": "https://pt.tatoli.tl/2026/08/20/bendito-freitas-defende-implementacao-do-direito-ao-desenvolvimento-na-asean/"
+  },
+  {
+   "text": "ASEAN 2026 Public Calendar as of 17 June 2026 — ASEAN Secretariat, 2026-06-17",
+   "url": "https://asean.org/wp-content/uploads/2026/06/Public-Calendar-as-of-17-Jun.pdf"
+  },
+  {
+   "text": "Daily News on Southeast Asia - 21 August 2026 — ISEAS-Yusof Ishak Institute, 2026-08-21",
+   "url": "https://www.iseas.edu.sg/library/blog/daily-news-alerts/260821"
+  },
+  {
+   "text": "Gross Domestic Product Second Quarter 2026 — Department of Statistics Malaysia, 2026-08-14",
+   "url": "https://www.dosm.gov.my/portal-main/publication-thumbnail?search_keyword=2026"
+  },
+  {
+   "text": "Global Economic Prospects - June 2026 — World Bank, 2026-06-01",
+   "url": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/original/GEP-Jun-2026.pdf"
+  }
+ ]
+}

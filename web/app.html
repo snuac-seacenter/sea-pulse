@@ -1,0 +1,631 @@
+<title>SEA Pulse 동남아 데일리 브리프</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 동남아시아센터 홈페이지 문법(회색 띠 머리 · 파란 탭 · 가운데 제목+양옆 선) + 가운데 880px 읽기 단, 날짜 머리기사(dateline) */
+:root {
+  --bg: #ffffff;
+  --panel: #f7f8fa;
+  --ground: #efefef;
+  --ink: #212934;
+  --text: #3e444e;
+  --muted: #7a808a;
+  --line: #e4e6ea;
+  --band: #6b95dd;
+  --band-deep: #3f6fc4;
+  --tab: #6aaae6;
+  --tab-ink: #ffffff;
+  --link: #3f74c9;
+  --tint: #eef4fc;
+  --soft: #f4f7fc;
+  --hl: #fff1a8;
+  --red: #c8433a; --red-bg: #fbeceb;
+  --orange: #b9650f; --orange-bg: #fcf1e4;
+  --green: #2f8a5b; --green-bg: #e8f5ee;
+  --gray-bg: #eef0f3;
+  --font: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --w: 1200px;
+  --col: 880px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15191f; --panel: #1b2027; --ground: #20262e; --ink: #e9edf2; --text: #c8ced6; --muted: #8e96a2;
+    --line: #2d343d; --band: #7fa6e8; --band-deep: #a9c4f2; --tab: #3f78bf; --tab-ink: #f3f7fc; --link: #8db5f2;
+    --tint: #1c2a3e; --soft: #18212d; --hl: #5a4b12;
+    --red: #f0857c; --red-bg: #3a2120; --orange: #f0aa62; --orange-bg: #3a2b19; --green: #6fd09d; --green-bg: #18332a; --gray-bg: #262c34;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15191f; --panel: #1b2027; --ground: #20262e; --ink: #e9edf2; --text: #c8ced6; --muted: #8e96a2;
+  --line: #2d343d; --band: #7fa6e8; --band-deep: #a9c4f2; --tab: #3f78bf; --tab-ink: #f3f7fc; --link: #8db5f2;
+  --tint: #1c2a3e; --soft: #18212d; --hl: #5a4b12;
+  --red: #f0857c; --red-bg: #3a2120; --orange: #f0aa62; --orange-bg: #3a2b19; --green: #6fd09d; --green-bg: #18332a; --gray-bg: #262c34;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 15px; line-height: 1.8; word-break: keep-all; overflow-wrap: anywhere; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--band); outline-offset: 2px; }
+.wrap { max-width: var(--w); margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.col { max-width: var(--col); margin: 0 auto; }
+.col.wide { max-width: 1060px; }
+.num { font-variant-numeric: tabular-nums; }
+.code { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; }
+
+/* 머리 띠 */
+.mast { background: var(--ground); position: relative; overflow: hidden; }
+.mast::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--band) 22%, transparent) 1px, transparent 1.5px) 0 0 / 14px 14px; -webkit-mask-image: linear-gradient(90deg, transparent 45%, #000 100%); mask-image: linear-gradient(90deg, transparent 45%, #000 100%); pointer-events: none; }
+.mast .wrap { position: relative; z-index: 1; padding-block: 30px 26px; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+.eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: .12em; color: var(--band-deep); font-weight: 500; }
+.mast h1 { margin: 4px 0 0; font-size: clamp(25px, 3.2vw, 33px); font-weight: 700; color: var(--ink); letter-spacing: -.025em; line-height: 1.3; }
+.mast .by { margin-top: 6px; font-size: 13px; color: var(--muted); }
+.mast .updated { font-size: 13px; color: var(--muted); text-align: right; line-height: 1.7; }
+.mast .updated b { color: var(--ink); font-weight: 500; }
+
+/* 탭 — 홈페이지 '동남아시아의 오늘' 탭 */
+.tabsbar { border-bottom: 1px solid var(--line); background: var(--bg); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+.tabsbar .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding-block: 12px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 2px; }
+.tab { border: 0; background: var(--tab); color: var(--tab-ink); padding: 9px 18px; font-size: 15px; cursor: pointer; transition: filter .15s; }
+.tab[aria-current="page"] { background: var(--panel); color: var(--ink); font-weight: 500; box-shadow: inset 0 0 0 1px var(--line); }
+.tab:hover:not([aria-current="page"]) { filter: brightness(1.06); }
+.search { margin-left: auto; display: flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--bg); padding: 0 10px; min-width: 0; flex: 0 1 280px; color: var(--muted); }
+.search:focus-within { border-color: var(--tab); }
+.search input { border: 0; outline: 0; background: transparent; color: var(--text); font: inherit; font-size: 14px; padding: 8px 0; width: 100%; min-width: 0; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+main .wrap { padding-block: 36px 64px; }
+
+/* 섹션 제목 — 홈페이지 '연구성과' 문법 + 영문 눈썹 */
+.sh { display: flex; align-items: center; gap: 22px; margin: 64px 0 26px; color: var(--ink); }
+.sh::before, .sh::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.sh h2 { margin: 0; font-size: 22px; font-weight: 500; letter-spacing: -.01em; text-align: center; line-height: 1.4; }
+.sh h2 .en { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: .16em; color: var(--band); font-weight: 500; margin-bottom: 2px; }
+.sh h2 small { display: block; font-size: 12.5px; color: var(--muted); font-weight: 400; letter-spacing: 0; margin-top: 2px; }
+section:first-child > .sh:first-child { margin-top: 4px; }
+
+/* 날짜 머리기사 */
+.dateline { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 0; border-top: 3px solid var(--ink); border-bottom: 1px solid var(--line); }
+.dl-date { padding: 22px 22px 22px 0; border-right: 1px solid var(--line); display: flex; flex-direction: column; gap: 2px; }
+.dl-date .day { font-size: 64px; font-weight: 300; line-height: 1; color: var(--band); letter-spacing: -.03em; }
+.dl-date .ym { font-family: var(--mono); font-size: 13px; color: var(--ink); margin-top: 8px; }
+.dl-date .wd { font-size: 13px; color: var(--muted); }
+.dl-date .no { margin-top: 10px; font-size: 12px; color: var(--muted); }
+.dl-date .no b { color: var(--ink); font-weight: 500; }
+.dl-lead { padding: 22px 0 22px 28px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.dl-lead .lbl { font-size: 12.5px; font-weight: 700; color: var(--band-deep); letter-spacing: .06em; }
+.dl-lead p { margin: 0; font-size: clamp(17px, 2.1vw, 21px); line-height: 1.75; color: var(--ink); text-wrap: pretty; }
+.subbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 0; }
+.mentions { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+.mentions .lb { font-size: 12.5px; color: var(--muted); margin-right: 6px; }
+.cc { border: 1px solid var(--line); background: var(--bg); color: var(--muted); padding: 1px 7px; cursor: pointer; line-height: 1.7; }
+.cc.on { background: var(--tint); border-color: color-mix(in srgb, var(--band) 45%, transparent); color: var(--band-deep); }
+.cc:hover { border-color: var(--band); }
+.btns { display: flex; gap: 6px; flex-wrap: wrap; }
+.btn { border: 1px solid var(--line); background: var(--bg); padding: 5px 14px; font-size: 13.5px; cursor: pointer; color: var(--text); display: inline-flex; align-items: center; gap: 6px; }
+.btn:hover:not([disabled]) { border-color: var(--tab); color: var(--ink); }
+.btn[disabled] { opacity: .4; cursor: default; }
+.toc { display: flex; flex-wrap: wrap; gap: 4px 0; font-size: 13.5px; padding: 10px 0 0; border-top: 1px dashed var(--line); }
+.toc a { color: var(--text); padding: 0 12px; border-left: 1px solid var(--line); }
+.toc a:first-child { padding-left: 0; border-left: 0; }
+.toc a:hover { color: var(--link); }
+
+/* 역내 정세 */
+.reg { list-style: none; margin: 0; padding: 0; }
+.reg > li { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 4px 18px; padding: 24px 0; border-top: 1px solid var(--line); }
+.reg > li:last-child { border-bottom: 1px solid var(--line); }
+.reg .n { width: 32px; height: 32px; border: 1.5px solid var(--band); border-radius: 50%; display: grid; place-items: center; font-size: 14px; font-weight: 500; color: var(--band); margin-top: 2px; }
+.reg h3 { margin: 0 0 8px; font-size: 18px; font-weight: 700; color: var(--ink); line-height: 1.55; letter-spacing: -.01em; }
+.reg p { margin: 0; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.tag { font-size: 12px; color: var(--muted); background: var(--gray-bg); padding: 0 8px; white-space: nowrap; line-height: 1.9; }
+.tag .code { margin-right: 4px; color: var(--band-deep); }
+.point { margin-top: 12px; background: var(--soft); padding: 10px 14px; font-size: 14.5px; color: var(--ink); line-height: 1.75; }
+.point b, .nextc b { font-weight: 700; color: var(--band-deep); margin-right: 8px; font-size: 12.5px; letter-spacing: .03em; }
+.nextc { margin-top: 10px; font-size: 14.5px; }
+.nextc::before { content: "→ "; color: var(--band); }
+
+/* 특별 이슈 */
+.special-box { background: var(--soft); padding: 28px 32px 8px; border-top: 3px solid var(--band); }
+.special-box h3 { margin: 0 0 18px; font-size: 21px; font-weight: 700; color: var(--ink); text-align: center; line-height: 1.5; text-wrap: balance; letter-spacing: -.015em; }
+.dl { display: grid; grid-template-columns: 120px minmax(0, 1fr); margin: 0; }
+.dl dt, .dl dd { padding: 16px 0; border-top: 1px solid var(--line); margin: 0; }
+.dl dt { font-weight: 700; color: var(--band-deep); font-size: 13.5px; padding-right: 16px; }
+.dl dd p { margin: 0; }
+
+/* 국가 탭 패널 */
+.ctabs { display: flex; flex-wrap: wrap; gap: 2px; }
+.ctabs .tab { padding: 8px 14px; font-size: 14px; display: inline-flex; align-items: baseline; gap: 6px; }
+.ctabs .tab .code { opacity: .8; }
+.cpanel { background: var(--panel); border: 1px solid var(--line); border-top: 0; padding: 24px 28px; }
+.cpanel .upd { display: inline-block; font-size: 12.5px; color: var(--muted); background: var(--bg); border: 1px solid var(--line); padding: 0 8px; margin-bottom: 14px; }
+.fields { display: grid; gap: 16px; }
+.field { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 14px; }
+.field .k { font-size: 13px; font-weight: 700; color: var(--band-deep); padding-top: 2px; }
+.field p { margin: 0; }
+.cpanel .point { margin-top: 20px; background: var(--bg); }
+
+/* 표 */
+.tbl { overflow-x: auto; border-top: 2px solid var(--ink); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; line-height: 1.7; }
+th, td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+th { font-weight: 500; color: var(--ink); background: var(--panel); white-space: nowrap; font-size: 13px; }
+td:first-child { font-weight: 500; color: var(--ink); white-space: nowrap; }
+tbody tr:hover td { background: var(--soft); }
+table.wide { min-width: 720px; }
+.tcap { font-size: 13px; color: var(--muted); margin: 0 0 8px; text-align: right; }
+
+/* 크로놀로지 — 세로 타임라인 */
+.chrono { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.issue { border: 1px solid var(--line); padding: 18px 20px; display: flex; flex-direction: column; gap: 12px; background: var(--bg); }
+.issue h3 { margin: 0; font-size: 16px; font-weight: 700; color: var(--ink); }
+.ev { list-style: none; margin: 0; padding: 0 0 0 14px; display: grid; gap: 8px; border-left: 2px solid var(--line); }
+.ev li { position: relative; display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; font-size: 14px; line-height: 1.65; }
+.ev li::before { content: ""; position: absolute; left: -20px; top: 7px; width: 10px; height: 10px; border-radius: 50%; background: var(--bg); border: 2px solid var(--band); }
+.ev .d { color: var(--muted); font-family: var(--mono); font-size: 12.5px; padding-top: 1px; }
+.status { margin-top: auto; font-size: 13.5px; background: var(--soft); padding: 9px 12px; color: var(--ink); line-height: 1.65; }
+.status b { color: var(--band-deep); font-weight: 700; margin-right: 6px; }
+.status.chg { background: var(--orange-bg); }
+.status.chg b { color: var(--orange); }
+.status.major { background: var(--red-bg); }
+.status.major b { color: var(--red); }
+.status.same { background: var(--gray-bg); color: var(--muted); }
+.status.same b { color: var(--muted); }
+.step.chg::before { border-color: var(--orange); }
+.step.chg:first-child::before { background: var(--orange); }
+.step.major::before { border-color: var(--red); }
+.step.major:first-child::before { background: var(--red); }
+.step.same::before { border-color: var(--muted); }
+.step.same:first-child::before { background: var(--muted); }
+.step.same .s { color: var(--muted); }
+
+/* 상태 표지 */
+.pill { display: inline-block; font-size: 12px; font-weight: 500; padding: 1px 9px; white-space: nowrap; }
+.pill::before { content: "●"; font-size: 8px; vertical-align: 2px; margin-right: 5px; }
+.pill.red { color: var(--red); background: var(--red-bg); }
+.pill.orange { color: var(--orange); background: var(--orange-bg); }
+.pill.green { color: var(--green); background: var(--green-bg); }
+.pill.gray { color: var(--muted); background: var(--gray-bg); }
+
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { padding: 13px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 8px; }
+.list li:first-child { border-top: 1px solid var(--line); }
+.list li .i { color: var(--band); font-family: var(--mono); font-size: 13px; padding-top: 2px; }
+.list .ttl { color: var(--ink); font-weight: 500; }
+
+details.more { border-top: 1px solid var(--line); }
+details.more:last-of-type { border-bottom: 1px solid var(--line); }
+details.more summary { cursor: pointer; padding: 14px 0; font-weight: 500; color: var(--ink); list-style: none; display: flex; justify-content: space-between; }
+details.more summary::-webkit-details-marker { display: none; }
+details.more summary::after { content: "+"; color: var(--muted); font-weight: 300; font-size: 20px; line-height: 1; }
+details.more[open] summary::after { content: "−"; }
+details.more ol, details.more ul { margin: 0 0 16px; padding-left: 22px; font-size: 14px; }
+details.more li { margin: 4px 0; }
+.disclaimer { margin-top: 36px; font-size: 12.5px; color: var(--muted); line-height: 1.75; border-top: 1px solid var(--line); padding-top: 14px; }
+
+/* 아카이브 */
+.arch { list-style: none; margin: 0; padding: 0; }
+.arch li { border-top: 1px solid var(--line); }
+.arch li:last-child { border-bottom: 1px solid var(--line); }
+.arch a { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 8px 24px; padding: 22px 8px; color: inherit; transition: background .15s; }
+.arch a:hover { background: var(--soft); text-decoration: none; }
+.arch .dt .day { font-size: 36px; font-weight: 300; line-height: 1; color: var(--band); }
+.arch .dt .ym { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-top: 6px; }
+.arch .hd { color: var(--ink); font-size: 15.5px; }
+.arch .sub { margin-top: 8px; font-size: 13px; color: var(--muted); line-height: 1.7; }
+.arch .sp { display: inline-block; color: var(--band-deep); font-weight: 500; margin-bottom: 2px; }
+
+/* 국가별 · 확인점 */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 28px; justify-content: center; }
+.chip { border: 1px solid var(--line); background: var(--bg); padding: 5px 13px; font-size: 14px; cursor: pointer; display: inline-flex; align-items: baseline; gap: 6px; }
+.chip:hover { border-color: var(--tab); }
+.chip[aria-pressed="true"] { background: var(--tab); border-color: var(--tab); color: var(--tab-ink); }
+.chip .c { font-size: 12px; opacity: .7; font-variant-numeric: tabular-nums; }
+.tlday { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 8px 24px; padding: 24px 0; border-top: 1px solid var(--line); }
+.tlday .dt .day { font-size: 30px; font-weight: 300; line-height: 1; color: var(--band); }
+.tlday .dt .ym { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-top: 6px; }
+.tlday .dt a { font-size: 12.5px; display: block; margin-top: 6px; }
+.tlitems { display: grid; gap: 18px; min-width: 0; }
+.tlitem .kind { font-size: 12px; color: var(--band-deep); font-weight: 700; letter-spacing: .03em; }
+.tlitem h4 { margin: 2px 0 4px; font-size: 16px; font-weight: 700; color: var(--ink); }
+.tlitem p { margin: 0; }
+.tlitem .field { margin-top: 8px; }
+
+.checks { list-style: none; margin: 0; padding: 0; }
+.checks li { display: grid; grid-template-columns: 70px 112px minmax(0, 1fr); gap: 12px; padding: 13px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.checks li:first-child { border-top: 1px solid var(--line); }
+.checks .d { font-family: var(--mono); font-size: 12.5px; }
+
+.matrix td, .matrix th { text-align: center; }
+.matrix td:first-child, .matrix th:first-child { text-align: left; }
+.trkrow .j { font-size: 13px; color: var(--muted); text-align: left; margin-top: 4px; min-width: 200px; }
+
+.iss { border-top: 1px solid var(--line); padding: 26px 0; }
+.iss h3 { margin: 0 0 14px; font-size: 18px; font-weight: 700; color: var(--ink); }
+.steps { list-style: none; margin: 0; padding: 0 0 0 16px; border-left: 2px solid var(--line); display: grid; gap: 14px; }
+.step { position: relative; display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 12px; }
+.step::before { content: ""; position: absolute; left: -23px; top: 8px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--band); }
+.step:first-child::before { background: var(--band); }
+.step .d { font-family: var(--mono); font-size: 13px; color: var(--ink); padding-top: 2px; }
+.step .s { color: var(--ink); }
+.step details summary { cursor: pointer; font-size: 13px; color: var(--link); list-style: none; }
+.step details summary::-webkit-details-marker { display: none; }
+.step .ev { margin-top: 8px; }
+
+.results { list-style: none; margin: 0; padding: 0; }
+.results li { border-top: 1px solid var(--line); }
+.results a { display: block; padding: 14px 8px; color: inherit; }
+.results a:hover { background: var(--soft); text-decoration: none; }
+.results .meta { font-size: 13px; color: var(--muted); }
+.results .meta b { color: var(--band-deep); font-weight: 500; }
+mark { background: var(--hl); color: inherit; padding: 0 1px; }
+.empty { color: var(--muted); padding: 24px 0; text-align: center; }
+
+/* 소개 */
+.about h3 { margin: 40px 0 12px; font-size: 18px; font-weight: 700; color: var(--ink); }
+.about h3:first-of-type { margin-top: 0; }
+.about p { margin: 0 0 12px; }
+.about .intro { font-size: 17px; color: var(--ink); line-height: 1.85; padding: 0 0 8px; }
+.about .rows { display: grid; border-top: 2px solid var(--ink); }
+.about .rows > div { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 16px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+.about .rows .k { font-weight: 700; color: var(--ink); font-size: 14.5px; }
+.about .rows .v { font-size: 14.5px; }
+.about .contact { background: var(--soft); padding: 18px 22px; margin-top: 12px; }
+.about .contact b { color: var(--ink); font-weight: 500; }
+.flash { animation: flash 1.6s ease-out; }
+@keyframes flash { from { background: var(--hl); } to { background: transparent; } }
+
+@media (max-width: 760px) {
+  .dateline { grid-template-columns: minmax(0, 1fr); }
+  .dl-date { border-right: 0; border-bottom: 1px solid var(--line); padding: 16px 0; flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  .dl-date .day { font-size: 44px; } .dl-date .ym, .dl-date .no { margin-top: 0; }
+  .dl-lead { padding: 16px 0; }
+  .chrono { grid-template-columns: minmax(0, 1fr); }
+  .dl { grid-template-columns: minmax(0, 1fr); }
+  .dl dd { border-top: 0; padding-top: 2px; }
+  .special-box { padding: 22px 18px 6px; }
+  .field { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .arch a, .tlday { grid-template-columns: 64px minmax(0, 1fr); gap: 8px 16px; }
+  .arch .dt .day, .tlday .dt .day { font-size: 26px; }
+  .checks li { grid-template-columns: 56px minmax(0, 1fr); }
+  .checks li .t { grid-column: 1 / -1; }
+  .reg > li { grid-template-columns: 30px minmax(0, 1fr); gap: 4px 12px; }
+  .reg .n { width: 26px; height: 26px; font-size: 12.5px; }
+  .cpanel { padding: 18px 16px; }
+  .about .rows > div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .search { flex-basis: 100%; margin-left: 0; }
+  .tab { padding: 8px 12px; font-size: 14px; white-space: nowrap; }
+  .tabs { flex-wrap: nowrap; overflow-x: auto; flex: 1 1 100%; min-width: 0; scrollbar-width: none; }
+  .ctabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .mast .updated { text-align: left; }
+  .ev li { grid-template-columns: minmax(0, 1fr); gap: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .flash { animation: none; } * { transition: none !important; } }
+/* 홈페이지 iframe 삽입 모드 */
+.embed .mast .wrap { padding-block: 20px 18px; }
+.embed .tabsbar { position: static; }
+.embed main .wrap { padding-block: 24px 36px; }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">SEA PULSE · SOUTHEAST ASIA &amp; ASEAN BRIEF</div>
+      <h1>동남아 데일리 브리프</h1>
+      <div class="by">서울대학교 아시아연구소 동남아시아센터 · 편집 김형종</div>
+    </div>
+    <div class="updated" id="updated">불러오는 중…</div>
+  </div>
+</header>
+<nav class="tabsbar" aria-label="브리프 보기">
+  <div class="wrap">
+    <div class="tabs">
+      <button class="tab" data-view="brief" type="button">오늘의 브리프</button>
+      <button class="tab" data-view="archive" type="button">지난 브리프</button>
+      <button class="tab" data-view="countries" type="button">국가별</button>
+      <button class="tab" data-view="issues" type="button">지속 이슈</button>
+      <button class="tab" data-view="checks" type="button">확인점</button>
+      <button class="tab" data-view="about" type="button">브리프 소개</button>
+    </div>
+    <label class="search" for="q">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none"></circle><path d="M20 20l-3.5-3.5" fill="none"></path></svg>
+      <input id="q" type="search" placeholder="브리프 검색 (예: 연무, COC, 아누틴)" autocomplete="off">
+    </label>
+  </div>
+</nav>
+<main><div class="wrap"><div id="view"><p class="empty">브리프를 불러오는 중입니다.</p></div></div></main>
+
+<script>
+(() => {
+  const EMBED = new URLSearchParams(location.search).has('embed');
+  if (EMBED) { document.documentElement.classList.add('embed'); document.documentElement.setAttribute('data-theme', 'light'); }
+
+  const S = { index: null, agg: null, search: null, briefs: {}, view: 'brief', date: null, country: 'TH', checkFilter: 'all', q: '', pendingAnchor: null, cTab: null };
+  const $view = document.getElementById('view');
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const NAMES = { TH: '태국', VN: '베트남', ID: '인도네시아', PH: '필리핀', MY: '말레이시아', MM: '미얀마', SG: '싱가포르', KH: '캄보디아', LA: '라오스', BN: '브루나이', TL: '동티모르' };
+  const ORDER = Object.keys(NAMES);
+  const parts = d => d.split('-').map(Number);
+  const fmtDate = (d, wd) => { const [y, m, dd] = parts(d); return `${y}년 ${m}월 ${dd}일` + (wd ? ` ${wd}요일` : ''); };
+  const shortDate = d => { const [, m, dd] = parts(d); return `${m}월 ${dd}일`; };
+  const dayBlock = (d, wd) => { const [y, m, dd] = parts(d); return `<div class="day num">${dd}</div><div class="ym">${y}.${String(m).padStart(2, '0')}${wd ? ' · ' + esc(wd) : ''}</div>`; };
+  const BUNDLE = window.__SEA_PULSE_DATA__; /* 단일 파일 미리보기용: 데이터를 HTML 안에 담은 경우 */
+  const getJSON = url => (BUNDLE && BUNDLE[url]) ? Promise.resolve(BUNDLE[url]) : fetch(url, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(url + ' ' + r.status); return r.json(); });
+  const tag = c => `<span class="tag"><span class="code">${c}</span>${esc(NAMES[c] || c)}</span>`;
+  const tags = cs => (cs && cs.length) ? `<div class="tags">${cs.map(tag).join('')}</div>` : '';
+  const sh = (title, en, sub) => `<div class="sh"><h2>${en ? `<span class="en">${esc(en)}</span>` : ''}${esc(title)}${sub ? `<small>${esc(sub)}</small>` : ''}</h2></div>`;
+  const levelPill = (level, change) => {
+    if (level) { const k = { red: '위험', orange: '주의', green: '안정', yellow: '관찰' }[level] || level; return `<span class="pill ${esc(level)}">${esc(k)}</span>`; }
+    if (change) { const cls = change.includes('중요') ? 'red' : change.includes('있음') ? 'orange' : 'gray'; return `<span class="pill ${cls}">${esc(change)}</span>`; }
+    return '';
+  };
+  const issueNo = d => S.index.briefs.length - S.index.briefs.findIndex(b => b.date === d);
+  const statusCls = s => !s ? '' : s.includes('중요 변화') ? 'major' : s.includes('변화 없음') ? 'same' : s.includes('변화 있음') ? 'chg' : '';
+
+  async function brief(date) {
+    if (!S.briefs[date]) S.briefs[date] = await getJSON(`data/briefs/${date}.json`);
+    return S.briefs[date];
+  }
+
+  /* ---------- 오늘의 브리프 ---------- */
+  function renderBrief(b) {
+    const dates = S.index.briefs.map(x => x.date);
+    const i = dates.indexOf(b.date);
+    const newer = dates[i - 1], older = dates[i + 1];
+    const mentioned = new Set(b.regional.flatMap(r => r.countries || []));
+    const toc = [['regional', '역내 정세'], b.special && ['special', '특별 이슈'], b.countries.length && ['countries6', '국가별 동향'],
+      b.macro && ['macro', '거시경제'], b.chronology?.length && ['chrono', '크로놀로지'], b.tracker?.length && ['tracker', '트래커'],
+      b.watch_next?.length && ['watch', '다음에 볼 것']].filter(Boolean);
+    let h = `<div class="col"><section id="top">
+      <div class="dateline"><div class="dl-date">${dayBlock(b.date, b.weekday ? b.weekday + '요일' : '')}<div class="no">제 <b class="num">${issueNo(b.date)}</b>호${i === 0 ? ' · 최신' : ''}</div></div>
+        <div class="dl-lead"><div class="lbl">오늘의 한 줄</div><p>${esc(b.headline)}</p></div></div>
+      <div class="subbar"><div class="mentions"><span class="lb">역내 정세 언급국</span>${ORDER.map(c => `<button type="button" class="cc code ${mentioned.has(c) ? 'on' : ''}" data-goto-country="${c}" title="${NAMES[c]} 모아보기">${c}</button>`).join('')}</div>
+        <div class="btns"><button class="btn" type="button" data-go="${older || ''}" ${older ? '' : 'disabled'}>‹ 이전 호</button><button class="btn" type="button" data-go="${newer || ''}" ${newer ? '' : 'disabled'}>다음 호 ›</button></div></div>
+      <nav class="toc" aria-label="이번 호 구성">${toc.map(([id, l]) => `<a href="#brief-${b.date}" data-anchor="${id}">${l}</a>`).join('')}</nav></section>`;
+
+    h += `<section id="regional">${sh('아세안 역내 정세', 'REGIONAL OUTLOOK')}<ol class="reg">` + b.regional.map((r, k) =>
+      `<li id="r${k + 1}"><div class="n num">${k + 1}</div><div>${tags(r.countries)}<h3>${esc(r.title)}</h3><p>${esc(r.body)}</p>${r.point ? `<div class="point"><b>포인트</b>${esc(r.point)}</div>` : ''}</div></li>`).join('') + `</ol></section>`;
+
+    if (b.special) {
+      h += `<section id="special">${sh('오늘의 특별 이슈', 'SPECIAL ISSUE')}<div class="special-box"><h3>${esc(b.special.title)}</h3><dl class="dl">` +
+        b.special.sections.map(s => `<dt>${esc(s.label)}</dt><dd><p>${esc(s.text)}</p></dd>`).join('') + `</dl></div></section>`;
+    }
+    if (b.countries.length) {
+      const codes = b.countries.map(c => c.code);
+      if (!codes.includes(S.cTab)) S.cTab = codes[0];
+      h += `<section id="countries6">${sh('국가별 동향', 'COUNTRY BRIEFING', '정밀 분석 ' + b.countries.length + '개국')}
+        <div class="ctabs" role="tablist">${b.countries.map(c => `<button class="tab" type="button" role="tab" data-ctab="${c.code}" aria-current="${c.code === S.cTab ? 'page' : 'false'}"><span class="code">${c.code}</span>${esc(c.name)}</button>`).join('')}</div>
+        <div id="cpanel">${countryPanel(b.countries.find(c => c.code === S.cTab))}</div></section>`;
+    }
+    if (b.countries_brief?.length) {
+      h += `<section id="brief5">${sh('국가별 동향 요약', 'AT A GLANCE', b.countries_brief.map(c => c.name).join(' · '))}<div class="tbl"><table class="wide"><thead><tr><th>국가</th><th>핵심 동향</th><th>다음 확인점</th></tr></thead><tbody>` +
+        b.countries_brief.map(c => `<tr id="c-${c.code}"><td>${esc(c.name)}</td><td>${esc(c.trend)}</td><td>${esc(c.next_check)}</td></tr>`).join('') + `</tbody></table></div></section>`;
+    }
+    if (b.macro) {
+      h += `<section id="macro">${sh('핵심 거시경제 비교', 'MACRO SNAPSHOT')}${b.macro.title ? `<p class="tcap">${esc(b.macro.title)}</p>` : ''}<div class="tbl"><table class="wide num"><thead><tr>${b.macro.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>` +
+        b.macro.rows.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('') + `</tbody></table></div></section>`;
+    }
+    if (b.chronology?.length) {
+      h += `<section id="chrono">${sh('지속 이슈 크로놀로지', 'CHRONOLOGY')}<div class="chrono">` + b.chronology.map(c =>
+        `<div class="issue"><h3>${esc(c.issue)}</h3><ul class="ev">${c.events.map(e => `<li><span class="d">${esc(e.date)}</span><span>${esc(e.text)}</span></li>`).join('')}</ul>${c.status ? `<div class="status ${statusCls(c.status)}"><b>현재 상태</b>${esc(c.status)}</div>` : ''}</div>`).join('') + `</div></section>`;
+    }
+    if (b.tracker?.length) {
+      const nc = b.tracker.some(t => t.next_check);
+      h += `<section id="tracker">${sh('트래커 업데이트', 'TRACKER')}<div class="tbl"><table class="wide"><thead><tr><th>트래커</th><th>상태</th><th>오늘의 판단</th>${nc ? '<th>다음 확인점</th>' : ''}</tr></thead><tbody>` +
+        b.tracker.map(t => `<tr><td>${esc(t.name)}</td><td>${levelPill(t.level, t.change)}</td><td>${esc(t.judgement)}</td>${nc ? `<td>${esc(t.next_check || '')}</td>` : ''}</tr>`).join('') + `</tbody></table></div></section>`;
+    }
+    if (b.watchlist?.length) {
+      h += `<section id="watchlist">${sh('워치리스트', 'WATCHLIST')}<ul class="list">` + b.watchlist.map(w => `<li><span class="i">◦</span><span><span class="ttl">${esc(w.item)}</span> <span class="tag">${esc(w.stage)}</span><br>${esc(w.note)}</span></li>`).join('') + `</ul></section>`;
+    }
+    if (b.asean_overview?.length) {
+      h += `<section id="asean">${sh('ASEAN 개요 및 대외관계', 'ASEAN AFFAIRS')}<div class="fields">` + b.asean_overview.map(a => a.label ? `<div class="field"><div class="k">${esc(a.label)}</div><p>${esc(a.text)}</p></div>` : `<p style="margin:0">${esc(a.text)}</p>`).join('') + `</div></section>`;
+    }
+    if (b.research?.length) {
+      h += `<section id="research">${sh('오늘의 연구·정책 분석', 'READINGS')}<ul class="list">` + b.research.map(r => `<li><span class="i">◦</span><span><span class="tag">${esc(r.source)}</span> ${esc(r.author || '')} <span class="code" style="color:var(--muted)">${esc(r.date || '')}</span>${r.title ? `<br><i class="ttl">${esc(r.title)}</i>` : ''}<br>${esc(r.text)}</span></li>`).join('') + `</ul></section>`;
+    }
+    if (b.watch_next?.length) {
+      h += `<section id="watch">${sh('다음에 볼 것', 'WHAT TO WATCH')}<ol class="list">` + b.watch_next.map((w, k) => `<li><span class="i">${String(k + 1).padStart(2, '0')}</span><span>${esc(w)}</span></li>`).join('') + `</ol></section>`;
+    }
+    h += `<section style="margin-top:52px">`;
+    if (b.verification_notes?.length) h += `<details class="more"><summary>검증 노트 (${b.verification_notes.length})</summary><ul>${b.verification_notes.map(v => `<li>${esc(v)}</li>`).join('')}</ul></details>`;
+    if (b.sources?.length) h += `<details class="more"><summary>출처 (${b.sources.length})</summary><ol>${b.sources.map(s => `<li>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text)}</a>` : esc(s.text)}</li>`).join('')}</ol></details>`;
+    h += `<p class="disclaimer">SEA Pulse는 연구 및 정보 제공을 목적으로 작성됩니다. 본 브리프의 분석과 평가는 편집자의 판단이며 서울대학교의 공식 입장을 의미하지 않습니다. 공개자료의 수집·정리 과정에서 AI 도구를 활용하며, 주요 사실은 원출처 확인과 교차검증을 원칙으로 합니다.</p></section></div>`;
+    $view.innerHTML = h;
+  }
+  function countryPanel(c) {
+    if (!c) return '';
+    return `<div class="cpanel" id="c-${c.code}">${c.update ? `<div class="upd">${esc(c.update)}</div>` : ''}<div class="fields">` +
+      c.paragraphs.map(p => `<div class="field"><div class="k">${esc(p.field)}</div><p>${esc(p.text)}</p></div>`).join('') + `</div>` +
+      (c.point ? `<div class="point"><b>포인트</b>${esc(c.point)}</div>` : '') +
+      (c.next_check ? `<div class="nextc"><b>다음 확인점</b>${esc(c.next_check)}</div>` : '') + `</div>`;
+  }
+
+  /* ---------- 지난 브리프 ---------- */
+  function renderArchive() {
+    $view.innerHTML = `<div class="col"><section>${sh('지난 브리프', 'ARCHIVE', `누적 ${S.index.briefs.length}호 · 최신순`)}<ul class="arch">` + S.index.briefs.map(x =>
+      `<li><a href="#brief-${x.date}"><div class="dt">${dayBlock(x.date, x.weekday)}</div>
+       <div><div class="hd">${esc(x.headline)}</div><div class="sub">${x.special ? `<span class="sp">특별 이슈 · ${esc(x.special)}</span><br>` : ''}${x.regional.map(esc).join(' / ')}</div></div></a></li>`).join('') + `</ul></section></div>`;
+  }
+
+  /* ---------- 국가별 ---------- */
+  function renderCountries() {
+    const A = S.agg.countries;
+    const chips = ORDER.map(c => `<button class="chip" type="button" data-country="${c}" aria-pressed="${c === S.country}"><span class="code">${c}</span>${NAMES[c]}<span class="c">${new Set(A[c].map(x => x.date)).size}</span></button>`).join('');
+    const byDate = {};
+    (A[S.country] || []).forEach(x => (byDate[x.date] = byDate[x.date] || []).push(x));
+    const days = Object.keys(byDate).sort().reverse();
+    const ko = { regional: 0, country: 1, brief: 2 };
+    const body = days.length ? days.map(d => `<div class="tlday"><div class="dt">${dayBlock(d)}<a href="#brief-${d}">브리프 보기</a></div><div class="tlitems">` +
+      byDate[d].sort((a, b) => ko[a.kind] - ko[b.kind]).map(x => {
+        if (x.kind === 'regional') return `<div class="tlitem"><div class="kind">아세안 역내 정세</div><h4>${esc(x.title)}</h4><p>${esc(x.text)}</p>${x.point ? `<div class="point"><b>포인트</b>${esc(x.point)}</div>` : ''}</div>`;
+        if (x.kind === 'country') return `<div class="tlitem"><div class="kind">국가별 동향${x.update ? ` · ${esc(x.update)}` : ''}</div>${x.paragraphs.map(p => `<div class="field"><div class="k">${esc(p.field)}</div><p>${esc(p.text)}</p></div>`).join('')}${x.point ? `<div class="point"><b>포인트</b>${esc(x.point)}</div>` : ''}${x.next_check ? `<div class="nextc"><b>다음 확인점</b>${esc(x.next_check)}</div>` : ''}</div>`;
+        return `<div class="tlitem"><div class="kind">국가별 동향 요약</div><p>${esc(x.text)}</p><div class="nextc"><b>다음 확인점</b>${esc(x.next_check)}</div></div>`;
+      }).join('') + `</div></div>`).join('') : `<p class="empty">아직 ${NAMES[S.country]} 관련 항목이 없습니다.</p>`;
+    $view.innerHTML = `<div class="col"><section>${sh('국가별 모아보기', 'BY COUNTRY', NAMES[S.country] + ' · 최신순')}<div class="chips">${chips}</div>${body}</section></div>`;
+  }
+
+  /* ---------- 지속 이슈 ---------- */
+  function renderIssues() {
+    const A = S.agg;
+    const trDates = [...new Set(A.tracker.flatMap(t => t.history.map(h => h.date)))].sort();
+    let h = `<div class="col wide"><section>${sh('지속 이슈', 'ONGOING ISSUES', '브리프마다 기록한 상태를 날짜순으로 이어 봄')}`;
+    h += A.issues.map(it => `<div class="iss"><h3>${esc(it.name)}</h3><ol class="steps">` + it.entries.slice().reverse().map(e =>
+      `<li class="step ${statusCls(e.status)}"><div class="d">${parts(e.date)[1]}/${parts(e.date)[2]}</div><div><div class="s">${esc(e.status || '—')}</div>
+        <details><summary>이날 정리된 전개 ${e.events.length}건 보기</summary><ul class="ev">${e.events.map(v => `<li><span class="d">${esc(v.date)}</span><span>${esc(v.text)}</span></li>`).join('')}</ul></details></div></li>`).join('') + `</ol></div>`).join('');
+    h += `</section>`;
+    if (A.tracker.length) {
+      h += `<section>${sh('트래커', 'TRACKER', '브리프가 판정한 핵심 이슈의 상태')}<div class="tbl"><table class="matrix wide"><thead><tr><th>트래커</th>${trDates.map(d => `<th class="num">${shortDate(d)}</th>`).join('')}</tr></thead><tbody>` +
+        A.tracker.map(t => `<tr class="trkrow"><td>${esc(t.name)}</td>${trDates.map(d => { const x = t.history.find(h => h.date === d); return `<td>${x ? levelPill(x.level, x.change) + `<div class="j">${esc(x.judgement || '')}</div>` : '<span style="color:var(--muted)">—</span>'}</td>`; }).join('')}</tr>`).join('') +
+        `</tbody></table></div></section>`;
+    }
+    $view.innerHTML = h + `</div>`;
+  }
+
+  /* ---------- 확인점 ---------- */
+  function renderChecks() {
+    const C = S.agg.checks;
+    const counts = { all: C.length, region: C.filter(x => !x.country).length };
+    ORDER.forEach(c => counts[c] = C.filter(x => x.country === c).length);
+    const f = S.checkFilter;
+    const rows = C.filter(x => f === 'all' || (f === 'region' ? !x.country : x.country === f)).slice().sort((a, b) => b.date.localeCompare(a.date));
+    const chip = (k, label) => counts[k] ? `<button class="chip" type="button" data-check="${k}" aria-pressed="${k === f}">${label}<span class="c">${counts[k]}</span></button>` : '';
+    $view.innerHTML = `<div class="col"><section>${sh('다음 확인점', 'OPEN QUESTIONS', '브리프가 남긴 질문을 날짜순으로 모음')}
+      <div class="chips">${chip('all', '전체')}${chip('region', '역내 종합')}${ORDER.map(c => chip(c, NAMES[c])).join('')}</div>
+      <ul class="checks">${rows.map(x => `<li><span class="d"><a href="#brief-${x.date}">${parts(x.date)[1]}/${parts(x.date)[2]}</a></span><span>${x.country ? tag(x.country) : '<span class="tag">역내 종합</span>'}</span><span class="t">${esc(x.text)}</span></li>`).join('')}</ul></section></div>`;
+  }
+
+  /* ---------- 소개 ---------- */
+  function renderAbout() {
+    $view.innerHTML = `<div class="col"><section class="about">${sh('브리프 소개', 'ABOUT SEA PULSE')}
+      <p class="intro">「동남아 데일리 브리프(SEA Pulse)」는 서울대학교 아시아연구소 동남아시아센터가 매일 발행하는 동남아시아·ASEAN 정세 브리프입니다. ASEAN 11개 회원국의 정치·안보·경제·사회 동향과 역내 협력 의제를 하루 단위로 정리합니다.</p>
+
+      <h3>왜 만드는가</h3>
+      <p>동남아시아 소식은 대개 개별 사건 단위로 전해집니다. 브리프는 그날의 사건을 역내 구조와 이어서 읽을 수 있도록, 확인된 사실과 편집자의 해석을 나누어 정리합니다. 연구자, 학생, 정책 실무자, 기업이 동남아 정세의 흐름을 매일 같은 틀로 따라갈 수 있게 하는 것이 목적입니다.</p>
+      <p>매일의 브리프는 이 페이지에 쌓여 동남아 정세의 연대기가 됩니다. 국가별로, 이슈별로 다시 모아 보면 한 사건이 몇 주에 걸쳐 어떻게 전개되었는지 확인할 수 있습니다.</p>
+
+      <h3>한 호의 구성</h3>
+      <div class="rows">
+        <div><div class="k">오늘의 한 줄</div><div class="v">그날 동남아 정세를 한 문장으로 요약합니다.</div></div>
+        <div><div class="k">아세안 역내 정세</div><div class="v">그날 가장 중요한 역내 사안 다섯 건을 중요도 순으로 정리합니다.</div></div>
+        <div><div class="k">오늘의 특별 이슈</div><div class="v">한 사안을 배경·전개·현재 상황·의미·전망의 순서로 깊이 다룹니다. 필요한 날에만 싣습니다.</div></div>
+        <div><div class="k">국가별 동향</div><div class="v">태국·베트남·인도네시아·필리핀·말레이시아·미얀마 6개국은 분야별로 자세히, 싱가포르·캄보디아·라오스·브루나이·동티모르 5개국은 표로 요약합니다.</div></div>
+        <div><div class="k">거시경제 비교</div><div class="v">주요국의 성장·물가·수출 지표와 현재 판단을 한 표로 비교합니다.</div></div>
+        <div><div class="k">지속 이슈 크로놀로지</div><div class="v">남중국해, 태국-캄보디아 국경, 미국의 관세·환적 규율처럼 여러 날에 걸친 이슈의 전개를 날짜순으로 기록합니다.</div></div>
+        <div><div class="k">다음에 볼 것</div><div class="v">다음 날 이후 확인해야 할 질문을 남깁니다.</div></div>
+      </div>
+
+      <h3>이 페이지에서 보는 법</h3>
+      <div class="rows">
+        <div><div class="k">오늘의 브리프</div><div class="v">가장 최근 호를 보여 줍니다. 위쪽의 ‹ 이전 호, 다음 호 › 로 다른 날짜로 옮겨 갑니다. 국가 코드(TH, VN…)를 누르면 그 나라 모아보기로 갑니다.</div></div>
+        <div><div class="k">지난 브리프</div><div class="v">발행된 모든 호의 한 줄 요약과 역내 정세 제목을 날짜순으로 보여 줍니다.</div></div>
+        <div><div class="k">국가별</div><div class="v">한 나라를 고르면 그 나라가 다뤄진 항목을 날짜순으로 모아 보여 줍니다.</div></div>
+        <div><div class="k">지속 이슈</div><div class="v">크로놀로지 이슈의 상태가 날마다 어떻게 바뀌었는지, 트래커 판정이 어떻게 달라졌는지 비교합니다.</div></div>
+        <div><div class="k">확인점</div><div class="v">브리프가 남긴 '다음 확인점'과 '다음에 볼 것'을 국가별로 모읍니다. 후속 보도가 나왔는지 점검할 때 씁니다.</div></div>
+        <div><div class="k">검색</div><div class="v">모든 호의 본문에서 낱말을 찾고, 결과를 누르면 해당 호의 그 위치로 갑니다.</div></div>
+      </div>
+
+      <h3>표기 읽는 법</h3>
+      <div class="rows">
+        <div><div class="k">포인트</div><div class="v">사실 정리 뒤에 붙는 편집자의 해석입니다.</div></div>
+        <div><div class="k">다음 확인점</div><div class="v">후속 발표나 보도로 확인해야 할 질문입니다.</div></div>
+        <div><div class="k">업데이트 · 날짜</div><div class="v">해당 국가 항목의 기준일입니다. ‘오늘 신규 아님’은 당일 새 사실이 없어 이전 동향을 유지했다는 뜻입니다.</div></div>
+        <div><div class="k">트래커 상태</div><div class="v">${levelPill('red')} ${levelPill('orange')} 는 위험 수준을, ${levelPill(null, '중요 변화')} ${levelPill(null, '변화 있음')} ${levelPill(null, '변화 없음')} 은 전날 대비 변화를 나타냅니다.</div></div>
+        <div><div class="k">검증 노트</div><div class="v">보도마다 수치가 다르거나 한쪽 당사자의 주장에 기댄 사실을 따로 밝혀 둡니다.</div></div>
+      </div>
+
+      <h3>편집 원칙</h3>
+      <p>브리프의 분석과 평가는 편집자의 판단이며 서울대학교의 공식 입장을 의미하지 않습니다. 공개자료의 수집·정리 과정에서 AI 도구를 활용하며, 주요 사실은 원출처 확인과 교차검증을 원칙으로 합니다. 각 호의 출처는 본문 아래 ‘출처’에서 확인할 수 있습니다.</p>
+      <div class="contact"><b>편집</b> 김형종 (서울대학교 아시아연구소 동남아시아센터장)<br><b>문의</b> 서울대학교 아시아연구소 동남아시아센터 · <span>seacenter@snu.ac.kr</span></div>
+    </section></div>`;
+  }
+
+  /* ---------- 검색 ---------- */
+  async function renderSearch() {
+    if (!S.search) { $view.innerHTML = '<p class="empty">검색 색인을 불러오는 중입니다.</p>'; S.search = await getJSON('data/search.json'); }
+    const q = S.q.trim();
+    if (!q) { $view.innerHTML = `<div class="col"><section>${sh('검색', 'SEARCH')}<p class="empty">검색어를 입력하세요. 국가명, 인물, 기관, 의제(예: 연무, JWG-DOC, 탄핵)로 찾을 수 있습니다.</p></section></div>`; return; }
+    const terms = q.split(/\s+/).filter(Boolean).map(t => t.toLowerCase());
+    const hits = S.search.filter(e => { const t = (e.l + ' ' + e.t).toLowerCase(); return terms.every(w => t.includes(w)); }).sort((a, b) => b.d.localeCompare(a.d));
+    const re = new RegExp('(' + terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi');
+    const snip = t => { const lo = t.toLowerCase(); const i = Math.max(0, Math.min(...terms.map(w => { const k = lo.indexOf(w); return k < 0 ? 1e9 : k; })) - 50); const s = (i > 0 ? '…' : '') + t.slice(i, i + 190) + (t.length > i + 190 ? '…' : ''); return esc(s).replace(re, '<mark>$1</mark>'); };
+    $view.innerHTML = `<div class="col"><section>${sh('검색 결과', 'SEARCH', `“${q}” · ${hits.length}건`)}` + (hits.length ? `<ul class="results">${hits.map(e =>
+      `<li><a href="#brief-${e.d}" data-anchor="${esc(e.a)}"><div class="meta num">${shortDate(e.d)} · <b>${esc(e.s)}</b>${e.l ? ' · ' + esc(e.l) : ''}</div><div>${snip(e.t)}</div></a></li>`).join('')}</ul>` : `<p class="empty">일치하는 내용이 없습니다. 다른 표기(예: COC ↔ 행동규범, 아누틴 ↔ Anutin)로 찾아보세요.</p>`) + `</section></div>`;
+  }
+
+  /* ---------- 라우팅 ---------- */
+  function setTabs() { document.querySelectorAll('.tabs .tab').forEach(t => t.setAttribute('aria-current', t.dataset.view === S.view ? 'page' : 'false')); }
+  async function route() {
+    const h = location.hash.slice(1);
+    if (h.startsWith('brief-')) { S.view = 'brief'; S.date = h.slice(6); }
+    else if (['archive', 'countries', 'issues', 'checks', 'search', 'about'].includes(h)) S.view = h;
+    else { S.view = 'brief'; S.date = S.index.briefs[0]?.date; }
+    if (!S.index.briefs.some(b => b.date === S.date)) S.date = S.index.briefs[0]?.date;
+    setTabs();
+    try {
+      if (S.view === 'brief') renderBrief(await brief(S.date));
+      else if (S.view === 'archive') renderArchive();
+      else if (S.view === 'countries') renderCountries();
+      else if (S.view === 'issues') renderIssues();
+      else if (S.view === 'checks') renderChecks();
+      else if (S.view === 'about') renderAbout();
+      else if (S.view === 'search') await renderSearch();
+    } catch (e) { $view.innerHTML = `<p class="empty">브리프를 불러오지 못했습니다 (${esc(e.message)}). 잠시 뒤 새로고침해 주세요.</p>`; }
+    scrollAfter();
+    postHeight();
+  }
+  function scrollAfter() {
+    if (S.pendingAnchor) {
+      const a = S.pendingAnchor; S.pendingAnchor = null;
+      if (a.startsWith('c-')) { const btn = $view.querySelector(`[data-ctab="${a.slice(2)}"]`); if (btn) btn.click(); }
+      const el = document.getElementById(a);
+      if (el) { el.scrollIntoView({ block: 'start' }); el.classList.add('flash'); }
+    } else if (!S.keepScroll) { window.scrollTo(0, 0); if (EMBED && window.parent !== window) window.parent.postMessage({ type: 'sea-pulse-top' }, '*'); }
+    S.keepScroll = false;
+  }
+  function go(hash) { if (location.hash === '#' + hash) route(); else location.hash = hash; }
+
+  document.querySelector('.tabs').addEventListener('click', e => {
+    const t = e.target.closest('.tab'); if (!t) return;
+    go(t.dataset.view === 'brief' ? 'brief-' + S.index.briefs[0].date : t.dataset.view);
+  });
+  $view.addEventListener('click', e => {
+    const g = e.target.closest('[data-go]'); if (g && g.dataset.go) { go('brief-' + g.dataset.go); return; }
+    const gc = e.target.closest('[data-goto-country]'); if (gc) { S.country = gc.dataset.gotoCountry; go('countries'); return; }
+    const ct = e.target.closest('[data-ctab]');
+    if (ct) { S.cTab = ct.dataset.ctab; const b = S.briefs[S.date]; $view.querySelectorAll('[data-ctab]').forEach(x => x.setAttribute('aria-current', x === ct ? 'page' : 'false')); document.getElementById('cpanel').innerHTML = countryPanel(b.countries.find(c => c.code === S.cTab)); postHeight(); return; }
+    const ch = e.target.closest('[data-country]'); if (ch) { S.country = ch.dataset.country; renderCountries(); postHeight(); return; }
+    const ck = e.target.closest('[data-check]'); if (ck) { S.checkFilter = ck.dataset.check; renderChecks(); postHeight(); return; }
+    const an = e.target.closest('[data-anchor]');
+    if (an) {
+      const a = an.dataset.anchor === 'top' ? null : an.dataset.anchor;
+      if (an.getAttribute('href') === location.hash) { e.preventDefault(); S.pendingAnchor = a; scrollAfter(); }
+      else S.pendingAnchor = a;
+    }
+  });
+  let qt;
+  document.getElementById('q').addEventListener('input', e => {
+    clearTimeout(qt); S.q = e.target.value;
+    qt = setTimeout(() => { if (location.hash === '#search') { S.keepScroll = true; route(); } else location.hash = 'search'; }, 220);
+  });
+  window.addEventListener('hashchange', route);
+
+  /* 홈페이지 iframe 높이 자동 맞춤 */
+  function postHeight() {
+    if (!EMBED || window.parent === window) return;
+    window.parent.postMessage({ type: 'sea-pulse-height', height: Math.ceil(document.body.getBoundingClientRect().height) }, '*');
+  }
+  if (EMBED && 'ResizeObserver' in window) new ResizeObserver(postHeight).observe(document.body);
+
+  Promise.all([getJSON('data/index.json'), getJSON('data/agg.json')]).then(([idx, agg]) => {
+    S.index = idx; S.agg = agg;
+    const latest = idx.briefs[0];
+    document.getElementById('updated').innerHTML = latest ? `최근 호 <b class="num">${fmtDate(latest.date, latest.weekday)}</b><br>누적 <b class="num">${idx.briefs.length}</b>호` : '';
+    route();
+  }).catch(e => { $view.innerHTML = `<p class="empty">브리프 목록을 불러오지 못했습니다 (${esc(e.message)}).</p>`; });
+})();
+</script>
