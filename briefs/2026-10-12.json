@@ -192,7 +192,7 @@
   },
   {
    "type": "deep_dive",
-   "title": "첫 이웃국 순방의 4단계",
+   "title": "Deep Dive | 첫 이웃국 순방의 4단계",
    "countries": [],
    "paragraphs": [
     {
@@ -219,7 +219,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -235,61 +235,72 @@
      "text": "44차 ASEAN 에너지장관회의는 해저 전력케이블 협력 체계 논의를 확인했다. 앞선 판에 수록된 에너지 전망 수치의 반복을 피하고 초안, 금융 및 노선의 후속 공개 여부를 추적한다."
     }
    ]
-  },
-  {
-   "type": "other",
-   "title": null,
-   "countries": [],
-   "heading": "Compact Chronology | 9–11 October 2026",
-   "paragraphs": [
-    {
-     "label": null,
-     "text": "싱가포르와 국방관계 50주년 공동행사 완료"
-    },
-    {
-     "label": null,
-     "text": "베트남과 6개 협력문서 서명; ASEAN 국경관찰단 인력 합류"
-    },
-    {
-     "label": null,
-     "text": "산불 책임소송 심리 진행; 이집트와 4개 협정·공동기금 구상"
-    },
-    {
-     "label": null,
-     "text": "베트남과 11개 협력문서 서명"
-    },
-    {
-     "label": null,
-     "text": "2027 예산안 제출; 연무에 따른 휴교 및 양자협의"
-    },
-    {
-     "label": null,
-     "text": "UNDP 다차원 빈곤·취약 68% 추산치 발표"
-    },
-    {
-     "label": null,
-     "text": "PEZA 1~9월 투자승인 2,971.4억 페소"
-    },
-    {
-     "label": null,
-     "text": "브루나이와 공동열병식; 공기질·보건 대응"
-    },
-    {
-     "label": null,
-     "text": "홍수 경보; 동티모르와 쌀무역·항공협정 협의"
-    },
-    {
-     "label": null,
-     "text": "태국과 쌀무역 협상 및 직항 개설 준비"
-    },
-    {
-     "label": null,
-     "text": "라오스·캄보디아 협정 후속; 국회의장 중국 방문 개시"
-    }
-   ]
   }
  ],
- "chronology": [],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "Brunei",
+     "text": "싱가포르와 국방관계 50주년 공동행사 완료",
+     "note": null
+    },
+    {
+     "date": "Cambodia",
+     "text": "베트남과 6개 협력문서 서명; ASEAN 국경관찰단 인력 합류",
+     "note": null
+    },
+    {
+     "date": "Indonesia",
+     "text": "산불 책임소송 심리 진행; 이집트와 4개 협정·공동기금 구상",
+     "note": null
+    },
+    {
+     "date": "Laos",
+     "text": "베트남과 11개 협력문서 서명",
+     "note": null
+    },
+    {
+     "date": "Malaysia",
+     "text": "2027 예산안 제출; 연무에 따른 휴교 및 양자협의",
+     "note": null
+    },
+    {
+     "date": "Myanmar",
+     "text": "UNDP 다차원 빈곤·취약 68% 추산치 발표",
+     "note": null
+    },
+    {
+     "date": "Philippines",
+     "text": "PEZA 1~9월 투자승인 2,971.4억 페소",
+     "note": null
+    },
+    {
+     "date": "Singapore",
+     "text": "브루나이와 공동열병식; 공기질·보건 대응",
+     "note": null
+    },
+    {
+     "date": "Thailand",
+     "text": "홍수 경보; 동티모르와 쌀무역·항공협정 협의",
+     "note": null
+    },
+    {
+     "date": "Timor-Leste",
+     "text": "태국과 쌀무역 협상 및 직항 개설 준비",
+     "note": null
+    },
+    {
+     "date": "Vietnam",
+     "text": "라오스·캄보디아 협정 후속; 국회의장 중국 방문 개시",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
  "bottom_line": [
   "남은 확인점은 단계별로 다르다. 말레이시아 예산안은 의회 처리와 세법 문안, 필리핀 투자승인은 실제 집행과 가동 실적, 베트남의 이웃국 협정은 부처별 시행계획이 필요하다. 연무는 화점·소실면적 및 공동진화 실적이 확인돼야 피해 감소 여부를 판단할 수 있다."
  ],
@@ -319,6 +330,16 @@
   {
    "id": null,
    "text": "말레이시아 재무부 · AP · BERNAMA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "UNDP",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "PEZA",
    "url": null
   },
   {

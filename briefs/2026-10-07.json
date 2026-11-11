@@ -186,6 +186,10 @@
     },
     {
      "label": null,
+     "text": "Channel NewsAsia"
+    },
+    {
+     "label": null,
      "text": "(https://www.channelnewsasia.com/singapore/workplace-deaths-mom-safety-time-out-construction-tra nsport-storage-6432756)"
     }
    ],
@@ -372,6 +376,11 @@
    "id": null,
    "text": "Bernama ( · Channel NewsAsia ( · Reuters via The Star",
    "url": "https://www.bernama.com/tv/news.php?id=2616246"
+  },
+  {
+   "id": null,
+   "text": "GMA News",
+   "url": null
   },
   {
    "id": null,

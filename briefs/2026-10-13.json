@@ -45,6 +45,10 @@
    "paragraphs": [
     {
      "label": null,
+     "text": "Brunei"
+    },
+    {
+     "label": null,
      "text": "국방 50주년 행사 완료 이후 12일 신규 협력문서나 집행 조치가 공식 발표된 사실은 확인하지 못했다. 전일 사안을 새 사건으로 반복하지 않는다."
     },
     {
@@ -113,6 +117,10 @@
     },
     {
      "label": null,
+     "text": "Myanmar"
+    },
+    {
+     "label": null,
      "text": "독립매체는 12일 라카인 서부 연안에서 군함의 어민 선박 나포·폭행과 1명 실종 주장을 보도했다. 다만 사건 날짜는 6일이고 공개된 피해주장을 독립적으로 확인하기 어려워 사건 성립과 피해 규모를 확정하지 않는다. 추적·인권 기록에 보존한다."
     },
     {
@@ -165,6 +173,10 @@
     },
     {
      "label": null,
+     "text": "Timor-Leste"
+    },
+    {
+     "label": null,
      "text": "내무부가 12일 게시한 디지털 국경관리 기사는 9월 28일 민간업체 IDEMIA와의 면담을 설명하는 사후 공개 자료다. 오늘 신규 계약으로 코딩하지 않는다. DEFA 서명권한과도 별개의 사건이다."
     },
     {
@@ -196,7 +208,7 @@
   },
   {
    "type": "deep_dive",
-   "title": "결정에서 결과까지",
+   "title": "Vietnam Deep Dive | 결정에서 결과까지",
    "countries": [
     "VN"
    ],
@@ -233,29 +245,32 @@
      "text": "디지털·AI/DEFA: 의제는 이어지지만 12일 새 집행은 미확인 DEFA는 6월 협상완료 이후 서명 준비 단계에 머물렀다. 12일에는 새 최종협정문, 서명, 국가별 비준 또는 AI 감독 공동이행이 확인되지 않았다. 필리핀 아동 온라인 규제의 국내 입법은 별도 성격의 집행 변화로 기록한다."
     }
    ]
-  },
-  {
-   "type": "other",
-   "title": null,
-   "countries": [],
-   "heading": "Compact Chronology | 10월 12일",
-   "paragraphs": [
-    {
-     "label": null,
-     "text": "Indonesia — 대통령 산불 점검회의·불법 랍스터 종자 단속 TF 출범·외교장관 인수인계 Cambodia — 아제르바이잔과 외교·통상·조세 3개 문서 교환"
-    },
-    {
-     "label": null,
-     "text": "Malaysia — ASEAN 연무 협의 제안·13일 학교 휴교 범위 확정 Philippines — 2027년 예산안과 아동 소셜미디어 법안 하원 승인 Singapore — 연무 관련 지정 의료기관 진료비 지원 운영"
-    },
-    {
-     "label": null,
-     "text": "Thailand — 수해 복구 지시·남부 피해 대비 체계 점검·IMF/WB 회의 개막 Vietnam — 국회 상임위 재정심사·국회의장 중국 총리 회담·총리 EU 면담"
-    }
-   ]
   }
  ],
- "chronology": [],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "Indonesia",
+     "text": "대통령 산불 점검회의·불법 랍스터 종자 단속 TF 출범·외교장관 인수인계 Cambodia — 아제르바이잔과 외교·통상·조세 3개 문서 교환",
+     "note": null
+    },
+    {
+     "date": "Malaysia",
+     "text": "ASEAN 연무 협의 제안·13일 학교 휴교 범위 확정 Philippines — 2027년 예산안과 아동 소셜미디어 법안 하원 승인 Singapore — 연무 관련 지정 의료기관 진료비 지원 운영",
+     "note": null
+    },
+    {
+     "date": "Thailand",
+     "text": "수해 복구 지시·남부 피해 대비 체계 점검·IMF/WB 회의 개막 Vietnam — 국회 상임위 재정심사·국회의장 중국 총리 회담·총리 EU 면담",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
  "bottom_line": [
   "13일 이후 확인할 것은 ‘다음 단계의 문서와 집행’이다. 말레이시아가 ASEAN 회의에서 연무 문제의 정식 협의 문안을 만들지, 필리핀의 두 하원 의결이 상원 조정안으로 바뀌는지, 베트남 국회 예산 심사에 실제 수정이 생기는지를 봐야 한다. 태국은 복구 명령 이후 재개통",
   "보상 지표, 싱가포르는 연무 진료 지원의 실제 이용을 확인해야 한다."
@@ -275,7 +290,22 @@
   },
   {
    "id": null,
+   "text": "ANTARA",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "Lao Investment Promotion and Management Committee",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "BERNAMA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Myanmar Now",
    "url": null
   },
   {

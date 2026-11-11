@@ -454,7 +454,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -513,7 +513,22 @@
     },
     {
      "date": "9/22",
-     "text": "필리핀–EU FTA 실질 합의 발표·호주 PROGRESS 사업 출범 9/22 싱가포르 온라인안전위원회 첫 운영수치 공개·첨단 AI 안전 공동성명 참여 9/22 태국 내각, Thai Help Thai Plus 추가사업 안건 처리 9/22 베트남 평화유지군 247명 출발·대미 통상협상 최종단계 접근 확인",
+     "text": "필리핀–EU FTA 실질 합의 발표·호주 PROGRESS 사업 출범",
+     "note": null
+    },
+    {
+     "date": "9/22",
+     "text": "싱가포르 온라인안전위원회 첫 운영수치 공개·첨단 AI 안전 공동성명 참여",
+     "note": null
+    },
+    {
+     "date": "9/22",
+     "text": "태국 내각, Thai Help Thai Plus 추가사업 안건 처리",
+     "note": null
+    },
+    {
+     "date": "9/22",
+     "text": "베트남 평화유지군 247명 출발·대미 통상협상 최종단계 접근 확인",
      "note": null
     },
     {

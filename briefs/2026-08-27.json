@@ -312,6 +312,26 @@
     {
      "label": null,
      "text": "국가/권역"
+    },
+    {
+     "label": null,
+     "text": "CURRENT"
+    },
+    {
+     "label": null,
+     "text": "DRIVERS"
+    },
+    {
+     "label": null,
+     "text": "RISKS"
+    },
+    {
+     "label": null,
+     "text": "NEW SIGNAL"
+    },
+    {
+     "label": null,
+     "text": "WATCH"
     }
    ],
    "table": {

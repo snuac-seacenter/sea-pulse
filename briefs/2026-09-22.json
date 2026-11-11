@@ -379,7 +379,17 @@
  "sources": [
   {
    "id": null,
+   "text": "ANTARA",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "Jakarta Post: 지방재정·교육 중앙집중 논쟁 · Jakarta Post: 재정적자 3% 한도 개정 논의",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Bernama",
    "url": null
   },
   {
@@ -404,12 +414,27 @@
   },
   {
    "id": null,
+   "text": "Singapore NEA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "World Bank",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "태국 노동부 · APEC",
    "url": null
   },
   {
    "id": null,
    "text": "The Investor · World Bank Viet Nam Macro Monitoring · Business Times · 베트남 정부 AI 전략 · CNA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Eleven Myanmar",
    "url": null
   },
   {
@@ -430,6 +455,16 @@
   {
    "id": null,
    "text": "Timor-Leste Government · UN Treaty Collection",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ASEAN Secretariat",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ASEAN Secretariat",
    "url": null
   }
  ]

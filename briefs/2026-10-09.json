@@ -8,6 +8,7 @@
  "observation_cutoff": "2026-10-08 23:59 KST",
  "headline": null,
  "pulse": [
+  "ASEAN",
   "말레이시아·미얀마",
   "인도네시아",
   "에너지 기준",
@@ -276,7 +277,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -344,6 +345,11 @@
  "sources": [
   {
    "id": null,
+   "text": "Channel NewsAsia",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "The Star / Cambodia Ministry of National Defence · Agence Kampuchea Presse",
    "url": null
   },
@@ -359,6 +365,11 @@
   },
   {
    "id": null,
+   "text": "BERNAMA · BERNAMA",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "Channel NewsAsia / Reuters",
    "url": null
   },
@@ -369,7 +380,17 @@
   },
   {
    "id": null,
+   "text": "ASEAN Secretariat",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "Channel NewsAsia · Thai Meteorological Department",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "TATOLI",
    "url": null
   },
   {

@@ -350,7 +350,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -468,6 +468,11 @@
   {
    "id": null,
    "text": "싱가포르 MTI · 싱가포르 EDB · NEA 지역연무",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Thairath",
    "url": null
   },
   {

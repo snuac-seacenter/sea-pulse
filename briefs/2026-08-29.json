@@ -625,7 +625,7 @@
   },
   {
    "type": "other",
-   "title": null,
+   "title": "Tracker",
    "countries": [],
    "paragraphs": [
     {
@@ -690,63 +690,63 @@
    "events": [
     {
      "date": "8/24",
-     "text": "Vietnam 소기업·사업자 30% 소득세 감면 승인",
-     "note": "결의→시행대상 확정"
+     "text": "Vietnam 소기업·사업자 30% 소득세 감면 승인 결의→시행대상 확정",
+     "note": null
     },
     {
      "date": "8/25–26",
-     "text": "Indonesia 산불 42건 법집행·6개 기업 제재",
-     "note": "조사→행정제재"
+     "text": "Indonesia 산불 42건 법집행·6개 기업 제재 조사→행정제재",
+     "note": null
     },
     {
      "date": "8/26",
-     "text": "BOT 기준금리 1.0% 동결",
-     "note": "정책결정"
+     "text": "BOT 기준금리 1.0% 동결 정책결정",
+     "note": null
     },
     {
      "date": "8/27",
-     "text": "ASEAN+3 숙련인정 공동성명",
-     "note": "공동의지→2026–2030 work plan"
+     "text": "ASEAN+3 숙련인정 공동성명 공동의지→2026–2030 work plan",
+     "note": null
     },
     {
      "date": "8/27",
-     "text": "Qualcomm·Samsung 베트남 정상급 면담",
-     "note": "전략의향·누적성과 확인"
+     "text": "Qualcomm·Samsung 베트남 정상급 면담 전략의향·누적성과 확인",
+     "note": null
     },
     {
      "date": "8/27",
-     "text": "Vingroup, VinFast 해외차입 담보·보증 승인",
-     "note": "이사회승인→금융조건 미공개"
+     "text": "Vingroup, VinFast 해외차입 담보·보증 승인 이사회승인→금융조건 미공개",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "Malaysia 상반기 승인투자·이행률 발표",
-     "note": "승인→이행률 공개"
+     "text": "Malaysia 상반기 승인투자·이행률 발표 승인→이행률 공개",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "Saravanan 3개 부패혐의 기소, 무죄 주장",
-     "note": "예정→실제 기소"
+     "text": "Saravanan 3개 부패혐의 기소, 무죄 주장 예정→실제 기소",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "Vietnam SME 발전법 초안 논의",
-     "note": "정책구상→입법심사"
+     "text": "Vietnam SME 발전법 초안 논의 정책구상→입법심사",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "Cambodia online scam crackdown 성과 발표",
-     "note": "단속→정부 성과 주장"
+     "text": "Cambodia online scam crackdown 성과 발표 단속→정부 성과 주장",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "IMF Timor-Leste Article IV mission 종료",
-     "note": "진단→정책권고"
+     "text": "IMF Timor-Leste Article IV mission 종료 진단→정책권고",
+     "note": null
     },
     {
-     "date": "8/29 06:00",
-     "text": "당일 브리프 수집 마감",
-     "note": "후속 집행 검증 시작"
+     "date": "8/29",
+     "text": "06:00 당일 브리프 수집 마감 후속 집행 검증 시작",
+     "note": null
     }
    ],
    "status": null

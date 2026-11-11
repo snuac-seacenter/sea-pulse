@@ -607,12 +607,37 @@
   },
   {
    "id": null,
+   "text": "CNA · AP",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "CNA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Bernama · CNA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Malaysiakini BM",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "FMT · FMT Bahasa · ISEAS Perspective 2026/63",
    "url": null
   },
   {
    "id": null,
    "text": "PNA · Philstar · PCIJ",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "PNA · MindaNews",
    "url": null
   },
   {
@@ -643,6 +668,11 @@
   {
    "id": null,
    "text": "싱가포르 외교부 · CNA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Dialogue Earth",
    "url": null
   },
   {

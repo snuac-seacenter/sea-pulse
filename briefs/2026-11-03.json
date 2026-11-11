@@ -221,7 +221,7 @@
   },
   {
    "type": "deep_dive",
-   "title": "4 단 Deep Dive",
+   "title": "베트남 | 4 단 Deep Dive",
    "countries": [
     "VN"
    ],
@@ -304,7 +304,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -323,37 +323,42 @@
      "text": "싱가포르의 단일 발신번호는 실제 시행된 디지털 신뢰체계다. 베트남은 데이터행정 제재와 외국고용 구인공고 의무의 11월 중순 발효를 앞뒀다. 태국 램차방항 검토 배경에 데이터센터·전자산업 투자 증가가 언급되지만 데이터센터 지원규정의 신설과 혼동하지 않는다. 해저케이블 관련 보도는 조사선의 위치와 항적 분석에 근거한 의혹이며 손상 또는 공격의 확인이 아니다. [S08·S14·S15·S10·S21]"
     }
    ]
-  },
-  {
-   "type": "other",
-   "title": null,
-   "countries": [],
-   "heading": "Compact Chronology",
-   "paragraphs": [
-    {
-     "label": null,
-     "text": "10월 29일 — 라오스 5억 달러 국채 상장 행사. 베트남 세감면 시행령 발효."
-    },
-    {
-     "label": null,
-     "text": "10월 30일 — FATF가 미얀마 고위험국 지위를 유지. 동티모르 ANUNNAI 설명회."
-    },
-    {
-     "label": null,
-     "text": "11월 1일 — 사라왁 DAP 7개 선거구 준비안 발표."
-    },
-    {
-     "label": null,
-     "text": "11월 2일 — 인도네시아 무역통계·용병 모집 수사 발표, 싱가포르 경찰 단일 발신번호 시행, PN 지도부 신임·예산 협약과 거리두기."
-    },
-    {
-     "label": null,
-     "text": "11월 2일 — 말레이시아–중국 농산물 신속통관 협의 공개, 베트남 조세·엘니뇨·보건 후속 안내, 태국 램차방항 4 단계 검토 공개."
-    }
-   ]
   }
  ],
- "chronology": [],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "10월 29일",
+     "text": "라오스 5억 달러 국채 상장 행사. 베트남 세감면 시행령 발효.",
+     "note": null
+    },
+    {
+     "date": "10월 30일",
+     "text": "FATF가 미얀마 고위험국 지위를 유지. 동티모르 ANUNNAI 설명회.",
+     "note": null
+    },
+    {
+     "date": "11월 1일",
+     "text": "사라왁 DAP 7개 선거구 준비안 발표.",
+     "note": null
+    },
+    {
+     "date": "11월 2일",
+     "text": "인도네시아 무역통계·용병 모집 수사 발표, 싱가포르 경찰 단일 발신번호 시행, PN 지도부 신임·예산 협약과 거리두기.",
+     "note": null
+    },
+    {
+     "date": "11월 2일",
+     "text": "말레이시아–중국 농산물 신속통관 협의 공개, 베트남 조세·엘니뇨·보건 후속 안내, 태국 램차방항 4 단계 검토 공개.",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
  "bottom_line": [
   "11월 5일 인도네시아 성장률과 무역 세부지표, 6일 사라왁 선거 일정, 10·14일 멜라카 투표 결과가 곧 나올 확인자료다. 계약이 없는 전력수출·신속통관·항만확장은 타결로 분류하지 않는다. 베트남에서는 11일과 15일 예정된 규정이 실제로 적용되는지를 먼저 확인한다."
  ],
@@ -363,14 +368,44 @@
  "verification_notes": [],
  "sources": [
   {
+   "id": "S02",
+   "text": "ANTARA/BPS",
+   "url": "https://en.antaranews.com/news/439655/non-oil-exports-drive-106b-indonesian-trades-surplus-in-2026"
+  },
+  {
+   "id": "S03",
+   "text": "ANTARA/Polri",
+   "url": "https://www.antaranews.com/berita/5827299/polri-tetapkan-13-tersangka-tppo-modus-jadi-tentara-bayaran-rusia"
+  },
+  {
    "id": "S04",
    "text": "ANTARA/Energy Ministry",
    "url": "https://en.antaranews.com/news/439671/indonesia-open-to-electricity-exports-at-right-price-minister"
   },
   {
+   "id": "S05",
+   "text": "Bernama/KPKM",
+   "url": "https://web26.bernama.com/en/news.php?id=2629036"
+  },
+  {
+   "id": "S06",
+   "text": "Malay Mail/PN",
+   "url": "https://www.malaymail.com/news/malaysia/2026/11/02/takiyuddin-perikatan-not-part-of-bersatu-mps-csa-wont-sign-deal-just-for-allocations/241646"
+  },
+  {
+   "id": "S07",
+   "text": "Bernama/DAP",
+   "url": "https://www.bernama.com/en/news.php?id=2628723"
+  },
+  {
    "id": "S08",
    "text": "Singapore Police Force",
    "url": "https://www.police.gov.sg/Media-Hub/Police-Life/2026/11/Know-Whos-Calling-SPF-Launches-Single-Caller-ID-to-Combat-Scams"
+  },
+  {
+   "id": "S09",
+   "text": "GMA/Makati",
+   "url": "https://www.gmanetwork.com/news/topstories/metro/1007992/makati-lgu-imposes-month-long-drone-ban-for-asean-summit-security/story/"
   },
   {
    "id": "S10",
@@ -388,6 +423,11 @@
    "url": "https://en.baochinhphu.vn/viet-nam-steps-up-preparations-for-el-nino-impacts-111261102110808946.htm"
   },
   {
+   "id": "S13",
+   "text": "VietnamPlus",
+   "url": "https://en.vietnamplus.vn/ho-chi-minh-city-steps-up-hand-foot-and-mouth-disease-prevention-as-cases-exceed-44000-post354647.vnp"
+  },
+  {
    "id": "S14",
    "text": "Vietnam Gov Portal",
    "url": "https://baochinhphu.vn/thu-thap-du-lieu-lam-lo-thong-tin-nhay-cam-co-the-bi-phat-den-60-trieu-dong-102260923101031855.htm"
@@ -403,9 +443,24 @@
    "url": "https://kpl.gov.la/En/detail.aspx?id=111489"
   },
   {
+   "id": "S17",
+   "text": "FATF",
+   "url": "https://www.fatf-gafi.org/en/publications/High-risk-and-other-monitored-jurisdictions/call-for-action-october-2026.html"
+  },
+  {
    "id": "S18",
    "text": "Reuters via Japan Times",
    "url": "https://www.japantimes.co.jp/news/2026/10/31/japan/politics/japan-myanmar-blacklist-removal-push/"
+  },
+  {
+   "id": "S19",
+   "text": "Myanmar MFA",
+   "url": "https://www.mofa.gov.mm/en/the-asean-coordinating-centre-for-humanitarian-assistance-on-disaster-management-aha-centre-provides-humanitarian-assistance-in-kayin-state-and-shan-state/"
+  },
+  {
+   "id": "S20",
+   "text": "Timor-Leste MCAE",
+   "url": "https://mcae.gov.tl/tet/informasaun/timor-leste-to-host-asean-in-2029/"
   },
   {
    "id": "S21",
@@ -416,6 +471,16 @@
    "id": "S22",
    "text": "Taipei Times/Yomiuri",
    "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/02/2003867004"
+  },
+  {
+   "id": "S23",
+   "text": "PSE/Synergy Grid",
+   "url": "https://edge.pse.com.ph/downloadHtml.do?file_id=1984224"
+  },
+  {
+   "id": "S24",
+   "text": "BSP / Parliament",
+   "url": "https://parliament.bangsamoro.gov.ph/2026/10/30/macacua-elected-bangsamoro-chief-minister-rakim-named-speaker-as-first-elected-parliament-takes-office/"
   },
   {
    "id": "S25",

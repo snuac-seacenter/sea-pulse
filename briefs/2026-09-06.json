@@ -217,7 +217,7 @@
   },
   {
    "type": "country",
-   "title": null,
+   "title": "/ Myanmar",
    "countries": [
     "VN"
    ],
@@ -238,7 +238,7 @@
   },
   {
    "type": "country",
-   "title": null,
+   "title": "/ Cambodia",
    "countries": [
     "PH"
    ],
@@ -259,7 +259,7 @@
   },
   {
    "type": "country",
-   "title": null,
+   "title": "/ Haze",
    "countries": [
     "ID"
    ],
@@ -288,11 +288,14 @@
      "label": null,
      "text": "*Edited by Hyung Jong Kim | SEA Pulse*"
     }
+   ],
+   "issue_ids": [
+    "climate-haze"
    ]
   },
   {
    "type": "other",
-   "title": null,
+   "title": "Tracker",
    "countries": [],
    "paragraphs": [
     {
@@ -316,7 +319,9 @@
   "첫 공판, 증거목록, 탄핵일정",
   "↑ exposure controls",
   "3일 API, 기업 처분, 복원비",
+  "NEW",
   "참가부대·장소, 실제 개최",
+  "WATCH",
   "경보·반경 변경, 항공·해운 제한",
   "Angkor Sentinel 2027의 장소·병력·훈련범위",
   "필리핀 2027 국방·경찰 예산의 의회 수정안"

@@ -26,6 +26,10 @@
     },
     {
      "label": null,
+     "text": "TOP STORIES"
+    },
+    {
+     "label": null,
      "text": "태국: 500억바트 태양광 승인"
     },
     {
@@ -442,26 +446,6 @@
    "type": "other",
    "title": null,
    "countries": [],
-   "heading": "05 / Compact Chronology",
-   "paragraphs": [
-    {
-     "label": null,
-     "text": "10월 26일 베트남 전자신원·인증법 국회 심사; 필리핀·싱가포르 전력·핵안전 협력 의향서 10월 27일 태국 500억바트 태양광 사업 승인·신청 개시"
-    },
-    {
-     "label": null,
-     "text": "10월 27일 인도네시아–싱가포르 연무 공동조사·핫라인 합의"
-    },
-    {
-     "label": null,
-     "text": "10월 27일 싱가포르–독일 공동행동계획 갱신; ASEAN 노동통계 협력망 출범 10월 27일 동티모르 Greater Sunrise 지분매매 계약; 베트남 형법 심의·휘발유세 검토 지시 10월 28~29일 예정 필리핀 세부 ADMM·ADMM-Plus, ASEAN 특사 미얀마 방문 11월 6일 예정 사라왁 선관위가 후보등록·투표일을 결정하는 특별회의"
-    }
-   ]
-  },
-  {
-   "type": "other",
-   "title": null,
-   "countries": [],
    "heading": "06 / Bottom Line",
    "paragraphs": [
     {
@@ -475,7 +459,30 @@
    ]
   }
  ],
- "chronology": [],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "10월 26일",
+     "text": "베트남 전자신원·인증법 국회 심사; 필리핀·싱가포르 전력·핵안전 협력 의향서 10월 27일 태국 500억바트 태양광 사업 승인·신청 개시",
+     "note": null
+    },
+    {
+     "date": "10월 27일",
+     "text": "인도네시아–싱가포르 연무 공동조사·핫라인 합의",
+     "note": null
+    },
+    {
+     "date": "10월 27일",
+     "text": "싱가포르–독일 공동행동계획 갱신; ASEAN 노동통계 협력망 출범 10월 27일 동티모르 Greater Sunrise 지분매매 계약; 베트남 형법 심의·휘발유세 검토 지시 10월 28~29일 예정 필리핀 세부 ADMM·ADMM-Plus, ASEAN 특사 미얀마 방문 11월 6일 예정 사라왁 선관위가 후보등록·투표일을 결정하는 특별회의",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
  "bottom_line": [
   "태국은 접수 이후 실제 설비 설치와 예산지급을 확인해야 한다. Greater Sunrise 거래는 승인· 종결과 LNG 개발방식이 남아 있으며, 연무 공동조사는 기업별 자료공유가 첫 실효성 지표다. 베트남의 법안 표결·세율 조정 승인, 말레이시아의 국고 직접입금 규정, ASEAN 노동통계 사무소의 첫 공동자료를 후속 점검한다."
  ],

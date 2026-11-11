@@ -93,7 +93,7 @@
    "paragraphs": [
     {
      "label": null,
-     "text": "선거관리위원회는 9월 14일 첫 의회선거를 앞두고 투표장비 배송과 치안인력 배치를 진행했다. 80 석 가운데 40 석은 정당명부, 32 석은 지역구, 8 석은 부문대표로 구성된다. 투표는 아직 실시되지 않았다."
+     "text": "선거관리위원회는 9월 14일 첫 의회선거를 앞두고 투표장비 배송과 치안인력 배치를 진행했다. 80석 가운데 40석은 정당명부, 32석은 지역구, 8석은 부문대표로 구성된다. 투표는 아직 실시되지 않았다."
     }
    ],
    "next_check": "투표율, 선거관련 폭력 보고, 개표·의석배분 결과와 이의신청."
@@ -487,6 +487,11 @@
  "sources": [
   {
    "id": null,
+   "text": "ANTARA",
+   "url": null
+  },
+  {
+   "id": null,
    "text": "Free Malaysia Today · Malay Mail",
    "url": null
   },
@@ -528,6 +533,16 @@
   {
    "id": null,
    "text": "ISEAS – Yusof Ishak Institute",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KPL",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Pelita Brunei",
    "url": null
   },
   {

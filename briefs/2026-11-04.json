@@ -299,7 +299,7 @@
   },
   {
    "type": "deep_dive",
-   "title": "4 단 Deep Dive",
+   "title": "베트남 | 4 단 Deep Dive",
    "countries": [
     "VN"
    ],
@@ -387,7 +387,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -410,33 +410,37 @@
      "text": "말레이시아 페락주의 AI 데이터센터는 사전검토이고, 느그리슴빌란의 Google 공유 물 시설은 자금 배정과 시공사 선정 단계다. 수백 MW 규모 연산시설의 허용 여부는 전력망 접속 계약, 용수 취수·정수 허가, 공사실적이 결정한다. 베트남의 보안칩 공개는 인증·대량생산 전이며 ASEAN+3의 AI 역량 논의도 아직 공동사업으로 이어지지 않았다. [S05·S13·S20·S24]"
     }
    ]
-  },
-  {
-   "type": "other",
-   "title": null,
-   "countries": [],
-   "heading": "Compact Chronology",
-   "paragraphs": [
-    {
-     "label": null,
-     "text": "10월 30일 — 인도네시아 대법원, Gibran 학력 인정서 사건 상고 인용. 말레이시아 SSER 대출 변경 계약, 라오스–싱가포르 전력 MOU. 태국 접경통로 한시 제한 개시."
-    },
-    {
-     "label": null,
-     "text": "11월 2일 — Google 느그리슴빌란 공동 수처리 투자 공개, Johor–Singapore 특별경제구역 첫 공동장관위원회. 중국–미얀마 일부 통로 제한 완화 보도. 싱가포르 창이공항 취업허가 조사 공개."
-    },
-    {
-     "label": null,
-     "text": "11월 3일 — 인도네시아 불법 감청 혐의 피의자 지정. Sabah 특별교부금 관보·잔액 지급 일정 공개. Melaka PH 공약 발표."
-    },
-    {
-     "label": null,
-     "text": "11월 3일 — 싱가포르 연무센터 비준 예고, 필리핀 재난 수업기준 EO 130, 태국 수입 전기차 세율 결정. 베트남 기술이전 지침 설명·보안칩 공개."
-    }
-   ]
   }
  ],
- "chronology": [],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "10월 30일",
+     "text": "인도네시아 대법원, Gibran 학력 인정서 사건 상고 인용. 말레이시아 SSER 대출 변경 계약, 라오스–싱가포르 전력 MOU. 태국 접경통로 한시 제한 개시.",
+     "note": null
+    },
+    {
+     "date": "11월 2일",
+     "text": "Google 느그리슴빌란 공동 수처리 투자 공개, Johor–Singapore 특별경제구역 첫 공동장관위원회. 중국–미얀마 일부 통로 제한 완화 보도. 싱가포르 창이공항 취업허가 조사 공개.",
+     "note": null
+    },
+    {
+     "date": "11월 3일",
+     "text": "인도네시아 불법 감청 혐의 피의자 지정. Sabah 특별교부금 관보·잔액 지급 일정 공개. Melaka PH 공약 발표.",
+     "note": null
+    },
+    {
+     "date": "11월 3일",
+     "text": "싱가포르 연무센터 비준 예고, 필리핀 재난 수업기준 EO 130, 태국 수입 전기차 세율 결정. 베트남 기술이전 지침 설명·보안칩 공개.",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
  "bottom_line": [
   "다음 확인은 네 갈래다. 인도네시아 감청 사건의 기소장과 학력 인정서 판결문, Sabah 교부금 관보 및 지급내역, 싱가포르 연무협정의 실제 기탁, 태국 수입 EV 세율표다. 말레이시아의 대형 데이터센터와 베트남 보안칩은 전력·물·인증·조달 기록이 확인될 때 평가를 바꾼다."
  ],
@@ -445,6 +449,21 @@
  ],
  "verification_notes": [],
  "sources": [
+  {
+   "id": "S01",
+   "text": "ISEAS Library",
+   "url": null
+  },
+  {
+   "id": "S03",
+   "text": "InfoPublik",
+   "url": null
+  },
+  {
+   "id": "S05",
+   "text": "BernamaBiz",
+   "url": null
+  },
   {
    "id": "S07",
    "text": "Ministry of Manpower Singapore",
@@ -486,13 +505,73 @@
    "url": null
   },
   {
+   "id": "S23",
+   "text": "The Vibes",
+   "url": null
+  },
+  {
+   "id": "S25",
+   "text": "CNA",
+   "url": null
+  },
+  {
    "id": "S27",
    "text": "ANTARA / Supreme Court case rep",
    "url": null
   },
   {
+   "id": "S02",
+   "text": "ANTARA",
+   "url": null
+  },
+  {
+   "id": "S04",
+   "text": "Bernama/MCMC",
+   "url": null
+  },
+  {
    "id": "S06",
    "text": "Ministry of Finance Malaysia",
+   "url": null
+  },
+  {
+   "id": "S08",
+   "text": "CNA",
+   "url": null
+  },
+  {
+   "id": "S10",
+   "text": "Nation Thailand",
+   "url": null
+  },
+  {
+   "id": "S12",
+   "text": "Viet Nam News",
+   "url": null
+  },
+  {
+   "id": "S14",
+   "text": "VietnamPlus",
+   "url": null
+  },
+  {
+   "id": "S16",
+   "text": "Vientiane Times",
+   "url": null
+  },
+  {
+   "id": "S18",
+   "text": "ASEAN Secretariat",
+   "url": null
+  },
+  {
+   "id": "S20",
+   "text": "ASEAN Secretariat",
+   "url": null
+  },
+  {
+   "id": "S22",
+   "text": "Bernama",
    "url": null
   },
   {

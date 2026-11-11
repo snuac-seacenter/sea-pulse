@@ -609,7 +609,7 @@
   },
   {
    "type": "other",
-   "title": null,
+   "title": "Tracker",
    "countries": [],
    "paragraphs": [
     {
@@ -674,48 +674,48 @@
    "events": [
     {
      "date": "8/27",
-     "text": "Indonesia 의회 인근 시위·야간충돌",
-     "note": "불만표출→교통교란·체포"
+     "text": "Indonesia 의회 인근 시위·야간충돌 불만표출→교통교란·체포",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "ASEAN 지속가능 인프라 pipeline 논의",
-     "note": "비전→project preparation·투자자 연결"
+     "text": "ASEAN 지속가능 인프라 pipeline 논의 비전→project preparation·투자자 연결",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "Vietnam 결정 제1671호 승인",
-     "note": "AI 정책구상→국가전략 승인"
+     "text": "Vietnam 결정 제1671호 승인 AI 정책구상→국가전략 승인",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "Singapore 야외근로자 열보호 강화 발표",
-     "note": "권고→12/1 강제의무 예정"
+     "text": "Singapore 야외근로자 열보호 강화 발표 권고→12/1 강제의무 예정",
+     "note": null
     },
     {
      "date": "8/28",
-     "text": "Bangkok Khlong Thom 화재",
-     "note": "재난→건축·배터리 안전점검"
+     "text": "Bangkok Khlong Thom 화재 재난→건축·배터리 안전점검",
+     "note": null
     },
     {
      "date": "8/29",
-     "text": "Sarawak 4개 지점 API 200 초과",
-     "note": "연무→학교·재난 프로토콜 기준 충족"
+     "text": "Sarawak 4개 지점 API 200 초과 연무→학교·재난 프로토콜 기준 충족",
+     "note": null
     },
     {
      "date": "8/29",
-     "text": "Indonesia 교통부 시설 파손 없음 발표",
-     "note": "초기 혼란→물리피해 범위 조정"
+     "text": "Indonesia 교통부 시설 파손 없음 발표 초기 혼란→물리피해 범위 조정",
+     "note": null
     },
     {
      "date": "8/29",
-     "text": "Vietnam AI 전략 세부목표 공개",
-     "note": "승인→KPI·집행아키텍처 공개"
+     "text": "Vietnam AI 전략 세부목표 공개 승인→KPI·집행아키텍처 공개",
+     "note": null
     },
     {
-     "date": "8/30 06:00",
-     "text": "브리프 수집 마감",
-     "note": "시행계획·예산·현장효과 검증 시작"
+     "date": "8/30",
+     "text": "06:00 브리프 수집 마감 시행계획·예산·현장효과 검증 시작",
+     "note": null
     }
    ],
    "status": null

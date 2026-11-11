@@ -183,7 +183,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -290,6 +290,11 @@
   {
    "id": null,
    "text": "베트남 정부포털 · 정부 결의/회의자료",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ASEAN Secretariat",
    "url": null
   }
  ]

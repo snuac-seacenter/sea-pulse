@@ -384,7 +384,7 @@
   },
   {
    "type": "country",
-   "title": null,
+   "title": "Next trigger",
    "countries": [
     "SG"
    ],
@@ -431,7 +431,7 @@
   },
   {
    "type": "country",
-   "title": null,
+   "title": "Next trigger",
    "countries": [
     "TH"
    ],
@@ -472,7 +472,7 @@
   },
   {
    "type": "country",
-   "title": null,
+   "title": "Next trigger",
    "countries": [
     "MM"
    ],
@@ -531,7 +531,7 @@
   },
   {
    "type": "country",
-   "title": null,
+   "title": "Next trigger",
    "countries": [
     "MM"
    ],
@@ -605,7 +605,7 @@
   },
   {
    "type": "other",
-   "title": null,
+   "title": "Fixed Trackers",
    "countries": [],
    "paragraphs": [],
    "table": {
@@ -814,7 +814,7 @@
   },
   {
    "type": "other",
-   "title": null,
+   "title": "Tracker",
    "countries": [],
    "paragraphs": [
     {

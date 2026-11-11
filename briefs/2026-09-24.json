@@ -369,7 +369,7 @@
   },
   {
    "type": "asean",
-   "title": null,
+   "title": "ASEAN / Regional",
    "countries": [],
    "paragraphs": [
     {
@@ -449,6 +449,11 @@
  "watch_next": [],
  "verification_notes": [],
  "sources": [
+  {
+   "id": null,
+   "text": "IMF Article IV",
+   "url": null
+  },
   {
    "id": null,
    "text": "캄보디아 정보부 · 회의 공식 페이지",
