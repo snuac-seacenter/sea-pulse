@@ -1,0 +1,798 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-08-28",
+ "weekday": "금",
+ "title": "동남아 데일리 브리프",
+ "edition": null,
+ "editor": "김형종",
+ "observation_cutoff": "2026-08-28 06:00 KST",
+ "headline": "오늘 동남아의 핵심은 AI· 첨단산업의 성장률 기여가 커지는 동시에, 그 성과가 국내 기업·노동·전력망으로 충분히 확산되지 않는 문제다. 필리핀은 물가를 잡기 위해 기준금리를 5.0%로 올린 날 AMRO로부터 2026년 3.4% 성장 전망을 받았고, 태국은 1.0% 금리를 유지하면서도 AI·기술 수출의 높은 수입투입과 제한된 국내 파급을 공식 확인했다. 베트남은 Qualcomm에 AI·반도체·5G/6G 투자를 요청하고 Viettel은 해외 주파수 권리를 확보했지만, 이는 각각 정책 방향과 진입권 확보 단계이지 신규 공장 가동이나 생산성과는 아니다. 싱가포르·브루나이·ASEAN+3의 인력정책까지 함께 보면 경쟁의 초점은 “AI 투자를 얼마나 유치했는가”에서 전력·기술이전·숙련·국내기업 연결을 얼마나 구현했는가로 이동한다.",
+ "pulse": [],
+ "monitor": [
+  {
+   "issue_id": "malaysia-politics",
+   "issue": "말레이시아 정치지형",
+   "status": null,
+   "status_label": "중요 변화",
+   "level": "red",
+   "stage": null,
+   "delta": "Ismail Sabri 기소 직후 Saravanan의 기소가 예정됐다. 서로 다른 사건이며 유죄판단 전이다. 연정·UMNO·MIC 관계보다 법집행의 일관성과 절차가 우선 관찰점이다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "myanmar-normalisation",
+   "issue": "미얀마 정상화 프로세스",
+   "status": null,
+   "status_label": "변화 있음",
+   "level": "orange",
+   "stage": null,
+   "delta": "말레이시아의 1차 귀환계획은 양자 관리의 진전이지만 Myanmar 정치 정상화나 ASEAN 인정 변화가 아니다. 개별 자발성·안전성 검증이 필요하다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "th-kh-border",
+   "issue": "태국–캄보디아 국경",
+   "status": null,
+   "status_label": "제한적 변화",
+   "level": "orange",
+   "stage": null,
+   "delta": "ASEAN Observer Team이 O’Smach를 방문했다. 신규 충돌은 확인되지 않았고 관찰 결과·접근범위가 핵심이다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "us-trade",
+   "issue": "미국 대ASEAN 통상·환적",
+   "status": null,
+   "status_label": "연속성",
+   "level": "yellow",
+   "stage": null,
+   "delta": "베트남은 기술이전·원산지DB·대외무역 법제를 강화하지만 오늘 새로운 미국 관세조치는 확인되지 않았다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "scs",
+   "issue": "남중국해 COC",
+   "status": null,
+   "status_label": "변화 없음",
+   "level": "yellow",
+   "stage": null,
+   "delta": "ADSOM·ADSOM-Plus가 열렸지만 COC 최종합의나 현장규칙의 새 진전은 없었다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "sara-duterte",
+   "issue": "Sara Duterte 탄핵",
+   "status": null,
+   "status_label": "중요 절차 진행 중",
+   "level": "red",
+   "stage": null,
+   "delta": "9월 2일 금융자료 제출 전이며 오늘 신규 증거판정은 없었다.",
+   "next_trigger": null,
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "regional",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "거시·금융. 필리핀 중앙은행은 기조금리를 25bp 인상해 5.0%로 조정했다. 7월 헤드라인 물가는 6.2%, 근원물가는 4.2%였고, 중앙은행은 2026년 평균 물가를 6.1%로 전망했다. 같은 날 AMRO는 성장률을 2025년 4.4%에서 2026년 3.4%로 낮아질 것으로 보면서 공공투자 재개와 중기 재정건전성의 동시 달성을 주문했다. 반면 태국 중앙은행은 1.0% 금리를 동결했다. 두 나라는 모두 성장의 질과 물가·부채 제약에 직면했지만 필리핀은 긴축, 태국은 완화적 동결이라는 다른 정책조합을 택했다. 산업·재정. 인도네시아 정부는 상반기 성장률 5.45%와 2분기 5.29%를 근거로 경기 부진론을 반박했다. 6월까지 국가 지출은 전년동기 대비 17.8% 늘어난 1,656조 루피아였고, 정부는 지출이 민간소비와 민간투자를 유발해야 8% 성장 목표에 접근할 수 있다고 설명했다. 이는 현재 실적이라기보다 재정투입에서 민간 성장으로의 전환이 아직 정책과제임을 보여준다. 디지털·AI. 베트남은 최고지도자 차원에서 Qualcomm에 AI·반도체·로봇·5G/6G·데이터센터 투자를 요청했고, 싱가포르는 AI 전환기에 일자리 지원을 해고 이후가 아니라 사전훈련·매칭 단계에서 시작하겠다고 밝혔다. 브루나이는 Digital Brunei 2030과 연계해 두 대학의 5G 캠퍼스망을 실증 테스트베드로 활용하려 한다. ASEAN+3 노동장관들은 AI·자동화·녹색전환에 대응하는 숙련 인증의 비교가능성과 상호인정을 추진하기로 했다."
+    },
+    {
+     "label": null,
+     "text": "거버넌스·안보. 말레이시아에서는 전 인적자원부 장관 M. Saravanan이 8월 28일 부패방지법상 기소될 예정이라고 스스로 밝혔다. 실제 혐의와 답변은 법정 절차가 열린 뒤 확인해야 한다. ASEAN 국방고위관리회의는 10월 ADMM·ADMM-Plus 준비와 2023-2026 업무계획 이행을 점검했으나 새로운 공동작전이나 남중국해 COC 합의를 발표한 것은 아니다."
+    },
+    {
+     "label": null,
+     "text": "환경·사회. 말레이시아와 인도네시아는 국경지역 구름씨 살포와 화재진압 공조를 준비하고 있다. 8월 26일 기준 Kalimantan 287개, Sumatra 65개 핫스폿이 관측됐고 말레이시아 여러 지역의 대기질이 ‘unhealthy’였다. 이는 일회성 기상 이슈가 아니라 팜유·산림 허가 집행, 공중보건, 국경 간 재난협력이 교차하는 문제다."
+    }
+   ]
+  },
+  {
+   "type": "special",
+   "title": "AI 붐의 국내 파급효과 시험",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "동남아의 AI 경쟁은 투자유치 1단계를 넘어 가치포획 2단계로 들어가고 있다. 태국 중앙은행은 기술·AI 사이클이 수출과 민간투자를 끌어올렸지만 수입부품 의존이 높아 국내 파급이 제한적이라고 명시했다. 싱가포르는 같은 AI 붐이 전자·금융·전문서비스에는 강한 성장을 주는 반면 내수 서비스와 저숙련 노동에는 다른 결과를 낳을 수 있다고 보고, 훈련을 실제 일자리 배치와 연결하려 한다. 베트남은 Qualcomm에 단순 판매·조립을 넘어 R&D, 기술이전, 대학·기업 연계를 요구한다."
+    },
+    {
+     "label": null,
+     "text": "이 세 사례는 AI 산업정책의 평가표가 달라져야 함을 뜻한다. 발표된 투자액과 데이터센터 용량만으로는 충분하지 않다. 앞으로는 다음 다섯 지표를 함께 봐야 한다."
+    },
+    {
+     "label": null,
+     "text": "1. 국내 부가가치: 수입 GPU·서버·부품을 제외한 현지 조달과 서비스 가치."
+    },
+    {
+     "label": null,
+     "text": "2. 기술이전: 현지 R&D 인력, 공동특허, 설계·소프트웨어 역량, 대학 연계."
+    },
+    {
+     "label": null,
+     "text": "3. 고용 전환: 교육 수료자가 실제 생산성 높은 일자리로 이동하는 비율."
+    },
+    {
+     "label": null,
+     "text": "4. 전력·물 사용: 데이터센터와 첨단제조가 전력망·요금·탄소목표에 미치는 영향."
+    },
+    {
+     "label": null,
+     "text": "5. 시장구조: 국가 지원이 경쟁을 넓히는지, 특정 대기업·국유기업에 집중되는지."
+    },
+    {
+     "label": null,
+     "text": "정책적 함의는 분명하다. AI는 성장률을 높일 수 있지만 자동으로 포용적 생산성 상승을 만들지는 않는다."
+    },
+    {
+     "label": null,
+     "text": "세제혜택·산업단지·컴퓨팅 인프라에 숙련 인증, 중소기업 전환금융, 전력망 투자, 경쟁정책을 결합해야 한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·거버넌스. 전 인적자원부 장관이자 MIC 부총재인 M. Saravanan은 외국인 노동자 고용과 관련한 사건으로 8월 28일 Sessions Court에 출석해 기소될 예정이라고 밝혔다. MACC는 부패방지법 제16조에 따른 기소 승인을 받았다고 보도됐다. 다만 수집 마감 시점에는 법정에서 혐의가 낭독되지 않았고 답변도 제출되지 않았다. 따라서 오늘 단계는 기소 예정/법정 확인 전이며, 유죄나 정치적 동기를 추론하지 않는다."
+    },
+    {
+     "label": null,
+     "text": "경제·혁신. Anwar Ibrahim 총리는 연구성과 상용화와 신기술 학과 신설을 막는 낡은 관료절차를 없애야 한다고 말했다. 정부기관·대학·정부계 투자회사·민간기업의 협업도 요구했다. 이는 제도개혁 방향 발표이지 규정 개정이나 예산 집행은 아니다. 전날의 2분기 6.0% 성장과 7월 교역 급증을 질 높은 일자리·상용화로 전환하는지가 다음 단계다."
+    },
+    {
+     "label": null,
+     "text": "환경·대외협력. 인도네시아와의 구름씨 살포·화재진압 공조는 국경을 넘는 운영협력 단계로 이동했지만, 강우·핫스폿 감소·학교 정상화라는 성과는 아직 확인되지 않았다."
+    }
+   ],
+   "point": "반부패 집행의 확대와 혁신 관료주의 개혁이 동시에 진행된다. 두 흐름 모두 “집행의 비선택성·예측가능성”이 신뢰를 좌우한다.",
+   "next_check": "Saravanan의 실제 혐의·답변·보석조건, 혁신 상용화 관련 구체적 규정·예산, 연무 API와 핫스폿 감소."
+  },
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "거시·재정. 정부는 상반기 5.45% 성장과 2분기 5.29% 성장을 제시하며 내수와 투자 회복을 강조했다. 6월까지 국가 지출은 1,656조 루피아로 17.8% 늘었고 중앙정부 지출은 29.4% 증가했다. 그러나 가계소비가 GDP의 53.32%를 차지하고, 정부도 민간소비·민간투자 유발을 정책목표로 제시했다. 즉 재정 집행은 진행 중이나 8% 성장의 민간 확산은 미달성 목표다. 디지털·산업. 경제조정부는 DEFA가 인도네시아 디지털경제를 6,000억 달러까지 확대할 수 있다고 주장했다. 협상 종료와 전망치는 구분해야 한다. DEFA는 11월 서명과 각국 비준·이행이 남아 있으며, 6,000억 달러는 정책 시나리오이지 실현된 시장규모가 아니다."
+    },
+    {
+     "label": null,
+     "text": "환경·대외경제. 산불 기업제재와 말레이시아 공조가 계속되는 가운데 외환시장은 높은 글로벌 변동성과 경상수지 부담을 반영하고 있다. 일부 보도의 2분기 경상수지 수치는 Bank Indonesia 보도자료의 요약치와 일치 여부가 불분명해 공식 BOP 표재확인이 필요하다. 오늘 브리프는 정확한 적자 비율을 확정하지 않고 경상수지 적자 확대와 1,456억 달러 외환보유액만 사용한다."
+    }
+   ],
+   "point": "높은 정부지출·디지털 통합·환경집행을 동시에 추진하지만, 정책 입력과 민간투자·생산성 출력의 연결이 아직 핵심 시험대다.",
+   "next_check": "소비·민간투자의 하반기 기여, DEFA 서명·국내법 정비, 공식 경상수지 비율, 산불 제재의 허가취소·복구 이행."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "통화·물가. BSP는 25bp 인상으로 목표 RRP 금리를 5.0%로 높였다. 7월 헤드라인 물가가 6.2%로 다소 낮아졌지만 근원물가 4.2%, El Niño 식품가격, 임금조정 위험을 이유로 선제 대응했다. 이는 성장 둔화 속 인플레이션을 잡는 선택이며, 추가 인상은 근원물가와 기대인플레이션에 달렸다."
+    },
+    {
+     "label": null,
+     "text": "성장·재정·인프라. AMRO는 2026년 성장률을 3.4%, 2027년을 4.8%로 전망했다. 수출은 약 10% 증가할 수 있으나 높은 물가, 약한 소비, 부진한 공공투자가 부담이다. 정부 경제팀은 2027 예산 심사에서 조달과 프로젝트 집행을 앞당기되 감사·검증 장치를 완화하지 않겠다고 밝혔다. 발표 단계가 아니라 이미 예산이 배정된 사업의 조달·착공 지연 해소가 쟁점이다."
+    },
+    {
+     "label": null,
+     "text": "디지털·AI. AMRO는 반도체의 고부가가치화와 IT-BPM의 AI 보완형 지식서비스 전환을 권고했다. 이는 외부 정책권고이며 정부의 확정 프로그램과 구분한다. AI 전환이 기존 콜센터 일자리를 대체하는 속도보다 교육·직무전환이 빠른지가 중요하다. 정치·안보. Sara Duterte 탄핵심판은 9월 2일 금융기록 제출을 앞둔 연속선상에 있다. 오늘 신규 증거판단은 확인되지 않았다. BARMM 첫 의회선거를 앞둔 치안 강화는 별도 장기 추적축이다."
+    }
+   ],
+   "point": "필리핀은 금리·재정·산업정책이 동시에 경기와 물가를 조정해야 하는 가장 분명한 ‘정책 충돌’ 사례다.",
+   "next_check": "4분기 물가 정점, 추가 금리경로, 지연 인프라의 실제 계약·착공, IT-BPM 전환 프로그램, 9월 2일 탄핵자료."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "통화·거시. 태국 중앙은행은 만장일치로 정책금리를 1.0%에 동결했다. 기술·AI 사이클이 수출과 투자를 예상보다 끌어올렸으나, 민간소비는 생활비 부담으로 약하고 중소기업 대출은 계속 감소했다. 태국의 문제는 금리가 높아서가 아니라 고령화·가계부채·약한 수요 때문에 낮은 금리의 전달력이 약한 구조다."
+    },
+    {
+     "label": null,
+     "text": "산업·AI. 중앙은행은 AI 관련 수출·투자가 수입투입에 크게 의존하고 국내 파급이 제한적이라고 밝혔다. 이는 데이터센터·전자투자 승인액을 그대로 산업고도화 성과로 계산해서는 안 된다는 공식 경고다. 국내 공급업체, 전력·물 효율, 현지 R&D와 숙련인력 조건을 인센티브에 연결해야 한다."
+    },
+    {
+     "label": null,
+     "text": "안보·평화과정. 남부 4개 주의 동시다발 공격 이후 보안강화와 9월 평화대화 준비가 병행되고 있다. 오늘 새로운 책임주체 확인이나 대화 취소는 없었다. 캄보디아 국경에서는 ASEAN Observer Team의 O’Smach 현장 방문이 있었으나 신규 무력충돌은 확인되지 않았다."
+    }
+   ],
+   "point": "태국은 AI 수출 호조와 저성장·중소기업 신용위축이 공존한다. 산업정책의 성패는 대기업·외자 프로젝트가 국내 생산성으로 내려오는지에 달렸다.",
+   "next_check": "SME 대출·부실률, AI·전자 투자 현지조달, 9월 남부 평화대화, 캄보디아 국경 관찰보고."
+  },
+  {
+   "type": "country",
+   "title": "① 발전전략·정책",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "To Lam 당 총서기 겸 국가주석은 Qualcomm CEO 접견에서 베트남이 자립적·지속가능·국제통합형 성장모델로 전환하고 있으며 과학기술·혁신·디지털전환·AI를 핵심동력으로 둔다고 밝혔다. AI, 반도체, 로봇, 5G/6G, 데이터센터 투자를 늘리고 기술이전·대학·연구기관·국내기업 협력을 확대해 달라고 요청했다. 현재 단계는 최고지도자 방향 제시와 기업 협력 요청이다. 신규 투자액, 공장 승인, 착공, 가동은 발표되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "국회 상임위원회는 상법·경쟁법·대외무역관리법·소비자보호법의 묶음 개정안을 심의했다. 디지털 플랫폼 판촉, 관련시장·시장지배력, 원산지 증명 권한과 데이터베이스를 명확히 하려는 내용이다. 이것도 법안 심의 단계이며 통과·시행으로 표현하지 않는다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "② 추진현황·산업·거시지표",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "연속성 지표로 상반기 GDP 8.18%, 총투자 12.9% 증가가 확인돼 있다. 투자 구성은 비국가 부문 53.8%, 국가 28.1%, FDI 18.1%였다. 다만 높은 비국가 투자비중이 곧 독립적 시장자율성을 뜻하지는 않는다. 토지·신용·조달·인프라·규제 방향을 당-국가가 정하고 그 틀 안에서 민간과 FDI를 선별적으로 동원하는 이중구조가 유지된다."
+    },
+    {
+     "label": null,
+     "text": "Qualcomm의 기존 하노이 R&D센터와 Viettel·VinSmart 협력은 정책방향을 뒷받침하는 기반이지만, 오늘 발표는 추가 설비나 고용 수치로 검증되지 않았다. 전략의 다음 단계는 투자승인, 연구인력 채용, 공동개발, 국내 공급망 계약이다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "③ 기업 사례",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Viettel — 국유·군 소유 기업 사례. Viettel은 Dominica에서 3개 주파수 대역 사용권 경매에 성공해 11번째 해외 통신시장 진입권을 확보했다. 2025년 해외매출은 33.4억 달러, 2026년 상반기 누적 해외사업 매출은 10억 달러를 넘었다고 정부 포털이 보도했다. 그러나 현재 단계는 주파수 권리 확보 → 망 구축 예정이며 서비스 가동·가입자·현지고용 성과는 아직 없다. Viettel은 민간기업이 아니라 군 소유 국유기업이므로, 이 사례는 국가전략을 구현하는 ‘national champion’의 실행력과 국가자원의 결합을 보여준다."
+    },
+    {
+     "label": null,
+     "text": "민간기업 점검. Vingroup/VinFast, FPT, THACO, Masan, Hoa Phat, Sovico/Vietjet, Techcombank를 별도 검색했으나 수집 마감 기준 신뢰도 높은 당일 실행 업데이트는 확인하지 못했다. Techcombank 외국계 전략투자 협상과 FPT의 기존 AI 파트너십은 진행 가능성이 있으나, 계약 완료나 신규 생산성과로 본문에 승격하지 않았다. vietnam_private_sector_cases_used=[]로 기록한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "④ 정치·거버넌스·권위주의화 신호",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "당일 신규 체포·재판·검열명령·조직개편은 확인되지 않았다. 따라서 오늘 코드는 연속성 (continuity)이다. 8월 초 공안부가 제안한 형법 개정안은 당을 반대하는 표현까지 제117조 범위에 명시하고 제331조 형량을 높이며, 공무수행 중 경찰의 형사책임 면제와 검찰의 경찰비위 수사기능 폐지를 제안한 것으로 인권단체가 지적했다. 다만 이는 제안·국회 검토 단계 이며 채택 여부를 확인하지 못했다."
+    },
+    {
+     "label": null,
+     "text": "경제와 정치의 상호작용은 두 방향이다. 통합 데이터베이스·원산지 검증·디지털 신원·AI 기반 행정은 생산성과 무역 신뢰성을"
+    },
+    {
+     "label": null,
+     "text": "높일 수 있지만 동시에 공안·플랫폼 통제의 기술적 역량을 확장할 수 있다. 반부패와 법 통일은 투자환경을 정비할 수 있지만"
+    },
+    {
+     "label": null,
+     "text": "과도한 형사책임과 불명확한 규정은 공무원·기업인의 위험회피를 키울 수 있다. 오늘 근거는 구조적 가능성을 보여주지만"
+    },
+    {
+     "label": null,
+     "text": "새로운 권위주의화 결론을 내릴 정도의 당일 변화는 아니다."
+    },
+    {
+     "label": null,
+     "text": "베트남 포인트: “고성장·고도화·민간 확대”는 시장자유화와 동의어가 아니다. 당-국가가 전략산업과 자원을 지시하고 국유 national champion과 선별적 민간기업·FDI를 결합하는 관리된 산업고도화가 더 정확한 관찰이다."
+    }
+   ],
+   "next_check": "Qualcomm의 투자액·R&D 고용·기술이전 계약, Viettel Dominica 망 착공·가동, 개정 경제법 통과 여부, 민간기업의 공급망 계약과 재무위험, 형법·수사기관법 개정의 최종 문안."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "경제·고용. Gan Kim Yong 부총리는 좋은 일자리를 경제전략의 사후 결과가 아니라 설계의 핵심으로 두겠다고 밝혔다. AI·자동화가 같은 성장률에서 예전만큼 많은 일자리를 만들지 않을 수 있으므로, 훈련·상담·매칭·배치를 실제 고용과 연결하고 충격 전에 지원을 시작하겠다는 방향이다."
+    },
+    {
+     "label": null,
+     "text": "산업전략. 싱가포르는 단순히 개방된 허브가 아니라 공급망 의사결정·금융·거버넌스가 이뤄지는 ‘대체하기 어려운’ 거점이 되려한다. 이는 AI·첨단제조 투자 유치와 노동전환을 묶는 전략이다. 다만 구체적 신규 예산이나 프로그램 수혜자 수는 아직 제시되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "분배. AI 관련 전자·정밀공학·금융은 강한 반면 F&B·건설 등 내수부문은 비용과 수요압박을 받는다. 성장률 4.5~5.5% 전망만으로 체감경기를 설명하기 어려우며, 산업 간 생산성·임금 격차가 장기 불평등으로 이어지는지 추적해야 한다."
+    }
+   ],
+   "point": "싱가포르의 다음 과제는 AI 성장의 속도보다 사전 직무전환과 산업 간 이동성을 제도화하는 것이다.",
+   "next_check": "2027 예산의 훈련-배치 연계, 저생산성 서비스 자동화 지원, AI 투자와 순고용·임금의 관계."
+  },
+  {
+   "type": "other",
+   "title": "5개국 빠른 체크",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가",
+     "오늘의 포인트",
+     "단계·판정",
+     "다음에 볼 것"
+    ],
+    "rows": [
+     [
+      "󰐅 미얀마",
+      "말레이시아가 9월 1차로 미얀마인 1,476명의 ‘자발적 귀환’을 추진. 총 5,000명 프로그램의 시작",
+      "시행 예정. 개별 자발성·난민지위 심사·비송환 원칙 검증 필요",
+      "UNHCR 접근, 대상자 동의, 소수민족·정치위험 심사"
+     ],
+     [
+      "󰏩 캄보디아",
+      "CDC가 농식품 산업단지 투자 프레임을 투자자·개발파트너에게 제시. 디지털무역 포럼은 9월 11~13일 예정",
+      "프레임 제시·행사 예정, 프로젝트 승인 아님",
+      "토지·전력·물류 조건, 입주기업, 태국 국경 AOT 보고"
+     ],
+     [
+      "󰏲 라오스",
+      "9월 계획에 홍수복구, VAT 기반 확대, 세입DB 연계, 국내생산·수입대체, 원격지 통신망·G-Chat 확대 포함",
+      "내각 채택·집행 지시",
+      "세입실적, 재정·부채, 망 구축, 사이버범죄법 문안"
+     ],
+     [
+      "󰎗 브루나이",
+      "BICTA 328건 출품(+약 70%). 두 대학 5G 캠퍼스망을 자율주행·공공안전 실증 테스트베드로 추진",
+      "인프라 구축·실증 준비",
+      "상용화, 현지기업 계약, R&D 인력·수출"
+     ],
+     [
+      "󰑉 동티모르",
+      "공개소스 전수검색에서 당일 선정기준을 넘는 신규 변화 미확인",
+      "no material update",
+      "발전연료 입찰, 디지털범죄 대응센터, ASEAN 법적 의무 이행"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "macro",
+   "title": "핵심 거시경제·산업 비교",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가/권역",
+     "CURRENT DIRECTION",
+     "DRIVERS",
+     "RISKS",
+     "NEW SIGNAL",
+     "WATCH"
+    ],
+    "rows": [
+     [
+      "필리핀",
+      "긴축 + 저성장 대응",
+      "수출·송금, 공공투자 재개",
+      "물가·금리·집행지연",
+      "BSP 5.0%, AMRO 3.4% 성장",
+      "근원물가, 인프라 착공"
+     ],
+     [
+      "태국",
+      "완화적 금리 유지, 불균등 회복",
+      "AI·기술 수출·투자",
+      "가계부채, SME 신용, 낮은 파급",
+      "BOT 1.0% 동결",
+      "국내조달·SME 대출"
+     ],
+     [
+      "인도네시아",
+      "재정확대에서 민간성장 유도",
+      "소비·투자·정부지출",
+      "환율·경상수지·산불",
+      "H1 5.45%, 지출 +17.8%",
+      "민간투자 기여, 재정효율"
+     ],
+     [
+      "말레이시아",
+      "고성장 + 혁신 상용화 개혁",
+      "E&E·교역·투자",
+      "연무·선택적 집행·기술인력",
+      "관료장벽 제거 지시",
+      "규정개정·상용화 성과"
+     ],
+     [
+      "베트남",
+      "관리된 첨단산업 고도화",
+      "FDI, 국유 national champion, 민간투자",
+      "기술의존·전력·통제확대",
+      "Qualcomm 협력요청, Viettel 해외권리",
+      "투자·착공·R&D·법제화"
+     ],
+     [
+      "싱가포르",
+      "AI 성장과 사전 노동전환 결합",
+      "전자·금융·신뢰 허브",
+      "이중경제·저숙련 이동성",
+      "jobs-first 전략",
+      "훈련→배치·임금"
+     ],
+     [
+      "ASEAN",
+      "숙련·디지털 규칙의 상호운용성 확대",
+      "ALMM+3, DEFA, 노동이동",
+      "국가별 격차·비준·인정한계",
+      "숙련인증 상호인정 강화",
+      "이행지표·고용주 수용"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "theme",
+   "title": "정치·안보·대외관계·사회 종합",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "DIRECTION → 정치·안보는 대형 충돌보다 법집행·국경관찰·난민관리·기능협력의 절차가 움직였다. DRIVERS → 말레이시아 반부패 수사, Thailand-Cambodia AOT, ASEAN 국방고위관리회의, 미얀마인 귀환, 연무 공조. RISKS → 선택적 기소, 비송환 원칙 침해, 감시형 디지털화, 국경관찰의 제한된 권한, 기후충격. NEW SIGNAL → 노동·AI·무역정책이 산업정책의 부속이 아니라 정치적 정당성과 사회안정의 핵심 수단으로 이동한다. WATCH → 발표된 절차가 법원 기록, 실제 귀환 동의, 국경 보고서, 숙련인증 상호인정으로 전환되는지 확인한다."
+    }
+   ]
+  },
+  {
+   "type": "theme",
+   "title": "디지털·AI 주요동향",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "구분",
+     "당일 material update",
+     "분석"
+    ],
+    "rows": [
+     [
+      "AI·반도체 산업정책",
+      "베트남 지도부가 Qualcomm에 AI·반도체·5G/6G·R&D 확대 요청",
+      "투자요청 단계. 기술이전·국내기업 연계 조건이 핵심"
+     ],
+     [
+      "AI와 거시경제",
+      "태국 BOT가 AI 사이클의 수출·투자 기여와 낮은 국내 파급을 동시에 확인",
+      "성장률보다 국내 부가가치·SME 연결을 측정해야 함"
+     ],
+     [
+      "AI와 노동",
+      "싱가포르가 사전훈련·매칭·배치 중심 jobs-first 전략 제시",
+      "대체 이후 보상보다 전환 전 개입으로 이동"
+     ],
+     [
+      "디지털 인프라",
+      "브루나이 5G 캠퍼스망을 실증 테스트베드로 추진",
+      "proof-of-concept에서 상용계약으로 이어지는지 관찰"
+     ],
+     [
+      "지역 규칙·숙련",
+      "ALMM+3가 AI·자동화 대응 숙련 인증 비교·상호인정 추진",
+      "DEFA의 규칙통합을 인적자본 이동이 보완"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "디지털·AI 주요동향",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "DIGITAL/AI 판정: 오늘은 material update가 충분해 주요 이슈로 승격했다. 단순 제품 출시나 기업 PR은 제외했고, 정책·통화당국 판단·인프라·숙련·법제에 연결된 항목만 사용했다."
+    }
+   ],
+   "table": {
+    "title": null,
+    "columns": [
+     "구분",
+     "당일 material update",
+     "분석"
+    ],
+    "rows": [
+     [
+      "디지털 거버넌스",
+      "베트남 경쟁·소비자·대외무역 법안이 플랫폼·원산지DB 규정 보완",
+      "효율·신뢰 향상과 데이터 통제 확대가 병존 가능"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN 개요 / 대외관계",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "14차 ASEAN+3 노동장관회의는 ‘글로벌 인정으로 이어지는 숙련 인증’을 주제로 자격의 비교가능성, 품질보증, 평생학습, AI·자동화·녹색·돌봄경제 대응을 2026-2030 업무계획에 연결했다. 선언문의 의미는 새 초국가 자격제도가 즉시 생겼다는 데 있지 않다. 각국 자격체계와 고용주가 실제로 타국 인증을 인정하도록 상호운용 규칙과 품질보증을 구축하기로 한 것이다. Fulcrum의 당일 분석은 고숙련 인력 이동에서 통일된 제도보다 국가별 제도 간 조화와 깊이가 필요하다고 지적한다. 원기사를 역추적해 보면 정책 진전의 측정단위는 회의 횟수가 아니라 ① 상호인정 직종, ② 자격 검증시간, ③ 비자·취업허가 연계, ④"
+    },
+    {
+     "label": null,
+     "text": "고용주 수용률, ⑤ 중소국 참여역량이다."
+    },
+    {
+     "label": null,
+     "text": "ASEAN 국방고위관리회의는 ADMM 업무계획과 10월 회의 준비를 점검했다. 이는 제도적 연속성 신호지만 남중국해 COC, Myanmar 5PC, Thailand-Cambodia 국경에서 새로운 구속력 있는 합의를 만들지는 않았다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "오늘의 연구·정책 분석",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "Core signal: 국내 파급효과를 조건으로 한 산업정책",
+     "text": "오늘의 비교연구 신호는 “투자유치 이후의 조건부 가치포획”이다. AI·반도체·디지털 인프라가 성장률과 수출을 끌어올리더라도, 수입투입·외국기술·대기업 집중이 크면 국내 생산성·임금·중소기업 효과는 제한된다. 태국 중앙은행의 진단은 이 문제를 명시적으로 보여주고, 베트남의 Qualcomm 기술이전 요구와 싱가포르의 사전 노동전환은 서로 다른 대응이다."
+    },
+    {
+     "label": null,
+     "text": "베트남의 장기 질문에도 직접 연결된다. 고성장·산업고도화·민간부문 확대를 추구하면서 정치적 다원성을 제한하는 발전국가 모델은 국가가 기술·금융·데이터·대기업을 조직하는 능력으로 성과를 낼 수 있다. 동시에 그 조직능력이 경쟁을 제한하고 감시·규율을 강화할 가능성이 있다. 따라서 경제성과와 정치통제를 한 축의 양끝으로 보지 말고, 동일한 국가역량이 생산성과"
+    },
+    {
+     "label": null,
+     "text": "통제에 어떻게 이중 사용되는지를 추적해야 한다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "누적 연구 질문",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "AI·첨단산업 투자가 동남아에서 국내 부가가치와 노동이동으로 확산되려면 어떤 조달·금융·숙련·경쟁 조건이 필요한가? 베트남에서는 당-국가의 전략적 조정이 이 확산을 촉진하는 동시에 독립적 경제·시민 공간을 제한하는가?"
+    },
+    {
+     "label": "Watch variables",
+     "text": "1. 투자발표 대비 승인·착공·가동·생산·수출 전환율"
+    },
+    {
+     "label": null,
+     "text": "2. 수입 중간재를 제외한 국내 부가가치와 현지조달률"
+    },
+    {
+     "label": null,
+     "text": "3. R&D 인력·공동특허·대학-기업 계약"
+    },
+    {
+     "label": null,
+     "text": "4. AI 훈련 수료자의 실제 취업·임금·직무이동"
+    },
+    {
+     "label": null,
+     "text": "5. 전력·물 사용과 데이터센터의 시스템 비용"
+    },
+    {
+     "label": null,
+     "text": "6. 국유·민간 national champion에 대한 토지·신용·조달 지원"
+    },
+    {
+     "label": null,
+     "text": "7. 디지털 행정·신원·데이터 인프라의 생산성·감시 이중효과"
+    },
+    {
+     "label": null,
+     "text": "8. 표현·결사 관련 형법·플랫폼 규제의 제안→채택→집행 단계"
+    }
+   ]
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "8/26",
+     "text": "태국 BOT 1.0% 동결 → AI 수출 호조·국내 파급 제한 공식 진단 8/27 필리핀 BSP 5.0% 인상 + AMRO 2026 성장 3.4% → 물가·성장 정책충돌 심화 8/27 베트남 Qualcomm 접견 → AI·반도체 투자·기술이전 요청 → 승인·착공·R&D 고용 확인 필요 8/27 Viettel Dominica 주파수권 확보 → 망 구축 예정 → 가동·가입자·현지고용 미확인 8/27 ALMM+3 숙련인증 합의 + 싱가포르 jobs-first + 브루나이 5G 실증 → AI 경쟁의 초점이 인프라에서 역량·확산으로 이동",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
+ "bottom_line": [],
+ "watch_next": [
+  "말레이시아: Saravanan의 법정 기소내용·답변·보석조건, 혁신 상용화 규정 개정, 연무 개선.",
+  "인도네시아: 민간소비·투자의 하반기 기여, DEFA 서명준비, 경상수지 공식 비율, 산불 허가제재.",
+  "필리핀: 추가 금리경로, 4분기 식품물가, 공공인프라 조달·착공, IT-BPM AI 전환.",
+  "태국: SME 신용과 AI 투자 현지조달, 남부 평화대화, Cambodia 국경 AOT 보고.",
+  "베트남: Qualcomm 후속 투자·기술이전, Viettel Dominica 망 구축, 경제법·형법 개정의 최종 단계, 민간기업 계약.",
+  "싱가포르: jobs-first 정책의 예산·대상·배치성과, 산업 간 임금·생산성 격차.",
+  "ASEAN: 숙련인증 상호인정 직종과 DEFA 11월 서명·비준 로드맵.",
+  "미얀마/말레이시아: 1,476명 귀환의 개별 동의·난민지위·안전보장."
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "Bernama — Old bureaucratic practices hindering innovation must end, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Malay Mail — Saravanan says he is the ex-minister being charged, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ANTARA — Indonesia H1 growth 5.45%, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ANTARA — State spending and private growth, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "RRI — Indonesia digital-economy target through DEFA, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency — BSP raises policy rate to 5%, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "AMRO — Philippines consultation assessment, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency — Faster procurement and project implementation, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Bank of Thailand — Monetary Policy Committee Decision 4/2026, 2026-08-26.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Tuoi Tre — Vietnam welcomes Qualcomm long-term operations, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Vietnam Government Portal — Viettel overseas expansion and Dominica spectrum, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Nhan Dan — Draft amendments on commerce, competition and foreign trade, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Vietnam NSO — H1 2026 socio-economic performance, 2026-06.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Human Rights Watch — Proposed penal-code revisions, 2026-08-10.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "CNA — Singapore jobs at the centre of AI economic strategy, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "PMO Singapore — Gan Kim Yong speech, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ASEAN — 14th ALMM+3 Joint Statement, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Fulcrum — Fostering Talent Fleet of Foot, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ASEAN — ADSOM and ADSOM-Plus, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Brunei MTIC — BICTA 2026 and 5G campus networks, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "The Star/Vientiane Times — Lao September action plans, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Agence Kampuchea Presse — Cambodia daily official updates, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "AP — Malaysia voluntary repatriation programme for Myanmar nationals, 2026-08-27.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "CNA — Malaysia–Indonesia haze mitigation, 2026-08-26.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ASEAN Digital Outlook 2026, 2026-07.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ERIA — AI governance and sovereignty at ASEAN Law Forum, checked 2026-08-28.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Lowy Institute — The Quad needs ASEAN more than ASEAN needs the Quad, checked 2026-08-28.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "RSIS — August 2026 NTS Bulletin, checked 2026-08-28.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "CSIS — China’s strategic ratcheting of the Philippines, checked 2026-08-28.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "East Asia Forum, checked; body access blocked, no substantive use.",
+   "url": null
+  }
+ ]
+}

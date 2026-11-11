@@ -1,0 +1,555 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-09-11",
+ "weekday": "금",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse Daily",
+ "editor": "김형종",
+ "observation_cutoff": "2026-09-10 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "필리핀에서는 하루 사이 사법·해양안보·여객선 안전이 각각 다른 방향으로 움직였다. 대법원은 이멜다 마르코스의 부패 혐의 7건에 무죄를 선고했고, 해경은 중국군이 비무장 감시기에 조명탄을 발사했다고 공개했다. 팔라완 앞바다 여객선 화재는 마감 기준 사망 5명·실종 86명으로 집계됐다. 수색 재개 뒤 숫자는 달라질 수 있다. 캄보디아 푸난 테초 수로는 착공행사 이후 금융계약 단계로 넘어갔다. 약 10억 달러 대출의 만기·보증·인출 조건은 공개되지 않았다. 미얀마 만마우 주석광산에서는 위성영상과 중국 수입통계가 부분 재가동을 가리켰다. 생산은 아직 2023년 중단 이전 수준에 못 미친다.",
+  "디지털 규제는 문서상 진전이 뚜렷했다. 말레이시아는 AI 거버넌스 법안 초안을 끝냈고, 베트남은 주파수·통신·전자거래·기술이전 관련 개정법을 공포했다. 한쪽은 내각·의회 심사를 앞둔 초안이고 다른 쪽은 공포 뒤 시행규칙을 기다리는 법률이다."
+ ],
+ "monitor": [
+  {
+   "issue_id": "scs",
+   "issue": "South China Sea",
+   "status": null,
+   "status_label": "↑",
+   "level": null,
+   "stage": null,
+   "delta": null,
+   "next_trigger": "중국 답변·외교공한",
+   "period": null
+  },
+  {
+   "issue_id": "myanmar-normalisation",
+   "issue": "Myanmar / 5PC",
+   "status": null,
+   "status_label": "→",
+   "level": null,
+   "stage": null,
+   "delta": null,
+   "next_trigger": "ASEAN 공식문서",
+   "period": null
+  },
+  {
+   "issue_id": "th-kh-border",
+   "issue": "Thailand–Cambodia",
+   "status": null,
+   "status_label": "↑",
+   "level": null,
+   "stage": null,
+   "delta": null,
+   "next_trigger": "9/14–16 절차규칙",
+   "period": null
+  },
+  {
+   "issue_id": "climate-haze",
+   "issue": "ASEAN haze",
+   "status": null,
+   "status_label": "→",
+   "level": null,
+   "stage": null,
+   "delta": null,
+   "next_trigger": "공동 단속·배출자료",
+   "period": null
+  },
+  {
+   "issue_id": null,
+   "issue": "AI governance",
+   "status": null,
+   "status_label": "↑",
+   "level": null,
+   "stage": null,
+   "delta": null,
+   "next_trigger": "내각·법안 원문",
+   "period": null
+  },
+  {
+   "issue_id": null,
+   "issue": "Critical minerals",
+   "status": null,
+   "status_label": "NEW",
+   "level": null,
+   "stage": null,
+   "delta": null,
+   "next_trigger": "중국 월별 수입량",
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "2억 명 계좌 개설 구상에 11조 루피아가 거론됐다"
+    },
+    {
+     "label": null,
+     "text": "정부는 1인당 5만 루피아의 초기 잔액을 넣는 방식으로 2억 명 이상에게 계좌를 제공하는 방안을 준비하고 있다. ANTARA가 전한 재원 추계는 약 11조 루피아다. 어느 회계연도에 반영할지, 수혜대상을 어떻게 가를지는 아직 결정되지 않았다."
+    }
+   ],
+   "point": "2026년 금융포용률은 이미 93.61%다. 새 계좌의 수보다 휴면계좌 방지, 기존 계좌와의 중복 제거, 복지지급에 실제로 쓰이는 비율이 성패를 가른다. 같은 기사에 실린 금융문해율 63.57%는 OJK·BPS 공식 수치 69.57%와 달라 공식값을 사용했다.",
+   "next_check": "예산안 반영 연도, 대상자 선정 기준, 첫 지급 또는 월간 활성계좌 수."
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": "AI",
+     "text": "거버넌스 법안 초안이 완성돼 내각 제출을 앞뒀다"
+    },
+    {
+     "label": null,
+     "text": "디지털부는 7월 의견수렴을 거쳐 초안을 마쳤고, 올해 4분기 또는 늦어도 2027년 1분기 의회 제출을 목표로 한다. AI Malaysia와 표준센터가 집행조직·기술기준을 병행 설계하고 있다."
+    }
+   ],
+   "point": "초안 완료는 법 채택이 아니다. 다만 법률·규정·산업표준을 따로 설계하고 집행기관을 법 시행 전에 세우려는 순서가 분명해졌다.",
+   "next_check": "내각 의결, 법안 원문, 감독기관의 조사·제재 권한과 의회 상정일."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "여객선 화재 수색은 밤사이 중단됐고 86명이 실종 상태였다"
+    },
+    {
+     "label": null,
+     "text": "9월 10일 밤 기준 MV June Aster 탑승자는 134명, 구조 43명, 사망 5명, 실종 86명으로 집계됐다. 기상과 시야 악화로 수색이 중단돼 11일 아침 재개될 예정이다. 화재 원인은 확인되지 않았다. 해경은 전국 여객선의 출항 전점검을 강화하라고 지시했다."
+    },
+    {
+     "label": null,
+     "text": "대법원이 이멜다 마르코스의 부패 혐의 7건에 무죄를 선고했다"
+    },
+    {
+     "label": null,
+     "text": "대법원 제1부는 2018년 산디간바얀 유죄판결을 뒤집었다. 보도와 공식 사건색인에 따르면 스위스 관련 문서의 인증·증거능력과 합리적 의심 없는 입증 실패가 판단의 중심이었다."
+    },
+    {
+     "label": "포인트",
+     "text": "정치적 사면이나 형 집행 변경이 아니라 상급심의 무죄판결이다. 장기 해외자산 사건에서 증거 연계와 문서 인증이 얼마나 취약점이 되는지 판결문 전체를 통해 확인할 필요가 있다."
+    },
+    {
+     "label": "다음 확인",
+     "text": "50쪽 판결문의 증거법 논리, 검찰 대응, 별도 몰수·민사절차의 영향."
+    },
+    {
+     "label": null,
+     "text": "중국군이 해경 항공기를 향해 조명탄을 발사했다고 필리핀 해경이 밝혔다"
+    },
+    {
+     "label": null,
+     "text": "PCG에 따르면 9월 7일 비무장 감시기가 수비·미스치프 암초 인근을 비행할 때 두 곳에서 조명탄이 발사됐다. 항공기는 임무를 마쳤고 인명피해는 보고되지 않았다. 마감 전 중국 측 공식 반응은 찾지 못했다."
+    },
+    {
+     "label": "포인트",
+     "text": "2025년 유사 사건의 반복 보도가 아니라 9월 7일 새 사건에 대한 10일 공식 공개다. 충돌 수위보다 민간항공 안전의 ‘상당한 주의’ 의무를 둘러싼 외교·운항 절차가 뒤따르는지 본다."
+    },
+    {
+     "label": "다음 확인",
+     "text": "중국 국방부·외교부 답변, 필리핀 외교공한, 향후 비행 경로·호위 방식."
+    }
+   ],
+   "point": "사상자 수는 수색 재개 뒤 크게 바뀔 수 있다. 3월 안전검사를 통과한 선박에서 사고가 났다는 사실은 검사 통과 여부와 실제 운항안전 사이의 간극을 조사하게 만든다.",
+   "next_check": "해경의 갱신 인명집계, 선체 진입 결과, 화재원인·화물목록, 3월 검사기록과 선사 책임."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "공항철도 4개월 연장운영은 조건부 제안 단계에 머물렀다"
+    },
+    {
+     "label": null,
+     "text": "민간 운영사 Asia Era One은 10월 1일부터 2027년 1월 31일까지 운행을 이어가는 대신 월 6천만 바트의 관리비와 상호 소송 시 중단권을 요구했다. SRT 이사회가 조건을 검토할 예정이지만 마감 전 최종 승인 자료는 확인되지 않았다."
+    }
+   ],
+   "point": "승객 서비스 유지와 3공항 고속철 계약분쟁이 한 문서에 묶이는 것을 정부가 막을 수 있는지가 쟁점이다. 최종 합의가 없으면 SRT 자회사가 넘겨받는 비상안이 작동해야 한다.",
+   "next_check": "SRT 이사회 의결문, 2억4천만 바트 재원, 차량정비 완료와 10월 1일 운영주체."
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "기술·통신 관련 4개 법률 개정안이 공포됐다"
+    },
+    {
+     "label": null,
+     "text": "8월 24일 국회를 통과한 법률 20/2026/QH16이 9월 10일 공포됐다. 주파수 허가조건 41개 중 33개를 줄이고, 전자거래 신뢰서비스의 변경·갱신 절차를 폐지하며, 일부 기술이전 권한을 과학기술부와 지방정부에 넘기는 내용이다."
+    }
+   ],
+   "point": "규제완화의 방식이 사전허가 축소와 데이터 기반 사후점검으로 이동했다. 비용·처리기간 감소치는 정부 추계이며 실제 기업 체감은 시행령과 행정자료로 확인해야 한다.",
+   "next_check": "시행일, 하위법령, 허가 처리기간·반려율, 지방정부로 이관된 업무의 첫 사례."
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "만마우 주석광산이 느린 속도로 재가동 중이라는 분석이 나왔다"
+    },
+    {
+     "label": null,
+     "text": "국제위기그룹 분석을 인용한 AFP 보도는 광석 이동, 야간조도와 신축건물, 중국 세관자료를 근거로 2023년 중단 뒤 재가동을 제시했다. 2026년 상반기 중국의 미얀마산 주석광 수입은 약 4만 톤으로 이미 2025년 연간치를 넘었지만 생산량은 중단 전보다 낮다."
+    }
+   ],
+   "point": "국가광업부가 통제하는 정상적 허가사업이 아니라 와주연합군의 자치·무장통치 아래 움직이는 공급망이다. AI용 반도체 수요가 광산의 정치경제와 직결된다.",
+   "next_check": "중국 월별 수입량, 품위·가격, 침수갱 복구, 와 당국의 생산·과세 조건."
+  },
+  {
+   "type": "country",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "푸난 테초 수로가 약 10억 달러 금융계약 단계로 이동했다"
+    },
+    {
+     "label": null,
+     "text": "중국수출입은행과 사업법인이 9월 9일 샤먼에서 금융계약을 맺었다. 캄보디아 정부계 매체는 ‘금융협정’, CamboJA는 10억 달러 대출로 보도했다. 계약 서명은 자금 인출이나 공정 진척을 뜻하지 않는다."
+    }
+   ],
+   "point": "2024년 착공행사 뒤 가장 분명한 자금조달 단계 변화다. 금리·만기·정부보증과 사업법인의 상환구조가 공개돼야 재정부담과 운영권 배분을 판단할 수 있다.",
+   "next_check": "대출 원문 또는 주요 조건, 첫 인출, 토지보상, 독립적으로 확인된 공정률."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "신규 정책단계 변화는 확인되지 않았다"
+    },
+    {
+     "label": null,
+     "text": "S$8천만 수직농장과 정무직 보수개편에 대한 분석은 이어졌으나, 9월 10일 마감까지 새로운 승인·예산·시행지침은 찾지 못했다."
+    }
+   ],
+   "next_check": "수직농장 생산단가·판매계약, 10월 15일 보수체계 시행자료."
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "신규 정책단계 변화는 확인되지 않았다"
+    },
+    {
+     "label": null,
+     "text": "누적 공식·현지·메콩 전문 소스를 확인했으나 전날 당 결의 배포 이후 새 법령·예산·집행수치는 확인되지 않았다."
+    }
+   ],
+   "next_check": "9개 프로그램·42개 사업의 목록과 예산, 지방 시행지시."
+  },
+  {
+   "type": "country",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "신규 정책단계 변화는 확인되지 않았다"
+    },
+    {
+     "label": null,
+     "text": "대기질 공개와 보건지침을 계속 확인했지만, 9월 10일에는 전날보다 강한 학교·사업장 운영조치나 새 경제정책이 독립적으로 확인되지 않았다."
+    }
+   ],
+   "next_check": "Belait PSI·PM2.5 수치와 교육·노동 지침 변경."
+  },
+  {
+   "type": "country",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": "ASEAN",
+     "text": "연계형 ‘질 좋은 투자’ 원칙이 제시됐지만 사업결정은 없었다"
+    },
+    {
+     "label": null,
+     "text": "상공장관은 홍콩 정책대화에서 농업·수산·천연자원의 고부가가치화, 디지털무역, 일자리·기술이전을 만드는 투자를 우선하겠다고 밝혔다. 연설은 방향 제시이며 새 인센티브·계약·예산은 포함하지 않았다."
+    }
+   ],
+   "point": "정회원 가입 이후 통관·표준·전자상거래 규정을 어느 순서로 맞추는지가 실제 통합 속도를 정한다.",
+   "next_check": "투자법·세관규정 개정, 품목별 수출사업, 홍콩 또는 ASEAN 기업의 계약."
+  },
+  {
+   "type": "country",
+   "title": "3 ASEAN & External Relations",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "캄보디아–태국 해양조정은 첫 회의의 규칙 채택을 기다린다"
+    },
+    {
+     "label": null,
+     "text": "양국과 유엔해양법협약 조정위원회는 9월 14~16일 싱가포르에서 첫 회의를 연다. 15일 공개되는 양측 기조발언과 절차규칙이 향후 약 12개월의 범위를 정한다. 조정위원회 보고서는 구속력이 없으며, 회의 예정 자체를 해양경계 합의로 볼 수 없다."
+    }
+   ],
+   "next_check": "절차규칙 채택, 양측이 제출하는 쟁점 범위, 15일 기조발언과 후속회의 일정."
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "축",
+     "현재 단계",
+     "확인된 변화",
+     "다음 판단 기준"
+    ],
+    "rows": [
+     [
+      "금융포용",
+      "예산 준비",
+      "인도네시아 2억 명 계좌·11조 루피아 구상",
+      "대상·중복·활성계좌"
+     ],
+     [
+      "교통안전",
+      "긴급대응",
+      "필리핀 여객선 5명 사망·86명 실종",
+      "수색·원인·검사책임"
+     ],
+     [
+      "주거금융",
+      "가계압박",
+      "베트남 주택대출 금리 상승 보도",
+      "은행별 실제 적용금리"
+     ],
+     [
+      "숙련·고용",
+      "정책계획",
+      "태국 SkillMap 확대 논의",
+      "예산·훈련배치·성과"
+     ],
+     [
+      "투자·일자리",
+      "방향 제시",
+      "동티모르가 기술이전형 투자를 강조",
+      "법 개정·계약·고용"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "B. Compact Chronology",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "날짜",
+     "Episode",
+     "변화",
+     "단계",
+     "다음 trigger"
+    ],
+    "rows": [
+     [
+      "9/7",
+      "SCS flight",
+      "조명탄 발사 주장",
+      "운용사건",
+      "중국 공식답변"
+     ],
+     [
+      "9/9",
+      "Funan Techo",
+      "금융계약 서명",
+      "금융계약",
+      "첫 인출·조건"
+     ],
+     [
+      "9/9",
+      "Imelda graft",
+      "유죄 파기·무죄",
+      "상급심판결",
+      "판결문 분석"
+     ],
+     [
+      "9/9",
+      "Thai–Cambodia",
+      "첫 회의 일정",
+      "절차 예정",
+      "9/14–16 회의"
+     ],
+     [
+      "9/10",
+      "Malaysia AI",
+      "초안 완료",
+      "내각 전",
+      "내각 의결"
+     ],
+     [
+      "9/10",
+      "Vietnam tech law",
+      "개정법 공포",
+      "공포",
+      "하위법령"
+     ],
+     [
+      "9/10",
+      "June Aster",
+      "수색·점검지시",
+      "긴급대응",
+      "수색 재개"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "B. Compact Chronology",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "축",
+     "신호",
+     "근거"
+    ],
+    "rows": [
+     [
+      "사회·가계",
+      "WATCH",
+      "인도네시아 계좌구상은 예산·대상 미정"
+     ],
+     [
+      "인프라",
+      "↑ / 금융",
+      "푸난 테초 금융계약; 인출 전"
+     ],
+     [
+      "광물",
+      "↑ / 부분운영",
+      "미얀마 주석광 수입·위성 신호"
+     ],
+     [
+      "디지털",
+      "↑ / 법제",
+      "말레이시아 초안·베트남 공포"
+     ],
+     [
+      "교통",
+      "WATCH",
+      "태국 공항철도 연장 조건 미합의"
+     ],
+     [
+      "안전",
+      "↑ / 긴급",
+      "필리핀 여객선 수색·전국 점검지시"
+     ]
+    ]
+   }
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [],
+ "watch_next": [
+  "11일 아침 필리핀 여객선 수색 재개 뒤 구조·사망·실종자 수와 선체 진입 결과.",
+  "11일 말레이시아 연방직할지 사면위원회가 나집 라작 신청을 실제로 다루고 결정을 공개하는지.",
+  "14~16일 캄보디아–태국 UNCLOS 조정 첫 회의에서 절차규칙과 쟁점 범위가 채택되는지.",
+  "말레이시아 AI 법안의 내각 의결과 원문 공개, 베트남 기술법의 시행일·하위법령.",
+  "푸난 테초 대출의 만기·금리·정부보증과 첫 자금 인출.",
+  "만마우산 주석광의 중국 월별 수입량이 상반기 증가세를 이어가는지.",
+  "태국 SRT 이사회의 공항철도 연장안과 10월 1일 운영주체.",
+  "ISEAS – Yusof Ishak Institute | 2026-09-10 | Daily News on Southeast Asia – 10 September 2026 ANTARA | 2026-09-10 | Indonesia prepares Rp11 trillion for mass bank accounts OJK·LPS·BPS | 2026-08-11 | 2026 National Survey of Financial Literacy and Inclusion Bernama | 2026-09-10 | AI Governance Bill expected in Parliament by Q1 2027 at latest Supreme Court of the Philippines | 2026-09-09 | People of the Philippines v. Imelda Romualdez Marcos, G.R. 243402-08 Philstar | 2026-09-10 | SC reverses Imelda’s conviction for graft Associated Press | 2026-09-10 | Fire on Philippine ferry leaves five dead and 86 missing Philippine News Agency | 2026-09-10 | Five dead, 86 missing in MV June Aster fire Philippine Information Agency·PCG | 2026-09-10 | PLA fires flares at unarmed PCG aircraft The Nation Thailand·ANN | 2026-09-10 | Asia Era One sets conditions for Airport Rail Link extension Government of Viet Nam | 2026-09-10 | Law amending four technology and telecommunications laws promulgated Agence Kampuchea Presse | 2026-09-10 | Financing agreement for Funan Techo waterway signed CamboJA | 2026-09-10 | China commits full funding for Funan Techo canal in $1bn loan The Irrawaddy·AFP | 2026-09-10 | Myanmar tin mega-mine begins slow restart Thai Ministry of Foreign Affairs | 2026-09-09 | First Thailand–Cambodia UNCLOS conciliation meeting TATOLI | 2026-09-10 | Timor-Leste outlines trade and investment priorities"
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "ANTARA · OJK·LPS·BPS",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Associated Press · Philippine News Agency",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Supreme Court of the Philippines · Philstar",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine Information Agency·PCG",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "The Nation Thailand·ANN",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Government of Viet Nam",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Agence Kampuchea Presse · CamboJA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Thai Ministry of Foreign Affairs",
+   "url": null
+  }
+ ]
+}

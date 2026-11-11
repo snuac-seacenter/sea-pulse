@@ -1,0 +1,989 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-09-03",
+ "weekday": "목",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse Daily v6.7",
+ "editor": "김형종",
+ "observation_cutoff": "2026-09-03 11:00 KST",
+ "headline": "오늘의 핵심은 발표보다 집행 병목의 가시화다. 태국은 데이터센터 승인을 잠시 멈춰 통합 규율을 만들고, 필리핀은 홍수통제 부패 수사와 미완공 사업의 재원 문제를 다시 연결하며, 말레이시아는 FELDA/FIC 수사를 확대했다. 베트남은 고성장·민간부문 확대를 추진하는 동시에 국가안보·사이버 통제를 병행한다.",
+ "pulse": [
+  "9월 2일 ISEAS Daily News Alerts는 9월 1일 선행입력에서 포착된 재정·선거구·발전공간·디지털 자원규율의 문제를 한 단계 더 구체화했다. 인도네시아에서는 새 중앙은행 지도부가 환율·물가 안정과 식품공급 측 협력을 우선하겠다고 밝혔다. 동시에 정부 급식의 대규모 식중독 보도와 100GW 태양광 구상의 전력계획 편입 요구는 국가가 대규모 프로그램을 설계하는 능력과 안전·계통·재원 집행능력 사이의 간극을 드러낸다. 말레이시아에서는 MACC가 FELDA와 FIC의 2010~2020년 투자·자산취득을 대상으로 7건의 수사파일을 가동했다. 별도로 Jana Wibawa 사건 재판에서는 사업 수주 뒤 Bersatu 계좌로 RM25.3 million이 입금됐다는 수사관 증언이 제시됐다. Bersama는 10월 6일 2027년 대안예산 공개를 예고했다. 이는 예산·부패·정당경쟁이 모두 '정책의 비용과 책임을 누가 증명하는가'라는 공통 축으로 모이는 흐름이다. 필리핀에서는 전 공공사업장관 Manuel Bonoan이 홍수통제 관련 부패사건의 피고인에서 제외돼 국가증인으로 전환될 길이 열렸다. 상원 재정위는 신규 홍수통제 사업은 계속 막되 이미 진행 중인 사업의 마무리를 위해 2027년 예산을 다시 투입하는 방안을 지지한다. 사건은 단순한 스캔들에서 증거확보-사법절차-미완공 인프라의 선택적 재가동 단계로 이동하고 있다. 태국은 데이터센터 신규 프로젝트 승인을 일시중단하고 9월 4일 통합정책위원회를 가동할 예정이다. 전력·용수·효율 규율이 '도입 준비'에서 '승인 동결+통합규칙 설계'로 한 단계 이동했다. 이는 디지털 투자유치가 산업정책만이 아니라 전력망·물·공공지원의 기회비용을 계산하는 자원정책으로 전환됐음을 보여준다. 베트남은 Resolution 27의 국가발전공간 재편을 계속 추진한다. 오늘 확인된 추가 신호는 국경·내부·사이버 공간을 포괄하는 국경일 치안지시와 온라인 유해정보·불법정보에 대한 계정 제한·차단 수단의 강화다. 민간경제를 GDP 약 55%로 확대하고 대형 민간기업을 인프라·첨단기술에 참여시키려는 정책과, 당-국가의 데이터·안보· 정보공간 통제는 동시에 진행된다. 발표와 집행을 분리하면, 민간부문 확대의 정책방향은 명확하지만 오늘 신규 기업별 계약·착공·생산성과는 제한적이다."
+ ],
+ "monitor": [
+  {
+   "issue_id": "asean-delivery",
+   "issue": "ASEAN delivery",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "전력망·비관세장벽·반도체·핵심광물·Big Tech 의제가 공동규칙과 국내예산으로 넘어가는지 추적.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "scs",
+   "issue": "South China Sea/COC",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "인도네시아 Natuna 역량과 필리핀 다변화는 지속되지만 COC 문안의 신규 타결은 확인되지 않음.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "myanmar-normalisation",
+   "issue": "Myanmar/Five-Point Consensus",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "9/4 베트남 방문이 가장 가까운 trigger. 외교접촉과 5PC 성과를 분리.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "th-kh-border",
+   "issue": "Thailand-Cambodia/Thai South",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "남부 96개 사업은 여전히 승인·예산 전환을 확인해야 하며 태-캄 에너지 민족주의 갈등도 병행 추적.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "climate-haze",
+   "issue": "Climate/Haze",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "인도네시아 태양광-석탄 병존, 필리핀 홍수통제, 태국 데이터센터 물·전력 비용이 핵심.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "econ-digital-resilience",
+   "issue": "Economic/Digital resilience",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "BI 안정기조, 말레이시아 예산경쟁, 태국 DC 승인게이트, 베트남 민간경제 +사이버통제의 병행을 추적.",
+   "next_trigger": null,
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "title": "중앙은행 지도부 교체: 성장보다 안정 우선의 명시",
+   "countries": [
+    "ID"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "신임 Bank Indonesia 총재 Destry Damayanti는 환율과 인플레이션 안정이 지속가능한 성장의 전제라고 밝혔다. 식품물가에는 정부와 공급측 공동개입을 강화하고, 대외거래에서는 현지통화결제를 확대하겠다는 방향이다. 이는 새 지도부의 정책우선순위 표명 단계다."
+    }
+   ],
+   "point": "2027년 6% 성장목표와 중앙은행의 안정 우선 기조는 충돌이라기보다 역할분담이다. 다만 통화안정, 재정확대, 식품수요 증가가 동시에 나타날 경우 정책조정 비용이 커질 수 있다.",
+   "next_check": "새 이사회 포트폴리오, 환율방어 수단, 식품공급 협력의 품목별 효과, 2027 예산심의와 금리·유동성 정책의 정합성."
+  },
+  {
+   "type": "country",
+   "title": "무료급식 확대의 안전·공급망 리스크",
+   "countries": [
+    "ID"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "9월 2일 ISEAS Alert는 정부 공급 급식을 먹은 학생 500명 이상이 건강이상을 겪었다는 보도를 선행항목으로 제시했다."
+    }
+   ],
+   "point": "무료급식은 사회정책이면서 동시에 대규모 조달·냉장유통·검사체계의 국가역량 시험이다. 수혜자 수나 예산만으로 성과를 판단할 수 없다.",
+   "next_check": "보건당국 검사결과, 공급업체·조리시설 추적, 프로그램 표준운영절차 수정, 지역별 사고 빈도와 조달계약 공개."
+  },
+  {
+   "type": "country",
+   "title": "100GW 태양광 구상: 계획을 전력계통으로 옮길 수 있는가",
+   "countries": [
+    "ID"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "인도네시아의 100GW 태양광 구상에 대해 이를 국가 전력계획에 통합해야 한다는 요구가 강화됐다. 대규모 태양광·배터리 비용 하락은 경제성을 높이지만, 기존 석탄 인프라와 송배전 제약, 자금조달이 병목으로 남는다."
+    }
+   ],
+   "point": "'100GW'는 물리적 설치실적이 아니라 목표다. 프로젝트 파이프라인, 계통접속, 금융종결, 착공, 상업운전을 순차적으로 분리해 추적해야 한다.",
+   "next_check": "RUPTL 반영, PLN 조달계획, 섬별 송전·배터리 계획, JETP 자금집행, captive coal 신규가동과의 순증감."
+  },
+  {
+   "type": "country",
+   "title": "FELDA/FIC 수사: 7개 investigation papers로 확대",
+   "countries": [
+    "MY"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "MACC는 FELDA와 FIC의 2010~2020년 투자·자산취득과 관련해 7개 수사파일을 가동했다. 6건은 8월 24일 새로 개시됐고 1건은 국제사법공조 절차가 진행 중인 기존 사건이다. 12명이 조사 협조를 위해 소환됐으며 총 손실·뇌물 규모는 아직 확정되지 않았다."
+    }
+   ],
+   "point": "'7건 수사'는 유죄 확정이 아니다. 다만 과거 자산취득·평가·법률자문·이사회 책임을 포괄하는 기관거버 넌스 검증이 시작됐다는 의미가 있다.",
+   "next_check": "체포·기소 여부, forensic audit 공개범위, 자산별 평가손실, 이사회·정치개입 책임, FELDA 구조개편 및 농가 영향."
+  },
+  {
+   "type": "country",
+   "title": "Jana Wibawa 재판: RM25.3m 입금 증언",
+   "countries": [
+    "MY"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "Muhyiddin Yassin 전 총리의 부패재판에서 MACC 수사관은 Jana Wibawa 사업 수주 이후 관련 기업·개인이 Bersatu 계좌로 RM25.3 million을 입금했으며 이를 단순 정치기부가 아니라 사업대가성 지급으로 본다고 증언했다. 현재는 재판 증언 단계다."
+    }
+   ],
+   "point": "자금흐름 증언은 중요하지만 법원의 사실인정과 법적 책임은 아직 확정되지 않았다. 사업선정 절차와 정당자금 규율을 함께 봐야 한다.",
+   "next_check": "반대신문, 계좌·계약 증거의 법원 판단, Muhyiddin 측 방어논리, 판결 및 제도개선."
+  },
+  {
+   "type": "country",
+   "title": "2027대안예산 경쟁: 정책비용을 공개검증하는 정치",
+   "countries": [
+    "MY"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "Bersama는 10월 6일 2027년 shadow budget 공개를 예고했고, 연방정부 예산안은 3일 뒤 예정돼 있다. Kancil Papers와 외부 패널 검토를 통해 정책비용을 공개하겠다는 계획이다."
+    }
+   ],
+   "point": "야권 경쟁이 인물·연합에서 비용추계와 정책대안 경쟁으로 이동할 수 있는지 보는 사례다. 아직 발표 예고 단계이며 실제 재원조달·분배표는 미공개다.",
+   "next_check": "9월 27일 첫 Kancil Paper, 10월 6일 대안예산, 정부안과 보조금·세제·복지·투자 비교, 독립비용 추계의 방법론."
+  },
+  {
+   "type": "country",
+   "title": "데이터센터 정책 공백과 BNM 결정 대기",
+   "countries": [
+    "MY"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "ISEAS 9월 2일 Alert는 말레이시아 데이터센터 발전이 정책·인프라·외부규제 위험에 노출돼 있다는 ISEAS 연구 관련 보도를 포함했다. 한편 BNM의 OPR 결정은 오늘 예정돼 있어 기준시각 11:00 KST에는 결과를 확정사실로 반영하지 않는다."
+    }
+   ],
+   "point": "조호르 중심 데이터센터 붐은 FDI 유치성과와 전력·용수·미국 기술통제·현지 부가가치 문제를 함께 만든다. 금리 결정도 데이터센터·부동산·기업자금조달의 비용조건과 연결된다.",
+   "next_check": "BNM 결정, 데이터센터 전력·용수·환경 기준, JS-SEZ 연계 실제 착공률, 고숙련 고용과 국내 공급망."
+  },
+  {
+   "type": "country",
+   "title": "베트남 방문 직전: 외교 재관여와 5PC의 간극",
+   "countries": [
+    "MM"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "Min Aung Hlaing의 9월 4~6일 베트남 방문은 여전히 예정 단계다. 9월 2일 ISEAS Alert는 ASEAN이 미얀마에 사용할 수 있는 수단이 제한적이라는 분석을 추가로 제시했다."
+    }
+   ],
+   "point": "정상급 의전 확대를 폭력감소·정치대화 진전으로 등치할 수 없다. 양자 재관여와 ASEAN Five-Point Consensus 이행을 분리해 평가해야 한다.",
+   "next_check": "9월 4일 의전 수준, 공동성명, 인도지원·폭력중단·포용대화 언급, ASEAN 회원국 반응, Chinland 접촉의 실질 휴전 여부.",
+   "issue_ids": [
+    "myanmar-normalisation"
+   ]
+  },
+  {
+   "type": "country",
+   "title": "홍수통제 부패수사: Bonoan의 국가증인 전환 가능성",
+   "countries": [
+    "PH"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "Sandiganbayan은 전 공공사업장관 Manuel Bonoan을 plunder·graft 사건의 공동피고인에서 제외하는 검찰 요청을 허용했다. 대통령실은 이를 사법부·Ombudsman 권한이라고 선을 그었다. 이는 국가증인 전환 가능성을 여는 절차 단계다."
+    }
+   ],
+   "point": "수사는 고위정치권으로 확장될 수 있지만 증언의 신빙성, 대가관계, 문서증거가 법정에서 검증돼야 한다.",
+   "next_check": "Bonoan의 공식 증인채택, 후속 기소 대상, 계약·예산문서 공개, 법원의 증거채택."
+  },
+  {
+   "type": "country",
+   "title": "홍수통제 예산: 신규사업 동결과 미완공 사업 마무리",
+   "countries": [
+    "PH"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "상원 재정위는 2027 예산에서 신규 홍수통제 사업은 계속 동결하되 이미 진행 중인 사업을 완공하기 위한 재원을 복원하는 방안을 지지한다. 이는 예산심의 단계다."
+    }
+   ],
+   "point": "전면동결은 부패통제에는 강하지만 방치된 공사 자체가 재난위험을 키울 수 있다. 따라서 '중단'과 '검증 후 완공'을 구분하는 감사기반 재가동이 핵심이다.",
+   "next_check": "완공대상 목록, 공정률·계약 재검증, 독립감사, 지역별 홍수위험 우선순위, 신규사업 금지의 예외 규정."
+  },
+  {
+   "type": "country",
+   "title": "Sara Duterte 탄핵심리: 기밀비 사용증거의 연결고리",
+   "countries": [
+    "PH"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "상원 탄핵심리에서 군 관계자는 DepEd가 Youth Leadership Summits에 기밀·감시정보를 제공하지 않았다고 증언했다. 해당 활동이 기밀비 지출의 근거로 사용됐다는 점과의 불일치가 쟁점이다."
+    }
+   ],
+   "point": "정치적 책임은 지출증빙·승인체계·실제 활동의 일치 여부에 달린다. 단일 증언만으로 최종 책임을 확정할 수 없다.",
+   "next_check": "COA 자료, 후속증인, 지출전표·인수증, 탄핵심판의 입증기준과 표결.",
+   "issue_ids": [
+    "sara-duterte"
+   ]
+  },
+  {
+   "type": "country",
+   "title": "데이터센터 승인 일시중단: 규율이 실제 승인게이트로 이동",
+   "countries": [
+    "TH"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "BOI는 통합 규율을 마련하는 동안 신규 데이터센터 프로젝트 승인을 일시중단했다. 여러 기관의 분절 규제를 조정할 새 정책위원회는 9월 4일 첫 회의를 열 예정이다."
+    }
+   ],
+   "point": "전일의 전력·용수·PUE 규율 논의가 오늘은 실제 투자승인 게이트로 이동했다. 투자유치의 양보다 전력망·물·청정에너지·현지 부가가치의 조건부 허가가 중요해졌다.",
+   "next_check": "승인중단 범위·기간, 9월 4일 위원회 결정, 기존 승인 프로젝트의 grandfathering, 전력·용수 가격, PUE·PPA·재생에너지 기준."
+  },
+  {
+   "type": "country",
+   "title": "남부개발 96개 사업: 승인·예산 전환 여부",
+   "countries": [
+    "TH"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "전일 제시된 96개 남부개발 사업 가운데 41개는 즉시 추진 가능, 55개는 추가제안으로 구분된다. 오늘 새 내각 승인·착공 material update는 확인되지 않았다."
+    }
+   ],
+   "point": "정치적 패키지를 실제 지역생산성·평화·관광회복으로 바꾸는 전환율이 핵심이다.",
+   "next_check": "내각 승인, 조달, 지역협의, 남부평화대화와의 정합성."
+  },
+  {
+   "type": "country",
+   "title": "Resolution 27: 발전공간 재편의 집행준비",
+   "countries": [
+    "VN"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "Resolution 27-NQ/TW는 정치국 결의 공포·공개 단계다. 육지·해양·공중·지하·디지털 공간을 통합하고 성장극·경제회랑·지역공동투자·책임공유를 강화한다. 오늘 기준 정부 행동계획·지역별 예산·프로젝트 승인으로의 신규 전환은 확인되지 않았다."
+    }
+   ],
+   "point": "중앙의 공간설계 능력은 강해졌지만 성과는 아직 아니다. 발표-법제-예산-계약-착공-가동-성과를 분리해야 한다.",
+   "next_check": "정부 시행계획, 부처·지방 권한표, 회랑별 예산·PPP, 토지·환경·수익배분."
+  },
+  {
+   "type": "country",
+   "title": "국경일 치안·사이버 통제: 발전국가의 통제역량 병행",
+   "countries": [
+    "VN"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "정부는 9월 2일 국경일을 전후해 국경·내부·사이버 공간의 치안과 정보시스템 보안을 강화하고, '유해·불법 정보'의 탐지·차단을 지시했다. 별도 정부 지침은 반복적 사이버안보 법규 위반 계정·페이지·그룹에 대해 표시제한 또는 일정기간·무기한 잠금 수단을 규정한다."
+    }
+   ],
+   "point": "이는 신규 체포사건이라기보다 행정·플랫폼 통제도구의 제도화 신호다. 경제공간의 디지털화와 정보공간 통제는 같은 데이터·행정역량을 공유한다.",
+   "next_check": "실제 적용 건수, 플랫폼별 집행절차, 사법·행정 구제, Article 117 등 형사규율과의 결합."
+  },
+  {
+   "type": "country",
+   "title": "민간경제 확대: 정책목표는 선명, 오늘 기업별 신규성과는 제한",
+   "countries": [
+    "VN"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "2026 정부계획은 민간경제의 GDP 비중 약 55%와 대형 민간기업의 핵심 인프라·첨단기술 참여를 목표로 한다. Resolution 68은 자본·토지·기술·데이터 접근의 동등성을 선언한다. 오늘 기준 Vingroup/VinFast, Viettel, FPT, THACO, Masan, Hoa Phat, Sovico/Vietjet, Techcombank에 대해 Resolution 27과 직접 연결된 신규 계약·착공·생산성과는 독립검증되지 않았다."
+    }
+   ],
+   "point": "민간부문 육성은 당-국가의 전략방향 안에서 기업의 실행역할을 확대하는 방식이다. 기업수·투자계획보다 자본집행, 생산성, 경쟁중립성, 정책특혜를 추적해야 한다.",
+   "next_check": "대형 민간기업의 신규 PPP·R&D·AI 인프라 계약, 중소기업 접근, 국영기업과의 경쟁조건, 부채·보증·토지지원."
+  },
+  {
+   "type": "country",
+   "title": "대미수출 집중: 성장성과와 관세·수요 리스크",
+   "countries": [
+    "KH"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "2026년 1~7월 캄보디아의 대미수출은 90억 달러를 넘어 전체 수출수입의 거의 절반을 차지했다는 현지 보도가 있다. 이는 누적 무역실적이다."
+    }
+   ],
+   "point": "미국시장 집중은 제조수출의 강점이면서 관세·원산지·미국수요 변화에 대한 취약성이다. 대출유예 연장 거부와 함께 보면 외부수요와 금융건전성이 동시에 중요하다.",
+   "next_check": "품목별 집중도, 미국 관세·원산지 규정, 비미국 시장 다변화, 은행 NPL·충당금.",
+   "issue_ids": [
+    "us-trade"
+   ]
+  },
+  {
+   "type": "country",
+   "title": "AI·산업전략: '기술을 우리 조건으로'의 실행단계 점검",
+   "countries": [
+    "SG"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "싱가포르는 최근 경제전략 재검토와 AI 활용 확대를 추진하면서 기술이 사람·공동체·생산성을 강화하도록 하겠다는 방향을 제시했다. 오늘 독립검증 가능한 신규 강제규율·대형 집행전환은 확인되지 않았다."
+    }
+   ],
+   "point": "AI 허브 전략의 다음 단계는 모델·데이터·전력·인재·기업생산성의 구체적 성과다.",
+   "next_check": "AI 안전·노동전환 정책, 데이터센터 전력계획, 기업도입 생산성 지표, ASEAN 공동규율과의 연결."
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "기준시각까지 독립검증 가능한 당일 material policy shift는 확인되지 않았다. 베트남·중국과의 교역·철도·전력 연결, 외화·부채·물가 문제를 continuity로 추적한다."
+    }
+   ],
+   "point": "신규 발표가 없을 때는 기존 프로젝트의 통관·결제·송전·부채서비스 성과를 확인하는 것이 더 중요하다.",
+   "next_check": "외환·인플레이션, 중국-라오스 철도 물동량, 송전수입, 국경결제."
+  },
+  {
+   "type": "country",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "기준시각까지 독립검증 가능한 당일 material update는 확인되지 않았다."
+    }
+   ],
+   "point": "에너지전환·재정다변화·ASEAN 디지털 규율 이행을 continuity로 추적한다.",
+   "next_check": "비석유 투자, 신재생·수소 프로젝트 집행, 디지털 규제·인력정책."
+  },
+  {
+   "type": "country",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "heading": "국가별 뉴스·분석",
+   "paragraphs": [
+    {
+     "label": "현재 단계/사실",
+     "text": "ASEAN 11번째 회원국으로서 협정 가입·국내 이행역량 확대가 계속된다. 오늘 독립검증 가능한 신규 전환은 확인되지 않았다."
+    }
+   ],
+   "point": "회원자격의 외교적 성취를 실제 법·관세·행정·인력의 국내 이행으로 전환하는 속도가 핵심이다.",
+   "next_check": "Priority 2·3 경제협정 이행, 관세·통관 시스템, 공무원·규제기관 인력."
+  },
+  {
+   "type": "other",
+   "title": "변화 Chronology",
+   "table": {
+    "title": null,
+    "columns": [
+     "날짜",
+     "변화/사건",
+     "단계",
+     "의미",
+     "다음 trigger"
+    ],
+    "rows": [
+     [
+      "9/1",
+      "BI 신임 지도부가 안정 우선 기조 명시",
+      "정책우선순위 표명",
+      "6% 성장예산과 통화안정의 역할분담",
+      "포트폴리오·환율·식품물가 대응"
+     ],
+     [
+      "9/2",
+      "MACC, FELDA/FIC 7건 수사파일 가동",
+      "수사 초기",
+      "기관거버넌스·자산취득 책임 추적 확대",
+      "체포·기소·forensic audit"
+     ],
+     [
+      "9/2",
+      "Jana Wibawa RM25.3m 입금 증언",
+      "재판 증언",
+      "계약-정당자금 연결고리 법정 검증",
+      "반대신문·판결"
+     ],
+     [
+      "9/2",
+      "Bonoan 공동피고인 제외",
+      "국가증인 전환 가능 단계",
+      "홍수통제 부패수사의 증거확보 전략 변화",
+      "공식 증인채택·후속 기소"
+     ],
+     [
+      "9/2",
+      "필리핀 미완공 홍수사업 예산복원 논의",
+      "예산심의",
+      "전면동결에서 검증 후 완공으로 조정",
+      "대상목록·감사조건"
+     ],
+     [
+      "9/3",
+      "태국 데이터센터 신규 승인 일시중단",
+      "승인게이트/규칙설계",
+      "전력·용수 조건이 투자 승인에 직접 반영",
+      "9/4 정책위원회"
+     ],
+     [
+      "9/3",
+      "베트남-미얀마 방문 하루전",
+      "방문예정",
+      "양자 재관여와 ASEAN 5PC 긴장",
+      "9/4 의전·공동성명"
+     ]
+    ]
+   },
+   "countries": []
+  },
+  {
+   "type": "deep_dive",
+   "title": "베트남 정밀분석 — 발전전략·민간부문·정치통제",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": "① 발전전략·정책",
+     "text": "Resolution 27은 권역별 개발을 국토·해양·공중·지하·디지털 공간의 통합설계로 상향한다. 14차 당대회 결의와 2026 정부계획은 2026~2030년 연평균 GDP 성장률 10% 이상, 2030년 디지털경제 약 30% 등 높은 구조전환 목표를 제시한다. 발표 단계: 정치국 결의와 국가목표는 확정된 정책방향이다. 집행 단계: 부처별 행동계획, 지역별 예산, PPP, 토지·환경·수익배분은 후속이다. 포인트: 공간통합은 규모의 경제를 만들 수 있지만 중앙의 정보·예산·토지조정 권한도 함께 확대한다. 다음 확인점: 정부 action plan, 지역협의체 권한, 성장회랑별 재원, 토지수용·환경평가·수익배분 규칙."
+    },
+    {
+     "label": "② 추진현황·산업/거시 지표",
+     "text": "2026 정부계획은 최소 10% 성장, 민간경제 GDP 비중 약 55%, 전략인프라·디지털 인프라 확대를 목표로 한다. 그러나 오늘 Resolution 27 자체의 신규 착공·가동성과는 확인되지 않았다. 발표 단계: 성장·투자·디지털 목표. 집행 단계: 이미 진행 중인 공항·항만·철도·전력·데이터 인프라와 개별 지역사업의 승인·착공·가동으로 평가해야 한다. 포인트: 높은 목표를 성과로 착각하지 않고, 집행률·생산성·외화·전력·토지 병목을 추적한다. 다음 확인점: 공공투자 집행, 민간투자 실제 지출, 전력망 병목, 수출·산업생산·기업진입/퇴출."
+    },
+    {
+     "label": "③ 민간기업 사례",
+     "text": "Resolution 68과 2026 정부계획은 대형 민간기업을 핵심 인프라·첨단기술·글로벌 가치사슬의 주체로 육성한다. FPT의 AI Factory/sovereign cloud, VinFast의 제조·수출, Vietjet·Sovico의 인프라·항공, Hoa Phat·THACO의 제조확대는 구조적으로 중요한 사례다. 발표 단계: 민간경제를 핵심 성장동력으로 규정하고 자본·토지·기술·데이터 접근의 평등을 약속한다. 집행 단계: 오늘 Resolution 27과 직접 연결된 새 기업별 계약·착공·생산성과는 독립검증되지 않았다. 포인트: '민간 확대'와 '경쟁적 시장'은 동일하지 않다. 특혜·보증·토지·국영기업 관계를 함께 봐야 한다. 다음 확인점: 기업별 PPP·AI·에너지 프로젝트, R&D·고숙련고용, SME 참여, 자본조달·정부보증·경쟁중립성."
+    },
+    {
+     "label": "④ 정치·거버넌스/권위주의화 신호",
+     "text": "국경일 치안지시는 국경·내부·사이버 공간의 선제적 통제를 강조한다. 별도 사이버안보 지침은 반복적 위반 계정의 표시제한·일시잠금·무기한 차단 수단을 명문화한다. 이는 오늘 신규 대규모 체포사건보다 통제수단의 제도적 연속성과 운영화에 가까운 신호다. 발표 단계: 사이버·정보질서 규율의 법·행정 수단 명문화. 집행 단계: 실제 적용대상·절차·구제사례를 통해 강도를 평가해야 한다. 포인트: 베트남 모델에서는 생산적 국가역량과 정치적 통제역량이 같은 디지털·행정 기반에서 함께 강화될 수 있다. 다음 확인점: 계정차단 적용 통계, Article 117 사건, 독립언론·활동가 법집행, 중앙-지방 데이터·감독권한."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "말레이시아 — 기관책임과 정책비용의 정치",
+   "countries": [
+    "MY"
+   ],
+   "heading": "정밀분석 6개국",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "FELDA/FIC 수사, Jana Wibawa 재판, 대안예산 예고가 모두 '돈의 흐름을 증명하는 정치'를 만든다. 하나는 과거 공공자산 취득, 하나는 계약과 정당자금, 하나는 미래 정책공약의 비용추계다."
+    }
+   ],
+   "point": "정치연합보다 제도적 회계·사법·예산검증의 신뢰성이 중기 안정성을 좌우한다.",
+   "next_check": "FELDA 기소, Jana Wibawa 증거판단, 10월 대안예산·정부예산 비교, BNM 금리결정."
+  },
+  {
+   "type": "country",
+   "title": "인도네시아 — 대규모 프로그램의 실행능력",
+   "countries": [
+    "ID"
+   ],
+   "heading": "정밀분석 6개국",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "6% 성장예산, 무료급식, 100GW 태양광은 모두 큰 목표다. 중앙은행은 안정 우선으로 제약조건을 분명히 했다."
+    }
+   ],
+   "point": "국가역량은 목표 크기보다 공급망·조달·식품안전·전력망·금융의 실행 일관성에서 판정된다.",
+   "next_check": "급식 사고 원인, RUPTL 태양광 반영, 예산심의, 환율·식품물가."
+  },
+  {
+   "type": "country",
+   "title": "필리핀 — 부패통제와 인프라 복구의 재결합",
+   "countries": [
+    "PH"
+   ],
+   "heading": "정밀분석 6개국",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Bonoan의 국가증인 전환 가능성과 미완공 홍수사업 예산복원은 '수사 때문에 멈춘 인프라를 어떻게 안전하게 재개할 것인가'라는 문제를 만든다."
+    }
+   ],
+   "point": "부패통제와 재난회복을 제로섬으로 만들지 않으려면 프로젝트별 forensic review와 단계별 재가동이 필요하다.",
+   "next_check": "완공목록, 감사조건, 후속기소, 우기 피해지역 우선순위."
+  },
+  {
+   "type": "country",
+   "title": "베트남 — 성장동원과 정보통제의 병행",
+   "countries": [
+    "VN"
+   ],
+   "heading": "정밀분석 6개국",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Resolution 27·68은 공간과 민간자본을 동원하고, 사이버·안보 지침은 정보공간 통제를 강화한다."
+    }
+   ],
+   "point": "성장·민간부문·중앙통제는 상쇄관계가 아니라 동시에 강화될 수 있다.",
+   "next_check": "민간기업 실제 계약, 데이터·토지 권한, 플랫폼 제한 적용, 9/4 미얀마 방문."
+  },
+  {
+   "type": "country",
+   "title": "태국 — 데이터센터 투자에서 자원허가 체계로",
+   "countries": [
+    "TH"
+   ],
+   "heading": "정밀분석 6개국",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "승인 일시중단은 전력·용수·PUE 논의가 실제 허가게이트로 이동했음을 뜻한다."
+    }
+   ],
+   "point": "FDI 총액보다 MW 당 전력·물·고용·세수·기술파급을 기준으로 프로젝트를 선별하는지 확인해야 한다.",
+   "next_check": "9/4위원회, 승인재개 조건, PPA·PUE·물 기준, 기존 프로젝트 처리."
+  },
+  {
+   "type": "country",
+   "title": "미얀마 — 외교채널 확대와 국내정치 정체",
+   "countries": [
+    "MM"
+   ],
+   "heading": "정밀분석 6개국",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "베트남 방문과 휴전접촉은 채널을 넓히지만 5PC 핵심인 폭력중단·포용대화의 검증 가능한 성과는 제한적이다."
+    }
+   ],
+   "point": "의전과 정상화를 분리한다.",
+   "next_check": "공동성명, 5PC 문구, Chinland 휴전문안, 현장 폭력지표."
+  },
+  {
+   "type": "country_brief",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "heading": "5개국 Snapshot",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "대미수출 1~7월 90억달러 초과, 전체의 거의 절반"
+    },
+    {
+     "label": "단계",
+     "text": "누적 무역실적"
+    }
+   ],
+   "next_check": "품목집중·미국 관세·NPL"
+  },
+  {
+   "type": "country_brief",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "heading": "5개국 Snapshot",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "독립검증 가능한 당일 material update 없음"
+    },
+    {
+     "label": "단계",
+     "text": "continuity"
+    }
+   ],
+   "next_check": "외환·철도·송전·부채"
+  },
+  {
+   "type": "country_brief",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "heading": "5개국 Snapshot",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "당일 material update 없음"
+    },
+    {
+     "label": "단계",
+     "text": "continuity"
+    }
+   ],
+   "next_check": "비석유투자·에너지전환"
+  },
+  {
+   "type": "country_brief",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "heading": "5개국 Snapshot",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "AI·경제전략 방향 지속, 신규 강제조치 미확인"
+    },
+    {
+     "label": "단계",
+     "text": "정책연속"
+    }
+   ],
+   "next_check": "노동전환·DC 전력·AI 안전"
+  },
+  {
+   "type": "country_brief",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "heading": "5개국 Snapshot",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ASEAN 국내이행 역량 구축 지속"
+    },
+    {
+     "label": "단계",
+     "text": "implementation continuity"
+    }
+   ],
+   "next_check": "경제협정·통관·인력"
+  },
+  {
+   "type": "theme",
+   "title": "Digital / AI 주요동향",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "1. 태국: 데이터센터 승인 일시중단으로 전력·용수·PUE·청정에너지 조건이 실제 투자승인의 gate가 됐다."
+    },
+    {
+     "label": null,
+     "text": "2. 말레이시아: 데이터센터 붐은 JS-SEZ·FDI 기회와 함께 전력·물·미중 규제·현지부가가치 문제를 만든다."
+    },
+    {
+     "label": null,
+     "text": "3. 베트남: AI·디지털경제 확대는 민간기업 육성과 결합하지만 사이버·정보공간 통제도 동시에 운영화된다."
+    },
+    {
+     "label": null,
+     "text": "4. 인도네시아: Fulcrum은 온라인 이슬람 담론에서 cybertrooper와 영향산업의 역할을 지적했다. 디지털 정치경쟁은 플랫폼 규제만이 아니라 조직적 여론조작·정체성정치의 문제다."
+    }
+   ],
+   "point": "디지털 주권은 데이터센터 수·AI 선언 수가 아니라 compute·전력·물·데이터·인재·표준·권리구제의 실제 통제와 비용배분으로 평가한다.",
+   "next_check": "태국 9/4위원회, 말레이시아 데이터센터 기준, 베트남 계정제한 집행, ASEAN 공동최저기준.",
+   "countries": []
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN과 대외관계",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Fulcrum은 걸프 위기가 ASEAN의 에너지안보를 석유·가스 확보에서 지역 전력망 거버넌스로 확장시키고 있다고 분석한다. 전력망 통합은 연료수입 리스크를 줄일 수 있지만 사이버보안·국경간 규칙·공급망·기후 취약성을 새로 만든다. RSIS는 ASEAN 내 비관세장벽의 증가를 완화해야 한다는 분석을 제시했다. 이는 공동시장과 공급망 회복력을 실제 거래비용 감소로 연결하는 문제다."
+    }
+   ],
+   "point": "에너지·통상·디지털에서 ASEAN의 병목은 새로운 비전 부족보다 운영규칙과 국내이행이다.",
+   "next_check": "ASEAN Power Grid 공동규칙, 비관세장벽 감축메커니즘, 5PC, COC, 반도체·핵심광물 로드맵.",
+   "countries": []
+  },
+  {
+   "type": "special",
+   "title": "집행 병목이 정책의 진짜 경계를 만든다",
+   "heading": "특별 이슈 분석",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "오늘의 여러 사안은 '큰 목표'보다 승인·감사·자원·증거가 정책의 실제 경계를 만든다는 점에서 연결된다."
+    },
+    {
+     "label": null,
+     "text": "태국 데이터센터는 투자계획에서 승인게이트로 이동했다."
+    },
+    {
+     "label": null,
+     "text": "필리핀 홍수통제는 전면동결에서 감사 후 미완공 사업 마무리라는 선택적 재가동으로 이동한다."
+    },
+    {
+     "label": null,
+     "text": "말레이시아 FELDA/FIC는 정치적 비난에서 개별 자산·거래·법률자문을 추적하는 수사로 이동한다."
+    },
+    {
+     "label": null,
+     "text": "인도네시아 무료급식·태양광은 프로그램 규모보다 안전·조달·계통·금융의 병목이 성과를 결정한다."
+    },
+    {
+     "label": null,
+     "text": "베트남은 발전공간·민간기업을 동원하면서 데이터·정보·안보 통제도 동시에 운영화한다."
+    },
+    {
+     "label": null,
+     "text": "판정기준은 다섯 가지다: (1) 단계구분, (2) 비용배분, (3) 공개성, (4) 이의제기·사법검증, (5) 실제 운영성과. 이 기준이 없으면 정책선언이 곧 성과로 오인되고, 실패비용은 시민·지방·소비자·납세자에게 이전될 수 있다."
+    }
+   ],
+   "countries": []
+  },
+  {
+   "type": "macro",
+   "title": "경제 6개 하위축",
+   "heading": "경제 6개 하위축",
+   "table": {
+    "title": null,
+    "columns": [
+     "축",
+     "오늘의 변화",
+     "단계",
+     "다음 확인점"
+    ],
+    "rows": [
+     [
+      "Macro",
+      "BI 안정 우선, 말레이시아 BNM 결정 대기, 베트남 고성장 목표",
+      "정책기조/결정대기",
+      "금리·환율·물가·실행률"
+     ],
+     [
+      "금융",
+      "FELDA/FIC 수사, Jana Wibawa 자금흐름 재판",
+      "수사/재판",
+      "기소·판결·기관개혁"
+     ],
+     [
+      "대외경제",
+      "캄보디아 대미수출 집중, ASEAN 걸프위기 에너지리스크",
+      "누적실적/분석",
+      "시장다변화·전력망 규칙"
+     ],
+     [
+      "산업",
+      "태국 DC 승인중단, 인도네시아 태양광, 베트남 성장회랑",
+      "규칙설계/계획",
+      "승인재개·RUPTL·PPP"
+     ],
+     [
+      "통상",
+      "ASEAN 비관세장벽 완화 필요",
+      "정책분석",
+      "실제 철폐·상호인정"
+     ],
+     [
+      "구조정책",
+      "필리핀 홍수사업 재가동, 베트남 민간경제 확대",
+      "예산심의/정책집행",
+      "감사조건·기업별 실적"
+     ]
+    ]
+   },
+   "countries": []
+  },
+  {
+   "type": "research",
+   "title": "Research Signal: Implementation Gatekeeping",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "오늘의 연구신호는 Implementation Gatekeeping, 즉 대규모 정책이 실제 행동으로 전환되는 문턱을 누가 설계하고 통과시키는가이다. 태국의 데이터센터 승인중단, 필리핀의 미완공 홍수사업 재검증, 말레이시아의 과거 투자거래 수사, 인도네시아의 식품안전·전력계통, 베트남의 PPP·데이터·사이버 통제는 모두 정책의 실질적 권력이 '발표자'가 아니라 승인자·감사자·규제자·운영자에게 있다는 점을 보여준다. 장기 비교질문은 세 가지다. 첫째, 동남아의 발전국가는 속도를 높이기 위해 gate를 줄이는가, 아니면 실패비용을 줄이기 위해 gate를 더 정교하게 만드는가. 둘째, gatekeeping이 투명한 규칙으로 제도화되는가, 정치적 선 택성과 특혜로 작동하는가. 셋째, 디지털·인프라·민간기업 확대가 시민의 이의제기·법적 구제·환경비용 통제와 어떤 균형을 이루는가."
+    }
+   ],
+   "countries": []
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [
+  "오늘의 동남아는 '정책이 무엇을 약속했는가'보다 '무엇이 실제 통과·집행·검증되는가'가 더 중요해졌다. 태국의 승인중단, 필리핀의 감사기반 재가동, 말레이시아의 거래별 수사, 인도네시아의 대형프로그램 안전·계통 병목, 베트남의 발전동원과 정보통제 병행은 모두 집행문턱의 설계가 국가역량과 책임성을 동시에 결정한다는 점을 보여준다."
+ ],
+ "watch_next": [
+  "9월 4일 태국 데이터센터 정책위원회 첫 회의와 승인재개 조건",
+  "오늘 BNM OPR 결정과 성명",
+  "FELDA/FIC 수사의 체포·기소 및 forensic audit",
+  "Jana Wibawa 재판의 반대신문과 자금흐름 증거",
+  "필리핀 Bonoan 국가증인 공식채택, 홍수통제 완공대상 목록",
+  "Sara Duterte 탄핵심리의 COA·지출증빙 후속",
+  "인도네시아 급식사고 보건당국 결과와 100GW 태양광의 RUPTL 편입",
+  "9월 4~6일 Min Aung Hlaing 베트남 방문 공동성명과 5PC 언급",
+  "베트남 Resolution 27 행동계획·예산·PPP, 민간기업 신규계약",
+  "베트남 사이버 계정 제한·차단의 실제 적용사례",
+  "캄보디아 대미수출 집중도와 미국 통상정책 변화",
+  "ASEAN Power Grid·NTB·COC·핵심광물/반도체의 운영화"
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "ANTARA, 2026-09-01",
+   "url": "https://en.antaranews.com/news/429319/bi-to-prioritize-economic-stability-under-new-governor-destry"
+  },
+  {
+   "id": null,
+   "text": "ISEAS Daily News Alerts, 2026-09-02",
+   "url": "https://www.iseas.edu.sg/library/blog/daily-news-alerts/260902"
+  },
+  {
+   "id": null,
+   "text": "Financial Times, 2026-09-03; ISEAS Daily News Alerts 2026-09-02의 Eco-Business 항목.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "The Vibes, 2026-09-02",
+   "url": "https://www.thevibes.com/articles/news/126858/macc-opens-seven-investigation-papers-in-felda-fic-cases"
+  },
+  {
+   "id": null,
+   "text": "Free Malaysia Today, 2026-09-02.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "The Vibes, 2026-09-02",
+   "url": "https://www.thevibes.com/articles/news/126857/rm25.3m-paid-into-bersatu-accounts-after-jana-wibawa-projects-court-told"
+  },
+  {
+   "id": null,
+   "text": "Bernama relay via Malaysiakini.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Malaysiakini, 2026-09-02",
+   "url": "https://www.malaysiakini.com/news/783368"
+  },
+  {
+   "id": null,
+   "text": "ISEAS Daily News Alerts, 2026-09-02; Bernama, 2026-09-02.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ISEAS Daily News Alerts, 2026-09-01·02.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency, 2026-09-02",
+   "url": "https://www.pna.gov.ph/articles/1283154"
+  },
+  {
+   "id": null,
+   "text": "Philstar, 2026-09-02.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philstar, 2026-09-02",
+   "url": "https://www.philstar.com/headlines/2026/09/02/2553527/after-flood-control-freeze-senate-panel-eyes-funds-finish-abandoned-works"
+  },
+  {
+   "id": null,
+   "text": "The Nation, 2026-09-03",
+   "url": "https://www.nationthailand.com/news/policy/40070581"
+  },
+  {
+   "id": null,
+   "text": "The Nation, 2026-09-01.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "베트남 정부, 2026-09-01",
+   "url": "https://en.baochinhphu.vn/politburo-sets-out-new-approach-to-regional-development-111260901101002314.htm"
+  },
+  {
+   "id": null,
+   "text": "베트남 정부, 2026-08-23",
+   "url": "https://baochinhphu.vn/thu-tuong-chi-dao-tang-cuong-bao-dam-an-ninh-trat-tu-dip-le-quoc-khanh-2-9-102260823183858381.htm"
+  },
+  {
+   "id": null,
+   "text": "2026-08-21 정부 지침.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "베트남 정부 Resolution 01/2026, Resolution 02/2026, Resolution 68 관련 공식자료.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Phnom Penh Post/ODC, 2026-09-02",
+   "url": "https://opendevelopmentcambodia.net/news_source/the-phnom-penh-post/"
+  },
+  {
+   "id": null,
+   "text": "Singapore PMO National Day Message 2026.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Timor-Leste Government, 2026-06-30.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Fulcrum, 2026-09-02",
+   "url": "https://fulcrum.sg/aseanfocus/after-the-gulf-crisis-rethinking-asean-energy-security-through-regional-grid-governance/"
+  },
+  {
+   "id": null,
+   "text": "ISEAS Daily News Alerts, 2026-09-02의 RSIS 항목.",
+   "url": null
+  }
+ ]
+}

@@ -1,0 +1,360 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-09-14",
+ "weekday": "월",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse Daily",
+ "editor": "김형종",
+ "observation_cutoff": "2026-09-13 23:59 KST",
+ "headline": null,
+ "pulse": [],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "other",
+   "title": "1. Today’s Pulse",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "",
+     "주말의 가장 큰 변화는 해상안전과 선거 운영 이슈였다. 인도네시아에서는 243명을 태운 Virgo Transport 8이",
+     ""
+    ],
+    "rows": [
+     [
+      "",
+      "자바해에서 전복돼 13일 오후 기준 103명이 구조·수습됐고, 이 가운데 97명은 생존, 6명은 사망으로 집계됐다.",
+      ""
+     ],
+     [
+      "",
+      "필리핀 June Aster 화재는 선체 진입 뒤 사망 76명·실종 13명으로 집계가 크게 바뀌었다.",
+      ""
+     ],
+     [
+      "",
+      "필리핀 남부에서는 첫 BARMM(방사모로)의회선거가 오늘 실시된다. 108명의 국제참관인이 도착했고 Lanao",
+      ""
+     ],
+     [
+      "",
+      "del Sur의 1,764대 자동개표기는 최종 시험·봉인 단계에 들어갔다.",
+      ""
+     ],
+     [
+      "",
+      "말레이시아에서는 AI 선거개입 의혹이 플랫폼 사업자의 차단에서 MCMC 사실확인으로 넘어갔다. 별도로",
+      ""
+     ],
+     [
+      "",
+      "Sabah·Sarawak 의석 확대는 내각의 원칙 동의까지 갔지만 증석 수와 개헌 문안은 아직 없다.",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "type": "country",
+   "title": "Virgo Transport 8 전복: 명부와 실제 인원 안 맞아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Surabaya에서 Banjarmasin으로 향하던 Virgo Transport 8은 13일 악천후 속에서 기울기 시작한 뒤 자바해에서 전복됐다. Basarnas를 인용한 15:32 WIB 보도 기준 탑승자는 243명, 구조·수습 인원은 103명으로 집계됐고 97명이 생존, 6명이 사망했다. 같은 날 늦은 시각 보도에서 숫자가 달라진 만큼 이번 호는 마감 전에 시각이 확인되는 집계를 기준으로 삼는다."
+    }
+   ],
+   "point": "현 단계에서 악천후가 원인이라고 단정하기에는 이르다. 적재상태, 차량 고박, 복원성, 항로 결정과 구조신호 처리까지 조사해야 한다. 인원 집계가 계속 수정되는 점도 승선명부와 실제 승선자의 대조가 우선임을 말해준다.",
+   "next_check": "Basarnas 최종 구조·실종 집계, 승선명부 확정, VDR·항해기록, 차량·화물 적재자료, 해운당국의 운항·검사 기록."
+  },
+  {
+   "type": "country",
+   "title": "AI 선거개입 의혹은 플랫폼 차단에서 국내 사실확인으로 넘어갔다",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Anthropic은 Claude가 Malaysia 유권자를 겨냥한 상업적 선거개입 플랫폼 구축에 사용됐다고 밝혔다. 회사가 제시한 네트워크는 약 1,000개의 가짜 X 계정, 가짜 뉴스사이트와 조작 문서로 구성됐고 222개 선거구 자료를 표적화에 사용했다고 설명했다. MCMC는 11일 관련 당사자에게 자료와 설명을 요구해 사실관계를 확인하겠다고 밝혔다."
+    },
+    {
+     "label": null,
+     "text": "다음 확인 MCMC 추가설명, 선거관리·경찰 등 다른 기관의 공식 조사, 고객·계약 주체, 실제 노출·도달자료."
+    }
+   ],
+   "point": "확인된 것은 플랫폼 사업자가 의심 계정을 차단했고 규제기관이 검토를 시작했다는 단계까지다. Anthropic은 현직 총리 계정에 유리한 인위적 조회 요청을 관찰했다고 했지만 누가 요청했는지, 총리나 총리실과 연결되는지는 입증하지 않았다. 행위자가 자체 기록한 도달수치도 독립검증되지 않았다."
+  },
+  {
+   "type": "country",
+   "title": "Sabah·Sarawak 대표 확대는 원칙 동의에서 의석 산정 문제로 이동",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Anwar Ibrahim 총리는 내각이 Sabah와 Sarawak의 Dewan Rakyat 대표 비율을 현재보다 높이는 데 원칙적으로 동의했다고 11일 밝혔다. 실제 증석에는 헌법 개정이 필요하며 비율과 의석 수는 확정되지 않았다."
+    }
+   ],
+   "point": "MA63을 둘러싼 정치적 요구가 몇 석을, 어떤 공식으로, 어느 선거부터 적용할 것인가라는 제도설계 문제로 좁혀졌다. 원칙 동의를 개헌 완료로 읽어서는 안 된다.",
+   "next_check": "선거관리위원회 협의안, 증석 숫자와 지역구 재획정 방식, 헌법개정안 원문과 의회 표결 일정."
+  },
+  {
+   "type": "country",
+   "title": "June Aster 화재는 수색에서 수습·책임규명 단계로 이동",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "9월 11일 Daily의 마감시점에는 사망 5명·실종 86명이었다. 선체 내부 접근이 가능해진 뒤 AP가 12일 전한 집계는 사망 76명, 실종 13명, 생존 43명이다. 사상자 규모가 크게 수정되면서 구조의 중심도 생존자 탐색에서 신원확인과 사고원인·승무원 대응 조사로 옮겨갔다."
+    }
+   ],
+   "point": "생존자들이 화물구역 폭발과 빠른 연소를 진술했지만 이는 아직 원인결론이 아니다. 선박이 3월 안전검사를 통과했다는 기존 기록과 실제 화재확산·대피결과 사이의 간극이 조사대상이다.",
+   "next_check": "최종 사망·실종자 명단, 선장·승무원 비상절차 조사, 화물목록과 발화원, 3월 검사기록 및 선사에 대한 행정·형사조치."
+  },
+  {
+   "type": "country",
+   "title": "BARMM 첫 의회선거: 오늘부터 전환 설계가 투표소 운영으로 검증",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "9월 14일 첫 Bangsamoro Parliamentary Election을 앞두고 108명의 국제참관인이 16개 기관·대표단에서 도착했다. 등록유권자는 230만 명 이상이다. Lanao del Sur 선거당국은 12일 준비율을 99%로 제시했고 1,764대자동개표기가 투표소에 배치돼 최종 시험·봉인을 진행했다."
+    }
+   ],
+   "point": "지난주까지 쟁점은 제도·의석구조와 선거 준비였다. 오늘부터는 실제 투표율, 장비 장애, 치안, 이의제기와 개표가 전환의 신뢰도를 좌우한다. 마감 기준 선거결과는 아직 존재하지 않는다.",
+   "next_check": "투표율, 투표중단·장비오류, 선거폭력, 개표속도, 의석배분과 선거분쟁."
+  },
+  {
+   "type": "country",
+   "title": "2027 회계연도 예산안이 상원을 통과했다",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "상원은 11일 3조 7,880억 바트 규모의 2027 회계연도 예산안을 승인했다. 하원은 전날 2·3 독회를 통과시켰고 새 회계연도는 10월 1일 시작한다. 특별심사 과정에서 정부안보다 111억 6,200만 바트가 삭감됐다."
+    }
+   ],
+   "point": "이제 예산은 정부안이 아니라 입법통과 단계다. 다만 10월 1일 이후 어느 부처·사업에서 실제 집행이 빨라지는지까지는 별도 문제다. 주요 삭감부처의 사업 재조정도 확인해야 한다.",
+   "next_check": "국왕 재가·공포, 10월 1일 부처별 배정, 대형 교통·안보·기후사업의 실제 집행률."
+  },
+  {
+   "type": "country",
+   "title": "1 단계 — 중앙 법률: 기술·통신 규제완화",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "주파수·통신·전자거래·기술이전 관련 4개 법률 개정안이 10일 공포됐다. 정부는 47개 사업조건 축소, 두 개 행정절차 폐지, 일부 권한의 지방 이양과 데이터 기반 사후관리를 강조했다. 이것은 법률 확정 단계이지 기업 현장에서 처리기간 단축이 확인된 단계는 아님."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "2 단계 — 행정 번역: 데이터 서비스 책임을 다룬 시행령이 15일 발효한다",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부는 Decree 347/2026/NĐ-CP를 8일 발행했고 15일부터 발효한다. 이 문서는 데이터 상품·서비스 제공 조직의 책임을 포함해 기존 관련 시행령들을 수정한다. 4개 기술법 개정과 동일한 문서는 아니지만 중앙의 디지털 규제개편이 하위규칙으로 내려가는 병행 경로임."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "3 단계 — 집행: 아직 필요한 것은 기관별 지침과 실제 처리자료다",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "법률·시행령이 존재해도 허가창구의 처리기간, 반려율, 데이터서비스 사업자의 준수비용이 어떻게 바뀌는지는 아직 확인되지 않아 이에 대한 추적이 필요한 상황임."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "4 단계 — 산업 결과: 첫 기업 사례에 주목할 필요",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "다음 판단은 기업이 어떤 허가를 덜 받고, 어떤 데이터서비스 의무를 새로 부담하며, 지방정부가 이관받은 권한을 실제로 어떻게 행사하는지에 달려 있다. 규제완화가 법문 정리를 넘어 거래비용 감소로 이어지는지는 이 단계에서 확인할 필요."
+    }
+   ],
+   "next_check": "15일 Decree 347 발효 후 기관별 지침, 4개 개정법의 시행일·하위법령, 허가 처리기간·반려율, 지방 이관업무 첫 사례와 기업 준수비용."
+  },
+  {
+   "type": "country",
+   "title": "300kWh 이하 가정용 전기에 VAT 면제가 적용된다",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "EDL은 월 0~300kWh를 사용하는 가구의 전기요금에 10% VAT를 면제하는 정책을 9월 청구분부터 2029년 말까지 전국 적용한다고 밝혔다. 보도에 따르면 법적 근거는 9월 2일 국회 상임위원회 Resolution No.20 이며 유지보수 수수료에는 VAT가 계속 붙는다."
+    }
+   ],
+   "point": "전기요금을 일괄 동결하는 정책이 아니라 소비구간을 정해 세부담을 낮춘 조치다. 최근 전기료 상승과 EDL 재무개선 로드맵이 병행되는 만큼 수혜대상과 공기업 수입 감소분을 함께 봐야 한다.",
+   "next_check": "실제 첫 청구서, 수혜가구 수, 면제액, 300kWh 경계구간 처리, EDL 보전방식."
+  },
+  {
+   "type": "country",
+   "title": "Ataúro 하이브리드 전력사업이 조달 승인 단계로 이동했다",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "각료회의는 11일 Ataúro 섬의 하이브리드 전력공급시스템 구축·설치에 최대 1,350만 달러를 지출하고 조달절차를 시작하도록 승인했다. 태양광, 배터리 저장장치와 디젤 발전기를 결합해 24시간 전력공급의 안정성을 높이는 사업이다."
+    }
+   ],
+   "point": "이전의 질 좋은 투자 원칙보다 훨씬 구체적이다. 예산권한과 조달개시가 확인됐지만 사업자 선정·계약·착공은 아직 아니다.",
+   "next_check": "입찰공고, 사업자·계약금액, 태양광·배터리 용량, 디젤 의존도, 완공 일정과 실제 24시간 공급지표."
+  },
+  {
+   "type": "country",
+   "title": "캄보디아 : 양자 재관여가 네 개 문서로 구체화됐다",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Min Aung Hlaing의 캄보디아 국빈방문에서 양국은 이중과세·조세회피 방지, 상호투자 촉진·보호, 문화협력 개정, 미디어·정보협력 등 네 문서에 서명했다. 고위급 방문이 법·경제 협력문서로 내려왔지만 ASEAN Five-Point Consensus의 폭력 중단, 인도지원 접근, 포용적 대화에서 새 이행이 확인된 것은 아니다."
+    }
+   ],
+   "next_check": "조세·투자협정의 비준·발효, 실제 투자사업, 캄보디아의 대미얀마 관여가 5PC·인도지원 접근과 연결되는지."
+  },
+  {
+   "type": "country",
+   "title": "캄보디아 : UNCLOS 조정은 오늘 첫 회의를 시작한다",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "양국과 조정위원회는 14~16일 Singapore에서 첫 회의를 연다. 태국 대표단에는 외교부뿐 아니라 해군 수로·작전부서와 에너지부 광물연료 부서가 포함됐다. 9월 11일 Daily 에서는 회의 예정까지였고 오늘부터는 절차규칙과 쟁점범위를 실제로 확인할 수 있는 단계다. 조정은 재판이 아니며 권고가 자동으로 구속력을 갖는 것도 아니다."
+    }
+   ],
+   "next_check": "채택된 절차규칙, 양측 개시발언, 쟁점범위, 자료제출 일정과 다음 회의일."
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "",
+     "BARMM 에서는 투표율·장비·치안과 개표가, 태국–캄보디아 조정에서는 절차규칙과 쟁점범위가 관건임.",
+     ""
+    ],
+    "rows": [
+     [
+      "",
+      "말레이시아 AI 사건은 아직 사실확인 단계이나 사실로 드러날 경우 정치적 파장 예상됨. 두 해상사고 역시",
+      ""
+     ],
+     [
+      "",
+      "구조 숫자보다 승선명부·검사·운항기록이 정리될 때 원인과 책임을 둘러싼 쟁점화 가능성 있음.",
+      ""
+     ]
+    ]
+   }
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [
+  "ISEAS – Yusof Ishak Institute, Daily News on Southeast Asia – 11 September 2026 (2026-09-11)",
+  "Tirto / ANTARA, Basarnas: 6 dead in Virgo Transport 8 accident (2026-09-13)",
+  "NU Online, Virgo Transport 8 search operation (2026-09-13)",
+  "Anthropic, Countering misuse of AI: September 2026 (2026-09-10)",
+  "Bernama / MCMC, MCMC takes Anthropic report seriously (2026-09-11)",
+  "Bernama, Government agrees in principle to increase Sabah/Sarawak MP ratio (2026-09-11)",
+  "Associated Press, Philippine ferry fire death toll reaches 76 (2026-09-12)",
+  "BARMM Information Office, 108 international observers for first parliamentary polls (2026-09-12)",
+  "Philippine Information Agency, Lanao del Sur 99% ready for BARMM parliamentary polls (2026-09-12)",
+  "Thailand PRD, Senate approves FY2027 national budget bill (2026-09-11)",
+  "Government of Viet Nam, law amending four technology and telecommunications laws (2026-09-10)",
+  "Government of Viet Nam, Decree 347/2026 on data-product and service responsibilities (2026-09-11)",
+  "Government of Viet Nam, 15 laws promulgated (2026-09-10)",
+  "Laotian Times, residential electricity use up to 300 kWh exempted from VAT (2026-09-11)",
+  "Lao-Viet Magazine, legal basis for Laos electricity VAT exemption (2026-09-11)",
+  "Government of Timor-Leste, Council of Ministers meeting 11 September 2026 (2026-09-11)",
+  "Agence Kampuchea Presse, Cambodia and Myanmar reach four agreements (2026-09-11)",
+  "Thai Ministry of Foreign Affairs, first Thailand–Cambodia UNCLOS conciliation meeting (2026-09-09)"
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "Tirto / ANTARA · NU Online / Basarnas",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Anthropic · Bernama / MCMC",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "BARMM Information Office · PIA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Thailand Public Relations Department",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Government of Viet Nam — 4개 기술법 개정 · Government of Viet Nam — Decree 347",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Laotian Times · Lao-Viet Magazine",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Government of Timor-Leste",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Agence Kampuchea Presse",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Thai Ministry of Foreign Affairs",
+   "url": null
+  }
+ ]
+}

@@ -1,102 +1,119 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "sea-pulse-brief/v0",
-  "title": "SEA Pulse 동남아 데일리 브리프 (하루 1건)",
+  "$id": "sea-pulse-brief/v1",
+  "title": "SEA Pulse 동남아 데일리 브리프 (하루 1건, v1: 고정 머리·꼬리 + 순서 있는 블록)",
   "type": "object",
-  "required": ["schema", "date", "weekday", "headline", "regional", "countries", "countries_brief", "watch_next", "sources"],
+  "required": ["schema", "date", "weekday", "sections", "sources"],
   "additionalProperties": false,
   "$defs": {
     "code": { "enum": ["TH", "VN", "ID", "PH", "MY", "MM", "SG", "KH", "LA", "BN", "TL"] },
     "text": { "type": "string", "minLength": 1 },
-    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "ntext": { "type": ["string", "null"] },
+    "table": {
+      "type": "object", "required": ["columns", "rows"], "additionalProperties": false,
+      "properties": {
+        "title": { "type": ["string", "null"] },
+        "columns": { "type": "array", "items": { "type": "string" } },
+        "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+      }
+    }
   },
   "properties": {
-    "schema": { "const": "sea-pulse-brief/v0" },
+    "schema": { "const": "sea-pulse-brief/v1" },
     "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
     "weekday": { "enum": ["월", "화", "수", "목", "금", "토", "일"] },
-    "title": { "type": "string" },
-    "series": { "type": ["string", "null"] },
+    "title": { "type": ["string", "null"], "description": "예: 동남아 데일리 브리프" },
+    "edition": { "type": ["string", "null"], "description": "원문 판 이름. 예: SEA Pulse, SERIES Daily 구독자판" },
     "editor": { "type": ["string", "null"] },
-    "headline": { "$ref": "#/$defs/text", "description": "오늘의 한 줄" },
-    "regional": {
-      "description": "아세안 역내 정세 (보통 5건, 중요도 순)",
-      "type": "array", "minItems": 1,
+    "observation_cutoff": { "type": ["string", "null"], "description": "예: 2026-11-10 23:59 KST" },
+
+    "headline": { "type": ["string", "null"], "description": "오늘의 한 줄. 없으면 null" },
+    "pulse": { "type": "array", "items": { "$ref": "#/$defs/text" }, "description": "Today's Pulse / Executive Pulse 단락. 없으면 []" },
+
+    "monitor": {
+      "description": "지속 이슈 상태판(SEA Pulse Monitor, Tracker). 없으면 []",
+      "type": "array",
       "items": {
-        "type": "object", "required": ["title", "body", "countries"], "additionalProperties": false,
+        "type": "object", "required": ["issue"], "additionalProperties": false,
         "properties": {
-          "title": { "$ref": "#/$defs/text" },
-          "body": { "$ref": "#/$defs/text" },
-          "point": { "type": ["string", "null"] },
-          "countries": { "type": "array", "items": { "$ref": "#/$defs/code" }, "description": "관련 국가 코드. 역내 전체 사안이면 []" }
+          "issue_id": { "anyOf": [{ "$ref": "#/$defs/id" }, { "type": "null" }] },
+          "issue": { "$ref": "#/$defs/text" },
+          "status": { "enum": ["NEW", "UP", "CONTINUITY", "DOWN", "WATCH", "IMPLEMENTED", null] },
+          "status_label": { "type": ["string", "null"], "description": "원문 상태 표기(예: 변화 있음, RED)" },
+          "level": { "enum": ["red", "orange", "yellow", "green", null] },
+          "stage": { "type": ["string", "null"] },
+          "delta": { "type": ["string", "null"], "description": "오늘의 변화·판단" },
+          "next_trigger": { "type": ["string", "null"] },
+          "period": {
+            "type": ["object", "null"], "additionalProperties": false,
+            "properties": { "start": { "type": ["string", "null"] }, "end": { "type": ["string", "null"] } }
+          }
         }
       }
     },
-    "special": {
-      "description": "오늘의 특별 이슈. 없는 날은 null",
-      "type": ["object", "null"], "required": ["title", "sections"],
-      "properties": {
-        "title": { "$ref": "#/$defs/text" },
-        "sections": { "type": "array", "items": { "type": "object", "required": ["label", "text"],
-          "properties": { "label": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" } } } }
-      }
-    },
-    "countries": {
-      "description": "국가별 동향 정밀 분석(보통 6개국)",
+
+    "sections": {
+      "description": "본문 블록. 원문 순서대로. 같은 type이 이어지면 웹페이지가 한 묶음으로 보여 줌",
       "type": "array",
       "items": {
-        "type": "object", "required": ["code", "name", "paragraphs"], "additionalProperties": false,
+        "type": "object", "required": ["type"], "additionalProperties": false,
         "properties": {
-          "code": { "$ref": "#/$defs/code" }, "name": { "$ref": "#/$defs/text" },
-          "update": { "type": ["string", "null"], "description": "예: 업데이트 · 8월 21~22일 / 오늘 신규 아님 · 8월 20일" },
-          "paragraphs": { "type": "array", "minItems": 1, "items": { "type": "object", "required": ["field", "text"],
-            "properties": { "field": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" } } } },
+          "type": {
+            "type": "string",
+            "description": "regional(역내 정세 항목) | special(특별 이슈·특집) | country(국가별 동향) | country_brief(국가 요약 표의 한 행) | asean(ASEAN·대외관계) | theme(디지털·AI, 경제 포커스 등 주제) | deep_dive(심층) | macro(거시경제 표) | research(연구·정책 분석) | watchlist | other"
+          },
+          "heading": { "type": ["string", "null"], "description": "묶음 제목을 원문 표기로 바꾸고 싶을 때(예: Day-of-Week Economic Focus)" },
+          "title": { "type": ["string", "null"] },
+          "lede": { "type": ["string", "null"], "description": "제목 아래 요지 한 줄" },
+          "countries": { "type": "array", "items": { "$ref": "#/$defs/code" } },
+          "issue_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } },
+          "update": { "type": ["string", "null"], "description": "예: 업데이트 · 8월 21~22일" },
+          "paragraphs": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["text"], "additionalProperties": false,
+              "properties": { "label": { "type": ["string", "null"] }, "text": { "$ref": "#/$defs/text" } }
+            }
+          },
+          "table": { "anyOf": [{ "$ref": "#/$defs/table" }, { "type": "null" }] },
           "point": { "type": ["string", "null"] },
           "next_check": { "type": ["string", "null"] }
         }
       }
     },
-    "countries_brief": {
-      "description": "나머지 국가 요약 표",
-      "type": "array",
-      "items": { "type": "object", "required": ["code", "name", "trend", "next_check"], "additionalProperties": false,
-        "properties": { "code": { "$ref": "#/$defs/code" }, "name": { "type": "string" }, "trend": { "$ref": "#/$defs/text" }, "next_check": { "$ref": "#/$defs/text" } } }
-    },
-    "macro": {
-      "type": ["object", "null"], "required": ["columns", "rows"],
-      "properties": { "title": { "type": ["string", "null"] }, "columns": { "type": "array", "items": { "type": "string" } },
-        "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } } }
-    },
+
     "chronology": {
-      "description": "지속 이슈 크로놀로지. id는 날짜가 바뀌어도 같은 이슈면 같은 값",
+      "description": "지속 이슈 크로놀로지 / Compact Chronology. 이슈별 묶음 또는 날짜 표 하나(issue_id·issue null)",
       "type": "array",
-      "items": { "type": "object", "required": ["id", "issue", "events"], "additionalProperties": false,
-        "properties": { "id": { "$ref": "#/$defs/id" }, "issue": { "$ref": "#/$defs/text" },
-          "events": { "type": "array", "items": { "type": "object", "required": ["date", "text"],
-            "properties": { "date": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" } } } },
-          "status": { "type": ["string", "null"] } } }
+      "items": {
+        "type": "object", "required": ["events"], "additionalProperties": false,
+        "properties": {
+          "issue_id": { "anyOf": [{ "$ref": "#/$defs/id" }, { "type": "null" }] },
+          "issue": { "type": ["string", "null"] },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["date", "text"], "additionalProperties": false,
+              "properties": { "date": { "type": "string" }, "text": { "$ref": "#/$defs/text" }, "note": { "type": ["string", "null"], "description": "남은 판단 기준 등" } }
+            }
+          },
+          "status": { "type": ["string", "null"] }
+        }
+      }
     },
-    "asean_overview": { "type": "array", "items": { "type": "object", "required": ["text"],
-      "properties": { "label": { "type": ["string", "null"] }, "text": { "$ref": "#/$defs/text" } } } },
-    "research": { "type": "array", "items": { "type": "object", "required": ["source", "text"],
-      "properties": { "source": { "type": "string" }, "author": { "type": ["string", "null"] }, "date": { "type": ["string", "null"] },
-        "title": { "type": ["string", "null"] }, "url": { "type": ["string", "null"] }, "text": { "$ref": "#/$defs/text" } } } },
-    "tracker": {
-      "description": "트래커 업데이트. id는 날짜가 바뀌어도 고정",
+
+    "bottom_line": { "type": "array", "items": { "$ref": "#/$defs/text" } },
+    "watch_next": { "type": "array", "items": { "$ref": "#/$defs/text" }, "description": "다음에 볼 것 / What to Watch" },
+    "verification_notes": { "type": "array", "items": { "type": "string" } },
+    "sources": {
       "type": "array",
-      "items": { "type": "object", "required": ["id", "name", "judgement"],
-        "properties": { "id": { "$ref": "#/$defs/id" }, "name": { "$ref": "#/$defs/text" }, "name_src": { "type": ["string", "null"] },
-          "level": { "enum": ["red", "orange", "yellow", "green", null] },
-          "change": { "enum": ["중요 변화", "변화 있음", "변화 없음", null] },
-          "judgement": { "$ref": "#/$defs/text" }, "next_check": { "type": ["string", "null"] } } }
+      "items": {
+        "type": "object", "required": ["text"], "additionalProperties": false,
+        "properties": { "id": { "type": ["string", "null"], "description": "예: S013" }, "text": { "$ref": "#/$defs/text" }, "url": { "type": ["string", "null"] } }
+      }
     },
-    "watchlist": { "type": "array", "items": { "type": "object", "required": ["item"],
-      "properties": { "item": { "type": "string" }, "stage": { "type": ["string", "null"] }, "note": { "type": ["string", "null"] } } } },
-    "watch_next": { "type": "array", "items": { "$ref": "#/$defs/text" }, "description": "다음에 볼 것" },
-    "verification_notes": { "type": "array", "items": { "type": "string" }, "description": "공개용 검증 노트(수치 상충, 일방 주장 등)" },
-    "sources": { "type": "array", "items": { "type": "object", "required": ["text"],
-      "properties": { "text": { "$ref": "#/$defs/text" }, "url": { "type": ["string", "null"] } } } },
-    "pdf": { "type": ["string", "null"] },
-    "internal_notes": { "type": "array", "items": { "type": "string" }, "description": "비공개. 사이트에 절대 나가지 않음" },
-    "_public_edits": { "type": "array", "description": "시안 변환 시 공개본에서 고친 기록(초기 4건 전용)" }
+    "internal_notes": { "type": "array", "items": { "type": "string" }, "description": "비공개. 사이트에 나가지 않음" },
+    "_public_edits": { "type": "array" }
   }
 }

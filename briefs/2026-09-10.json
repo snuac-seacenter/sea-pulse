@@ -1,0 +1,549 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-09-10",
+ "weekday": "목",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse Daily",
+ "editor": "김형종",
+ "observation_cutoff": "2026-09-09 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "필리핀이 2026~2033년 AI 인프라 마스터플랜 최종본을 내놓았다. 344억 달러와 1.5GW라는 목표가 눈에 띄지만, 당장 확정된 사업비나 전력접속 계약은 아니다. 2030년까지 400MW를 먼저 구축하려면 예산·민간자금·송전망·용수를 각각 사업으로 바꿔야 한다. 인도네시아에서는 B50이 전국 주유소망의 94%까지 보급돼 발표에서 운영으로 옮겨갔다. 태국 해군은 한화오션을 호위함 사업 우선선정자로 정했고, 스리랑카 노동자 1만 명을 위한 양자 고용틀도 내각 승인을 받았다. 두 조치 모두 계약 체결과 실제 인력 유입은 남아 있다.",
+  "베트남과 러시아는 공동성명과 분야별 협력문서를 교환했다. 투자등록증 한 건을 제외하면 대다수는 양해각서나 공동검토의 성격이 강하다. 같은 날 공개된 EU-ASEAN 기업조사에서는 투자 의향이 높았지만, 응답자의 73%가 역내 공급망 이용에 장벽이 많다고 답했다. 기대와 제도 여건의 간격이 숫자로 드러났다."
+ ],
+ "monitor": [
+  {
+   "issue_id": null,
+   "issue": "ASEAN DEFA",
+   "status": null,
+   "status_label": "→",
+   "level": null,
+   "stage": null,
+   "delta": null,
+   "next_trigger": "제49차 정상회의 서명문",
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "title": "B50 보급이 주유소망의 94%까지 올라갔다",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "에너지광물자원부와 국영 유통사 자료에 따르면 6,412개 주유소 중 6,050곳이 B50 경유를 공급한다. 말루쿠·파푸아 권은 65%에 머물고 나머지 권역은 대체로 90%를 넘었다. 정부가 제시한 외화절감 170조 루피아와 배출감축 4,446만 톤은 실측 결과가 아니라 2026년 정책효과 추계다."
+    }
+   ],
+   "point": "전국 의무화가 발표 단계는 벗어났다. 다만 주유소 수가 실제 판매량, 차량 적합성, 팜유 원료의 국내 배분을 대신 설명 하지는 못한다.",
+   "next_check": "남은 362개소의 전환 완료, 월별 B50 판매량과 정비·품질 민원, 경유 수입 실적."
+  },
+  {
+   "type": "country",
+   "title": "Whoosh 부채 이전은 9월 15일 결정을 기다린다",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "연 1조 루피아 안팎을 80년에 걸쳐 갚는 구조와 정부가 60% 지분·채무를 넘겨받는 방안은 전날 공개된 범위를 벗어나지 않았다. 오늘 확인된 새 인수결정은 없다."
+    }
+   ],
+   "next_check": "재무부 산하 단일 특수목적기관 지정 여부와 대출원금·정부보증 조건."
+  },
+  {
+   "type": "country",
+   "title": "나집 사면을 두고 연정 구성세력이 공개적으로 갈렸다",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "파카탄하라판은 고위급 부패 유죄판결자가 형기를 모두 채워야 한다고 밝혔고, UMNO 사무총장은 2018년 안와르 사면과 다른 잣대라며 반박했다. 현지 보도는 연방직할지 사면위원회가 9월 11일 신청을 논의할 수 있다고 전했지만, 공식 의제나 결정은 공개되지 않았다."
+    }
+   ],
+   "point": "법원 판결이나 사면 결정이 나온 것이 아니라, 사면위원회 회의를 앞둔 연정 내부의 공개 입장 정렬이다. UMNO 총회와 겹치면서 갈등의 정치적 비용이 커졌다.",
+   "next_check": "사면위원회의 공식 발표, 신청 범위가 감형인지 가택복역인지, 연정 지도부의 공동입장 여부."
+  },
+  {
+   "type": "country",
+   "title": "AI 인프라 최종계획이 2033년까지 344억 달러 조달을 제시했다",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정보통신기술부가 2026~2033년 AI+ 인프라 마스터플랜 최종본을 공개했다. 현재 약 50MW 인 AI 데이터센터 용량을 2030년 400MW, 2033년 1.5GW로 늘리고 총 344억 달러를 동원한다는 구상이다. 공공재원 135억 달러, 민간 210억 달러를 전제로 하며, 계획서의 GDP·고용 수치는 전망치다."
+    }
+   ],
+   "point": "로드맵의 숫자는 크지만 첫 단계의 예산·부지·전력접속·조달계획은 별도 결정이 필요하다. 전력계통이 2027년부터 빠듯해질 수 있다는 경고도 계획 자체에 들어 있다.",
+   "next_check": "400MW 1 단계의 사업별 예산, 전력·용수 공급계약, 공공 AI 컴퓨트 허브의 입찰 일정."
+  },
+  {
+   "type": "country",
+   "title": "BARMM 선거는 규정 마련에서 현장 배치로 옮겨갔다",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "선거관리위원회는 9월 14일 첫 의회선거를 앞두고 투표장비 배송과 치안인력 배치를 진행했다. 80 석 가운데 40 석은 정당명부, 32 석은 지역구, 8 석은 부문대표로 구성된다. 투표는 아직 실시되지 않았다."
+    }
+   ],
+   "next_check": "투표율, 선거관련 폭력 보고, 개표·의석배분 결과와 이의신청."
+  },
+  {
+   "type": "country",
+   "title": "해군이 한화오션을 167억 3천만 바트 호위함 사업의 우선선정자로 정했다",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국 해군은 입찰평가를 마치고 한화오션 제안을 승인했다. 가격은 운송·보험·세금을 포함한 확정가로 제시됐으며, 기술이전과 인력양성도 평가대상에 포함됐다. 이의제기 기간이 남아 있어 아직 계약 체결이나 건조 착수 단계는 아니다."
+    }
+   ],
+   "point": "한국 기업의 수주 가능성이 한 단계 높아졌지만, 현지 산업참여 범위는 선정 발표보다 계약서와 절충교역 조건에서 확인해야 한다.",
+   "next_check": "이의제기 결과, 9월 18일 해군 설명회, 최종 계약액·인도시기·현지조달 비율."
+  },
+  {
+   "type": "country",
+   "title": "스리랑카 노동자 1만 명 도입 틀이 내각 승인을 받았다",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "노동협력 양해각서와 고용협정은 직접 근로계약, 건강검진·보험, 허가된 사용자·직종, 2년 계약과 최대 2년 연장, 고용 주의 귀국비용 부담을 규정한다. 승인은 채용 통로를 연 것이며 실제 입국 인원은 아직 없다."
+    }
+   ],
+   "next_check": "양국 서명과 모집 개시일, 대상 업종·임금, 첫 입국 인원과 모집수수료 감독."
+  },
+  {
+   "type": "country",
+   "title": "러시아 방문은 공동성명과 분야별 문서 교환까지 진행됐다",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "9월 9일 양국은 2030년 교역 150억 달러 목표를 확인하고 에너지·물류·방산·첨단기술 협력을 확대하기로 했다. 교환문서에는 투자협력 양해각서, 페트로베트남–자루베즈네프트 투자등록증, 원유 전략비축시설 공동검토, 원자력 안전, 3D 프린팅 기술센터 협정 등이 포함됐다."
+    }
+   ],
+   "point": "국빈방문 일정이 문서화 단계로 이동했다. 그래도 목록의 대부분은 양해각서·검토협정이어서 사업비, 금융구조, 제재 준수 방식과 착수일은 남아 있다.",
+   "next_check": "투자등록증의 사업범위, 원유 비축시설 타당성조사, 물류노선·결제체계와 각 문서의 이행계획."
+  },
+  {
+   "type": "country",
+   "title": "저출산 대응이 전국 목표에서 저출산 10개 지역의 실행지침으로 내려갔다",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "보건부 지침은 하노이·호찌민시 등 10개 지역에서 매년 코뮌·동의 절반을 골라 두 자녀 캠페인을 운영하고, 2027·2029년 전국 발대행사와 2027~2028년 인구보건조사를 계획했다. 2025년 합계출산율은 1.93으로 대체수준 2.1 보다 낮았다."
+    }
+   ],
+   "point": "정책은 출산 제한 완화보다 지방정부의 홍보·조사·상담 체계 구축에 가깝다. 주거·돌봄·고용비용을 얼마나 예산으로 보완할지는 지침만으로 알 수 없다.",
+   "next_check": "10개 지역의 예산과 현금·돌봄 지원, 2027년 캠페인 참여율, 출산율의 지역별 변화."
+  },
+  {
+   "type": "country",
+   "title": "유엔 인권최고대표가 ICC 회부와 군사용 물자 이전 중단을 다시 요구했다",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "폴커 튀르크 대표는 안전보장이사회가 미얀마 상황을 국제형사재판소에 회부하고, 인권침해에 쓰일 위험이 있는 무기· 탄약·항공유·이중용도 물자의 이전을 끝내야 한다고 말했다. 로힝야의 현 상황에서 송환은 강제송환금지원칙 위반이 될수 있다고도 경고했다."
+    }
+   ],
+   "point": "국제기구의 요구가 강해졌지만 안보리 회부나 회원국의 신규 금수조치가 이뤄진 것은 아니다. 외교적 압박과 법적 단계는 구분해야 한다.",
+   "next_check": "안보리 의제화, 개별국의 항공유·이중용도 품목 제한, 인권이사회 결의안 문구."
+  },
+  {
+   "type": "country",
+   "title": "새 정책단계 변화는 확인되지 않았다",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국 상품 불매와 국경폐쇄의 기업·가계 영향에 관한 분석 보도는 이어졌으나, 9월 9일 23:59 KST 까지 국경 재개, 보상책, 새 양자합의는 독립적으로 확인되지 않았다."
+    }
+   ],
+   "next_check": "공식 검문소 운영시간, 양국 공동성명, 귀환노동자 고용·현금지원 집행자료."
+  },
+  {
+   "type": "country",
+   "title": "전날 정무직 보수체계 개편 뒤 추가 결정은 없었다",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "9월 9일에는 보수 개편의 적용범위나 10월 15일 시행일을 바꾸는 새 공식문서가 확인되지 않았다. AI·양자·우주 협력 보도도 당일 예산배정이나 계약으로 넘어간 사례는 찾지 못했다."
+    }
+   ],
+   "next_check": "보수체계의 세부 시행표와 의회 질의, AI 관련 신규 예산·조달 공고."
+  },
+  {
+   "type": "country",
+   "title": "당 중앙 결의가 비엔티안 행정조직에 배포됐다",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "라오인민혁명당 선전교육위원회는 제12 기 중앙위원회 제3차 전원회의 결의와 2026~2030년 9개 프로그램·42개 사업을 관계기관에 설명했다. 사이버사기·불법사업 단속과 주민등록·외국인 노동관리 강화도 주문했다."
+    }
+   ],
+   "point": "현재 확인된 것은 당 문서의 행정적 전파다. 42개 사업의 명칭, 담당기관, 예산과 지방지침이 공개돼야 실제 업무 전환을 판별할 수 있다.",
+   "next_check": "사업목록·재원배분, 주·군 단위 시행지시, 사이버사기 검거 770명에 대한 기소·추방 통계."
+  },
+  {
+   "type": "country",
+   "title": "연무 측정에 PM2.5가 포함되고 하루 다섯 차례 공지가 시작됐다",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "환경당국은 9월 1일부터 대기오염지수 산정에 PM2.5를 반영하고 연무 기간 07 시·09 시·11 시·14 시·16 시에 수치를 발표한다. 9월 8일 16 시 Belait는 115로 ‘나쁨’, 나머지 세 지구는 74~99의 ‘보통’이었다."
+    }
+   ],
+   "point": "기준 변경으로 이전 수치와 단순 비교하기는 어렵다. 이번 변화는 경보 자체보다 측정·공개 빈도를 높인 행정조치다.",
+   "next_check": "Belait 수치의 지속시간, 학교·야외노동 지침 변경, 국경을 넘는 연무원인에 대한 공동대응.",
+   "issue_ids": [
+    "climate-haze"
+   ]
+  },
+  {
+   "type": "country",
+   "title": "호주 북부준주와 훈련·노동이동 협력 강화가 발표됐지만 세부문서는 공개되지 않았다",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "동티모르 정부는 9월 9일 협력 강화를 알렸으나 마감시각 현재 본문은 ‘곧 공개’ 상태였다. 양해각서, 직종, 인원, 비용분담을 확인할 수 없어 발표 단계로 남긴다."
+    }
+   ],
+   "next_check": "협정 원문, 훈련기관과 재원, 노동이동 쿼터·비자·근로자 보호조항."
+  },
+  {
+   "type": "country",
+   "title": "유럽 기업의 투자 의향은 높지만 역내 통관·비관세장벽 평가는 냉정했다",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "EU-ASEAN Business Council 조사에서 응답기업의 78%가 향후 5년간 역내 무역·투자를 늘릴 계획이라고 답했고, 공급망 재조정을 검토한 기업의 67%가 ASEAN을 후보지로 꼽았다. 반면 73%는 역내 공급망을 효율적으로 쓰기에 장벽이 너무 많다고 봤고, 통관이 빠르고 효율적이라는 평가는 12%, 비관세장벽이 줄고 있다는 응답은 6%였다."
+    }
+   ],
+   "point": "기업심리조사이므로 실제 투자액이나 통관시간을 대신하지 않는다. 다만 DEFA 서명 이후 기업이 요구할 우선순위가 상호운용 규칙, 통관, 비관세장벽으로 좁혀졌다는 참고자료가 된다.",
+   "next_check": "조사 표본의 국가·업종 분포, DEFA 이행협의체의 민간 참여방식, ASEAN Single Window와 비관세조치 관련 연내 결정.",
+   "issue_ids": [
+    "us-trade"
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국의 수입 EV 31~39% 세율은 민간 제안과 재무부 검토 단계다. 현행 10%에서 급격히 높아질 수 있지만 EV 위원회와 내각을 거치지 않았으므로 확정 세율로 읽으면 안 된다."
+    }
+   ],
+   "table": {
+    "title": null,
+    "columns": [
+     "축",
+     "현재 위치",
+     "확인된 변화",
+     "아직 남은 것"
+    ],
+    "rows": [
+     [
+      "에너지",
+      "운영",
+      "인도네시아 B50주유소 보급 94%",
+      "실판매량·수입감축·차량 적합성"
+     ],
+     [
+      "산업조달",
+      "우선선정",
+      "태국 해군이 한화오션 제안 승인",
+      "이의제기·계약·현지조달"
+     ],
+     [
+      "자동차",
+      "정책검토",
+      "태국 수입 EV 31~39% 세율안 검토",
+      "EV 위원회·내각 승인"
+     ],
+     [
+      "역내 공급망",
+      "기업인식",
+      "67%가 ASEAN을 재배치 후보로 검토",
+      "통관시간·비관세장벽 실측"
+     ],
+     [
+      "러시아 연계",
+      "기본문서",
+      "베트남 에너지·물류 문서 교환",
+      "사업비·결제·제재준수"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "A. Regional Issue Tracker",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "",
+     "",
+     "명문 없음",
+     ""
+    ],
+    "rows": [
+     [
+      "Myanmar / 5PC",
+      "WATCH",
+      "유엔이 ICC 회부·물자이전 중단 요구",
+      "안보리·회원국 조치"
+     ],
+     [
+      "Thailand–Cambodia",
+      "→",
+      "새 국경합의 확인 안 됨",
+      "검문소 운영·공동성명"
+     ],
+     [
+      "Transboundary haze",
+      "↑",
+      "브루나이 PM2.5 반영·Belait PSI 115",
+      "PSI 지속시간·학교/노동지침"
+     ],
+     [
+      "AI infrastructure",
+      "NEW",
+      "필리핀 최종 마스터플랜 공개",
+      "예산·전력·400MW 조달"
+     ],
+     [
+      "Korea–Thailand defence",
+      "↑",
+      "한화오션 우선선정",
+      "이의제기·계약"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "B. Compact Chronology",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "날짜",
+     "Episode",
+     "변화",
+     "단계",
+     "다음 trigger"
+    ],
+    "rows": [
+     [
+      "9/8",
+      "Indonesia B50",
+      "주유소 94% 보급",
+      "운영",
+      "362개소 전환"
+     ],
+     [
+      "9/8",
+      "Philippines AI",
+      "최종 계획 공개",
+      "정책채택",
+      "400MW 조달"
+     ],
+     [
+      "9/8",
+      "Thai frigate",
+      "한화오션 선정 승인",
+      "우선선정",
+      "9/18 설명회"
+     ],
+     [
+      "9/8",
+      "Thai labour",
+      "양자 고용틀 내각 승인",
+      "승인",
+      "서명·첫 입국"
+     ],
+     [
+      "9/9",
+      "Vietnam–Russia",
+      "공동성명·문서 교환",
+      "기본문서",
+      "사업별 일정"
+     ],
+     [
+      "9/9",
+      "Malaysia pardon",
+      "연정 공개입장 충돌",
+      "정치입장",
+      "9/11 공식 발표"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "B. Compact Chronology",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "축",
+     "신호",
+     "근거"
+    ],
+    "rows": [
+     [
+      "디지털",
+      "↑ / 계획",
+      "필리핀 AI 인프라 최종본; 자금·전력 미확정"
+     ],
+     [
+      "에너지",
+      "↑ / 운영",
+      "인도네시아 B50주유소 보급 94%"
+     ],
+     [
+      "무역",
+      "WATCH",
+      "EU 기업은 ASEAN을 선호하지만 통관·NTB에 불만"
+     ],
+     [
+      "산업",
+      "↑ / 선정",
+      "태국 호위함 우선선정; 계약 전"
+     ],
+     [
+      "노동",
+      "↑ / 승인",
+      "태국–스리랑카 고용틀; 입국 전"
+     ],
+     [
+      "가계·인구",
+      "→ / 지침",
+      "베트남 두 자녀 캠페인 지방지침"
+     ]
+    ]
+   }
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [],
+ "watch_next": [
+  "9월 11일로 보도된 말레이시아 연방직할지 사면위원회 회의 뒤 공식 결정 또는 회의결과가 나오는지.",
+  "9월 14일 BARMM 첫 의회선거의 투표율, 선거관련 사건, 정당명부·지역구 초기 결과.",
+  "9월 15일 인도네시아 재무부가 Whoosh 60% 지분과 채무를 넘겨받을 기관·보증조건을 확정하는지.",
+  "9월 18일 태국 해군 설명회 전에 한화오션 선정에 대한 이의제기가 접수되는지.",
+  "필리핀 AI 계획 1 단계 400MW에 대한 예산항목, 전력공급계약, 입찰 공고가 공개되는지.",
+  "베트남–러시아 문서 가운데 투자등록증·원유 비축시설·물류노선이 사업비와 일정으로 전환되는지.",
+  "브루나이 Belait의 PSI가 101 이상을 유지해 학교·야외노동 지침이 바뀌는지.",
+  "ISEAS – Yusof Ishak Institute | 2026-09-09 | Daily News on Southeast Asia – 9 September 2026 ANTARA | 2026-09-08 | B50 cuts diesel imports, save Indonesia Rp170 trillion in forex Free Malaysia Today | 2026-09-09 | Those convicted of graft must serve full sentence, says PH Malay Mail | 2026-09-09 | Umno says Pakatan applying double standard on royal pardons Philippine News Agency | 2026-09-08 | PH unveils $34-B roadmap to become ASEAN AI hub Newsbytes.PH | 2026-09-09 | DICT rolls out 8-year AI infra roadmap COMELEC | 2026-08-19 | 2026 BARMM Parliamentary Elections resolutions Philippine News Agency | 2026-09-08 | Comelec chief says Bangsamoro poll preps on track The Nation Thailand | 2026-09-08 | Thai Navy selects Hanwha Ocean for THB16.73bn frigate project The Nation Thailand | 2026-09-08 | Thailand approves Sri Lanka labour framework for 10,000 workers The Nation Thailand | 2026-09-09 | Thailand weighs 31–39% excise tax on EVs without local parts Government of Viet Nam | 2026-09-09 | Viet Nam–Russia cooperation documents exchanged VietnamPlus | 2026-09-09 | Vietnam, Russia issue joint statement on strengthening ties VietNamNet | 2026-09-09 | Vietnam plans two-child campaign as fertility rates stay below target Viet Nam Ministry of Health | 2026-09-08 | Population programme implementation guidance UN Geneva Multimedia Newsroom | 2026-09-07 | UN High Commissioner remarks on Myanmar KPL | 2026-09-09 | Vientiane meeting highlights grassroots security and economic stability Pelita Brunei | 2026-09-09 | Pemantauan kualiti udara NBD terus giat dilaksanakan Government of Timor-Leste | 2026-09-09 | Timor-Leste and Northern Territory strengthen training and labour mobility cooperation EU-ASEAN Business Council | 2026-09-07 | 12th EU-ASEAN Business Sentiment Survey"
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "Free Malaysia Today · Malay Mail",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency · Newsbytes.PH",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "COMELEC · Philippine News Agency",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "The Nation Thailand",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "The Nation Thailand",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Government of Viet Nam · VietnamPlus",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "VietNamNet · Viet Nam Ministry of Health",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "UN Geneva Multimedia Newsroom",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ISEAS – Yusof Ishak Institute",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Government of Timor-Leste",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "EU-ASEAN Business Council",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "The Nation Thailand",
+   "url": null
+  }
+ ]
+}

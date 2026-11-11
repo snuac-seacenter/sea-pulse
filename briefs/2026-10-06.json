@@ -1,0 +1,276 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-06",
+ "weekday": "화",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA PULSE Daily",
+ "editor": "김형종",
+ "observation_cutoff": "2026-10-05 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "라오스는 총리와 국회의장을 같은 날 교체했고, 인도네시아는 204개 군 부대를 공식 출범시켰다. 말레이시아 감사원 보고서는 연방부채와 LCS뿐 아니라 Pan Borneo 사업의 계약·집행 문제도 수치로 드러냈다.",
+  "기후 충격도 이어졌다. 미얀마는 순환정전을 시작했고 남부에서는 홍수가 발생했다. 싱가포르는 연무로 일부 지역의 대기질이 비건강 범위에 들었으며, 태국의 홍수 사망자는 31명으로 늘었다. 필리핀에서는 Basilan 군 호송대 매복으로 최소 11명이 다쳤다."
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "군 조직 확대 Prabowo 대통령이 204개 신규 부대를 출범시켰다. 6개 지역사령부, 30개 영토개발여단, 150개 영토개발대대가 포함됐다. 계획 발표를 넘어 지휘체계를 실제 조직으로 옮긴 조치다."
+    },
+    {
+     "label": "주목",
+     "text": "새 부대의 명칭과 수는 확정됐지만 인력 충원, 예산, 지역별 임무는 남아 있다. 영토개발부대가 재난·농업 지원 등 민정 업무까지 얼마나 맡을지도 이후 편제와 예산서에서 드러날 사안이다. 이후 일정 국방예산 세부표와 204개 부대의 배치·정원."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "총리·국회의장 교체 국회는 Sonexay Siphandone 전 총리를 국회의장으로, Saleumxay Kommasith 전 부총리 겸 외교장관을 총리로 선출했다. 재석 158명 전원이 찬성했다."
+    },
+    {
+     "label": "주목",
+     "text": "권력 공백 없이 행정부와 입법부 수장이 함께 바뀌었다. 두 사람 모두 기존 지도부의 핵심 인사여서 당장의 정책 단절보다 담당 자리의 재배치에 가깝다. 새 내각과 부처별 인사가 발표돼야 경제·외교 운영의 변화 폭을 판단할 수 있다."
+    },
+    {
+     "label": null,
+     "text": "이후 일정 새 내각 명단, 외교장관 후임, 10월 국회 회기 중 예산·경제법안 처리."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "야권 등록분쟁 Perikatan Nasional 구성정당들이 등록기관의 무기한 정지와 해산 가능성에 사법심사를 신청했다. 고등법원은 10월 13일 허가 여부를 심리한다."
+    },
+    {
+     "label": null,
+     "text": "연방 재정 감사원 보고서에 따르면 2025년 연방부채는 5.9% 늘어난 1조3,210억링깃, GDP 대비 65.2%였다. 재정적자 비율은 4.1%에서 3.7%로 낮아졌다."
+    },
+    {
+     "label": null,
+     "text": "해군 함정사업 연안전투함 사업은 2026년 6월 말 기준 수정 일정에서 7.55% 뒤처졌다. 5척의 지연 폭은 30~108일이며 첫 함정의 수정 인도 목표는 12월이다."
+    },
+    {
+     "label": "주목",
+     "text": "PN의 법적 지위와 LCS 인도 일정에 더해, Sabah Pan Borneo 1단계는 35개 공사구 가운데 31개가 3월 말에도 진행 중이었다. Sarawak 구간에서는 RM1.78bn의 유틸리티 이전·복구 청구가 미집행 상태로 감사돼 추가 재원과 계약관리 문제가 구체화됐다."
+    },
+    {
+     "label": null,
+     "text": "이후 일정 10월 13일 사법심사 허가심리, LCS 해상시험과 12월 인도, 2026년 차입·이자비용."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "순환정전 시작 엘니뇨 고온으로 전력수요가 늘고 수력저수지 부족 우려가 커진 가운데 5일부터 지역별 순환정전이 시작됐다."
+    },
+    {
+     "label": null,
+     "text": "남부 홍수 Tanintharyi강은 최근 30피트를 넘어 주거지와 마을을 침수시켰다. 5일 오전에는 19피트로 낮아졌지만 경계수위 위에 머물렀다."
+    },
+    {
+     "label": "주목",
+     "text": "전력 제한과 홍수가 동시에 발생했지만 원인은 다르다. 정전은 발전량과 수요 관리 문제이고, 남부 침수는 강수와 하천 수위의 결과다. 산업생산 차질과 주민 대피 규모도 별도로 확인해야 한다. 이후 일정 지역별 정전표·산업 생산차질, 저수지 수위, Tanintharyi 대피·복구 집계."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Basilan 매복 5일 오전 군 호송대가 매복돼 군인 10명과 민간 보조대원 1명 등 최소 11명이 다쳤다. 이는"
+    },
+    {
+     "label": "cutoff",
+     "text": "전 보도에 반영된 집계다."
+    },
+    {
+     "label": "주목",
+     "text": "이번 cutoff에서 새로 확인된 필리핀 사건은 Basilan 매복이다. 부상자 수는 후속 군 발표를 인용한 보도에서 최소 11명으로 늘었으며, 공격 주체와 추격작전 결과는 확인되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "이후 일정 Basilan 최종 피해 집계, 공격 주체와 추격작전 결과."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "연무 악화 5일 오후 6시 24시간 PSI는 94~122로 일부 지역이 비건강 범위에 들었다. 1시간 PM2.5는 75~97㎍/ ㎥였고 연기는 남부 수마트라에서 유입됐다."
+    },
+    {
+     "label": null,
+     "text": "이후 일정 다음날 PSI와 풍향, 남부 수마트라 화점·강수."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "홍수 피해 확대 9월 16일 이후 사망자는 31명, 영향 인구는 350만명 이상으로 늘었다. 전날 집계보다 규모가 커졌고 추가 폭우·급류 경보가 이어졌다."
+    },
+    {
+     "label": null,
+     "text": "이후 일정 중부 하천 수위, 추가 사망·대피, 41억바트 긴급재원의 지역별 집행."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "파나마 대통령 방베 José Raúl Mulino 대통령의 5~8일 공식방문이 시작됐다. 일정 발표에서 실제 방문으로 넘어갔지만 공동성명이나 항만·물류 계약은 아직 나오지 않았다."
+    },
+    {
+     "label": "주목",
+     "text": "베트남 쪽 중앙 결정은 정상외교 일정 확정, 실제 집행은 대표단 도착과 회담 개시까지 확인됐다. 담당 부처·사업·예산으로 옮겨진 내용은 없고, 산업적 결과도 관측 전이다."
+    },
+    {
+     "label": null,
+     "text": "이후 일정 공동성명, 항만·해운·물류 협정, 기업계약과 담당기관 지정."
+    }
+   ]
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN and Regional",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "역내 연무 싱가포르 대기질 악화는 남부 수마트라의 연기 이동과 연결됐다. 마감 시점까지 새 공동대응 합의나 집행조치는 확인되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "디지털·AI NADI는 10월 2일 시범 가동 뒤 추가 집행자료가 없고, 말레이시아 AMRO 성장률은 전망치여서 둘다 연구판의 추적·분석 자료로 분류했다. 마감까지 새 AI 법령·공공조달·데이터센터 가동 또는 DEFA 문안 변화는 확인되지 않았다. 출처 Meteorological Service Singapore · ASEAN Secretariat"
+    }
+   ]
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "10/5",
+     "text": "라오스 총리·국회의장 선출; 인도네시아 204개 군부대 출범",
+     "note": null
+    },
+    {
+     "date": "10/5",
+     "text": "말레이시아 PN 사법심사 신청·감사원 보고서 공개(Pan Borneo·재정·LCS)",
+     "note": null
+    },
+    {
+     "date": "10/5",
+     "text": "미얀마 순환정전 시작; Tanintharyi 홍수",
+     "note": null
+    },
+    {
+     "date": "10/5",
+     "text": "필리핀 Basilan 매복공격; 마감 전 보도 최소 11명 부상",
+     "note": null
+    },
+    {
+     "date": "10/5",
+     "text": "싱가포르 연무 악화; 태국 홍수 사망 31명; 베트남-파나마 정상외교 개시",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
+ "bottom_line": [
+  "이번 주에는 라오스의 새 내각, 말레이시아 법원의 10월 13일 결정, Pan Borneo 추가재원과 계약관리, LCS 첫 인도 일정이 남아 있다. 필리핀은 Basilan 사건의 최종 피해·수사결과를, 기후·전력 부문은 태국 수위와 싱가포르 PSI, 미얀마 정전표를 확인한다."
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "President of the Republic of Indonesia",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Lao News Agency (KPL)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Malay Mail · Bernama · The Star (Auditor-General Report) · Bernama (National Audit Department, Pan Borneo audit:",
+   "url": "https://bernama.com/en/news.php?id=2615522"
+  },
+  {
+   "id": null,
+   "text": "Eleven Media Group · Eleven Media Group",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "GMA News Online · ABS-CBN News",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Meteorological Service Singapore",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Viet Nam Government Portal",
+   "url": null
+  }
+ ]
+}

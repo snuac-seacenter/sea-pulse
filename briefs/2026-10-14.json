@@ -1,0 +1,444 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-14",
+ "weekday": "수",
+ "title": "동남아 데일리 브리프",
+ "edition": "SERIES | SEA PULSE DAILY",
+ "editor": "김형종",
+ "observation_cutoff": "2026-10-13 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "13일에는 디지털 기반시설의 운영 조건과 정책 부담의 배분이 구체화됐다. 인도네시아 산업부는 데이터센터의 전력·용수 수요를 조정할 협의팀 구상을 밝혔고, 재무차관은 원유가격 상승에도 보조연료 가격과 재정적자를 유지하겠다고 말했다. 두 발표 모두 행정 설치나 예산 집행으로 넘어간 증거는 아직 없다.",
+  "말레이시아 PN 사건은 사법심사 허가와 활동정지 해제가 분리됐고, 필리핀 소추측은 탄핵소추의 추구 범위를 한 개 항목으로 줄이겠다고 밝혔다. 베트남에서는 관광비자 시범의 발효와 기소 확인, 인프라 현장점검이 서로 다른 절차 단계에서 관찰됐다.",
+  "말레이시아의 14일 휴교는 마감 전 발표이며, 조호르 인공강우는13일 실시로 확인됐다. 태국 수해 영향은13일06시 현지시각 스냅샷이다. 계획·집행·결과를 구분해 다음 문서를 추적한다."
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "브루나이–싱가포르 해군 운영규정 서명은 사건일9일·게시일13일로 확인됐다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "산업부는 데이터센터 건설·운영에 필요한 전력·용수 수요를 조정하기 위해 정부기관과 상공회의소가 참여하는 국가 협의팀 구상 을 밝혔다. 서자바 자틸루후르 AI 데이터센터 사업은 환경영향평가와 건축승인 서류 문제로 이미 중단됐다. 최대 전력 640MW, 물 384리터/초라는 예상 소요량이 지역 공급과 환경규제 사이의 충돌을 드러낸다. 보도상 협의팀 구성은 구상 단계이며, 설치 완료는 확인되지 않았다. [S02]"
+    },
+    {
+     "label": null,
+     "text": "재무차관은 9월 인도네시아산 원유 기준가격이 배럴당 112.81달러로 상승했어도 보조금 지급 연료의 소비자가격을 올리거나 재정적자 폭을 확대하지 않겠다고 밝혔다. 정부는 보조금 수급자를 다시 선별해 재정부담을 관리한다는 방침이다. 아직 구체적인 신규 지원 기준과 조정 예산이 발표된 것은 아니다. [S03]"
+    },
+    {
+     "label": "주목",
+     "text": "데이터센터 유치가 전력·용수 배분과 지방 인허가의 조정 문제로 연결됐다. 협의팀 설치 문서가 나오기 전까지 조정 역량이 실제로 확보됐다고 판단할 수 없다. 연료보조금은 소비자가격 유지와 적자 억제라는 두 목표를 수급자 재선별로 연결하려는 방침이지 만, 적용 기준과 재정 수치가 뒤따라야 한다."
+    }
+   ],
+   "next_check": "협의팀 설치 결정·구성원·권한, 자틸루후르 환경영향평가·건축승인 보완, 전력·용수 배분 문서, 보조연료 대상 규정·예산 조정·월별 보조금 지출."
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국회에 보고된 1~9월 고용자료에서 해외 취업자는 10만3,610명, 국내 취업자는 1만5,772명이었다. 13일 새 정책은 아니지만 국내 인력부족을 설명하는 기준선이다. [S10]"
+    }
+   ],
+   "next_check": "노동수급조정위원회의 업종별 부족인원, 임금·근로조건 개선안, 귀환노동자 취업실적."
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "고등법원은 야권연합 PN이 등록국의 활동정지 처분을 다툴 수 있도록 사법심사를 허가했다. 그러나 정지 효력은 유지됐고, 집행 정지 신청은 22일 다시 심리한다. 11월 14일 멜라카 선거 준비가 직접 영향을 받는다. [S04]"
+    },
+    {
+     "label": null,
+     "text": "연무로 조호르·멜라카·느그리슴빌란과 일부 교육구의 14일 휴교가 발표됐다. 13일 조호르바루에서 인공강우가 실시됐으며,19 시 MYT(20시 KST)26개 지점의 불건강 API가 목록에 기록됐다. 휴교는14일 시행 예정이므로 발표와 실제 운영을 구분한다. [S23;S24;S05]"
+    },
+    {
+     "label": "주목",
+     "text": "PN 사건은 사법심사 개시와 활동 재개의 문턱이 갈라진 사례다. 선거후보 확정과 조직활동은 법원의 다음 결정 전까지 계속 제 약받는다."
+    }
+   ],
+   "next_check": "10월22일 집행정지 판단, 멜라카 후보등록 실무, 학교 재개일과 API 하락폭."
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "10일 대통령 서한에 담긴 야르 삐야 국방장관 후보 지명이12일 의회에서 공개됐다. 이전 공개자료의 기준선으로 유지하며,13일 신규 승인이나 취임으로 기록하지 않는다. [S11]"
+    }
+   ],
+   "next_check": "의회 승인표결·취임령."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "하원 소추측은 사라 두테르테 부통령 탄핵소추의 네 항목 중 세 항목을 더 추구하지 않고, 미신고 재산·사업이해관계 의혹에 관한 Article II에 집중하겠다고 밝혔다. 이는 소추측의 절차상 선택이며, 남은 혐의의 입증이나 유죄판단이 아니다. [S13]"
+    }
+   ],
+   "next_check": "탄핵법원의 정식 주문, 증거채택·변호인 입증 범위, 확정된 다음 기일. 기존11월9일 일정은 재확인 전까지 확정 일정으로 제시하지 않는다."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "사이버보안청은 사이버보안전략 2026을 발표했다. 중요정보기반 보호, 전체 디지털 생태계 보안, AI 활용과 안전한 도입지침, 양자내성 전환, 국제협력과 인력양성이 전략의 핵심 분야로 제시됐다. [S06;S25]"
+    },
+    {
+     "label": null,
+     "text": "교통당국은 버스 6대를 노선 400·191에 투입하려던 자율주행버스 시험을 취소하고 더 좁은 이용대상·환경에서 다시 시험하겠 다고 밝혔다. 기술 도입의 후퇴라기보다 공공노선 적용범위의 재설계에 가깝다. [S07]"
+    },
+    {
+     "label": "주목",
+     "text": "사이버 분야는 전국 전략을 확장했지만 자율주행은 적용범위를 줄였다. 13일 전략 발표와12일 공개된 버스 결정은 싱가포르가 신기술을 일률적으로 밀어붙이기보다 위험의 성격에 따라 중앙역량 확대와 제한된 실증을 병행한다는 점을 드러낸다."
+    }
+   ],
+   "next_check": "CSA 세부 이행과제·예산, AI 보안지침 공개일, 자율버스 대체 시험노선과 안전기준."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "13일06시 ICT(08시 KST) DDPM 스냅샷에서20개 주와 방콕의 피해 인구는245만1,860명, 피해가구는90만6,083가구로 보도됐다. 일부 지역 수위가 내려가 배수·복구가 병행됐지만, 피해 수치는 관측시점의 누계이지 복구 완료 실적이 아니다. [S15]"
+    },
+    {
+     "label": null,
+     "text": "탁신 측 변호사는12일 발언에서8일 평화사회 촉진 법률에 따른 amnesty 신청서를 제출했다고 말했다. 관계기관은 접수 여부를 먼저 확인하고 적격 심사를 거쳐야 한다고 설명했다. 왕실 사면 절차나 승인된 면책으로 해석하지 않는다. [S16;S05]"
+    }
+   ],
+   "next_check": "DDPM 피해·보상 지급표, 배수·도로 복구 실적, 신청 접수 확인과 심사위원회 회부·판단 문서."
+  },
+  {
+   "type": "country",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "기존 예산·선거인명부 진행 설명은 당일 사건을 뒷받침하는 출처가 없어 삭제했다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "중국 본토 단체관광객이 칸호아성만 방문하는 조건부 무비자 시범사업이 12일 발효됐다. 2명 이상 패키지여행, 중국–깜라인 직 항, 동일 공항 입출국, 30일 이하 체류가 조건이며 2027년 말까지 운영된다. [S17] 13일 보도로 최고인민검찰원이 교육·투자기업 Egroup의 응우옌 응옥 투이 등29명을 기소한 사실이 확인됐다. 공소장 발행의 정확한 날짜는 이 기사에 명시되지 않았다. 공소장은 1만123명에게서 약 8.5조동을 편취했다고 적었지만, 혐의는 법원 판결 전 사실로 확정할 수 없다. [S18] 레 민 흥 총리는 호찌민시 운하정비와 조수방지 사업을 현장점검했다. 운하사업은 공정 약 80%·집행 약 75%, 조수방지 1단계는 약 95%로 보고됐으며 후자는 11월 인계가 목표다. [S19]"
+    },
+    {
+     "label": "주목",
+     "text": "관광 문턱은 즉시 낮췄고, 대형 금융사건은 기소로 넘어갔으며, 장기 지연 인프라는 공정률과 인계시점으로 관리되고 있다. 정책 발표보다 운영조건·법원 절차·완료율이 드러난 날이었다."
+    }
+   ],
+   "next_check": "칸호아 입국자 수와 지정여행사 지침, Egroup 첫 공판·피해회복계획, 조수방지사업 11월 인계 여부."
+  },
+  {
+   "type": "deep_dive",
+   "title": null,
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "1. 중앙결정 — 칸호아 중국 단체관광 무비자 시범을 승인하고 12일부터 효력을 부여했다. 사법기관은 Egroup 사건의 공소제기를 확정했다."
+    },
+    {
+     "label": null,
+     "text": "2. 행정 번역 — 문화관광부는 지정여행사 기준과 운영지침을 마련해야 하고, 공안부는 입출국 절차를 집행한다. 호찌민시 두 사업은 공정률·집행률·인계목표로 관리된다."
+    },
+    {
+     "label": null,
+     "text": "3. 집행 — 무비자 제도는 발효됐지만 실제 입국·관광매출은 아직 집계 전이다. 운하사업은 약 80%, 조수방지 1단계는 약 95%로 보고됐다. Egroup 사건은 수사에서 기소로 넘어갔다."
+    },
+    {
+     "label": null,
+     "text": "4. 결과 — 관광객 증가, 피해금 회수, 홍수저감 효과는 아직 확인할 수 없다. 11월 인계와 첫 공판이 다음 검증 지점이다."
+    }
+   ]
+  },
+  {
+   "type": "asean",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "연무",
+     "text": "- 말레이시아 휴교 발표와 인공강우 실시를 구분한다. 인도네시아1개월 진화 목표와2ha 예외폐지 방침은 마감 후 보도를 근거로이 판에 넣지 않는다."
+    },
+    {
+     "label": "디지털·AI",
+     "text": "— 싱가포르 전략은 AI를 방어수단과 보호대상으로 함께 다루고 양자내성 전환을 국가과제로 올렸다. 7일 공개된 공식 일정은 ASEAN–캐나다 심포지엄을13일17~19시 SGT(18~20시 KST)로 예정했다. 일정 공개를 개최 완료나 새 구속적 문서·운영기구의 성립으로 취급하지 않는다. [S20] China–ASEAN Economy & AI 및 DEFA 종합박스는 주간판에서만 다룬다."
+    }
+   ]
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "10월 12일",
+     "text": "베트남 칸호아 중국 단체관광 무비자 시범 발효; 싱가포르 LTA 공공노선 자율버스 배치계획 철회 확인.",
+     "note": null
+    },
+    {
+     "date": "10월 13일 오전",
+     "text": "싱가포르 사이버보안전략 2026 발표; 필리핀 소추측의 범위 축소는 오후 공개.",
+     "note": null
+    },
+    {
+     "date": "10월 13일 오후",
+     "text": "말레이시아 고법 PN 사법심사 허가·활동정지 유지; 베트남 Egroup 기소 사실 보도.",
+     "note": null
+    },
+    {
+     "date": "10월 13일 저녁",
+     "text": "베트남 총리 호찌민 인프라 현장점검; 말레이시아 연무 휴교 확대.",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
+ "bottom_line": [],
+ "watch_next": [
+  "다음 판단은 날짜가 분명하다. 말레이시아 PN 사건은 10월 22일 집행정지 심리, 필리핀 탄핵심판은 정식 주문·기일 확인, 베트남 조 수방지사업은 11월 인계가 예정돼 있다. 인도네시아는 데이터센터 조정팀 설치와 자틸루후르 사업의 환경·건축 인허가 문서, 보조연료 지원대상 수정안을 확인해야 한다."
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": "S02",
+   "text": "ANTARA, Indonesia plans national team to support data center development. 보도·공개: 2026-10-13 21:46 WIB (UTC+7)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 23:46 KST.",
+   "url": null
+  },
+  {
+   "id": "S03",
+   "text": "ANTARA, Indonesian govt vows no subsidized fuel price hike as oil surges. 보도·공개: 2026-10-13 18:23 WIB (UTC+7)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 20:23 KST.",
+   "url": null
+  },
+  {
+   "id": "S04",
+   "text": "Malay Mail, PN judicial review allowed; suspension remains. 보도·공개: 2026-10-13 14:01 MYT (UTC+8)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 15:01 KST.",
+   "url": null
+  },
+  {
+   "id": "S05",
+   "text": "The Star, ASEAN news headlines, 13 October 2026. 보도·공개: 2026-10-13 22:38 MYT (UTC+8)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 23:38 KST.",
+   "url": null
+  },
+  {
+   "id": "S06",
+   "text": "Cyber Security Agency of Singapore, Singapore Cybersecurity Strategy 2026. 보도·공개: not disclosed",
+   "url": null
+  },
+  {
+   "id": "S07",
+   "text": "AsiaOne, LTA drops public-route autonomous bus trial. 보도·공개: 2026-10-13 04:00 SGT; updated 09:15 SGT",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 05:00 KST; updated 10:15 KST.",
+   "url": null
+  },
+  {
+   "id": "S10",
+   "text": "Lao News Agency, Laos upgrades and certifies more than 126,000 workers. 보도·공개: 2026-10-08 08:49 (KPL local UTC+7 assumed)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-08 10:49 KST (timezone inferred).",
+   "url": null
+  },
+  {
+   "id": "S11",
+   "text": "Eleven Myanmar, Yar Pyae nominated for defence minister. 보도·공개: 2026-10-12; time not disclosed",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-12/13 before cutoff",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "UTC+6:30 assumed.",
+   "url": null
+  },
+  {
+   "id": "S13",
+   "text": "GMA News, Prosecution drops 3 articles, retains Article II in Sara Duterte impeachment trial. 보도·공개: 2026-10-13 13:20 PHT; updated 14:17 PHT (UTC+8)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 14:20 KST; updated 15:17 KST.",
+   "url": null
+  },
+  {
+   "id": "S15",
+   "text": "The Star / The Nation, Floods affect 20 Thai provinces and Bangkok. 보도·공개: 2026-10-13 19:32 MYT (UTC+8)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 20:32 KST.",
+   "url": null
+  },
+  {
+   "id": "S16",
+   "text": "The Nation Thailand, Thaksin filed amnesty request on October 8, lawyer says. 보도·공개: 2026-10-13; exact time not disclosed",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: no later than 2026-10-13 23:38 KST (S05 index bound).",
+   "url": null
+  },
+  {
+   "id": "S17",
+   "text": "VietnamPlus/VNA, Pilot visa exemption for Chinese tour groups to Khanh Hoa. 보도·공개: 2026-10-13 09:11 ICT (UTC+7 assumed)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 11:11 KST.",
+   "url": null
+  },
+  {
+   "id": "S18",
+   "text": "VietnamPlus/VNA, Shark Thuy indicted over alleged fraud. 보도·공개: 2026-10-13 15:31 ICT (UTC+7 assumed)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 17:31 KST.",
+   "url": null
+  },
+  {
+   "id": "S19",
+   "text": "VietnamPlus/VNA, PM inspects HCMC canal and tidal-control projects. 보도·공개: 2026-10-13 19:47 ICT (UTC+7 assumed)",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 21:47 KST.",
+   "url": null
+  },
+  {
+   "id": "S20",
+   "text": "Singapore International Cyber Week, ASEAN-Canada Symposium on Countering Scam Centres and Cyber Enabled Crime. 보도·공개: 2026-10-07; time not disclosed",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-07/08 before cutoff (SGT assumed).",
+   "url": null
+  },
+  {
+   "id": "S23",
+   "text": "Malay Mail, Schools in Johor, Melaka, Negeri Sembilan and nine districts to close tomorrow. 보도·공개: 2026-10-13 15:24 MYT; updated 15:43 MYT",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 16:24 KST; updated 16:43 KST.",
+   "url": null
+  },
+  {
+   "id": "S24",
+   "text": "The Star / Bernama, Haze: Cloud seeding conducted in Johor. 보도·공개: 2026-10-13 17:26 MYT",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 18:26 KST.",
+   "url": null
+  },
+  {
+   "id": "S25",
+   "text": "CNA, New Singapore cybersecurity strategy to tap best available AI models for cyber defence. 보도·공개: 2026-10-13 10:04 SGT; updated 20:14 SGT",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KST: 2026-10-13 11:04 KST; updated 21:14 KST.",
+   "url": null
+  }
+ ]
+}

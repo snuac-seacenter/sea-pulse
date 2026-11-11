@@ -1,6 +1,7 @@
 """구글 드라이브 폴더의 브리프 JSON을 가져와 공개본으로 briefs/ 에 저장한다.
 
-- 파일명이 YYYY-MM-DD.json 인 파일만 대상 (구글 문서로 저장된 경우 텍스트로 내보내 읽음)
+- 파일명에 YYYY-MM-DD 날짜가 들어 있는 .json 파일이 대상. 같은 날짜가 여럿이면 가장 최근 수정본만 사용
+  (구글 문서로 저장된 경우 텍스트로 내보내 읽음)
 - 형식 검사(schema/brief.schema.json) 통과 + 공개 필드에 내부 메모 표현이 없을 때만 저장
 - 저장할 때 internal_notes 등 비공개 필드는 제거
 - 드라이브에서 지워진 파일은 briefs/ 에서 지우지 않음(수동 삭제)
@@ -19,10 +20,11 @@ import jsonschema
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRIEFS = os.path.join(ROOT, 'briefs')
 SCHEMA = json.load(open(os.path.join(ROOT, 'schema', 'brief.schema.json'), encoding='utf-8'))
-NAME_RE = re.compile(r'^(\d{4}-\d{2}-\d{2})\.json$')
+# 파일명에 날짜가 들어 있고 .json 으로 끝나면 대상 (예: 2026-11-11.json, 2026-11-11 (1).json, 브리프_2026-11-11.json)
+NAME_RE = re.compile(r'(\d{4}-\d{2}-\d{2})[^/]*\.json$', re.IGNORECASE)
 PRIVATE = ('internal_notes', '_public_edits', 'pdf')
 # 공개 필드에 있으면 게시를 멈추는 표현 (작업 메모가 섞였을 가능성)
-BLOCK = [r'Gemini', r'\bVERIFIED(-[A-Z])?\b', r'\bCLAIM\b', r'\bVERIFY\b', r'review pending', r'canonical event',
+BLOCK = [r'Gemini', r'\bVERIFIED(-[A-Z])?\b', r'\bCLAIM\b', r'\bVERIFY\b', r'review[- ]pending', r'복구실행', r'canonical event',
          r'research lead', r'\b403\b', r'시간초과', r'원문을? 확보하지 못', r'읽지 못한 글']
 BLOCK_RE = re.compile('|'.join(BLOCK))
 
@@ -79,11 +81,13 @@ def main():
     added, updated, problems = [], [], []
     files = list_files(svc, folder)
     print(f'드라이브 폴더 파일 {len(files)}개')
-    for f in sorted(files, key=lambda x: x['name']):
-        m = NAME_RE.match(f['name'])
-        if not m:
-            continue
-        date = m.group(1)
+    # 같은 날짜 파일이 여러 개면(다시 올린 경우) 가장 최근에 수정된 파일만 사용
+    latest = {}
+    for f in files:
+        m = NAME_RE.search(f['name'])
+        if m and (m.group(1) not in latest or f['modifiedTime'] > latest[m.group(1)]['modifiedTime']):
+            latest[m.group(1)] = f
+    for date, f in sorted(latest.items()):
         try:
             b = json.loads(download(svc, f))
         except Exception as e:
@@ -94,7 +98,7 @@ def main():
             problems.append((f, f"{f['name']}: 형식 오류 {len(errs)}건 — " + ' | '.join(errs[:5])))
             continue
         if b['date'] != date:
-            problems.append((f, f"{f['name']}: 파일명 날짜와 date 필드({b['date']})가 다름"))
+            problems.append((f, f"{f['name']}: 파일명 날짜({date})와 date 필드({b['date']})가 다름"))
             continue
         pub = {k: v for k, v in b.items() if k not in PRIVATE}
         hits = sorted({h.group(0) for s in strings(pub) for h in BLOCK_RE.finditer(s)})

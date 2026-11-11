@@ -1,0 +1,392 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-07",
+ "weekday": "수",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA PULSE Daily",
+ "editor": "김형종",
+ "observation_cutoff": "2026-10-06 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "인도네시아 의회는 데이터와 노동보호 법률을 통과시키고 범죄수익 박탈법안의 심사를 시작했다. 필리핀에서는 엘니뇨 피해가 106개 지방정부로 넓어지자 쌀 조달 확대가 뒤따랐다. 태국도 홍수로 산란계가 대량 폐사하자 계란 수출 감축을 요청했다.",
+  "외교와 국내 조사도 함께 움직였다. 미얀마 대통령의 말레이시아 방문 일정이 확정됐고, 싱가포르는 파나마운하 중립협정 가입을 결정했다. 같은 날 싱가포르 정부는 MRT 계획과 연관된 부동산 거래를 검토해 공직자 8명을 경찰에 넘겼다.",
+  "오늘 확인된 변화",
+  "인도네시아 One Data 법률 통과: 발표가 아니라 입법 완료. 시행령과 전담기관은 남아 있다.",
+  "Batu Pahat API 203: 10월 7일 전 교육기관 휴교로 경보가 실제 사회조치로 이동했다.",
+  "필리핀 106개 지역 재난상태: 피해 38만8,375명, 중앙정부는 벼 매입·비축 확대를 지시했다."
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "법률 세 건이 서로 다른 단계로 이동 One Data Indonesia와 노동보호 법안은 본회의를 통과했다. 범죄수익 박탈법안은 DPR 발의안으로 채택돼 이제 심사를 시작한다. 세 사안을 모두 “법 시행”으로 묶으면 안 된다."
+    },
+    {
+     "label": null,
+     "text": "산림구역 환수 정부는 산림구역 정비 8차 조치로 25만9천ha와 행정벌 등 13조2,400억루피아를 국가에 인계했다고 밝혔다. 토지별 최종 용도와 실제 징수 완료액은 공개되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "학교급식 방식 시험 국가영양청이 일부 급식단위에서 뷔페식 교실 배식을 시험하고 있다. 기존 포장 배식보다 음식 온도와 잔반이 개선되는지 비교할 자료는 아직 없다."
+    },
+    {
+     "label": null,
+     "text": "President of Indonesia (https://presidenri.go.id/siaran-pers/presiden-prabowo-saksikan-penyelamatan-kekayaan-negara-rp132 4-triliun-dan-259-ribu-hektare-kawasan-hutan-kepada-negara/) · National Nutrition Agency (BGN) (https://www.bgn.go.id/news/siaran-pers/uji-coba-model-prasmanan-bgn-sajikan-mbg-lebih-hangat-dan"
+    },
+    {
+     "label": null,
+     "text": "segar-di-sekolah)"
+    }
+   ],
+   "point": "데이터 법률은 AI 활용까지 포괄하지만 효과는 법문보다 새 기관의 권한, 부처 자료 연계, 보안사고 통지와 예산에서 갈릴 가능성이 크다.",
+   "next_check": "One Data 공포문·시행령과 전담기관 설치일, 노동보호 하위규정, 급식 시범학교 수와 위생·잔반 평가."
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "미얀마 대통령 방문 민 아웅 흘라잉이 7~8일 말레이시아를 방문한다. 양국은 송환과 양자현안을 논의할 예정이지만, 안전하고 자발적인 귀환을 누가 어떻게 확인할지는 발표되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "Batu Pahat 휴교 6일 오후 8시 대기오염지수(API)가 203에 이르자 지역의 학교·유치원·보육시설에 7일 휴교 명령이 내려졌다. 필요하면 재택수업으로 전환한다."
+    }
+   ],
+   "point": "이번 회담은 미얀마와의 고위급 접촉 확대보다 송환 절차의 검증장치가 남는지로 평가해야 한다. 연무 대응은 경보에서 교육 중단으로 이미 넘어갔다.",
+   "next_check": "정상회담 공동성명, 송환대상자의 법적 지위·Rohingya 포함 여부, Batu Pahat API와 재개교 결정."
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "말레이시아 방문 확정 공식 방문 일정은 7~8일로 잡혔다. 올해 약 1만 명이 말레이시아에서 송환됐다는 미얀마 측 수치와 귀환자의 실제 보호 상태는 별도 확인이 필요하다."
+    },
+    {
+     "label": null,
+     "text": "Rakhine 공습 주장 Arakan Army와 지역단체는 Ponnagyun의 피란민 캠프 두 곳 공습으로 8명이 숨졌다고 밝혔다. Reuters는 현장 내용을 독립 확인하지 못했다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/06/myanmar-military-airstrikes-on-ra khine-displacement-camps-kill-eight-rebel-group-says)"
+    }
+   ],
+   "point": "외교 접촉이 늘어나는 시점에도 Rakhine의 민간피해 주장은 이어진다. 말레이시아 회담에서 송환뿐 아니라 보호·접근·감시 문제까지 문서에 남는지가 중요하다.",
+   "next_check": "7~8일 회담 결과문, 피란민 캠프 피해의 독립 검증, 송환자의 지역별 배치·구금·징집 여부."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "중국발 자금 의혹 검토 국가안보위원회는 Sara Duterte 부통령 가족과 연계된 회사에 중국·홍콩발 자금이 들어왔다는 탄핵심판 자료를 검토하겠다고 밝혔다. 자금 성격이나 위법 여부는 확정되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "경제"
+    },
+    {
+     "label": null,
+     "text": "쌀 비축 확대 지시 Marcos 대통령은 NFA에 남은 수확기 벼 매입을 늘리고 창고를 확충하라고 지시했다. 매입 목표량과 추가 예산은 아직 나오지 않았다."
+    },
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "엘니뇨 피해 전국 집계 NDRRMC는 106개 도시·지방정부가 재난상태를 선포했고 38만8,375명이 영향을 받았다고 집계했다. 재난상태는 긴급재원 사용과 생필품 가격동결을 가능하게 한다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.gmanetwork.com/news/topstories/nation/1004904/nsc-to-probe-alleged-china-money-sen t-to-sara-duterte-linked-firm/story/) · GMA News (https://www.gmanetwork.com/news/topstories/nation/1004881/ndrrmc-state-of-calamity-declared-in-1 06-areas-due-to-el-ni-o/story/) · Philippines Presidential Communications Office (https://pco.gov.ph/news_releases/pbbm-orders-nfa-to-buy-more-palay-build-rice-stocks-ahead-of-el-nin o/)"
+    }
+   ],
+   "point": "가뭄 대응은 예보 단계에서 지방 재난재원과 중앙 쌀 조달로 옮겨갔다. 정치권의 자금 의혹은 탄핵 주장과 국가안보 조사를 구분해 추적해야 한다.",
+   "next_check": "NFA 매입량·가격과 창고 재고, 106개 지역의 농업손실·가격동결, NSC가 수사기관에 넘기는 자료 범위."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "파나마운하 중립협정 가입 정부는 파나마운하의 영구중립과 개방을 보장하는 조약 의정서에 가입하기로 했다. 항행자유 지지를 양자 항만협력과 연결한 결정이다."
+    },
+    {
+     "label": null,
+     "text": "공직자 8명 경찰 의뢰 철도계획 기관 근무자의 부동산 거래 191건을 검토한 뒤 8명을 경찰에 넘겼다. 수사의뢰는 위법 확정이 아니며 추가 점검도 계속된다."
+    },
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "산업안전 단속 강화 9월 이후 건설·운송업에서 7명이 숨지자 5~18일 자율 안전중단을 권고하고 11월 4일까지 벌금·작업중지 등 단속을 강화했다."
+    },
+    {
+     "label": null,
+     "text": "출처 Singapore Ministry of Foreign Affairs (https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/state-visit-by-president-of"
+    },
+    {
+     "label": null,
+     "text": "the-republic-of-panama-jose-raul-mulino-quintero--3-to-5-october-2026-2/) · Channel NewsAsia (https://www.channelnewsasia.com/singapore/parliament-chan-chun-sing-psd-property-police-6435176)"
+    },
+    {
+     "label": null,
+     "text": "(https://www.channelnewsasia.com/singapore/workplace-deaths-mom-safety-time-out-construction-tra nsport-storage-6432756)"
+    }
+   ],
+   "point": "공직사회 사안은 학술연구가 제기한 통계적 의심에서 개별 거래 조사로 넘어갔다. 파나마운하 가입은 작은 해운국끼리 국제수로 규칙을 지지한다는 외교 신호에 가깝다.",
+   "next_check": "경찰의 수사 개시·기소 판단, 조약 가입서 기탁일, 안전중단 참여율과 현장 점검·처분 건수."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "경제"
+    },
+    {
+     "label": null,
+     "text": "계란 수출 감축 요청 정부는 홍수로 Chachoengsao의 산란계 약 300만 마리가 폐사하자 업체에 12월까지 수출을 30~50% 줄여 달라고 요청했다. 의무할당이나 금지조치는 아니다."
+    },
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "홍수의 식품가격 전이 피해 농장 밖에서 공급을 돌리고 산란계 사용기간을 연장하는 방안도 동원된다. 생산 감소가 소매가격에 얼마나 반영됐는지는 아직 확인되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.channelnewsasia.com/asia/thailand-chicken-egg-exports-flood-6435531)"
+    }
+   ],
+   "point": "홍수 피해가 구호비 집행을 넘어 수출 물량과 국내 식품가격 관리로 번졌다. 요청 수준의 조치가 실제 출하량에 반영되는지가 남아 있다.",
+   "next_check": "업체별 수출감축률, 산지·소매 계란가격, 피해농장 재입식과 12월 공급 회복."
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "라오스·캄보디아 순방 Le Minh Hung 총리가 8~10일 두 나라를 공식 방문한다. 취임 후 첫 역내 양자순방으로, 새 라오스 총리와의 회담도 포함된다."
+    },
+    {
+     "label": null,
+     "text": "경제"
+    },
+    {
+     "label": null,
+     "text": "FDI 실행액 최근 5년 최고 1~9월 외국인직접투자 실행액은 210억7천만달러였다. 등록액은 503억6천만달러로 76.4% 늘었지만 대형 등록이 실제 공사·고용으로 이어지는 속도는 따로 봐야 한다."
+    },
+    {
+     "label": null,
+     "text": "하노이 도시철도 시는 2030년 운행을 목표로 5개 노선의 동시 추진 방침을 재확인했다. 6월 착공 뒤의 공정률이나 토지보상 실적은 이번 발표에 없었다."
+    },
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "온라인 허위정보 절차 시행 시행령 328호가 5일 발효돼 탐지, 검증, 표시, 경고, 접근제한, 삭제와 처분 절차를 제도화했다. 첫 적용사례와 이의제기 경로는 아직 보이지 않는다."
+    },
+    {
+     "label": null,
+     "text": "다음 확인점 8~10일 공동성명·협정, FDI 등록액의 실행률, 시행령 328호 첫 처분과 이의제기, 도시철도 공정률·재원."
+    },
+    {
+     "label": null,
+     "text": "(https://en.baochinhphu.vn/prime-minister-le-minh-hung-to-pay-official-visits-to-laos-and-cambodia-111 261006092356375.htm) · Viet Nam Government Portal (https://en.baochinhphu.vn/disbursed-fdi-volume-in-jan-sept-period-reaches-five-year-high-1112610041 44218691.htm) · Vietnam.vn / official-source relay (https://www.vietnam.vn/en/tu-5-10-ap-dung-quy-trinh-moi-xu-ly-tin-gia-tin-sai-su-that) · Vietnam.vn / local resolution relay"
+    },
+    {
+     "label": null,
+     "text": "(https://www.vietnam.vn/en/ha-noi-dong-loat-trien-khai-5-tuyen-duong-sat-do-thi-phan-dau-khai-thac-n am-2030)"
+    }
+   ],
+   "point": "외교 일정, 투자 유입, 정보통제가 같은 주에 움직였다. 각각 발표·실행·결과의 위치가 다르다. 특히 허위정보 규정은 실제 적용범위와 플랫폼 의무가 드러나야 영향을 판단할 수 있다."
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN and Regional",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "경제·디지털"
+    },
+    {
+     "label": null,
+     "text": "AI 수요와 역내 성장 AMRO는 ASEAN+3의 2027년 성장률 전망을 4.1%로 0.1%포인트 높였다. 반면 미국 기술투자 증가세가 2024년 수준으로 둔화하는 시나리오에서는 2.6%까지 낮아질 수 있다고 계산했다. 기준전망과 충격 시나리오를 구분해야 한다."
+    },
+    {
+     "label": null,
+     "text": "사회·환경"
+    },
+    {
+     "label": null,
+     "text": "연무의 국경간 파급 말레이시아의 휴교와 싱가포르 대기질 악화가 이어졌지만, 6일까지 새 역내 공동작전이나 집행결정은 확인되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "지역 포인트"
+    },
+    {
+     "label": null,
+     "text": "AI 관련 수출과 투자가 성장률을 끌어올린다는 전망이 커진 만큼, 반도체 주문·데이터센터 가동·전력투자 같은 실측치의 중요성도 높아졌다."
+    },
+    {
+     "label": null,
+     "text": "연무는 국가별 보건·교육 조치가 먼저 움직였고 ASEAN 공동대응은 아직 새 단계로 넘어가지 않았다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.prnewswire.com/news-releases/asean3-navigating-shocks-through-stronger-foundations-and-deeper-financial-integration-302898349.html) · ASEAN Secretariat (https://asean.org/)"
+    }
+   ]
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "10/5",
+     "text": "싱가포르 산업안전 단속 강화; 베트남 허위정보 처리절차 발효",
+     "note": null
+    },
+    {
+     "date": "10/5",
+     "text": "Myanmar Rakhine 피란민 캠프 추가 공습 주장",
+     "note": null
+    },
+    {
+     "date": "10/6",
+     "text": "인도네시아 One Data·노동보호 법률 통과, 산림 25.9만ha 환수 결과 공개",
+     "note": null
+    },
+    {
+     "date": "10/6",
+     "text": "필리핀 106개 지역 재난상태 집계·국가안보위원회 자금의혹 검토",
+     "note": null
+    },
+    {
+     "date": "10/6",
+     "text": "싱가포르 공직자 8명 경찰 의뢰; 말레이시아·미얀마 정상회담 일정 확정",
+     "note": null
+    },
+    {
+     "date": "10/6",
+     "text": "Batu Pahat 휴교 명령; 태국 계란 수출 감축 요청; 베트남 역내 순방 발표",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
+ "bottom_line": [
+  "가장 가까운 판단 기준은 7~8일 말레이시아·미얀마 회담문과 Batu Pahat 재개교 여부다. 인도네시아는 새 법률의 공포·시행령, 필리핀은 실제 벼 매입량과 지방 긴급재원 집행, 싱가포르는 경찰의 수사 판단이 남아 있다."
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "DPR RI ( · ANTARA (",
+   "url": "https://emedia.dpr.go.id/"
+  },
+  {
+   "id": null,
+   "text": "Bernama ( · Bernama ( · Channel NewsAsia (",
+   "url": "https://web26.bernama.com/en/general/news.php?id=2616342"
+  },
+  {
+   "id": null,
+   "text": "Bernama ( · Channel NewsAsia ( · Reuters via The Star",
+   "url": "https://www.bernama.com/tv/news.php?id=2616246"
+  },
+  {
+   "id": null,
+   "text": "Channel NewsAsia / Reuters",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Viet Nam Government Portal",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "AMRO press release",
+   "url": null
+  }
+ ]
+}

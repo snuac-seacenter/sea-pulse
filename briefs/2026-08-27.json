@@ -1,0 +1,628 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-08-27",
+ "weekday": "목",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse | Southeast Asia & ASEAN Brief",
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": "오늘 동남아의 핵심은 한 가지 정치 사건이 아니라 성장·투자·에너지·통상·안보를 둘러싼 국가역량의 분화다. 말레이시아는 전직 총리 기소와 강한 무역·산업기반을 동시에 보여주고, 필리핀은 투자유입 확대와 전력공급 불안을 함께 안고 있으며, 베트남은 중국 투자 고도화·인도 협력·한국 시장 진입을 병렬 추진하고 있다. 인도네시아 산불 집행, 태국 남부 평화과정, 미얀마 다웨이 재부상까지 겹치면서 역내의 질문은 “성장하느냐”보다 어떤 제도·인프라·대외연결성이 그 성장을 떠받치는가로 이동한다.",
+ "pulse": [],
+ "monitor": [
+  {
+   "issue_id": "malaysia-politics",
+   "issue": "말레이시아 정치지형",
+   "status": null,
+   "status_label": "중요 변화",
+   "level": "red",
+   "stage": null,
+   "delta": "전 총리 기소가 UMNO 의 도덕적 비용을 높이는 반면, 강한 교역·산업지표는 연정의 경제적 완충재로 작동한다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "myanmar-normalisation",
+   "issue": "미얀마 정상화 프로세스",
+   "status": null,
+   "status_label": "변화 있음",
+   "level": "orange",
+   "stage": null,
+   "delta": "다웨이 개발외교가 부상하지만 내전·제재·정당성 문제는 개선되지 않았다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "th-kh-border",
+   "issue": "태국–캄보디아 국경",
+   "status": null,
+   "status_label": "변화 없음",
+   "level": "yellow",
+   "stage": null,
+   "delta": "오늘 신규 무력충돌은 확인하지 못했다. 태국의 안보 관심은 남부로 집중.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "us-trade",
+   "issue": "미국 대 ASEAN 통상·환적",
+   "status": null,
+   "status_label": "변화 있음",
+   "level": "orange",
+   "stage": null,
+   "delta": "베트남·필리핀·말레이시아가 외자유치의 국내 부가가치·공급망 효과를 강화하는 방향으로 대응 중.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "scs",
+   "issue": "남중국해 COC",
+   "status": null,
+   "status_label": "변화 없음",
+   "level": "yellow",
+   "stage": null,
+   "delta": "최종합의 신호는 없지만 필리핀의 미·호주 해양협력은 현장 억지의 병행을 보여준다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "sara-duterte",
+   "issue": "Sara Duterte 탄핵",
+   "status": null,
+   "status_label": "중요 변화",
+   "level": "red",
+   "stage": null,
+   "delta": "금융기록 제출로 증거추적 단계가 심화.",
+   "next_trigger": null,
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "regional",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "1. 경제·통상: 말레이시아 7월 교역은 전년동월 대비 37.3% 증가했고, 베트남은 중국 기업에 더 높은 기술·파급효과의 투자를 요구하는 동시에 한국으로 가공 닭고기 첫 수출을 시작했다. 필리핀 PEZA 승인투자도 연간 목표의 72%를 넘어섰다. 외자 유치의 양보다 국내 부가가치·공급망 내재화가 핵심 경쟁축이 되고 있다."
+    },
+    {
+     "label": null,
+     "text": "2. 에너지·인프라: 필리핀 비사야스 전력망은 주요 석탄발전소의 강제정지로 red alert가 발령됐고, 동티모르는 2027년 이후 3년간 Hera·Betano 발전소 연료 확보에 약 4억 2,899만 달러 규모의 입찰을 승인했다. 역내 성장의 병목이 전력의 “가격”보다 “공급 신뢰성”에서 드러난다."
+    },
+    {
+     "label": null,
+     "text": "3. 정치·법치: 말레이시아 이스마일 사브리 전 총리는 자산신고 의무 위반 혐의로 기소돼 무죄를 주장했고, 필리핀 사라 두테르테 탄핵심판은 금융기록 제출 단계로 들어갔다. 두 사건 모두 유죄 판단이 아니라 절차의 진전이며, 핵심은 정치적 상징보다 증거와 절차의 지속성이다."
+    },
+    {
+     "label": null,
+     "text": "4. 안보·대외관계: 태국은 남부 동시다발 공격 이후 보안을 강화하면서도 9월 평화대화 일정을 유지하고 있다. 필리핀은 미국·호주와 제19차 서필리핀해 해양협력활동을 마쳤다. 억지·치안 강화와 정치적·외교적 관리가 동시에 작동하는 양상이다. 5. 지역제도: 8월 27일 ASEAN+3 노동 고위관리회의와 노동장관회의가 예정돼 있고 ASEAN Single Window의 세관신고문서 실시간 교환이 확대되고 있다. ASEAN 통합은 정상회의 수사보다 노동·통관 같은 기능적 연결성에서 점진적으로 진전 중이다."
+    }
+   ]
+  },
+  {
+   "type": "special",
+   "title": "“투자 유치”에서 “국내 가치 포획”으로",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "동남아의 투자정책은 더 이상 외자 금액 자체만을 성공지표로 삼기 어렵다. 말레이시아는 강한 무역·FDI 흐름 속에서도 의료기기 공급망의 국내역량과 다변화를 강조하고 있고, 베트남은 중국 기업에 단순 생산기지가 아닌 첨단기술·전략인프라·에너지 분야의 높은 파급효과를 요구하고 있다. 필리핀은 PEZA 승인투자가 전년동기 대비 두 배 이상 늘었지만, 동시에 전력망 red alert가 투자 환경의 물리적 제약을 노출한다."
+    },
+    {
+     "label": null,
+     "text": "이 세 사례는 같은 방향을 가리킨다. 외자유치 → 생산기지 확대 단계에서 기술이전·국내 공급망·에너지 신뢰성·고용·수출부가가 치를 묶는 단계로 정책평가 기준이 이동하고 있다. 앞으로는 투자 승인액보다 ① 현지 조달률, ② 기술인력 양성, ③ 에너지 안정성, ④ 수출의 고부가가치화, ⑤ 현지기업의 공급망 편입 정도를 함께 추적해야 한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·거버넌스. 이스마일 사브리 전 총리는 MACC 법상 자산신고 의무 불이행 혐의에 대해 무죄를 주장했다. 기소장에는 다수 통화와 금괴가 포함돼 있으나 이는 자산의 범죄수익성에 대한 유죄판단이 아니다."
+    },
+    {
+     "label": null,
+     "text": "경제·통상·산업. 7월 총교역은 RM364.7bn으로 전년동월 대비 37.3% 증가했고 수출도 38% 늘었다. 동시에 정부는 의료기기 공급망 평가에서 81.3%를 저위험, 18.7%를 중위험으로 분류하며 다변화와 국내역량 강화를 강조했다. 강한 외부수요 + 공급망 회복력 제고가 병행되고 있다."
+    },
+    {
+     "label": null,
+     "text": "대외관계. 안와르의 최근 대만 관련 발언 논란 이후 정부는 One China 정책과 평화적 해결을 재강조했다. 이는 대중관계 강화와 대만계 기술·반도체 투자 유치 사이에서 외교적 표현의 비용이 커졌음을 보여준다."
+    }
+   ],
+   "point": "오늘 말레이시아는 정치적 법집행만 볼 것이 아니라, 강한 교역·산업기반 위에서 거버넌스와 공급망 리스크를 동시에 관리하는 국면이다.",
+   "next_check": "이스마일 사브리 사건의 혐의 확대 여부, 의료기기·반도체 공급망의 국내조달 비중, 8월 말 정책 발표의 산업·복지 내용."
+  },
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "환경·거버넌스. 산림부는 산불 관련 42건을 법적 절차로 다루고 6개 기업에 행정제재를 내렸다. 한 기업은 반복적 화재를 이유로 허가가 동결됐다. 환경집행이 실제 사업권과 연결되기 시작한 점이 중요하다."
+    },
+    {
+     "label": null,
+     "text": "통화·대외경제. 루피아는 27일 장초반 달러당 17,775 루피아로 약세를 보였다. 시장은 2분기 경상수지 적자 확대(보도 기준 GDP의 3.3%)를 부담요인으로 보고 있다. 이는 정부의 높은 성장·투자 목표와 대외균형 제약 사이의 긴장을 보여준다."
+    },
+    {
+     "label": null,
+     "text": "경제정책. 정부는 6%에 가까운 성장률을 위해 투자가 GDP 보다 빠르게 늘어야 한다고 강조하고 있다. 따라서 산불 규제 강화가 투자환경 훼손이 아니라 예측가능한 환경집행으로 작동하는지가 중요하다."
+    }
+   ],
+   "point": "인도네시아의 당면과제는 성장률 자체보다 투자확대와 외환·환경 안정성을 동시에 유지하는 것이다.",
+   "next_check": "경상수지 적자의 일시성, BI의 환율안정 조치, 산불 제재의 실제 허가취소·복구비 집행."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·사법. 사라 두테르테 탄핵심판은 은행·금융기관에 9월 2일까지 관련 페소화 금융기록 제출을 요구하며 문서증거 단계로 이동했다. 제출 명령은 위법행위의 입증과 동일하지 않다."
+    },
+    {
+     "label": null,
+     "text": "투자·산업. PEZA 승인투자는 8월 기준 PHP216.46bn으로 연간 PHP300bn 목표의 72.16%에 도달했고 전년동기 대비 104.53% 증가했다. 제조·IT-BPM·물류 등에서 투자 유입이 이어진다."
+    },
+    {
+     "label": null,
+     "text": "에너지. 비사야스 전력망은 가용 2,344MW 대비 예상 최대수요 2,452MW로 red alert가 발령됐다. 장기 정지·감발 발전소가 누적돼 투자증가와 전력 신뢰성 사이의 불균형이 드러났다."
+    },
+    {
+     "label": null,
+     "text": "안보·대외관계. 미국·호주와의 제19차 해양협력활동이 서필리핀해에서 종료됐다. 군은 외국발 영향활동 증가도 경고하고 있어 해양억지와 정보공간 관리가 결합되고 있다."
+    }
+   ],
+   "point": "필리핀은 투자 모멘텀은 강하지만, 전력망·정치불확실성·해양안보가 성장의 비용을 높이는 구조다.",
+   "next_check": "비사야스 발전소 복구 일정, PEZA 승인투자의 실제 착공, 9월 2일 탄핵 금융자료의 증거능력."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "안보. 8월 22~23일 남부 4개 주에서 최소 70건의 공격·방화·폭발 사건이 집계됐고 민간인 3명이 다쳤다. 당국은 정치 연계설을 확정사실로 보지 않고 수사 중이다."
+    },
+    {
+     "label": null,
+     "text": "평화과정·정치. 정부는 보안기관 회의를 소집했지만 9월 평화대화 일정과 8월 31일~9월 1일 송클라 이동내각 일정은 유지하는 방향이다. 이는 단기 군사대응과 정치적 채널을 동시에 유지하려는 신호다."
+    },
+    {
+     "label": null,
+     "text": "경제·지역개발. 남부의 치안불안은 철도·관광·상업비용을 높이지만, 이를 전국 거시충격으로 과장할 근거는 아직 없다. 오히려 평화과정의 신뢰도와 남부개발정책의 지속성이 중기 경제효과를 좌우한다."
+    }
+   ],
+   "point": "“누가 공격했는가” 못지않게 “보안강화가 평화대화와 지역개발을 얼마나 훼손하지 않고 병행되는가”가 중요하다.",
+   "next_check": "공식 수사결과, 9월 평화대화 개최 여부, 이동내각에서 발표될 남부 경제·사회정책."
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "투자·산업정책. 레 민 흥 총리는 중국 기업에 베트남을 장기 생산·교역기지로 보되 첨단기술, 전략인프라, 에너지 등 더 높은 질의 투자를 요구했다. 단순 FDI 규모보다 생산성·기술 파급효과를 중시하는 정책전환이다."
+    },
+    {
+     "label": null,
+     "text": "통상·한국관계. 4월 시장개방 이후 베트남산 가공 닭고기의 첫 한국 수출이 시작됐다. 초기 승인기업 수는 제한적이지만 농식품 가공·검역 표준의 상향과 시장다변화 측면에서 의미가 있다."
+    },
+    {
+     "label": null,
+     "text": "대외관계. 베트남과 인도는 무역·투자·국방·안보·과학기술 협력을 확대하고 양자교역 250억달러를 목표로 제시했다. 중국 투자 유치와 인도 전략협력을 병행하는 다변화가 선명하다."
+    }
+   ],
+   "point": "베트남은 “더 많은 투자”가 아니라 “더 높은 기술함량 + 시장다변화”를 성장전략의 중심으로 옮기고 있다.",
+   "next_check": "중국계 신규 프로젝트의 기술·현지조달 조건, 한국 농식품 수출 확대 속도, 인도와의 250억달러 교역 목표 실행계획."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "거시·산업. 2026년 성장률 전망은 4.5~5.5%로 강하지만 AI·기술·수출연계 부문과 F&B·건설 등 내수부문의 격차가 커지고 있다."
+    },
+    {
+     "label": null,
+     "text": "구조정책. 정부는 다음 성장단계가 토지·노동·탄소의 추가 투입이 아니라 생산성·혁신에서 나와야 한다고 강조했다. 이는 공급제약이 성장모델의 핵심 변수로 올라왔다는 의미다."
+    },
+    {
+     "label": null,
+     "text": "사회·분배. 산업별 생산성·임금 격차가 지속되면 “이중경제”가 자산·소득 불평등을 고착화할 수 있다. 육아휴직 확대 같은 사회정책도 중소기업의 인력운용 비용과 맞물린다."
+    }
+   ],
+   "point": "싱가포르의 문제는 성장 부족이 아니라 성장의 구성·분배·자원제약이다.",
+   "next_check": "2027 예산의 생산성 지원, 저생산성 서비스업 자동화·임금정책, 주거·가족정책과 노동공급의 연결."
+  },
+  {
+   "type": "other",
+   "title": "5개국 빠른 체크",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가",
+     "오늘의 포인트",
+     "다음에 볼 것",
+     "상태"
+    ],
+    "rows": [
+     [
+      "🇲🇲 미얀마",
+      "다웨이 SEZ·심해항 재부상. 러시아·태국 관심에도 내전· 자금조달·제재가 사업성의 핵 심 제약",
+      "계약·금융 구조, 태국 공식 참 여, 현지 통제",
+      "🟠 개발외교 재부상"
+     ],
+     [
+      "🇱🇦 라오스",
+      "상반기 성장률 약 5%. 재정당 국은 세입기반 확대·누수 차 단·지출관리를 하반기 핵심과 제로 제시",
+      "세입 실적, 부채상환, 환율·물 가",
+      "🟠 거시·재정 관리"
+     ],
+     [
+      "🇰🇭 캄보디아",
+      "공개소스 전수검색에서 오늘 선정기준을 넘는 신규 대형 변 화는 확인하지 못함",
+      "대미 군사훈련, Ream 기지 투명성, 수출·관광",
+      "🟡 no material update"
+     ],
+     [
+      "🇧🇳 브루나이",
+      "오늘 공개소스에서 대형 신규 변화 미확인. 말레이시아와의 국경획정·비석유 성장·연무 대응을 계속 추적",
+      "국경획정 후속, 비석유 투자, 대기질",
+      "🟡 no material update"
+     ],
+     [
+      "🇹🇱 동티모르",
+      "4.289억달러 발전연료 입찰 승인, 디지털사기·초국경범죄 대응센터 추진, ASEAN 로드 맵 5/7 기준 충족 보고",
+      "연료조달 투명성, CN-CAT 설치, AEC 법적문서 가입",
+      "🔴 다영역 변화"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "macro",
+   "title": "핵심 거시경제 비교",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국가/권역"
+    }
+   ],
+   "table": {
+    "title": null,
+    "columns": [
+     "",
+     "DIRECTION",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "rows": [
+     [
+      "말레이시아",
+      "대외부문 강세 + 공급망 고도화",
+      "전자·FDI·수출",
+      "정치·연무·글로벌 충격",
+      "7월 교역 +37.3%, 의료기 기 공급위험 대부 분 low",
+      "국내 가치포획·산 업다변화"
+     ],
+     [
+      "인도네시아",
+      "성장투자 확대 vs 대외균형 부담",
+      "투자·내수·원자재",
+      "경상적자·루피아· 산불",
+      "Rp17,775/USD, Q2 경상적자 우려",
+      "BI 대응·투자 질"
+     ],
+     [
+      "필리핀",
+      "투자승인 강세, 인 프라 병목 노출",
+      "제조·IT-BPM·FDI",
+      "전력·정치·재정",
+      "PEZA 216.46bn 페소, 비사야스 red alert",
+      "착공률·전력복구"
+     ],
+     [
+      "베트남",
+      "FDI 질 고도화·시 장다변화",
+      "중국 투자·인도 협 력·한국 수출",
+      "기술의존·대외수 요",
+      "한국 첫 가공닭 수 출, 중국투자 질 요 구",
+      "기술이전·수출다 변화"
+     ],
+     [
+      "싱가포르",
+      "고성장 속 산업별 분화",
+      "AI·전자·수출",
+      "내수서비스·불평 등·자원제약",
+      "4.5~5.5% 성장 전망, dual-economy 경고",
+      "생산성·분배정책"
+     ],
+     [
+      "라오스",
+      "완만한 성장 + 재 정건전화 압력",
+      "관광·연결성·전력",
+      "부채·세입·환율",
+      "H1 성장 약 5%, 세입기반 확대 강 조",
+      "부채·세입 실적"
+     ],
+     [
+      "동티모르",
+      "공공지출 기반 인 프라 유지",
+      "석유기금·정부조 달",
+      "연료의존·재정지 속성",
+      "4.289억달러 발전연료 입찰",
+      "비용·조달투명성"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "theme",
+   "title": "정치·안보·대외관계·사회 종합",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "DIRECTION → 정치·사법 이슈와 경제·산업 이슈가 분리되지 않고, 국가역량·인프라·대외관계의 한 묶음으로 결합되고 있다."
+    },
+    {
+     "label": null,
+     "text": "DRIVERS → 반부패·탄핵 절차, 남부 치안, 서필리핀해 협력, ASEAN+3 노동협력, 초국경 디지털범죄 대응이 동시에 진행된다."
+    },
+    {
+     "label": null,
+     "text": "RISKS → 선택적 법집행, 군사화된 치안, 전력·재정 병목, 외자 의존, 공급망·환율 충격."
+    },
+    {
+     "label": null,
+     "text": "NEW SIGNAL → 베트남·말레이시아·필리핀에서 투자정책의 평가기준이 “유치액”에서 기술·공급망·에너지·고용의 국내 파급효과로 이동하고 있다."
+    },
+    {
+     "label": null,
+     "text": "WATCH → 제도개혁과 투자확대가 실제 생산성·법치·사회적 포용으로 연결되는지 확인한다."
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "heading": "2026년 8월 시각화 크로놀로지",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "`8/22-23 태국 남부 공격` → `8/25 보안회의·정치연계설 유보` → `8/26 70건+ 집계` → `9월 평화대화 예정`"
+    },
+    {
+     "label": null,
+     "text": "`8/24 인도네시아 경상적자 우려·산불 제재` → `8/26 6개 기업 제재` → `8/27 루피아 17,775/USD`"
+    },
+    {
+     "label": null,
+     "text": "`8/25 필리핀 PEZA 216.46bn 페소` → `8/26 WPS 다자 해양활동·탄핵 금융자료 명령` → `8/27 비사야스 red alert`"
+    },
+    {
+     "label": null,
+     "text": "`8/26 베트남 중국투자 질 제고 요구` → `8/27 한국 첫 가공닭 수출·인도 250억달러 교역목표`"
+    },
+    {
+     "label": null,
+     "text": "`8/27 ASEAN+3 노동회의` + `ASEAN Single Window 문서교환 확대` → 기능적 지역통합 심화"
+    }
+   ]
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN 개요 / 대외관계",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "오늘 ASEAN 차원의 material signal은 두 가지다. 첫째, ASEAN+3 고위 노동관리·노동장관회의가 8월 27일 예정돼 고령화· 숙련·이주노동·생산성 등 노동시장 협력의 제도적 채널이 작동한다. 둘째, ASEAN Single Window는 필리핀을 포함한 세관신고 문서(ACDD) 실시간 교환을 확대하고 있다. 이는 거창한 통합 담론보다 노동·통관 인프라의 상호운용성이 실제 지역통합을 밀고 있다는 점을 보여준다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "오늘의 연구·정책 분석",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "오늘 브리프의 연구신호는 “state capacity portfolios”다. 동남아 국가들의 성과는 단일한 국가역량으로 설명되지 않는다. 필리핀은 투자승인은 강하지만 전력망은 취약하고, 말레이시아는 교역·산업 기반은 강하지만 정치적 법집행 비용이 존재하며, 베트남은 외자유치 능력 위에서 투자 질을 높이려 한다. 인도네시아는 성장·투자 확대와 외환·환경 안정성을 동시에 관리해야 한다."
+    },
+    {
+     "label": null,
+     "text": "따라서 국가역량을 하나의 점수로 보기보다 ① 법·규제 집행, ② 인프라 신뢰성, ③ 재정·금융 안정, ④ 투자흡수·기술확산, ⑤ 대외 전략 조정, ⑥ 사회적 포용의 포트폴리오로 추적하는 것이 더 설명력이 높다. 같은 성장률이라도 포트폴리오의 약한 고리가 다음 위기의 위치를 결정할 수 있다."
+    }
+   ]
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [],
+ "watch_next": [
+  "말레이시아: 이스마일 사브리 사건이 별도 부패·자금세탁 혐의로 확대되는가, 8월 말 정책발표가 산업·복지에 어떤 내용을 담는가?",
+  "인도네시아: 경상수지 적자가 일시적인가, BI가 환율방어와 성장지원 사이에서 어떤 수단을 선택하는가?",
+  "필리핀: 비사야스 전력공급 정상화와 PEZA 투자 프로젝트 착공이 얼마나 빠르게 진행되는가?",
+  "태국: 9월 남부 평화대화가 예정대로 열리고, 이동내각이 치안 이외의 개발 패키지를 제시하는가?",
+  "베트남: 중국 FDI의 기술·현지조달 조건과 한국 농식품시장 진입이 확대되는가?",
+  "ASEAN: ALMM+3 결과문과 ASEAN Single Window 신규 연결국·문서유형이 발표되는가?",
+  "동티모르: 대규모 연료조달이 경쟁입찰·가격·비축관리 측면에서 투명하게 집행되는가?"
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "Bernama — — Ismail Sabri charged over incomplete asset declaration; plea and statutory basis.",
+   "url": "https://www.bernama.com/en/news.php?id=2599416"
+  },
+  {
+   "id": null,
+   "text": "CNA — — Regional corroboration of Ismail Sabri charge.",
+   "url": "https://www.channelnewsasia.com/asia"
+  },
+  {
+   "id": null,
+   "text": "Bernama — — Medical-device supply-risk assessment: 81.3% low risk, 18.7% medium risk.",
+   "url": "https://www.bernama.com/en/general/news.php?id=2599484"
+  },
+  {
+   "id": null,
+   "text": "Bernama — — July 2026 trade up 37.3% y/y to RM364.7b; exports +38%, imports +36.4%.",
+   "url": "https://www.bernama.com/radio/news.php?id=2596798"
+  },
+  {
+   "id": null,
+   "text": "ANTARA — — 42 wildfire law-enforcement cases nationally; three in Jambi.",
+   "url": "https://www.antaranews.com/berita/5710397/menhut-tiga-kasus-perusahaan-di-jambi-diselidiki-terkait-karhutla"
+  },
+  {
+   "id": null,
+   "text": "ANTARA — — Six concession holders sanctioned after 1,511.55 ha burned; one permit frozen.",
+   "url": "https://kaltim.antaranews.com/berita/265724/kemenhut-beri-sanksi-enam-perusahaan-di-kalimantan-terkait-karhutla"
+  },
+  {
+   "id": null,
+   "text": "ANTARA — — Rupiah opened at Rp17,775/USD, down 0.28% from prior close.",
+   "url": "https://kl.antaranews.com/berita/45072/rupiah-kamis-pagi-melemah-jadi-rp17775-per-dolar-as"
+  },
+  {
+   "id": null,
+   "text": "ANTARA — — Q2 current-account deficit reported at US$12.5b, 3.3% of GDP, weighing on rupiah sentiment.",
+   "url": "https://www.antaranews.com/berita/5709067/rupiah-melemah-seiring-respons-negatif-atas-defisit-transaksi-berjalan"
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency — — Banks given until Sept 2 to submit peso-denominated records in Sara Duterte impeachment trial.",
+   "url": "https://www.pna.gov.ph/articles/1282721"
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency — — PEZA approved investments at PHP216.46b, 72.16% of annual target, +104.53% y/y.",
+   "url": "https://www.pna.gov.ph/articles/1282654"
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency — — Visayas grid red alert; available capacity 2,344 MW vs expected peak demand 2,452 MW.",
+   "url": "https://www.pna.gov.ph/articles/1282750"
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency — — 19th multilateral maritime cooperative activity with US and Australia in West Philippine Sea.",
+   "url": "https://www.pna.gov.ph/articles/1282668"
+  },
+  {
+   "id": null,
+   "text": "Thai PBS / The Active — — Government security meeting after deep-south attacks; peace dialogue still planned for September; mobile cabinet in Songkhla remains scheduled.",
+   "url": "https://theactive.thaipbs.or.th/video/politics-20260825"
+  },
+  {
+   "id": null,
+   "text": "Thai PBS — — Authorities cautioned that political linkage was only an observation, not established fact.",
+   "url": "https://www.thaipbs.or.th/news/content/509884"
+  },
+  {
+   "id": null,
+   "text": "CNA — — At least 70 incidents across Pattani, Yala, Songkhla and Narathiwat; three civilians injured.",
+   "url": "https://www.channelnewsasia.com/watch/thai-deep-south-attacks-authorities-record-70-incidents-across-4-southern-provinces-6342851?view=embed"
+  },
+  {
+   "id": null,
+   "text": "CNA — — Dawei SEZ revival with Russia involvement and renewed Thai interest; conflict/finance viability doubts.",
+   "url": "https://www.channelnewsasia.com/asia/myanmars-dawei-port-megaproject-could-offer-regional-shipping-shortcut-viability-doubts-linger-6341866"
+  },
+  {
+   "id": null,
+   "text": "Nhan Dan — — Vietnam first processed-chicken shipment to RoK after market opening in April.",
+   "url": "https://en.nhandan.vn/viet-nam-exports-first-shipment-of-processed-chicken-to-rok-post165940.html"
+  },
+  {
+   "id": null,
+   "text": "Tuoi Tre News — — PM Le Minh Hung urged Chinese firms to raise technology content and spillovers of investment.",
+   "url": "https://news.tuoitre.vn/pm-urges-chinese-firms-to-increase-investment-with-higher-quality-advanced-technologies-103260826162529702.htm"
+  },
+  {
+   "id": null,
+   "text": "Tuoi Tre News — — Vietnam-India cooperation expansion; target bilateral trade US$25b.",
+   "url": "https://news.tuoitre.vn/breakfast-tuoi-tre-news-august-27-10326082622045791.htm"
+  },
+  {
+   "id": null,
+   "text": "CNA — — GDP growth outlook 4.5-5.5%; sectoral divergence and dual-economy risk.",
+   "url": "https://www.channelnewsasia.com/singapore/artificial-intelligence-economy-inequality-6339571"
+  },
+  {
+   "id": null,
+   "text": "CNA — — Tan See Leng: next growth phase cannot rely on more land, labour or carbon.",
+   "url": "https://www.channelnewsasia.com/singapore/economy-trade-geopolitics-western-islands-environmental-6342311"
+  },
+  {
+   "id": null,
+   "text": "Vientiane Times — — H1 GDP growth averaged 5%; expenditure 30.13tn kip; fiscal authorities urge broader revenue base and spending discipline.",
+   "url": "https://vientianetimes.org.la/freefreenews/freecontent_163_Govt_y26.php"
+  },
+  {
+   "id": null,
+   "text": "TATOLI — 10/ — Government approved US$428.99m tender for three-year fuel supply to Hera and Betano power plants.",
+   "url": "https://en.tatoli.tl/2026/08/27/govt-approves-us429-million-tender-for-power-plant-fuel/"
+  },
+  {
+   "id": null,
+   "text": "TATOLI — — Cabinet approved national centre under PM for digital fraud, organised cybercrime and trafficking coordination.",
+   "url": "https://id.tatoli.tl/2026/08/26/pemerintah-tl-bentuk-pusat-nasional-tangani-penipuan-digital-dan-kejahatan-transnasional/"
+  },
+  {
+   "id": null,
+   "text": "TATOLI — — ASEAN roadmap report: 90.3% meeting participation in Jan-Sep 2025; 5 of 7 roadmap criteria fully met.",
+   "url": "https://id.tatoli.tl/2026/08/26/partisipasi-timor-leste-dalam-pertemuan-asean-capai-903/"
+  },
+  {
+   "id": null,
+   "text": "ASEAN Plus Three — — 24th SLOM+3 and 14th ALMM+3 scheduled for Aug 27.",
+   "url": "https://aseanplusthree.asean.org/"
+  },
+  {
+   "id": null,
+   "text": "ASEAN Single Window — — Philippines began live exchange of ASEAN Customs Declaration Document; digital customs interoperability continuing.",
+   "url": "https://asw.asean.org/"
+  },
+  {
+   "id": null,
+   "text": "East Asia Forum — — Checked; no article used substantively because relevant body access was unavailable.",
+   "url": "https://eastasiaforum.org/"
+  },
+  {
+   "id": null,
+   "text": "ISEAS Daily News Alerts — — Latest visible alert lagged same-day collection; used only as discovery index.",
+   "url": "https://www.iseas.edu.sg/library/blog/daily-news-alerts/"
+  }
+ ]
+}

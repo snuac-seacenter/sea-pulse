@@ -1,0 +1,758 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-08-26",
+ "weekday": "수",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse",
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": "말레이시아의 야권·여권 경계가 다시 유동화되고 필리핀 탄핵심판이 증언 국면을 깊게 하는 가운데, 베트남의 세제지원과 인도네시아의 산불 제재는 역내 정부들이 정치적 재편과 경제·환경 집행력을 동시에 시험받고 있음을 보여준다.",
+ "pulse": [],
+ "monitor": [
+  {
+   "issue_id": "malaysia-politics",
+   "issue": "말레이시아 정치지형",
+   "status": null,
+   "status_label": "변화 있음",
+   "level": "orange",
+   "stage": null,
+   "delta": "PAS–UMNO 협력을 당대회에서 논의하고 BN–PN 멜라카 협상이 진행 중이나 합의는 없음.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "myanmar-normalisation",
+   "issue": "미얀마 정상화 프로세스",
+   "status": null,
+   "status_label": "변화 있음",
+   "level": "orange",
+   "stage": null,
+   "delta": "2027년 초 보궐선거·참관단 구상이 등장했지만 ASEAN 비인정과 현장 공습이 지속.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "th-kh-border",
+   "issue": "태국–캄보디아 국경",
+   "status": null,
+   "status_label": "변화 없음",
+   "level": "yellow",
+   "stage": null,
+   "delta": "시설공사·지뢰 책임 공방은 지속, 신규 무력충돌 미확인.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "us-trade",
+   "issue": "미국 대 ASEAN 통상·환적",
+   "status": null,
+   "status_label": "변화 있음",
+   "level": "orange",
+   "stage": null,
+   "delta": "관세율보다 원산지·실질적 변형·공급망 추적 문서화가 집행 핵심으로 이동.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "scs",
+   "issue": "남중국해 COC",
+   "status": null,
+   "status_label": "변화 없음",
+   "level": "yellow",
+   "stage": null,
+   "delta": "실무협상 후 최종 합의·서명 미확인.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "sara-duterte",
+   "issue": "Sara Duterte 탄핵",
+   "status": null,
+   "status_label": "중요 변화",
+   "level": "red",
+   "stage": null,
+   "delta": "18일차 증언에서 5억 페소 기밀비에 대한 부통령의 인지·지시 문제가 직접 제기됨.",
+   "next_trigger": null,
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "regional",
+   "title": "말레이시아의 정당 간 경계가 재협상 단계로 들어갔다.",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "PAS는 차기 당대회에서 UMNO와의 정치협력을 공식 의제로 다루겠다고 했고, BN–PN의 멜라카 주선거 협상도 진행 중이라고 밝혔다. 아직 합의는 없지만, 이는 안와르 연정의 안정성을 곧바로 무너뜨리는 사건이라기보다 차기 선거를 앞두고 말레이계 표의 결집 방식을 다시 설계하는 신호다."
+    }
+   ]
+  },
+  {
+   "type": "regional",
+   "title": "필리핀 사라 두테르테 탄핵심판은 기밀비 지휘·통제의 증언 검증으로 이동했다.",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "8월 25일 심판 18일차에 OVP 관계자는 부통령이 5억 페소 기밀비 집행을 알고 있었다고 증언했다. 이는 법정 주장 단계이며 유죄 판단이 아니다. 쟁점은 자금의 최종 사용처와 지시 체계, 변호인단의 반대신문이다."
+    }
+   ],
+   "issue_ids": [
+    "sara-duterte"
+   ]
+  },
+  {
+   "type": "regional",
+   "title": "베트남은 소규모 사업자에 2026~2027년 30% 소득세 감면을 도입했다.",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국회는 연매출 100억 동 이하 개인·사업가구·기업을 대상으로 감면안을 의결했다. 내수·중소기업 지원과 세수비용 사이의 균형, 실제 수혜대상 정의가 후속 과제다."
+    }
+   ]
+  },
+  {
+   "type": "regional",
+   "title": "인도네시아 산불 대응이 진화에서 기업책임·월경성 협력으로 확대됐다.",
+   "countries": [
+    "ID",
+    "MY",
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "당국은 산불 연루 약 30개 기업에 약 15조 루피아 규모의 손해배상·복구비를 청구하고 영업허가 취소 가능성을 경고했다. 외국 소방항공기 35건의 특별허가도 발급돼 말레이시아·브루나이 연무 대응이 역내 재난 거버넌스 사안으로 바뀌고 있다."
+    }
+   ]
+  },
+  {
+   "type": "regional",
+   "title": "미얀마의 선거 외교와 현장 전쟁은 더 분리되고 있다.",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "민 아웅 흘라잉은 벨라루스에서 2027년 초 보궐선거와 국제 참관단 초청을 언급했지만, ASEAN은 이미 2025~2026년 군정 선거를 인정하지 않았다. 선거 일정 발표가 Five-Point Consensus의 진전이나 폭력 감소를 뜻하지 않는다."
+    }
+   ]
+  },
+  {
+   "type": "special",
+   "title": "말레이시아 정치지형: PAS–UMNO 접촉과 PKR의 양면 압박",
+   "countries": [
+    "MY"
+   ],
+   "issue_ids": [
+    "malaysia-politics"
+   ],
+   "paragraphs": [
+    {
+     "label": "배경",
+     "text": "말레이시아 정치는 안와르 이브라힘의 통합정부를 중심으로 PH와 BN이 연방 차원에서 협력하는 한편, 야권 PN 에서는 PAS와 Bersatu가 말레이계 지지기반을 공유하는 복합구조다. 과거 PAS–UMNO의 ‘무아파캇 나시오날’은 말레이·무슬림 단결을 표방했지만 지도부 경쟁과 연정 선택으로 약화됐다."
+    },
+    {
+     "label": "전개",
+     "text": "PAS 사무총장 Takiyuddin Hassan은 8월 25일 차기 muktamar에서 UMNO와의 정치협력 및 무슬림 단결을 논의할 것이라고 밝혔다. UMNO는 대표단 파견을 수락했다. 동시에 BN–PN은 멜라카 주선거 협력 방식을 협상 중이나 최종 합의는 없다. 반대편에서는 PKR 출신 인사들이 신생 Bersama로 이동하며 PH 의중도·개혁 표를 잠식하고 있다는 보도가 나왔다."
+    },
+    {
+     "label": "현재 상황",
+     "text": "오늘 확인된 것은 ‘협의의 제도화’이지 전국적 선거연합의 성립이 아니다. UMNO는 연방정부의 핵심 구성원이며 PAS는 PN의 최대세력이다. 협력 범위가 주 단위 선거조정인지, 장기적인 말레이계 정당 재편인지 아직 불명확하다."
+    },
+    {
+     "label": "의미",
+     "text": "안와르 연정은 우측에서 PAS–UMNO 협력 가능성, 개혁진영에서는 Bersama의 이탈표라는 양면 압박을 받는다. Fulcrum의 Lee Hwok-Aun은 PH가 민족정치 경쟁에 끌려가기보다 개혁 정체성을 회복해야 한다고 분석한다. 이는 분석자의 견해이며, 오늘의 협상 결과를 확정하는 사실은 아니다."
+    },
+    {
+     "label": "전망·확인 포인트",
+     "text": "① PAS 당대회 결의문, ② UMNO 대표단의 발언, ③ 멜라카 선거구 조정 여부, ④ Bersatu의 반응, ⑤ PKR의 개혁·공천 원칙을 확인해야 한다. 협력이 공식 합의로 전환되지 않는 한 Tracker 상태는 ‘변화 있음’으로 유지한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": "정치·안보",
+     "text": "8월 22~23일 최남부 4개 주에서 발생한 공격은 공식 집계 기준 78건, 최소 3명 부상으로 정리된다. 철도·전력·상업시설이 함께 표적이 됐고 나라티왓에는 통행금지가 적용됐다. 정부가 약 두 달 전 공격 가능성을 인지했음에도 위치와 규모를 특정하지 못했다는 보도는 정보 공유와 예방 역량의 문제를 남긴다. 아직 책임을 주장한 단체가 없으므로 BRN 소행으로 확정하지 않는다."
+    },
+    {
+     "label": "대외관계",
+     "text": "말레이시아가 중재해 온 정부–BRN 평화대화가 치안대응에 밀릴 수 있다. 태국–캄보디아 국경에서는 2025년 말 휴전 이후 시설공사와 지뢰를 둘러싼 상반된 주장이 이어지지만 지난 24~48시간 내 신규 무력충돌은 확인되지 않았다."
+    },
+    {
+     "label": "경제·사회",
+     "text": "공격은 남부 철도·전력·소매업 비용을 높였으나 전국 성장경로를 바꿀 수준의 계량근거는 아직 없다. 관광과 내수, 가계부채의 기존 취약성 속에서 지역 충격을 별도로 추적할 필요가 있다."
+    }
+   ],
+   "point": "오늘의 핵심은 공격 건수보다 정보가 있었음에도 동시다발 타격을 막지 못한 국가역량의 간극이다. 과잉 단속은 평화대화의 정치적 의제를 약화시킬 수 있다.",
+   "next_check": "합동수사가 책임주체와 지휘망을 확인하고, 정부–BRN 공식 대화 일정이 발표되는가?"
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": "정치·거버넌스",
+     "text": "국회는 8월 24일 481명 중 480명 찬성으로 연매출 100억 동 이하 개인·사업가구·기업의 2026~2027년 개인·법인소득세 30% 감면안을 통과시켰다. 같은 날 최고인민검찰원 검사 4명이 임명되고 꽝닌·박닌의 중앙직할시 승격도 의결됐다."
+    },
+    {
+     "label": "대외관계",
+     "text": "베트남과 싱가포르는 8월 24~25일 첫 전략대화를 열어 양당·정부 간 정례 협의 채널을 강화했다. 칠레 외교장관 방문과 프랑스 국방협력도 다변화 외교의 연속선에 있다."
+    },
+    {
+     "label": "경제·사회",
+     "text": "세제감면은 소규모 사업자의 현금흐름과 공식화 유인을 높일 수 있지만 기준매출 산정·세수효과·지역별 집행이 관건이다. AI·딥페이크 대응 ‘디지털 방패’ 논의와 수족구병 주간 3천 건 이상 보도는 디지털·보건 baseline의 신규 신호다."
+    }
+   ],
+   "point": "감면은 단순 경기부양보다 소규모 사업자 공식화와 세정 디지털화를 함께 시험하는 구조정책이다.",
+   "next_check": "재무부 시행지침이 매출 합산, 감면 신청, 탈세방지와 세수보전 방식을 어떻게 정하는가?"
+  },
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": "환경·거버넌스",
+     "text": "정부는 올해 산불과 관련해 약 30개 기업을 상대로 약 15조 루피아의 국가손실·환경복구 청구를 추진하고, 프라보워 대통령은 책임기업의 면허 취소를 경고했다. 교통부는 36대 헬기를 포함한 외국등록 소방항공기 운용을 위해 35건의 특별허가를 발급했다."
+    },
+    {
+     "label": "경제",
+     "text": "8월 CPO 기준가격은 톤당 996.52달러로 7월보다 0.44% 낮다. 산식에는 인도네시아 CPO 거래소와 말레이시아 거래소 가격이 사용됐다. 이는 인도네시아가 자국 거래가격의 대표성을 높이려는 움직임을 보여준다."
+    },
+    {
+     "label": "대외·안보",
+     "text": "중국과의 국방·식량·에너지 협력은 공동훈련과 2027년 기술이전형 탄약생산 계획까지 확대되는 흐름이다. 비동맹 기조 아래 미국·호주와의 관계와 중국 협력의 균형이 중요하다."
+    }
+   ],
+   "point": "산불 대응은 진화 숫자보다 기업책임 집행과 월경성 항공협력의 지속성이 구조변화를 가른다.",
+   "next_check": "제재 대상 30개 기업의 명단·위반유형·허가취소 절차가 공개되고 실제 복구비가 집행되는가?"
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": "정치·거버넌스",
+     "text": "사라 두테르테 탄핵심판 18일차에 OVP Assistant Secretary Lemuel Ortonio는 부통령이 5억 페소 기밀비 집행을 알고 있었다고 증언했다. 전 지출담당자 Gina Acosta의 전날 증언과 함께 지휘·통제 문제가 부각됐지만, 이는 검찰 측 사건구성과 증언이며 최종 사실판단은 탄핵법정의 몫이다."
+    },
+    {
+     "label": "경제·산업",
+     "text": "행정명령 122호는 니켈·구리 등 핵심광물의 탐사·가공·배터리·제조 생태계를 묶고, 허가 6개월 처리와 1년 내 온라인 원스톱숍을 지시한다. 유망지역 900만 ha는 정부 추정치다. 2025년 빈곤율 9.7%와 빈곤가구 비율 6.4%는 PSA 발표로 확인됐으나, 빈곤선 바로 위의 취약가구가 많은 만큼 단일 비율을 생활안정의 완결로 읽어서는 안 된다."
+    },
+    {
+     "label": "대외·안보",
+     "text": "COC 실무협상은 2026년 타결 목표를 유지하지만 법적 구속력·지리적 범위·집행장치의 최종 합의는 발표되지 않았다. 미국 해경 배치 확대와 필리핀·싱가포르 활동은 해양법 집행의 상징성이 커지는 신호다."
+    }
+   ],
+   "point": "탄핵은 정치연합 재편, 핵심광물은 공급망 재편을 동시에 밀어붙이는 두 축이다. 두 사안 모두 절차의 투명성이 정책 신뢰를 좌우한다.",
+   "next_check": "탄핵법정이 Lachica 증언을 채택하고 자금의 최종수령·사용 증거를 어떻게 판단하는가?"
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": "정치",
+     "text": "PAS가 UMNO 협력을 당대회 공식 의제로 올리고 BN–PN 멜라카 협상이 진행 중이라는 점이 오늘의 핵심 변화다. 동시에 PKR은 옛 지도부 복귀 논의와 Bersama 로의 이탈이라는 상반된 조직 압력을 받고 있다. 이는 PH–BN 연정 붕괴의 증거가 아니라 선거연합 선택지를 넓히는 예비 협상이다."
+    },
+    {
+     "label": "경제·산업",
+     "text": "Fulcrum은 2026년 상반기 수출 급증에 전자·석유·LNG 수요와 선출하·재수출 효과가 함께 섞였다고 분석한다. 조호르–싱가포르 RTS와 JS-SEZ, 데이터센터 투자가 성장축이지만 도시연결성·현지인력·전력·수자원 비용이 병목이다."
+    },
+    {
+     "label": "사회·환경",
+     "text": "Pulau Jerejak 32ha 개발과 RM500m 규모 1km 교량은 민간개발 프로젝트로 확인됐다. 2029년 완공 목표이며, 섬의 약 85% 산림보호구역과 역사유산 보존, 교통수요·환경영향평가가 실질 쟁점이다."
+    }
+   ],
+   "point": "말레이 정치의 중심선은 ‘정부 대 야당’만이 아니라 말레이계 표 결집과 개혁표 분화의 두 방향에서 이동하고 있다.",
+   "next_check": "PAS–UMNO 논의가 공동선언·선거구 협상으로 전환되는가, 아니면 상징적 당대회 교류에 머무는가?"
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": "정치·대외관계",
+     "text": "민 아웅 흘라잉은 8월 21일 벨라루스 대통령과의 회담에서 2027년 초 보궐선거와 국제 참관단 초청 의사를 밝혔다. 이는 이미 치른 2025~2026년 선거 이후의 미투표 지역 보궐선거 구상."
+    },
+    {
+     "label": "안보·인권",
+     "text": "8월 21일 Sagaing의 불교사원 공습으로 14명 사망·20명 부상했다는 지역단체·주민 증언을 AP가 보도했다. 군정의 즉각 해명은 없었다. NUG는 인권부를 해체하고 독립위원회 출범을 추진했으며, 2017년 로힝야 탄압 9주년을 맞아 국제책임 요구가 재부상했다."
+    },
+    {
+     "label": "사회·인도지원",
+     "text": "Fulcrum의 Su Mon Thazin Aung은 Starlink Global Roam 제한이 사기단지 차단과 동시에 분쟁지역 의료·교육·구호 연결을 끊을 수 있다고 분석한다."
+    }
+   ],
+   "point": "보궐선거 외교는 정상화의 증거라기보다 미투표 지역과 대표성 결손을 인정하는 신호다. 현장에서는 공습과 통신제약이 계속된다.",
+   "next_check": "보궐선거 대상 의석·지역과 참관단 자격, ASEAN의 참여·불참 원칙이 공식화되는가?"
+  },
+  {
+   "type": "country_brief",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "리셴룽 선임장관이 8월 24~27일 카자흐스탄, 27~31일 우즈베키스탄을 방문한다. 첫 중앙아시아 방문으로 디지털·투자·교육 네트워크 다변화가 목적이다. 서안지구 정착촌 확대 중단을 촉구한 외교입장도 확인됐다."
+    }
+   ],
+   "next_check": "카자흐스탄·우즈베키스탄에서 체결되는 투자·디지털·교육 합의의 구체적 금액과 집행기관은 무엇인가?"
+  },
+  {
+   "type": "country_brief",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "미국과의 Angkor Sentinel 훈련은 ‘2027년 재개 예정’으로 확인됐다. 2026년에 이미 재개됐다는 표현은 부정확하다. 사우디·러시아와의 외교·교육 접촉도 확대됐다."
+    }
+   ],
+   "next_check": "훈련 일정·병력·해상요소와 Ream 기지 사용 여부를 양국 국방당국이 공개하는가?"
+  },
+  {
+   "type": "country_brief",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부는 월례회의에서 연료·소비자가격 안정과 재난대응 강화를 논의했다. 지난 24~48시간 내 대규모 신규 정책결정은 확인되지 않았다."
+    }
+   ],
+   "next_check": "중앙은행·재무부가 외환·부채·물가 안정조치의 최신 수치와 집행일정을 내놓는가?"
+  },
+  {
+   "type": "country_brief",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "인도네시아발 연무의 월경 영향이 baseline 핵심이다. 지난 24~48시간 내 검증 가능한 신규 정치·경제 정책 변화는 확인되지 않았다."
+    }
+   ],
+   "next_check": "기상당국이 대기질 경보를 갱신하고 학교·보건 지침을 조정하는가?"
+  },
+  {
+   "type": "country_brief",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "2025년 10월 ASEAN 11번째 회원국 가입 뒤 역량강화 단계가 이어진다. 최근 JAIF 코칭 클리닉 외에 지난 24~48시간 내 주요 신규 변화는 확인되지 않았다."
+    }
+   ],
+   "next_check": "2026년 ASEAN 협정 국내이행·분담금·회의주재 성과가 공개되는가?"
+  },
+  {
+   "type": "macro",
+   "title": null,
+   "heading": "핵심 거시경제 비교 | 2026-08-26 판단",
+   "table": {
+    "title": null,
+    "columns": [
+     "국가",
+     "성장·내수",
+     "물가·통화",
+     "수출·FDI",
+     "현재 판단"
+    ],
+    "rows": [
+     [
+      "태국",
+      "관광 회복과 취약내수 병존",
+      "저물가·가계부채 부담",
+      "제조·관광 의존",
+      "남부 안보 충격은 지역경로로 분리 관찰"
+     ],
+     [
+      "베트남",
+      "중소사업자 세제지원",
+      "신용확대와 세수비용 균형",
+      "전자·FDI 중심",
+      "세제감면의 집행과 생산성 효과가 새 신호"
+     ],
+     [
+      "인도네시아",
+      "내수 견조, 재정지출 부담",
+      "BI 5.75%, 루피아 안정 우선",
+      "자원가공·원자재가격 주도권 추구",
+      "산불의 농업·항공·보건 비용이 하방위험"
+     ],
+     [
+      "필리핀",
+      "소비·서비스 성장",
+      "식품가격·금리 경로 주시",
+      "광물·서비스 다변화",
+      "핵심광물 가공투자와 환경수용성의 균형"
+     ],
+     [
+      "말레이시아",
+      "수출·JS-SEZ 성장축",
+      "생활비·임금 격차",
+      "전자·LNG·데이터센터",
+      "선출하·재수출을 제외한 국내부가가치 확인 필요"
+     ],
+     [
+      "미얀마",
+      "분쟁·통제로 위축",
+      "환율·물자·통신 불안",
+      "제재회피형 협력",
+      "선거 외교와 현장 정상화의 괴리 확대"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "asean",
+   "title": null,
+   "paragraphs": [
+    {
+     "label": "역내 제도",
+     "text": "ASEAN 사무국의 최신 공개 뉴스는 청년 작업계획과 대브라질 교류에 집중돼 있다. 8월 26일 새 정상·장관급 합의가 공개됐다는 근거는 확인되지 않았다."
+    },
+    {
+     "label": "해양안보",
+     "text": "COC는 2026년 타결 목표와 실제 합의를 구분해야 한다. 오늘 기준 최종문안·서명·발효는 확인되지 않았다."
+    },
+    {
+     "label": "대외 다변화",
+     "text": "싱가포르의 중앙아시아 방문, 베트남–싱가포르 전략대화, 캄보디아의 2027년 미군훈련 재개 계획은 ASEAN 회원국이 중국·미국·신흥 파트너와의 관계를 병렬적으로 조정하는 흐름이다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "Pakatan Harapan Under Water: Can Reforms Bring It Afloat?",
+   "lede": "Fulcrum · Lee Hwok-Aun, 2026-08-25",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "PH의 대응을 민족정치 모방보다 개혁 정체성·제도성과 회복의 문제로 본다. 오늘 PAS–UMNO 협의와 PKR 이탈을 해석하는 배경자료로 사용했다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "Can Indonesia protect gig workers while allowing innovation to thrive?",
+   "lede": "Lowy/The Interpreter · Hilman Palaon, 2026-08-25",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "플랫폼 노동자 보호와 혁신의 균형을 제도설계 문제로 다룬다. 오늘 산불·원자재 이슈와 직접 연결되지는 않아 연구신호로만 보존한다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "The New Politics of Nickel: Chinese Investment in Indonesia and Structural Rebalancing",
+   "lede": "RSIS · Kong Gongmulan·Xing Jiaying, 2026-08-21",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "니켈 하류화가 투자·기술·정치경제 의존을 함께 만든다는 관점으로, 인도네시아의 가격결정권·거래소 신뢰성 논의에 구조적 맥락을 제공한다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "The Humanitarian Costs of Starlink’s Policy",
+   "lede": "Fulcrum · Su Mon Thazin Aung, 2026-08-19",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "사기단지 차단 정책이 분쟁지역 민간 연결성까지 훼손할 수 있음을 지적한다. 정책 부작용 분석으로만 사용했다."
+    }
+   ]
+  },
+  {
+   "type": "watchlist",
+   "title": "Watchlist",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "인도네시아 산불 책임기업 30곳의 실명 공개와 실제 허가취소·복구비 집행"
+    },
+    {
+     "label": null,
+     "text": "말레이시아 Pulau Jerejak 개발의 환경영향평가·산림보호·역사유산 보전 조건"
+    },
+    {
+     "label": null,
+     "text": "베트남 중소사업자 세제감면의 세수비용과 공식화 효과"
+    },
+    {
+     "label": null,
+     "text": "미얀마 Starlink Global Roam 제한의 실제 지역범위·예외·인도지원 영향"
+    }
+   ]
+  },
+  {
+   "type": "watchlist",
+   "title": "Candidate Tracker",
+   "paragraphs": [
+    {
+     "label": "Stage 1",
+     "text": "말레이시아 PAS–UMNO/BN–PN 선거협력: 당대회 결의 또는 공식 선거구 합의 발생 시 Stage 2 검토."
+    },
+    {
+     "label": "Stage 1",
+     "text": "인도네시아 산불 기업책임 집행: 3일 이내 기업명단·면허취소가 확인되면 Stage 2 검토."
+    }
+   ]
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": "scs",
+   "issue": "남중국해 / COC",
+   "events": [
+    {
+     "date": "08-19~21",
+     "text": "마닐라 제57차 JWG-DOC, 2026년 타결 목표 아래 협상 지속",
+     "note": null
+    },
+    {
+     "date": "08-26 현재",
+     "text": "법적 구속력·적용범위·집행장치 최종 합의 발표 없음",
+     "note": null
+    }
+   ],
+   "status": "변화 없음 — 협상은 진행, 타결은 미확정"
+  },
+  {
+   "issue_id": "th-kh-border",
+   "issue": "태국–캄보디아 국경",
+   "events": [
+    {
+     "date": "2025-12-27",
+     "text": "재충돌 뒤 즉각 휴전, 현 병력배치 유지·지뢰제거·ASEAN 감시 합의",
+     "note": null
+    },
+    {
+     "date": "08-25",
+     "text": "국경시설 공사와 제3자 관찰을 둘러싼 양측 주장 지속",
+     "note": null
+    }
+   ],
+   "status": "변화 없음 — 신규 무력충돌 미확인, 이행·지뢰제거 추적"
+  },
+  {
+   "issue_id": "us-trade",
+   "issue": "미국 대 ASEAN 관세·환적·원산지",
+   "events": [
+    {
+     "date": "08-11",
+     "text": "ASEAN 기업에 원산지·부품·공정 문서화 강화 필요성이 재확인됨",
+     "note": null
+    },
+    {
+     "date": "08-25",
+     "text": "미국의 ‘환적’ 단속과 싱가포르 관리방식을 다룬 ISEAS 수록 분석 등장",
+     "note": null
+    }
+   ],
+   "status": "변화 있음 — 세율보다 원산지 집행·입증 부담이 핵심으로 이동"
+  },
+  {
+   "issue_id": "asean-agenda",
+   "issue": "ASEAN 일정·대외관계",
+   "events": [
+    {
+     "date": "08-19~21",
+     "text": "ASEAN 청년 작업계획 2026~2030 채택, JWG-DOC 개최",
+     "note": null
+    },
+    {
+     "date": "08-25",
+     "text": "ISEAS 직전 영업일 Daily News Alert 게시; 베트남–싱가포르 첫 전략대화 종료",
+     "note": null
+    }
+   ],
+   "status": "변화 있음 — 역내 정례협의와 대외관계 다변화 지속"
+  }
+ ],
+ "bottom_line": [],
+ "watch_next": [
+  "PAS 당대회가 UMNO 협력을 어떤 문구와 수준으로 결의하는가?",
+  "사라 두테르테 측 반대신문이 5억 페소의 지시·수령·최종사용 연결을 어떻게 다투는가?",
+  "인도네시아가 산불 관련 30개 기업의 명단과 행정·민사 절차를 공개하는가?",
+  "베트남 세제감면 시행지침이 수혜대상과 세수보전 장치를 어떻게 정의하는가?",
+  "미얀마 보궐선거 대상지역과 ASEAN의 참관 원칙이 공개되는가?",
+  "캄보디아–미국이 2027 Angkor Sentinel의 장소·규모·Ream 기지 연계를 발표하는가?"
+ ],
+ "verification_notes": [
+  "태국 남부 공격은 Reuters 기준 78건·최소 3명 부상으로 채택했다. AP 초기 집계 51건·2명 부상은 시간차가 있는 초기치로 처리했다. BRN 책임은 미확인이다.",
+  "필리핀 2025년 빈곤율 9.7%와 빈곤가구율 6.4%는 ISEAS가 연결한 PSA 보도자료 계보로 확인했다."
+ ],
+ "sources": [
+  {
+   "id": null,
+   "text": "PAS muktamar to debate Umno ties and Muslim unity — Malay Mail, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Indonesia–China defence and energy cooperation — AP, 2026-08-21",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine poverty statistics — PSA",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Motion on PAS–Umno cooperation — FMT, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Thailand deep south attacks — Reuters, 2026-08-24",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Pulau Jerejak bridge — The Star, 2026-08-14",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Pakatan Harapan Under Water — Fulcrum, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Thai PM security meeting — AP, 2026-08-23",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Lee Hsien Loong Central Asia visits — Singapore PMO, 2026-08-23",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Sara Duterte impeachment trial Day 18 — GMA, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Myanmar by-election statement — Eleven Myanmar, 2026-08-23",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Cambodia to resume US drills in 2027 — CNA, 2026-08-14",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Sara Duterte impeachment trial Day 18 — ABS-CBN, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Myanmar monastery airstrike — AP, 2026-08-21",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "US Pacific Fleet Cambodia visit — US Navy, 2026-08-06~07",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Vietnam morning digest — VietnamPlus/VNA, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Fulcrum articles index — ISEAS/Fulcrum, accessed 2026-08-26",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ASEAN Secretariat Newsroom — accessed 2026-08-26",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Vietnam latest news — VietnamPlus, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ISEAS Daily News Alert — 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "U.S.–ASEAN trade and tariff developments — DFDL, 2026-08-11",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Top regional headlines — Bernama, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ISEAS Daily News Alert — 2026-08-24",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Indonesia August CPO reference price — Trade Ministry, 2026-07-31",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippines critical minerals EO 122 — Philippine Resources, 2026-08-24",
+   "url": null
+  }
+ ]
+}

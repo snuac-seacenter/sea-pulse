@@ -1,0 +1,14 @@
+{
+  "_설명": "지속 이슈 ID와 화면에 보일 이름. 새 이슈는 브리프 JSON에 issue_id만 쓰면 자동으로 생기고, 이름을 고정하고 싶을 때만 여기에 추가한다.",
+  "scs": "남중국해 / COC",
+  "th-kh-border": "태국–캄보디아 국경",
+  "myanmar-normalisation": "미얀마 정상화 프로세스",
+  "malaysia-politics": "말레이시아 정치지형",
+  "us-trade": "미국 대 ASEAN 관세·환적·원산지",
+  "asean-agenda": "ASEAN 일정·대외관계",
+  "sara-duterte": "사라 두테르테 탄핵",
+  "my-state-elections-2026": "말레이시아 주 선거",
+  "asean-delivery": "ASEAN 합의 이행",
+  "climate-haze": "기후·연무",
+  "econ-digital-resilience": "경제·디지털 회복력"
+}

@@ -1,0 +1,296 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-08",
+ "weekday": "목",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA PULSE Daily",
+ "editor": "김형종",
+ "observation_cutoff": "2026-10-07 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "말레이시아",
+  "라오스",
+  "캄보디아",
+  "11월 14일 투표 · 유권자 68.8만명",
+  "5.5~5.8% · 1~9월 평균 7.9%",
+  "연료·전기 가격 대응 약 5억달러"
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "경제"
+    },
+    {
+     "label": null,
+     "text": "생활비 대응 정부는 연료와 전기 가격 상승을 완충하기 위해 지금까지 약 5억달러를 투입했다고 밝혔다. 가격 보조와 전력비 부담 완화에 사용된 재정 규모를 정부가 구체적으로 공개한 것이다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "경제"
+    },
+    {
+     "label": null,
+     "text": "물가 1~9월 평균 물가상승률은 7.9%였다. 중앙은행은 2027년 평균 물가상승률을 5.5~5.8%로 낮추겠다는 목표를 제시했다. 올해 수치보다 낮은 범위를 공식 목표로 설정했다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "멜라카 주선거 선거관리위원회는 투표일을 11월 14일로 확정했다. 후보등록은 10월 31일, 사전투표는 11월 10일이며 등록 유권자는 687,697명이다. 선거 일정이 확정되면서 정당별 공천과 연대 협상도 공식 일정에 맞춰 진행된다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "말레이시아 방문 민 아웅 흘라잉이 7일 말레이시아 공식 방문길에 올랐다. 출발과 방문 일정은 확인됐지만 마감 시점에는 정상회담 결과와 합의문이 공개되지 않았다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "싱가포르 방문 마르코스 대통령은 7일부터 11일까지의 싱가포르 실무방문을 시작했다. 투자와 에너지 협력이 주요 의제로 제시됐으며 구체적인 계약·협정은 방문 결과에서 확인될 예정이다."
+    },
+    {
+     "label": null,
+     "text": "경제"
+    },
+    {
+     "label": null,
+     "text": "생활비 대통령은 관계기관에 식품·연료·전력 공급을 안정시키고 가격 상승 압력을 억제하도록 지시했다. 농산물 공급, 연료 수급과 전력요금 관리가 함께 포함됐다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "웨어러블 녹화기기 의회에서는 스마트 글라스 등 웨어러블 녹화기기의 공공부문 사용과 비밀정보 보호 문제가 다뤄졌다. 현재 논의는 관리 원칙과 보안 기준을 정비하는 단계다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "홍수 일부 중부 지역에서 수위가 내려가기 시작했다. 정부는 10~12일 추가 강우 가능성을 제시하며 배수·대피·구호 조치를 계속 유지하고 있다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "파나마 총리는 파나마 대통령과 회담했다. 양측은 교역·물류·해운 협력을 논의했으며 구체 사업은 후속 협의로 남아 있다."
+    },
+    {
+     "label": null,
+     "text": "경제"
+    },
+    {
+     "label": null,
+     "text": "정부 결의 정부는 9개월 GDP 성장률 9.01%를 재확인하고 투자·토지·건설·환경 관련 행정처리를 단축하도록 지시했다. 디지털자산과 국제금융센터의 세부제도 마련도 포함됐다."
+    },
+    {
+     "label": null,
+     "text": "인프라 주요 고속도로 사업의 투자 조정과 행정절차에 10월 중 완료해야 할 기한이 제시됐다. 일부 사업은 승인 이후 실제 집행을 위한 부처·지방정부 절차로 넘어갔다."
+    },
+    {
+     "label": null,
+     "text": "사회"
+    },
+    {
+     "label": null,
+     "text": "주택금융 사회주택 신용프로그램 규모는 153 조동을 넘었고 약정 대출은 약 50.3 조동으로 집계됐다. 정책금융 확대와 실제 대출 집행 사이에는 여전히 차이가 남아 있다."
+    }
+   ]
+  },
+  {
+   "type": "asean",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정치·안보·외교"
+    },
+    {
+     "label": null,
+     "text": "에너지 장관회의 제44차 ASEAN 에너지장관회의가 마닐라에서 열려 에너지 안보, 역내 전력 연결과 회복력을 논의했다. ASEAN Power Grid와 외부 파트너 협력이 주요 의제에 포함됐다."
+    }
+   ]
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "10/7",
+     "text": "캄보디아, 가격완충 재정 약 5억달러 공개",
+     "note": null
+    },
+    {
+     "date": "10/7",
+     "text": "라오스, 2027년 물가 5.5~5.8% 목표 제시",
+     "note": null
+    },
+    {
+     "date": "10/7",
+     "text": "말레이시아, 멜라카 주선거 11월 14일 확정",
+     "note": null
+    },
+    {
+     "date": "10/7",
+     "text": "미얀마-말레이시아 공식방문 시작",
+     "note": null
+    },
+    {
+     "date": "10/7",
+     "text": "필리핀 대통령 싱가포르 방문 시작",
+     "note": null
+    },
+    {
+     "date": "10/7",
+     "text": "태국 일부 홍수지역 수위 하락, 추가 강우 대비 유지",
+     "note": null
+    },
+    {
+     "date": "10/7",
+     "text": "베트남 정부회의 결의 공개",
+     "note": null
+    },
+    {
+     "date": "10/7",
+     "text": "제44차 ASEAN 에너지장관회의 개최",
+     "note": null
+    }
+   ],
+   "status": null
+  }
+ ],
+ "bottom_line": [
+  "멜라카는 10월 31일 후보등록으로 선거 절차가 이어진다. 라오스는 2027년 물가 목표를 5.5~5.8%로 제시했다. 태국은 복구와 추가 강우 대비가 병행되고, 필리핀·미얀마·베트남의 정상외교는 후속 합의 공개가 남아 있다."
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "AKP · 캄보디아 정부 발표",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "KPL · 라오스 중앙은행",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Bernama · 말레이시아 선거관리위원회",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "미얀마 외교부",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine Presidential Communications Office",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Singapore Parliament",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Thai Government Public Relations Department",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "베트남 정부포털 · 정부 결의/회의자료",
+   "url": null
+  }
+ ]
+}

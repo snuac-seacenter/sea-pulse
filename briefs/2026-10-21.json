@@ -1,0 +1,479 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-21",
+ "weekday": "수",
+ "title": "동남아 데일리 브리프",
+ "edition": "SERIES | SEA PULSE DAILY",
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": null,
+ "pulse": [
+  "20일의 변화 가운데 후속 제도문서가 빠르게 뒤따를 사안은 말레이시아 국민동맹(PN)의 등록 취소와 싱가포르의 통신 제재다. PN은 등록국이 제출된 소명자료를 검토한 뒤 등록을 취소했고, 싱가포르 IMDA는 3월의 반복적인 모바일 장애에 100만싱가포르달러 과징금을 부과했다. 전자는 사법심사와 선거운동 규칙, 후자는 재발방지 점검으로 이어진다.",
+  "산불과 연무는 서로 다른 시점의 숫자를 나누어 읽어야 한다. 인도네시아 경찰이 언급한 기업 사건 98건은 신규 신고 건수가 아니라 이미 알려진 사건의 수사 진행 상황이다. 브루나이는 적조 경보를 유지했고, 동티모르는 연무 관측값이 개선된 가운데 ASEAN에 피해보고서를 제출 하겠다고 밝혔다. 필리핀 동부 해안에서는 태풍 로살의 강풍·파고 예보가 발표됐다.",
+  "유럽과의 외교·기술 접촉에서는 베트남과 덴마크가 관계 격상을 합의하고 16건의 협력문서를 교환했다. 외교 합의는 성립했으나 해상풍력· 물류·양자연구 사업별 허가나 자금집행과는 거리가 있다. 양국 공식 발표 시각이 서울 기준 발행 관찰 마감과 엇갈리는 부분은 상세판에서 따로 표시했다."
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "경찰의 기업 관련 산불 신고 98건은 현재 수사 중이다. 총수가 20일 새로 접수됐다는 뜻은 아니다. 15일 경찰은 이미 이 숫자와 기업 관련 피의자 9명을 발표했다. 이번 경찰 설명에서는 증거를 더 수집해 법인 책임자와 주주의 혐의 여부를 가릴 계획이라고 밝혔다. 사건별 피의자 지정과 기소를 아직 합산할 수 없다. [S02·S03]"
+    },
+    {
+     "label": null,
+     "text": "현지 소비자 가격을 보호하기 위해 연료 보조가 유지되는 사이, 1~7월 석유·가스 수입액이 전년 대비 40.2% 증가해 258억달러에 달했다는 분석이 나왔다. 수입 물량 증가율 10.9%를 크게 웃돈다. 이는 당일 발표된 새 정부 통계라기보다 기발표 무역자료의 재분석으로 기록한다. [S04]"
+    }
+   ],
+   "point": "산불 수사는 환경부의 행정처분 및 손해복구와 연결해 보되, 98건 전체가 기소된 것처럼 서술하지 않는다. 에너지 수입부담은 보조금 예산의 실제 집행액이 확인될 때 재정에 미친 영향을 평가할 수 있다.",
+   "next_check": "98건의 법인·임원별 입건과 행정조치 목록, 2026년 보조금 집행액·석유가스 수입량 및 수입단가."
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "등록국은 야권연합 국민동맹(PN)이 9월 통지에 대한 소명으로 등록취소 사유를 해소하지 못했다며 등록을 취소했다. 법적 근거는 1966년 단체법 제13 조다. 10월 12일에 제출한 PN의 설명을 심사한 뒤 내린 행정결정이며, 구성 정당들의 등록까지 일괄 취소한 것은 아니다. [S05]"
+    },
+    {
+     "label": null,
+     "text": "안와르 총리는 검찰총장 주재로 경찰·중앙은행·증권위원회 등이 참여하는 기업범죄 태스크포스를 구성하겠다고 밝혔다. 3개월 안에 대외 공개 보고서를 내겠다는 지시도 제시했다. 전담 위원회의 수사권이나 법 개정이 확정됐다는 자료는 아직 없다. [S06]"
+    }
+   ],
+   "point": "PN의 선거표지·후보 공천 문제가 법원 대응과 선관위 결정으로 이어질지 살핀다. 기업범죄 조사단은 참여기관 명단보다 실제 설치 문서와 보고서 공개가 진전의 근거가 된다.",
+   "next_check": "PN의 사법심사·집행정지 신청, 선관위의 로고·연합명칭 적용, 기업범죄 조사단 구성 명령·1월 보고서."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정보통신미디어개발청(IMDA)은 지난 3월 발생한 세 차례 Singtel 모바일 통신장애에 100만싱가포르달러 과징금을 부과했다. 약 72만 명의 이용자가 영향을 받았으며 조사 결과 당국은 장애를 예방할 수 있었던 사안으로 판단했다. 과징금은 확정된 규제조치지만, 네트워크 개선 효과는 별도 검증 대상이다. [S07]"
+    },
+    {
+     "label": null,
+     "text": "스웨덴과의 정상방문에서는 양자기술·신뢰할 수 있는 연결성·수중 기반시설 등을 포함한 신흥기술 협력 공동선언을 체결했다. 카타르와는 LNG 및 저탄소 기술 협력 양해각서를 갱신했다. 두 문서는 협력 범위를 넓혔지만 상업 조달량이나 연구비를 확정한 계약은 아니다. [S08·S09]"
+    }
+   ],
+   "point": "과징금은 집행된 행정조치이고 해외 협력은 합의 문서다. 규제의 효과는 통신망의 실제 이중화·장애 공지시간으로, 공동선언은 구체적인 연구계약으로 점검한다.",
+   "next_check": "Singtel 시정계획·기술감사 일정, 스웨덴 양자 공동연구 과제·예산, 카타르 LNG 실제 계약물량."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "기상청은 20일 오후 루손 동쪽 해상의 태풍 로살과 관련해 강풍·해상 주의보를 냈다. 오후 5 시 해상경보에서는 일부 동부 연안의 강한 바람과 2.8~4.5m 파고를 전망하며 소형 선박의 출항 자제를 권고했다. 20일 밤 이후 발표 자료는 관찰 마감 뒤 소식으로 분리해 읽는다. [S11]"
+    },
+    {
+     "label": null,
+     "text": "탄소시장 정책틀 수립을 지시한 대통령 행정명령이 새 논의로 부상했다. 하지만 명령 서명일은 10월 13일, 대외 발표는 17일로 20일 당일의 새 결정이 아니다. 환경천연자원부가 국내·국제 탄소크레딧의 등록·승인·회계 규칙을 설계하도록 지시한 단계다. [S12]"
+    }
+   ],
+   "point": "태풍 대응의 경보 단계와 실제 피해는 구분해야 한다. 탄소시장은 공공 등록부와 파리협정 제6 조에 따른 이전 승인 규칙이 공개될 때 제도화 수준을 판단할 수 있다.",
+   "next_check": "PAGASA 20일 마감 이전 경보와 지역별 대피 현황, 탄소시장 시행규칙 초안·승인기관·등록부 설계."
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "또 럼 국가주석 겸 공산당 총비서와 덴마크 총리는 코펜하겐에서 양국 관계를 포괄적 전략동반자 관계로 격상하기로 합의했다. 덴마크 정부는 20일자 공식 문서를 게시했고, 베트남 정부 영문 발표는 베트남시간 20일 오후 11 시 25 분으로 서울 기준 관찰 마감 이후에 올라왔다. 사건일과 보도 시각을 분리해 기록한다. [S25·S26]"
+    },
+    {
+     "label": null,
+     "text": "두 정상의 방문을 계기로 병원·물류·친환경 화학·에너지·양자과학 등 16건의 협력 문서가 교환됐다. 20일 오후 8 시 59 분(베트남시간) 베트남 정부가 공개한 명단에는 양해각서와 협력합의가 섞여 있다. 해상풍력 전력판매계약이나 하이퐁 물류공사의 착공까지 보증하지는 않는다. [S27]"
+    },
+    {
+     "label": null,
+     "text": "별도로 바비 사파리 사업 관련 게시물이 현지에서 제한됐다는 이용자 통지 화면을 베트남 독립매체가 보도했다. 경찰 요청을 받았다는 플랫폼 통지에 따른 주장으로, 별도 공개된 행정명령 또는 삭제 요청 원문은 확인하지 못했다. 사안은 지역 내 플랫폼 콘텐츠 통제 동향으로 기록한다. [S28]"
+    }
+   ]
+  },
+  {
+   "type": "deep_dive",
+   "title": "베트남 4 단 Deep Dive",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "1. 정치·협상 결정: 관계 격상 합의와 16개 협력문서 교환은 확인됐다. 외교적 합의와 산업별 계약 실적은 분리한다."
+    },
+    {
+     "label": null,
+     "text": "2. 행정 번역: 병원·물류·친환경 에너지·양자과학 등 문서별 담당기관과 조건이 달라 부처별 이행계획이 필요하다."
+    },
+    {
+     "label": null,
+     "text": "3. 집행 상태: 해상풍력·물류 사업의 허가와 금융약정, 양자연구의 공동예산은 아직 확인되지 않았다. 베트남 정부 영문 공개시각은 서울 관찰 마감 이후다."
+    },
+    {
+     "label": null,
+     "text": "4. 결과 검증: 전력구매계약, 하이퐁 사업성 검토, 연구비·연구자 교환, 실제 투자·수출 수치를 확인한다."
+    }
+   ],
+   "next_check": "양국 행동계획·분야별 담당부처, 해상풍력 허가·전력구매계약, 양자연구 예산·인력, 바비 관련 차단요청 문서·플랫폼 투명성 공지."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국 정부는 PM2.5 계절위험에 앞서 대기오염 대응과 불법 유해폐기물 단속을 강화하라고 지시했다. 중앙정부의 지시는 확인됐으나 지방별 소각 금지기간, 벌칙 집행 및 배출량 감축은 후속 자료가 필요하다. [S22]"
+    },
+    {
+     "label": null,
+     "text": "방콕 경찰은 한국 경찰과 협력해 한국인 8명과 중국인 2명을 보이스피싱·연애사기 혐의로 체포했다고 20일 보도했다. 체포 작전은 19일 실시됐고, 중국인 피의자의 교육·운영 역할은 수사기관의 혐의 설명이다. 기소나 피해액 확정과 구분한다. [S21]"
+    }
+   ],
+   "next_check": "지방 소각 금지 명령과 실측 PM2.5 변화, 피의자별 기소·압수계좌·피해자 환급 자료."
+  },
+  {
+   "type": "country",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "캄보디아의 1~9월 국제선 항공여객은 약 455만 명으로 전년 동기보다 11% 줄었다는 보도가 나왔다. 신규 공항 인프라의 확대와 탑승률이 같은 방향으로 움직이지 않는 상황이다. 노선별 운항편과 관광객 통계가 일치하는지 검증해야 한다. [S15]"
+    },
+    {
+     "label": null,
+     "text": "태국과의 중첩수역 조정은 유엔해양법협약에 따른 절차가 이어지고 있다는 후속 기사를 통해 다시 확인됐다. 조정위원회가 경계를 정하거나 공동 석유·가스 개발을 승인한 것으로 보도하지 않는다. 19일자 브리프에서 다룬 사안과의 중복은 최소화했다. [S16]"
+    }
+   ],
+   "next_check": "공항별 국제선 편수·실제 항공여객 집계, 해양조정 후속회의 날짜와 서명 문서."
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "라오스 환경당국과 국제기구는 20일 COP31을 앞두고 기후협상 우선순위를 조정하는 국가세미나를 열었다. 관계부처가 국제기후재원·적응·에너지 전환을 논의한 사실은 확인되지만, 국가감축목표를 새로 제출하거나 지원금을 확보한 단계는 아니다. [S17]"
+    },
+    {
+     "label": null,
+     "text": "베트남계 VLE는 향후 5년 동안 라오스 에너지 분야에 100억~150억달러를 투자하겠다는 계획을 소개했다. 실제 발언은 10월 8일 투자 촉진회의에서 나왔으며 20일 보도로 다시 유통됐다. 정부 승인액·전력구매계약·자본반입과는 구별해 맥락 자료로만 남겼다. [S18]"
+    }
+   ],
+   "next_check": "COP31 제출자료의 세부 수치·참여부처, VLE 사업별 투자신고·우대요청 심사 결과·전력판매처."
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "군정의 평화협상기구를 이끌던 야르 뺘가 국방장관에 임명됐다는 DVB 보도가 19일 나왔다. 기사에 따르면 임명은 그보다 앞선 주중에 이뤄졌다. 20일자 새로운 인사가 아니라 지휘부 교체의 맥락으로 남긴다. 군정의 직책 재배치와 현장 작전 변화는 아직 연결되지 않는다. [S19]"
+    },
+    {
+     "label": null,
+     "text": "태국 등 해외에 체류하는 미얀마 노동자의 송금이 군정 외화 확보에서 더 큰 비중을 차지한다는 독립언론 보도가 나왔다. 송금이 가장 큰 외화원이라는 비교에는 전체 경상·재정 계정의 공식 대조자료가 필요하다. 보도된 수치를 확정 통계로 승격하지 않는다. [S20]"
+    }
+   ],
+   "point": "군정의 인사는 평화협상 대표와 국방권한의 관계를 바꿀 수 있지만 협상 상대의 수용성까지 보장하지 않는다. 송금 규제는 노동자 가계와 공식 환전시장 사이의 차이를 관찰해야 한다.",
+   "next_check": "야르 뺘 명의 군 명령·실제 지휘변경, 중앙은행 송금 의무비율·공식환율과 현금 유입."
+  },
+  {
+   "type": "country",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "수산당국의 16~19일 공동조사에서도 벨라이트·투통·브루나이무아라 연안의 적조 원인생물 Pyrodinium bahamense가 검출됐다. 일부 작은 어종과 패류의 채취·섭취 자제 안내가 유지된다. 해당 제한이 새로 확대됐는지보다 검사 범위와 해제 조건을 확인해야 한다. [S13]"
+    },
+    {
+     "label": null,
+     "text": "20일 브루나이에서 첫 ASEAN 검사·법무총장 회의가 열렸다. 19일 고위관료회의의 준비 단계를 넘어서 장관급 회의가 실제 개최된 것이다. 다만 ASEAN 사무국의 행사 자료만으로 국경 간 증거공유와 사건 이첩 규칙이 채택됐다고 말할 수는 없다. [S14]"
+    }
+   ],
+   "next_check": "지역별 독소 검사일·해제 통보, APAGM 공동성명·연락관·협력일정."
+  },
+  {
+   "type": "country",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "딜리 코모로 공항의 오염물질 농도가 10월 5일과 비교해 50% 넘게 낮아졌다고 기상당국이 19일 발표했다. 다른 관측지점에서는 20일 오전의 AQI가 44 까지 낮아졌다. 이는 특정 관측지점의 호전이며 전국 평균이나 연무 원인 규명을 뜻하지 않는다. [S23]"
+    },
+    {
+     "label": null,
+     "text": "오염관리국장은 초국경 연무 피해를 정리한 보고서를 ASEAN 회원국에 전달하겠다고 밝혔다. 공개된 것은 작성·전달 계획이지 보고서 제출 완료 또는 공동대응 결정이 아니다. 국가 간 연무 관리 논의에 동티모르의 관측과 피해평가를 전달하는 첫 실무가 될 수 있다. [S24]"
+    }
+   ],
+   "point": "대기질 회복은 풍향·강수 영향과 진화 성과를 구분해서 평가해야 한다. ASEAN 보고가 실제 회의자료로 등록될지도 확인이 필요하다.",
+   "next_check": "딜리 다중 관측소 PM2.5·AQI, 초국경 연무 피해보고서 원문 및 ASEAN 접수 확인."
+  },
+  {
+   "type": "asean",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "연무와 ASEAN 사법협력",
+     "text": "인도네시아의 98건 수사는 기존 기업 관련 화재사건에 대한 국내 형사수사 경과다. 동티모르의 ASEAN 피해보고는 계획에 머물고 있으며, 브루나이 APAGM 개최는 회원국 검사·법무총장의 첫 회의라는 사실까지만 확인됐다. 세 사건 사이에 자동으로 이어지는 공동집행 체계가 만들어졌다는 증거는 없다. [S02·S14·S24]"
+    }
+   ]
+  },
+  {
+   "type": "theme",
+   "title": "Digital & AI Watch",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "통신망 제재, 기술 공동선언, 플랫폼 차단 사례",
+     "text": "싱가포르의 Singtel 과징금은 정보통신 인프라의 행정집행 사례다. 스웨덴과의 양자·신뢰연결성 협력 선언, 베트남–덴마크의 양자연구 관련 문서는 설계·협력 단계로 남아 있다. 베트남의 바비 사파리 관련 Threads 게시물 지역제한은 현지 언론이 공개한 이용자 통지에 근거하며, 국가의 공식 차단명령 원문은 별도 확인 대상이다. [S07·S08·S27·S28]"
+    }
+   ]
+  },
+  {
+   "type": "theme",
+   "title": "기업범죄 및 디지털 규제의 서로 다른 검증 기준",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "말레이시아의 PN 등록 취소는 법적 효력이 있는 행정결정이지만 법원에서 다퉈질 수 있다. 싱가포르의 과징금 역시 부과 사실과 기술 시정 성과를 분리해야 한다. 이 차이는 실제 후속 판단을 이끄는 문서—집행정지 결정, 통신망 감사보고서—에서 구체적으로 드러난다. [S05·S07]"
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "heading": "Compact Chronology",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "19일 · 기업 산불 98건에 관한 경찰 발표·미얀마 인사 보도"
+    },
+    {
+     "label": null,
+     "text": "20일 오전 · PN 등록 취소 발표·브루나이 적조 점검 보도"
+    },
+    {
+     "label": null,
+     "text": "20일 낮 · 말레이시아 기업범죄 조사단 지시·ASEAN 검찰회의 개최"
+    },
+    {
+     "label": null,
+     "text": "20일 오후 · Singtel 과징금·동티모르 ASEAN 연무보고 계획·태풍 로살 해상 경보"
+    },
+    {
+     "label": null,
+     "text": "20일 밤 · 베트남–덴마크 16개 협력문서 공개"
+    },
+    {
+     "label": null,
+     "text": "마감후 확인 · 베트남 정부 영문 관계격상 보도는 21일 01:25 KST에 게시"
+    }
+   ]
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [
+  "국가별로 확인할 문서는 PN의 집행정지 신청과 선관위 해석, Singtel의 통신망 개선보고, ASEAN에 제출될 동티모르 연무 보고서다. 베트남의 16개 협력문서는 분야별 담당기관과 계약조건이 공개될 때 투자·연구사업으로 재분류할 수 있다."
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": "S02",
+   "text": "· Indonesian National Police — 98 corporate forest-fire reports remain under investigation",
+   "url": null
+  },
+  {
+   "id": "S03",
+   "text": "· Indonesian National Police — Nine corporate-related suspects and 98 reports as of mid-October",
+   "url": null
+  },
+  {
+   "id": "S04",
+   "text": "· Business Times — Indonesia oil and gas import bill +40.2% Jan–July",
+   "url": null
+  },
+  {
+   "id": "S05",
+   "text": "· Bernama / Registrar of Societies — PN deregistered under Societies Act 1966",
+   "url": null
+  },
+  {
+   "id": "S06",
+   "text": "· The Star — Attorney-General to chair corporate-crime taskforce",
+   "url": null
+  },
+  {
+   "id": "S07",
+   "text": "· IMDA / CNA — Singtel S$1m penalty; 720,000 affected",
+   "url": null
+  },
+  {
+   "id": "S08",
+   "text": "· Singapore MFA — Singapore–Sweden joint declaration technology, connectivity",
+   "url": null
+  },
+  {
+   "id": "S09",
+   "text": "· Singapore MFA — Qatar LNG and low-carbon energy cooperation MOU renewed",
+   "url": null
+  },
+  {
+   "id": "S10",
+   "text": "· PAGASA — Rosal severe weather bulletin #3 at 23:00 PHT",
+   "url": null
+  },
+  {
+   "id": "S11",
+   "text": "· PAGASA — Gale warning at 17:00 PHT Rosal",
+   "url": null
+  },
+  {
+   "id": "S12",
+   "text": "· Eco-Business / Philippines PCO — Executive order signed 13 Oct directs national carbon market framework",
+   "url": null
+  },
+  {
+   "id": "S13",
+   "text": "· The Star / Borneo Bulletin — Red tide persists in three Brunei districts",
+   "url": null
+  },
+  {
+   "id": "S14",
+   "text": "· ASEAN Secretariat — Inaugural ASEAN prosecutors/AG meeting convened",
+   "url": null
+  },
+  {
+   "id": "S15",
+   "text": "· The Star / Xinhua — Cambodia international air passengers down 11%",
+   "url": null
+  },
+  {
+   "id": "S16",
+   "text": "· SCMP — Thailand-Cambodia maritime dispute conciliation",
+   "url": null
+  },
+  {
+   "id": "S17",
+   "text": "· KPL — Laos coordinates climate priorities ahead of COP31",
+   "url": null
+  },
+  {
+   "id": "S18",
+   "text": "· The Star / ANN — VLE proposes US$10–15bn Laos investments",
+   "url": null
+  },
+  {
+   "id": "S19",
+   "text": "· DVB — Yar Pyae named Myanmar defence minister",
+   "url": null
+  },
+  {
+   "id": "S20",
+   "text": "· Myanmar Now — Migrant remittances and foreign-exchange controls",
+   "url": null
+  },
+  {
+   "id": "S21",
+   "text": "· The Nation Thailand — Eight Koreans and two Chinese detained in Bangkok scam case",
+   "url": null
+  },
+  {
+   "id": "S22",
+   "text": "· Money and Banking Thailand — Thailand PM2.5 and toxic waste response",
+   "url": null
+  },
+  {
+   "id": "S23",
+   "text": "· TATOLI — Timor-Leste pollution concentration drops >50% at Dili airport",
+   "url": null
+  },
+  {
+   "id": "S24",
+   "text": "· TATOLI — Timor-Leste to prepare transboundary haze report to ASEAN",
+   "url": null
+  },
+  {
+   "id": "S25",
+   "text": "· Viet Nam Government News — Vietnam–Denmark Comprehensive Strategic Partnership",
+   "url": null
+  },
+  {
+   "id": "S26",
+   "text": "· Government of Denmark — Denmark–Vietnam strategic partnership official document",
+   "url": null
+  },
+  {
+   "id": "S27",
+   "text": "· Viet Nam Government News — 16 Vietnam–Denmark cooperation documents exchanged",
+   "url": null
+  },
+  {
+   "id": "S28",
+   "text": "· Luật Khoa / The Vietnamese — Threads posts about Ba Vi Safari reportedly blocked in Vietnam",
+   "url": null
+  },
+  {
+   "id": "S29",
+   "text": "· RSIS — Haze regional policy commentary",
+   "url": null
+  },
+  {
+   "id": "S30",
+   "text": "· ISEAS original list / The Indonesian Institute — Indonesia Prabowo two-year governance evaluation",
+   "url": null
+  },
+  {
+   "id": "S31",
+   "text": "· SCMP — Philippine submarine cable legal framework analysis",
+   "url": null
+  },
+  {
+   "id": "S32",
+   "text": "· The Vietnamese — Article about geoblocked social group",
+   "url": null
+  }
+ ]
+}

@@ -1,0 +1,847 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-09-04",
+ "weekday": "금",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse",
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": "9월 4일 아침 동남아의 움직임은 ‘새 정책’보다 이미 발표된 정책이 어디까지 실제 집행 단계로 넘어갔는지에 더 선명하게 나타난다. 말레이시아는 금리를 동결했고, 태국은 데이터센터 규율을 통합하는 첫 정책위원회 회의를 앞두고 있다. 필리핀에서는 공공계약 이해충돌을 제한하는 법안과 홍수방지 부패 수사가 나란히 진전되고 있으며, 베트남은 높은 FDI 유입을 실제 집행액과 책임 있는 시행계획으로 연결하라는 압박을 받고 있다.",
+ "pulse": [
+  "말레이시아 중앙은행은 9월 3일 기준금리(OPR)를 2.75%로 유지했다. 상반기 성장률 5.7%, 1~7월 헤드라인·근원물가 평균 1.8%·2.0%를 제시하면서, 기술 관련 수출과 국내수요가 성장을 받치고 있다고 평가했다. 다만 에너지 가격 상승의 소비자물가 전가가 지연돼 나타날 수 있다는 점은 경계했다. 이날 링깃은 달러 대비 소폭 강세로 마감했다.",
+  "Source: Bank Negara Malaysia, 3 Sep 2026 — https://www.bnm.gov.my/-/monetary-policy- statement-03092026",
+  "Market follow-up: Bernama, 3 Sep 2026 — https://www.bernama.com/en/market/news.php? id=2602629",
+  "필리핀에서는 정부기관 핵심 인사와 4 촌 이내 친족의 정부계약 참여를 제한하는 법안이 상원을 통과했다. 홍수방지 사업을 둘러싼 부패 수사·재판과 함께 보면, 공공사업의 이해충돌을 사후 처벌만이 아니라 사전 조달 규칙으로 막으려는 흐름이 뚜렷하다. 다만 법안의 적용범위가 일반 인허가까지 넓어질 수 있다는 우려가 있어 양원협의에서 문구 조정이 예상된다.",
+  "Source: Philippine News Agency, 2 Sep 2026 — https://www.pna.gov.ph/articles/1283204 태국은 데이터센터 규율을 하나의 정책체계로 묶는 첫 Data Centre Board 회의를 9월 4일 연다. 신규 승인 중단 자체보다 중요한 것은 전력·용수·연료저장·도시계획·환경심사를 한 승인 게이트에서 조정할지 여부다. 기존에 ‘창고’로 허가받은 뒤 데이터센터로 운영되는 사례가 드러나면서 투자유치 정책이 안전·자원·도시정책 문제로 이동했다.",
+  "Source: The Nation, 3 Sep 2026 — https://www.nationthailand.com/news/policy/40070587 Background: The Nation, 3 Sep 2026 — https://www.nationthailand.com/news/40070581 베트남은 1~8월 외국인투자 등록액 406억 3천만 달러, 집행액 172억 5천만 달러를 기록했다. 집행액은 같은 기간 기준 5년 내 최고치다. 동시에 당 지도부는 Resolution 27 등 최근 결의를 구체적인 책임자·기한·재원·측정가능한 결과로 전환하라고 지시했다. 높은 투자유입과 정책목표를 실제 사업 성과로 연결하는 ‘집행의 질’이 다음 단계다.",
+  "Source: Vietnam News, 3 Sep 2026 — https://vietnamnews.vn/economy/1798853/foreign- investment-disbursement-reaches-five-year-high-in-jan-aug.html Official: Government News, 3 Sep 2026 — https://en.baochinhphu.vn/top-leader-stresses-need-to- translate-party-resolutions-into-tangible-outcomes-111260903131839122.htm"
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "무상급식 오지 확장: ‘시설 수’보다 준비상태 확인으로",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부는 파푸아 6개 주를 포함한 9개 주에서 무상영양급식(SPPG) 111곳을 우선 가동하기로 했다. 오지에 이미 완공된 시설은 약 2,700곳이지만, 수혜자 명부·협약·운영기준을 확인한 뒤 순차적으로 열겠다는 방침이다. 최근 집단 식중독 보도가 있었던 만큼, 단순 확장 속도보다 조달·위생·냉장유통·사고보고 체계가 실제 운영 성과를 가르는 변수다."
+    },
+    {
+     "label": null,
+     "text": "다음으로 볼 것은 111개 시설의 실제 개소일과 수혜자 수, 개소 전 위생점검 공개 여부, 지역 식재료 조달과 사고 보고의 표준화다."
+    },
+    {
+     "label": null,
+     "text": "Source: ANTARA, 3 Sep 2026 — https://en.antaranews.com/news/429673/govt-prioritizing-111- mbg-kitchen-activation-in-remote-areas"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "‘위기’보다 정책 신뢰의 간극",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "RSIS는 현재 인도네시아 경제를 1997년식 구조위기보다 시장이 정책의 일관성과 예측가능성을 낮게 평가하는 ‘confidence gap’으로 진단했다. 루피아, 중앙은행 독립성 논란, 에너지 수입, 국영 중심 산업정책이 한 묶음으로 거론된다. 이 진단은 정책결정 자체가 아니라 외부 연구평가지만, 새 BI 지도부가 안정과 정부 협력을 동시에 강조하는 시점에 나왔다는 점에서 의미가 있다."
+    },
+    {
+     "label": null,
+     "text": "Source: RSIS, 3 Sep 2026 — https://rsis.edu.sg/rsis-publication/idss/indonesias-economic- challenges-in-2026-a-confidence-gap-not-a-crisis/"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "OPR 2.75% 동결: 성장에는 자신감, 물가에는 유보",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "BNM은 OPR 2.75%를 유지했다. 2026년 성장률을 약 5%로 예상하고, E&E와 기술 관련 비(非)E&E 수출, 관광과 투자활동을 성장 동력으로 꼽았다. 현재 금리 수준이 물가안정과 지속가능한 성장 전망에 부합한다는 판단이다. 관건은 중동발 에너지 비용이 보조금과 가격조치를 거쳐 소비자물가에 얼마나 늦게 전가되느냐다. Source: Bank Negara Malaysia, 3 Sep 2026 — https://www.bnm.gov.my/-/monetary-policy- statement-03092026"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "총리 임기 제한: 법안 준비와 통과는 다른 단계",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "총리 임기 제한 법안이 하원 2 독회 준비를 마쳤다. 헌법 개정이기 때문에 의회 3 분의 2 찬성이 필요하고, 상정 시점도 아직 총리가 결정해야 한다. 따라서 ‘개혁안 완성’보다 실제 표 확보가 다음 관문이다. 공공검사와 검찰 총장의 기능 분리 논의도 같은 맥락에서 제도개혁의 실질성을 시험한다."
+    },
+    {
+     "label": null,
+     "text": "Source: Bernama, 3 Sep 2026 — https://bernama.com/en/news.php?id=2602509"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "UMNO-PAS 재접촉: 담론은 확대, 선거설계는 미정",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "PAS 지도부는 당대회를 앞두고 UMNO와의 재결합 가능성을 공개적으로 거론하고 있다. 그러나 후보 배분, Bersatu의 위치, 연방정부 참여와의 관계가 정리된 것은 아니다. ‘Malay unity’가 실제 선거연합으로 이동하는지 여부는 당대회 결의와 주별 후보조정에서 확인해야 한다."
+    },
+    {
+     "label": null,
+     "text": "Source: Malay Mail, 3 Sep 2026 — https://www.malaymail.com/news/malaysia/2026/09/03/umnos- future-direction-unity-govt-ties-among-key-issues-at-upcoming-general-assembly-saysasyraf-wajdi/233760"
+    },
+    {
+     "label": null,
+     "text": "Source: The Vibes, 3 Sep 2026 — https://www.thevibes.com/articles/news/126891/umno-pas- reunion-gains-pace-as-hadi-puts-pas-on-ge16-alert"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "친족의 정부계약 참여 제한 법안 통과",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "상원은 Government Contracting and Procurement Integrity Act를 15대 0으로 통과시켰다. 정부기관에서 직무를 수행하는 핵심 인사의 4 촌 이내 친족이 해당 기관과 계약을 맺는 것을 제한하는 내용이다. 다만 환경허가·임대·일반 면허까지 과도하게 포괄할 수 있다는 지적이 있어 양원협의에서 범위를 다듬을 가능성이 높다."
+    },
+    {
+     "label": null,
+     "text": "Source: Philippine News Agency, 2 Sep 2026 — https://www.pna.gov.ph/articles/1283204"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "가계 저축 논쟁: ‘소비성향’보다 소득 제약",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "페소 약세 논쟁에서 ‘소비문화’가 원인으로 거론된 뒤, 현지 경제학자들은 많은 가계가 저축하지 않는 것이 아니라 낮은 소득 때문에 저축할 여력이 없다는 점을 강조했다. 이는 환율·소비·가계회복력을 연결해 볼 필요가 있음을 보여준다. 우기·홍수 충격이 반복되는 상황에서는 저축 여력 자체가 재난 복원력의 일부다. Source: Inquirer, 2 Sep 2026 — https://newsinfo.inquirer.net/2297778/hindi-mayabang-low- incomes-leave-filipinos-little-to-save"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "데이터센터 정책위원회 첫 회의: 투자유치에서 통합허가로",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부는 9월 4일 Data Centre Board 첫 회의를 연다. BOI는 이미 신규 데이터센터 승인에 제동을 걸었고, 위원회는 전력·용수·환경·도시계획·세제지원의 기준을 통합적으로 검토할 예정이다. 도시 내 사업장이 창고 허가를 이용해 규제를 우회했다는 지적이 계기가 됐다."
+    },
+    {
+     "label": null,
+     "text": "오늘 회의에서 볼 것은 기존 승인사업의 처리, 승인 재개 조건, PUE·재생에너지·연료저장 기준, 방콕시와 중앙정부의 권한 배분이다."
+    },
+    {
+     "label": null,
+     "text": "Source: The Nation, 3 Sep 2026 — https://www.nationthailand.com/news/policy/40070587"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "반도체 전략: 산업정책의 외부 규제 위험",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Lowy Institute는 9월 4일 태국 반도체 전략이 미국의 대중 기술통제와 공급망 규칙에 부딪힐 수 있다는 분석을 내놓았다. 이는 당일 정책결정이 아니라 분석이지만, 태국이 데이터센터와 반도체를 동시에 확장하는 과정에서 투자 유치·기술접근·대외규제의 연결이 커지고 있음을 보여준다."
+    },
+    {
+     "label": null,
+     "text": "Source: Lowy Institute, 4 Sep 2026 — https://www.lowyinstitute.org/the-interpreter"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "FDI 등록액과 집행액 모두 증가",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "1~8월 등록 FDI는 406억 3천만 달러로 전년 동기 대비 55.4% 증가했고, 실제 집행액은 172억 5천만 달러로 12% 늘었다. 제조업이 집행액의 82.6%를 차지했다. 등록액의 급증만 보는 것보다 실제 집행률과 산업별 편중, 전력·토지·인프라 병목을 함께 봐야 한다."
+    },
+    {
+     "label": null,
+     "text": "Source: Vietnam News, 3 Sep 2026 — https://vietnamnews.vn/economy/1798853/foreign- investment-disbursement-reaches-five-year-high-in-jan-aug.html"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "Resolution 27: 결의에서 책임·기한·재원으로",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "당 지도부는 최근 정치국 결의들을 구체적 업무·책임자·기한·재원·측정가능한 결과로 전환하라고 지시했다. Resolution 27이 제시한 6개 사회경제권역과 국가 발전공간 재편 역시 이제 시행계획의 품질로 평가해야 한다. 아직 지역별 예산·PPP·계약·착공이 모두 구체화된 단계는 아니다."
+    },
+    {
+     "label": null,
+     "text": "Source: Government News, 3 Sep 2026 — https://en.baochinhphu.vn/top-leader-stresses-need-to- translate-party-resolutions-into-tangible-outcomes-111260903131839122.htm Background: Government News, 3 Sep 2026 — https://baochinhphu.vn/tu-duy-moi-tam-nhin-moi-ve- to-chuc-khong-gian-phat-trien-quoc-gia-102260903144029664.htm"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "데이터센터를 산업정책이 아니라 ‘도시·에너지·자원 허가체계’로 보기 시작했다",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국의 데이터센터 정책은 이번 주 가장 분명한 단계 변화를 보였다. 논점은 더 이상 ‘얼마나 많은 FDI를 유치할 것인가’에 머물지 않는다. 방콕 내 일부 사업장이 건축허가 단계에서는 창고로 분류된 뒤 실제로는 데이터센터로 운영되면서, 연료 저장·전력 부하·용수·소음·도시계획을 서로 다른 기관이 따로 감독하는 제도의 틈이 드러났다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "이번 주 단계 변화",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "① 자원비용과 규제 공백 논쟁 → ② 신규 승인 보류 → ③ Data Centre Board 출범 → ④ 9월 4일 첫 통합 정책 회의."
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "정책 쟁점",
+     "text": "전력: 대형 부하의 계통접속 비용과 재생에너지 조달 조건"
+    },
+    {
+     "label": null,
+     "text": "용수: 산업용수 확보와 도시·주민 수요의 충돌"
+    },
+    {
+     "label": null,
+     "text": "안전: 디젤 발전기·연료저장과 화재안전 기준"
+    },
+    {
+     "label": null,
+     "text": "도시계획: 창고·산업시설 분류를 이용한 우회 허가 차단"
+    },
+    {
+     "label": null,
+     "text": "인센티브: 투자액보다 현지 고용·세수·공급망·기술파급을 기준으로 지원할지 여부"
+    },
+    {
+     "label": "왜 중요한가",
+     "text": "동남아의 데이터센터 경쟁은 이제 토지·전력·물·세제의 ‘무료 자원’ 경쟁이 아니다. 태국이 허가 기준을 통합 하면 말레이시아·인도네시아·베트남의 데이터센터 정책에도 비교 기준이 생긴다. 반대로 기준이 느슨하면 승인 보류는 일시적 정치 대응에 그칠 수 있다."
+    }
+   ],
+   "table": {
+    "title": null,
+    "columns": [
+     "Focus",
+     "이번 주 상태",
+     "현재 단계",
+     "다음 확인"
+    ],
+    "rows": [
+     [
+      "Approval",
+      "신규 승인 보류",
+      "통합 규칙 설계",
+      "승인 재개 기준"
+     ],
+     [
+      "Power",
+      "대형 부하·계통비용 쟁점",
+      "비용배분 검토",
+      "전력요금·PPA"
+     ],
+     [
+      "Water",
+      "도시·산업 수요 충돌",
+      "기준 재검토",
+      "용수 기준·지역별 제한"
+     ],
+     [
+      "Safety",
+      "연료저장·창고허가 우회 노 출",
+      "집행체계 재설계",
+      "소방·건축·도시계획 규칙"
+     ],
+     [
+      "Incentives",
+      "투자액 중심 지원 논쟁",
+      "질적 선별 논의",
+      "고용·세수·공급망 기준"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "country",
+   "title": "급식 확대가 지역 고용·조달정책이 되려면",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "오지 SPPG 111곳의 가동은 단순 복지 제공을 넘어 조리·물류·식재료 공급의 지역 일자리를 만든다. 그러나 식품안전 기준이 따라오지 않으면 고용확대와 복지확대가 동시에 신뢰를 잃을 수 있다. ‘수혜자 수’뿐 아니라 공급업체 구조와 지역 조달 비중을 경제지표로 추적할 필요가 있다."
+    },
+    {
+     "label": null,
+     "text": "Source: ANTARA, 3 Sep 2026 — https://en.antaranews.com/news/429673/govt-prioritizing-111- mbg-kitchen-activation-in-remote-areas"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "저축 부족은 가계의 소비문화보다 소득 제약 문제",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "가계가 재난과 물가·환율 충격을 버티는 능력은 금융시장 지표만으로 보이지 않는다. 현지 논쟁은 낮은 소득 때문에 저축 여력이 없는 계층이 많다는 점을 다시 부각했다. 홍수·태풍 피해가 반복되는 지역에서는 가계저 축이 재난복원력과 직결된다."
+    },
+    {
+     "label": null,
+     "text": "Source: Inquirer, 2 Sep 2026 — https://newsinfo.inquirer.net/2297778/hindi-mayabang-low- incomes-leave-filipinos-little-to-save"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "육아휴직 확대는 발표됐지만 시행은 수개월 뒤",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부는 자녀 수에 따라 부모 1 인당 연간 8·10·12일의 육아휴직을 주는 확대안을 발표했다. 다만 법 개정과 사용자·노조 협의가 필요해 실제 시행에는 최소 수개월이 걸릴 전망이다. 정책평가는 발표된 일수보다 기업의 대체인력 비용, 정부 보전 방식, 여성·부모의 경력효과에서 해야 한다."
+    },
+    {
+     "label": null,
+     "text": "Source: CNA, 2 Sep 2026 — https://www.channelnewsasia.com/singapore/childcare-leave- marriage-parenthood-ndr2026-indranee-rajah-6356901 Official background: Singapore PMO — https://www.pmo.gov.sg/newsroom/ndr2026/"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "South China Sea / COC",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": "Jan 30",
+     "text": "— Cebu에서 25차 ASEAN-China SOM-DOC. 2026년 여러 차례 회의 중 첫 회의로 COC 협상 진전 논의."
+    },
+    {
+     "label": "May 21",
+     "text": "— Kuala Lumpur 26차 SOM-DOC. DOC 이행과 COC 조기 타결을 재논의."
+    },
+    {
+     "label": "현재 상태",
+     "text": "— 9월 4일 아침 기준 새 COC 타결·서명은 확인되지 않았다. 협상은 계속되는 단계이며, ‘진전’과 ‘합의 완료’를 구분해야 한다."
+    }
+   ],
+   "issue_ids": [
+    "scs"
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— 차기 SOM-DOC/JWG-DOC 문안, 필리핀·중국 해상 현장 사건, ASEAN 정상회의의 COC 표현."
+    },
+    {
+     "label": null,
+     "text": "Sources: ASEAN, 30 Jan 2026 — https://asean.org/the-25th-asean-china-senior-officials-meeting- on-the-implementation-of-the-declaration-on-the-conduct-of-parties-in-the-south-china-seaconvenes-in-cebu-the-philippines/ ASEAN, 21 May 2026 — https://asean.org/the-26th-asean-china-senior-officials-meeting-on-the-implementation-of-the-declaration-on-the-conduct-of-parties-in-the-south-china-sea-convenes-in-kuala-lumpur/"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "2025 Jul–Dec",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— 유혈 충돌 이후 국경시설·관할권·역사적 주장에 대한 양측 공방이 장기화."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "Sep 2–3, 2026",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— 양국 매체와 정부 계열 채널에서 ‘누가 선제공격했는가’와 국경시설 문제를 둘러싼 상반된 서사가 다시 강화됨. 캄보디아는 외국 군사무관들을 상대로 자국 입장을 설명하는 외교전을 확대했다."
+    },
+    {
+     "label": "현재 상태",
+     "text": "— 상호 주장을 사실로 합쳐 쓰기보다 각 측 주장과 실제 물리적 충돌 여부를 분리해서 추적해야 한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— JBC/양자회의 재개, 신규 장벽·시설 설치, 병력 이동 또는 실질 충돌."
+    },
+    {
+     "label": null,
+     "text": "Lead sources for follow-up: Khmer Times — https://www.khmertimeskh.com/ ; The Nation Thailand — https://www.nationthailand.com/"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "/ Five-Point Consensus",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": "2026",
+     "text": "— ASEAN의 군정 최고위 정치대표 제한과 Five-Point Consensus는 유지되는 가운데 일부 회원국의 양자 접촉은 확대."
+    },
+    {
+     "label": "Sep 4–6",
+     "text": "— Min Aung Hlaing의 베트남 방문이 예정돼 있어 회원국별 재관여와 ASEAN 공동원칙의 간극을 시험하는 계기."
+    },
+    {
+     "label": "현재 상태",
+     "text": "— 고위급 의전 확대가 폭력감소·포용대화의 진전을 뜻하는 것은 아니다."
+    }
+   ],
+   "issue_ids": [
+    "myanmar-normalisation"
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— 베트남-미얀마 공동성명, 5PC 언급, 인도지원·폭력중단·정치대화의 구체적 약속과 현장 변화."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "Transboundary Haze",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": "Aug–Sep",
+     "text": "— 남부 Maritime Southeast Asia가 건기로 들어가면서 산불·이탄지 화재 위험이 상승."
+    }
+   ],
+   "issue_ids": [
+    "climate-haze"
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— ASMC는 Maritime Continent 상당 지역의 평년 이하 강수 가능성을 제시."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— 브루나이는 대기질 지수에 PM2.5를 반영하는 강화된 보고 방식을 도입."
+    },
+    {
+     "label": "현재 상태",
+     "text": "— ‘역내 전역의 보건 비상사태’로 단정할 공식 근거는 확인하지 못했다. 지역별 hotspot·PSI·PM2.5를 별도로 확인해야 한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "— Kalimantan/Sumatra hotspot 급증, 싱가포르·말레이시아·브루나이 PSI 악화, ASMC Alert Level 변화."
+    },
+    {
+     "label": null,
+     "text": "Sources: ASMC — https://asmc.asean.org/"
+    },
+    {
+     "label": null,
+     "text": "Brunei GOV.BN/JASTRe updates — https://t.me/s/govbnofficial"
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "Axis",
+     "Signal",
+     "Reading",
+     "Next check"
+    ],
+    "rows": [
+     [
+      "Macro",
+      "→",
+      "Malaysia OPR 2.75%; Indonesia confidence gap debate",
+      "BNM Nov meeting; BI policy signals"
+     ],
+     [
+      "Finance",
+      "→",
+      "Ringgit steady; household savings debate in Philippines",
+      "FX, savings, credit conditions"
+     ],
+     [
+      "Trade",
+      "↑",
+      "Vietnam FDI, Singapore– Indonesia AI trade tool",
+      "realised FDI; platform rollout"
+     ],
+     [
+      "Industry",
+      "↑",
+      "Thailand DC approval reform; semiconductor external-rule risk",
+      "Board decision; US tech controls"
+     ],
+     [
+      "Energy/Resources",
+      "↑ risk",
+      "DC power/water; haze season",
+      "power pricing, hotspots"
+     ],
+     [
+      "Social/Labour",
+      "↑",
+      "MBG rollout, Singapore childcare leave",
+      "safety, implementation law"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "Tracker",
+     "Status",
+     "Change",
+     "Next trigger"
+    ],
+    "rows": [
+     [
+      "South China Sea / COC",
+      "WATCH",
+      "no new settlement",
+      "next SOM-DOC / incident"
+     ],
+     [
+      "Thailand–Cambodia",
+      "WATCH",
+      "narrative/diplomatic contest persists",
+      "JBC / physical clash"
+     ],
+     [
+      "Myanmar / 5PC",
+      "HIGH WATCH",
+      "Vietnam visit window opens",
+      "joint statement"
+     ],
+     [
+      "Transboundary haze",
+      "WATCH",
+      "dry-season risk elevated",
+      "hotspots / PSI"
+     ],
+     [
+      "ASEAN delivery",
+      "MOVING",
+      "SG–TH retreat restored; DEFA/AI rules evolving",
+      "implementation details"
+     ],
+     [
+      "Digital infrastructure",
+      "MOVING",
+      "Thai DC governance consolidated",
+      "4 Sep board outcome"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "country",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "온라인 사기 단속에서 금융흐름 차단이 전면으로 나왔다. 캄보디아 당국은 2025년 7월부터 2026년 8월 말까지의 단속 과정에서 온라인 사기 조직과 연계된 3억 달러 이상 계좌를 동결했다고 밝혔다. 446건, 3,927명의 피의자가 법원으로 넘겨졌다는 수치도 제시했다. 당국이 ‘대형 스캠단지 제거’를 주장하고 있지만, 이 주장은 외부 독립평가와 실제 재발 여부를 더 확인해야 한다."
+    },
+    {
+     "label": null,
+     "text": "다음 단계는 단속 건수보다 동결자금의 몰수·환수, 피해자 배상, 카지노 면허 취소 후 재개 여부, 국경지역의 조직 이동을 보는 것이다."
+    },
+    {
+     "label": null,
+     "text": "Source: Bernama/AKP, 3 Sep 2026 — https://www.bernama.com/en/news.php?id=2602398"
+    },
+    {
+     "label": null,
+     "text": "Cross-check: The Star, 3 Sep 2026 —"
+    },
+    {
+     "label": null,
+     "text": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/03/cambodia-freezes-rm12bil-linked-to-online-scams"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국내에서는 육아휴직 확대의 실제 시행시점과 사용자 부담이 핵심이다. 정부가 확대 방향을 발표했지만 법 개정과 노사 협의가 남아 있어 최소 수개월이 걸릴 전망이다. 대외적으로는 태국과 10여 년 만에 Leaders’ Retreat를 복원해 사회정책, 식량·에너지, 디지털경제, 초국경 범죄 협력을 구체적 사업으로 옮기기로 했다. 또한 SBF와 인도네시아 Kadin의 AI 기반 무역지원 플랫폼은 디지털 규범이 실제 기업의 규정준수 비용 절감 도구로 번역되는 사례다. 싱가포르의 다음 관찰점은 ‘AI 허브’ 선언보다 인력·규정·기업생산성의 실적이다. Sources: CNA, 2 Sep 2026 — https://www.channelnewsasia.com/singapore/childcare-leave- marriage-parenthood-ndr2026-indranee-rajah-6356901 CNA, 2 Sep 2026 — https://www.channelnewsasia.com/singapore/lawrence-wong-anutin-thailand-leaders-retreat-6356671"
+    },
+    {
+     "label": null,
+     "text": "Straits Times, 2 Sep 2026 — https://www.straitstimes.com/asia/se-asia/singapore-indonesia-business-chambers-push-ahead-with-ai-trade-platform-eye-2027-jakarta-forum"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "9월 4일 아침 기준 독립적으로 확인되는 새로운 대형 정책전환은 제한적이다. 따라서 중국-라오스 철도 물동량, 전력수출, 외환·부채·물가를 기존 추적축으로 유지하는 것이 낫다. 라오스의 중요한 문제는 신규 발표보다 외화획득 프로젝트가 실제 부채서비스와 수입물가 안정으로 연결되는지다."
+    },
+    {
+     "label": null,
+     "text": "오늘은 ‘업데이트 없음’을 정보 부족으로 채우기보다, 다음 공식 통계와 철도·전력 현금흐름을 기다리는 편이 적절하다. 신규 대형 투자나 원조 발표가 나올 경우 계약조건·통화·상환구조를 함께 확인한다. Continuity source hub: Lao Statistics Bureau — https://www.lsb.gov.la/ ASEAN country information — https://asean.org/member-states/lao-pdr/"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "브루나이는 9월 1일부터 대기질 PSI 보고에 PM2.5를 반영하도록 방식을 강화했고, 9월 3일에도 여러 차례 공기질 상태를 공지했다. 이는 연무가 심각하다는 단정과는 별개로, 정부가 미세입자 위험을 공식 모니터링 체계에 더 직접적으로 넣었다는 변화다."
+    },
+    {
+     "label": null,
+     "text": "경제 측면에서는 비석유 다변화와 에너지전환이 여전히 장기축이다. 연무가 지속되면 보건·학교·실외노동에 미치는 영향과 함께 석유·가스 중심 재정구조에서 환경·보건 비용이 어떻게 처리되는지 볼 필요가 있다. Official update channel: GOV.BN/JASTRe — https://t.me/s/govbnofficial Regional reference: ASMC — https://asmc.asean.org/"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ASEAN 가입 이후의 핵심은 외교적 회원자격을 국내 행정역량으로 바꾸는 일이다. 9월 3일 정부의 Futuru Líder ba ASEAN 프로그램 참가자들이 9개 회원국 현장연수를 마쳤다. 상징적 교류보다 공무원·차세대 인력의 실무역량을 만드는 과정으로 볼 수 있다."
+    },
+    {
+     "label": null,
+     "text": "6월 의회가 ASEAN 자연인 이동협정 관련 약속과 ASEAN Charter 개정 Cebu Protocol을 승인한 데 이어, 이제 통관·규제·인력·협정이행의 실제 국내화 속도를 확인해야 한다."
+    },
+    {
+     "label": null,
+     "text": "Source: TATOLI, 3 Sep 2026 — https://en.tatoli.tl/2026/09/03/participants-in-the-futuru-lider-ba- asean-programme-complete-an-immersion-programme-in-nine-asean-member-states/14/ Official background: Government of Timor-Leste, 30 Jun 2026 — https://timor-leste.gov.tl/? lang=en&p=50239"
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "10. Source Index — 공식·핵심 연구기관",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Bank Negara Malaysia — https://www.bnm.gov.my/"
+    },
+    {
+     "label": null,
+     "text": "Philippine News Agency — https://www.pna.gov.ph/"
+    },
+    {
+     "label": null,
+     "text": "ASEAN Secretariat / South China Sea — https://asean.org/our-communities/asean-political-security-community/peaceful-secure-and-stable-region/situation-in-the-south-china-sea/"
+    },
+    {
+     "label": null,
+     "text": "ASEAN Specialised Meteorological Centre — https://asmc.asean.org/"
+    },
+    {
+     "label": null,
+     "text": "Vietnam Government News — https://en.baochinhphu.vn/"
+    },
+    {
+     "label": null,
+     "text": "Vietnam News / FIA reporting — https://vietnamnews.vn/"
+    },
+    {
+     "label": null,
+     "text": "ANTARA — https://en.antaranews.com/"
+    },
+    {
+     "label": null,
+     "text": "RSIS — https://rsis.edu.sg/"
+    },
+    {
+     "label": null,
+     "text": "Lowy Institute — https://www.lowyinstitute.org/the-interpreter"
+    },
+    {
+     "label": null,
+     "text": "Channel NewsAsia — https://www.channelnewsasia.com/"
+    },
+    {
+     "label": null,
+     "text": "Government of Timor-Leste — https://timor-leste.gov.tl/"
+    },
+    {
+     "label": "SEA Pulse",
+     "text": "Daily Brief on Southeast Asian Politics, Economy & Regional Affairs Edited by Hyung Jong Kim"
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Policy announcement → rule design → approval gate → implementation → measurable This week’s clearest movements: Thailand DC: rule design→approval gate / Vietnam Resolution 27: political resolution→implementation instruction / Philippines procurement: bill drafting→Senate approval / Malaysia monetary policy:"
+    }
+   ]
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [],
+ "watch_next": [
+  "9월 4일 위원회 결론, 승인 재개 조건, 기존 프로젝트 grandfathering, 전력·용수 가격, PUE·PPA 기준, 방콕시의 집행권한.",
+  "Primary source: The Nation, 3 Sep 2026 — https://www.nationthailand.com/news/policy/40070587 Supporting source: The Nation, 3 Sep 2026 — https://www.nationthailand.com/news/40070581",
+  "싱가포르와 태국은 9월 2일 10여 년 만에 정상급 Leaders’ Retreat를 재개하고 사회정책 협력 MOU를 체결했다. 양국은 식량·에너지 안보, 디지털경제, 초국경 범죄 대응을 ‘구체적 프로젝트’로 옮기는 데 합의했다. 정상회담의 의미는 새로운 선언보다 중단됐던 정례 협의 플랫폼을 복원했다는 데 있다.",
+  "Source: Channel NewsAsia, 2 Sep 2026 — https://www.channelnewsasia.com/singapore/lawrence- wong-anutin-thailand-leaders-retreat-6356671 싱가포르 SBF와 인도네시아 Kadin은 인도네시아 수출기업이 무역규칙을 확인할 수 있는 AI 기반 플랫폼의 2027년 전면 도입을 추진하고 있다. 정부간 DEFA 와는 별개로 민간 경제단체가 규정 준수 비용을 AI 도구로 낮추려는 사례다.",
+  "Source: The Straits Times, 2 Sep 2026 — https://www.straitstimes.com/asia/se-asia/singapore- indonesia-business-chambers-push-ahead-with-ai-trade-platform-eye-2027-jakarta-forum AI 거버넌스에서도 ASEAN은 국가별 가이드라인 수준을 넘어 DEFA에 AI 관련 규범을 포함시키는 방향으로 이동 중이라는 분석이 나왔다. 글로벌 규칙이 지연되는 동안 지역 협정이 실제 표준을 만드는 경로가 될 수 있다는 점이 핵심이다.",
+  "Source: Lowy Institute, 3 Sep 2026 — https://www.lowyinstitute.org/the-interpreter/the-quiet- regionalisation-of-ai-governance",
+  "태국 Data Centre Board 9월 4일 첫 회의: 승인 재개 조건과 기존 프로젝트 처리.",
+  "Min Aung Hlaing 베트남 방문: 공동성명에서 Five-Point Consensus, 인도지원, 폭력중단이 어떻게 표현되는지.",
+  "말레이시아 PAS 당대회와 UMNO-PAS 관계: 공동선거전략으로 넘어가는지.",
+  "필리핀 조달 이해충돌 법안의 양원협의 문구와 홍수방지 부패수사 후속.",
+  "베트남 Resolution 27: 부처·지방별 시행계획, 예산, PPP·토지·환경 규칙.",
+  "인도네시아 MBG 111개 오지 급식소의 실제 가동·안전점검.",
+  "캄보디아 스캠 동결자산의 몰수·피해환수 및 조직 이동.",
+  "Maritime Southeast Asia의 hotspot와 PSI/PM2.5 변화."
+ ],
+ "verification_notes": [],
+ "sources": []
+}

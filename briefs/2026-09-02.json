@@ -1,0 +1,980 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-09-02",
+ "weekday": "수",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse Daily v6.7",
+ "editor": "김형종",
+ "observation_cutoff": "2026-09-02 06:00 KST",
+ "headline": "동남아 각국은 예산·선거구·개발공간·안보협력의 지도를 다시 그리고 있다. 오늘의 관건은 새 설계가 권한 집중에 그칠지, 공개된 절차와 집행성과로 이어질지다.",
+ "pulse": [
+  "오늘의 변화는 디지털·AI 하나로 설명되지 않는다. 인도네시아에서는 2027년 예산안이 성장률 6%, 적자 GDP 대비 2.40%라는 공격적이지만 제약된 틀을 제시했다. 동시에 헌법재판소는 정부 모욕죄 조항을 무효화했고, 정부는 러시아군에 합류한 것으로 알려진 자국민 8명의 경위를 조사하고 있다. 재정의 확대, 시민적 자유의 법적 경계, 해외 분쟁으로의 인력 유출이 한꺼번에 국가역량과 정당성을 시험한다.",
+  "말레이시아에서는 사라왁 주의회 선거구 17개 신설안이 공개검토에 들어갔다. 이는 선거구가 확정된 것이 아니라 9월 한 달간 의견수렴과 이후 의회 승인·관보 절차를 남겨둔 제안이다. Tabung Haji의 과거 손실과 구제비용 논쟁, 중국 기술투자의 급증은 각각 제도 신뢰와 산업 의존성의 문제를 드러낸다. 정치연합 논의가 커질수록 규칙과 자원배분의 투명성이 더 중요해진다.",
+  "베트남 공산당 정치국은 Resolution 27을 통해 육지·해양·공중·지하·디지털 공간을 하나의 다층적 발전체계로 재편하겠다는 방향을 제시했다. 이는 결의 공포 단계이며",
+  "예산·책임부처·지역 간 수익배분·민간사업 계약은 아직 집행성과가 아니다. 동시에 미얀마 군정 지도자의 9월 4~6일 베트남 방문이 예고되면서, 베트남의 발전국가 외교가 ASEAN의 비정치 대표 원칙과 어떤 긴장을 만들지 주목된다.",
+  "필리핀은 미국 동맹을 유지하면서 일본·호주·인도·한국과 안보협력을 확장하는 ‘다변화’를 강화한다. 국내에서는 홍수 대응이 no-build zone 집행, 공공사업 감사, 주민보상과 대통령의 정치적 공감능력 문제로 이동했다. 태국에서는 남부개발 96개 사업과 데이터센터 전력·용수 규율이 모두 개발을 위한 자원배분의 정치라는 공통점을 보인다.",
+  "오늘의 중심 질문은 세 가지다. 누가 지도를 그리는가, 어떤 절차로 자원을 배분하는가, 발표가 어느 시점에 검증 가능한 실행으로 바뀌는가."
+ ],
+ "monitor": [
+  {
+   "issue_id": "asean-delivery",
+   "issue": "ASEAN delivery",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "Big Tech·석유비축·반도체·핵심광물 모두 합의·연구에서 국내·역내 집행으로 넘어가는지가 기준이다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "scs",
+   "issue": "South China Sea/COC",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "필리핀의 파트너 다변화와 중국의 고해상도 해저지도 보도가 경쟁을 심화하지만 COC 문안의 신규 타결은 없다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "myanmar-normalisation",
+   "issue": "Myanmar/Five-Point Consensus",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "베트남 방문과 Chin 접촉은 외교단계. 폭력중단·포용대화의 검증 가능한 진전은 확인되지 않았다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "th-kh-border",
+   "issue": "Thailand–Cambodia/Thai South",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "태국 남부 96개 사업은 지역개발 제안·준비 단계. 평화대화·주민협의와 분리해 보지 않는다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "climate-haze",
+   "issue": "Climate/Haze",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "필리핀 홍수는 no-build zone·공공사업 감사로 이동. 인도네시아 captive coal은 산업전략의 장기 기후비용을 확대한다.",
+   "next_trigger": null,
+   "period": null
+  },
+  {
+   "issue_id": "econ-digital-resilience",
+   "issue": "Economic/Digital resilience",
+   "status": null,
+   "status_label": null,
+   "level": null,
+   "stage": null,
+   "delta": "인도네시아 2027 예산은 정부안, 사라왁 경계는 공개검토, 베트남 Resolution 27은 결의, 태국 DC 규율은 도입 준비 단계다.",
+   "next_trigger": null,
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "title": "2027 예산안: 6% 성장목표와 2.40% 적자의 조합",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부가 국회에 제출한 2027년 예산안은 세입 Rp3,426.0 trillion, 지출 Rp4,097.2 trillion, 재정조달 Rp671.2 trillion을 제시한다. 전제는 성장률 6%, 물가 2.5%, 10년물 국채금리 6.9%, 환율 Rp17,500/USD이며 적자는 GDP 대비 2.40%다. 빈곤율 6.0~6.5%, 실업률 4.30~4.87%도 목표로 제시됐다. 현재는 정부안·거시가정 단계이며 국회 심의, 세입 실현, 사업별 집행과 성과는 별도다."
+    },
+    {
+     "label": null,
+     "text": "(https://setkab.go.id/en/address-of-the-president-of-the-republic-of-indonesia-on-the-present ation-of-the-government-statement-on-the-bill-on-the-state-budget-for-the-2027-fiscal-year-a nd-its-financial-note-before-the-plenary/), CSIS Indonesia 분석, 2026-08-31 (https://www.iseas.edu.sg/library/blog/daily-news-alerts/260901)"
+    }
+   ],
+   "point": "정부는 성장가속과 재정규율을 동시에 약속하지만, 환율·금리·보조금·세수 가정이 흔들리면 지출우선순위가 빠르게 압박받을 수 있다. 6%는 예측이 아니라 정책목표다.",
+   "next_check": "국회 수정폭, 에너지·식품보조금 배분, 세수탄력성, 주택금융·급식·인프라 예산의 실제 집행률."
+  },
+  {
+   "type": "country",
+   "title": "러시아군 합류 조사: 해외취업 사기와 전쟁참여의 경계",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "인도네시아 정부는 자국민 8명이 민간 경비·행정 일자리로 지원했다가 러시아군에 배치됐다는 주장을 조사 중이다. 현 단계에서 이들이 자발적으로 전투계약을 체결했는지, 사기·인신착취의 피해자인지, 실제 복무·전투가 있었는지는 확인 중이다."
+    },
+    {
+     "label": null,
+     "text": "(https://en.antaranews.com/news/429332/indonesians-in-russian-army-initially-applied-as-gu ards-house), Jakarta Post, 2026-08-31"
+    },
+    {
+     "label": null,
+     "text": "(https://www.thejakartapost.com/world/2026/08/31/indonesia-probes-citizens-alleged-to-have"
+    },
+    {
+     "label": null,
+     "text": "fought-for-russia-in-ukraine)"
+    }
+   ],
+   "point": "이는 인도네시아의 대러 정책이 아니라 해외취업 중개, 영사보호, 외국군 복무 규율이 교차하는 조사사안이다. 확인되지 않은 ‘용병’ 레이블은 피해야 한다.",
+   "next_check": "신원·계약서 검증, 귀환·영사접촉 여부, 모집책과 중개경로 수사, 국적·형사책임 적용."
+  },
+  {
+   "type": "country",
+   "title": "헌법재판소의 정부모욕죄 무효화",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "인도네시아 헌법재판소는 정부 모욕과 관련 정보의 유포를 형사처벌하던 조항을 무효화했다. 결정은 최종적·구속적이지만 명예훼손·선동 등 다른 조항은 남아 있다. 따라서 표현공간이 즉시 전면 확대됐다고 보기는 어렵다."
+    },
+    {
+     "label": null,
+     "text": "(https://whbl.com/2026/08/31/indonesian-activists-hail-ruling-to-strike-down-ban-on-insulting-government-but-question-impact/)"
+    }
+   ],
+   "point": "법률상 통제수단 하나가 제거됐다는 점은 완화 신호지만, 실제 시민공간은 경찰·검찰의 다른 조항 적용과 법원의 후속 판례에 달려 있다.",
+   "next_check": "계류사건의 취하·재심, 다른 형사조항으로의 대체기소, 온라인 비판·시위 사건에서의 적용 변화."
+  },
+  {
+   "type": "country",
+   "title": "안보 다변화와 탄소집약적 산업고도화의 동시 진행",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Super Garuda Shield 2026은 9월 11일까지 계속되며 미국·일본·호주 등과의 상호운용성을 확대한다. 경제안보에서는 알루미늄·니켈 다운스트리밍이 중국자본과 대규모 captive coal에 의존한다. CREA는 알루미늄 연계 captive coal이 최대 9.8GW로 확대될 수 있다고 추정했다. 이는 승인·계획을 포함한 전망이며 모두 가동 중인 용량은 아니다."
+    },
+    {
+     "label": null,
+     "text": "(https://id.usembassy.gov/id/latma-super-garuda-shield-2026-dimulai-di-indonesia-perkuat-k emitraan-strategis-amerika-serikat-indonesia/), CREA 보고서, 2026-07 (https://energyandcleanair.org/wp/wp-content/uploads/2026/07/EN-Indonesias-aluminium-do wnstream_-Following-nickel-into-a-captive-coal-boom.pdf)"
+    }
+   ],
+   "point": "인도네시아의 전략적 자율성은 파트너 다변화와 국내가공 확대에서 커지지만, 전력·자본·기술 의존과 탄소비용이 새로운 제약을 만든다.",
+   "next_check": "훈련 후 교리·조달 변화, captive coal 착공·가동량, 전력망 대안, 알루미늄 수출·환경비용의 실제 분배."
+  },
+  {
+   "type": "country",
+   "title": "사라왁 선거구 재획정: 17개 신설안이 공개검토로",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "선거관리위원회는 사라왁 주의회 선거구 17개 신설과 10개 선거구 명칭변경안을 공개했다. 9월 1~30일 열람·의견제출이 가능하다. 연방 의석은 이번 안에서 늘지 않으며, 제안은 의회 승인과 관보를 거쳐야 효력이 생긴다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.malaymail.com/news/malaysia/2026/09/01/sarawak-electoral-boundary-redeline ation-17-new-seats-proposed-10-renamed/233529)"
+    }
+   ],
+   "point": "인구·지리 대표성 조정이 필요하더라도 경계설정은 정당경쟁과 농촌·도시 대표성에 직접 영향을 준다. 오늘 단계는 제안·공개검토다.",
+   "next_check": "이의제기 주체와 근거, 선거구별 유권자 편차, 의회 표결, 최종 경계와 차기 주선거 적용시점.",
+   "issue_ids": [
+    "my-state-elections-2026"
+   ]
+  },
+  {
+   "type": "country",
+   "title": "Tabung Haji: 과거 구제비용에서 법·감독 개편으로",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "왕립조사위원회 관련 분석은 과거 부실투자와 정부개입 비용을 다시 부각했다. 정부는 앞서 Tabung Haji Act 개정을 약속했다. 손실 추정과 정치적 책임 논쟁은 중요하지만, 개별 위법행위가 새로 확정된 것은 아니다."
+    },
+    {
+     "label": null,
+     "text": "책임·배당규칙·감독독립성의 제도화에 달려 있다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.klsescreener.com/v2/news/view/1781797/Cover_Story_Dissecting_the_RM19_ 9_bil_bailout_of_Tabung_Haji)"
+    }
+   ],
+   "point": "종교적 신탁기관의 신뢰 회복은 일회성 구제보다 자산평가·이사회",
+   "next_check": "개정안 문안·상정시점, RCI 권고 이행표, 경찰·법원 절차, 예금자 보호와 재정 부담."
+  },
+  {
+   "type": "country",
+   "title": "중국 기술투자: 유치성과와 공급망 의존을 함께 봐야",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ISEAS Perspective는 2015~2026년 중국의 대말레이시아 기술투자를 추적했다. 2023~2024년이 규모·건수의 정점이었고, 전기차·배터리·데이터센터·반도체가 핵심축이다. 산업단지 인센티브, 주정부·국영연계기업의 중개, 미중 규제회피가 입지선택에 함께 작용했다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.iseas.edu.sg/articles-commentaries/iseas-perspective/2026-59-friends-with-the-dragon-chinese-technology-investments-in-malaysia-2015-2026-by-james-chai/)"
+    }
+   ],
+   "point": "대중 기술투자는 말레이시아의 제조고도화 기회이면서 미국의 수출통제·우회규제, 현지조달·인재·데이터 거버넌스의 위험을 동반한다. 승인액을 기술이전 성과로 등치해서는 안 된다.",
+   "next_check": "실제 집행률, 현지 공급업체·고숙련 고용, 전력·용수 부담, 미국 규제 준수, 특혜와 경쟁왜곡."
+  },
+  {
+   "type": "country",
+   "title": "말레이시아의 난민송환 계획과 ‘자발성’ 검증",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "말레이시아는 9월 29일 미얀마인 1,476명을 첫 단계로 송환하고 장기적으로 5,000명 규모를 추진한다고 밝혔다. 정부는 자발적 귀환이라고 설명하지만 UNHCR은 절차에 참여하지 않았고, 미얀마의 안전·개인정보·귀환 후 감시 가능성에 우려를 제기했다."
+    }
+   ],
+   "point": "‘자발적’이라는 정부표현은 독립적인 개별면담·법률지원·안전평가로 검증돼야 한다. 아직 계획 단계이며 송환 완료가 아니다.",
+   "next_check": "UNHCR 접근, 개별 동의 절차, 아동·난민신청자 제외 여부, 도착지·귀환 후 보호, 9월 29일 실제 집행."
+  },
+  {
+   "type": "country",
+   "title": "군정 지도자의 베트남 방문과 Chinland 휴전접촉",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Min Aung Hlaing은 9월 4~6일 To Lam의 초청으로 베트남을 방문할 예정이다. 이는 2021년 이후 지속된 외교적 재관여의 확대지만, ASEAN은 Five-Point Consensus 미이행을 이유로 정상회의에 비정치 대표 원칙을 유지한다. 별도로 Chinland Council에 대한 휴전접촉 보도가 나왔으나 합의나 폭력감소는 확인되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.internazionale.it/ultime-notizie-reuters/2026/09/01/myanmar-s-min-aung-hlaing-t o-visit-vietnam-this-week-continuing-push-for-re-engagement), ISEAS Daily News Alerts 원항목, 2026-09-01 (https://www.iseas.edu.sg/library/blog/daily-news-alerts/260901)"
+    }
+   ],
+   "point": "국가 대 국가 접촉 확대와 국내 정상화는 분리해야 한다. 방문 예정과 휴전 연락은 모두 외교·접촉 단계다.",
+   "next_check": "공동성명과 사업합의, ASEAN 원칙 관련 언급, Chin 접촉의 중재자·의제·휴전문안, 현장 교전감소."
+  },
+  {
+   "type": "country",
+   "title": "동맹 유지 속 전략적 파트너십 다변화",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "필리핀은 미국과의 조약동맹을 중심에 두면서 일본·호주·인도·한국과 방위협력, 장비조달, 훈련, 정보공유를 확대하고 있다. 인도와의 2025~2029 행동계획, 일본과의 상호접근·군수지원, 한국과의 함정·항공기 협력이 다층적 억지망을 만든다."
+    },
+    {
+     "label": null,
+     "text": "(https://idsa.in/publisher/issuebrief/diversification-of-the-philippines-strategic-partnerships)"
+    }
+   ],
+   "point": "이는 중립적 헤징보다 미국동맹을 보완하는 네트워크형 다변화다. 파트너 수의 증가를 자동으로 자주국방 역량으로 보기는 어렵다.",
+   "next_check": "협정 비준·예산, 공동훈련 빈도, 현지 정비·공동생산, 정보보호 제도, 남중국해 위기 시 실제 지원범위."
+  },
+  {
+   "type": "country",
+   "title": "홍수정치: no-build zone 집행과 공감의 위기",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Marcos 대통령은 no-build zone 단속, 수로정비, 지방정부 재난대비, 보건·농업지원 강화를 지시했다. 중앙루손 지원액은 정부발표상 Php874.8 million을 넘었다. 그러나 홍수방지 사업부패와 매립개발 책임 논쟁, 재난 중 대통령의 사적 행사 보도가 겹치며 대응능력뿐 아니라 정치적 공감과 책임성이 쟁점이 됐다."
+    }
+   ],
+   "point": "구호투입은 실적이지만, 토지이용 규칙·공공사업 감사·주민이주·보상의 집행 없이는 구조적 취약성이 반복된다.",
+   "next_check": "no-build zone의 대상·보상·이주대책, 홍수사업 감사와 기소, 피해복구 속도, 학교·병원·농업 정상화."
+  },
+  {
+   "type": "country",
+   "title": "남부개발 96개 사업: 지역정책과 선거정치의 결합",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Bhumjaithai는 남부 5개 주에서 총 THB13.089 billion 규모 96개 사업을 제시했다. 이 가운데 41개 THB1.598 billion은 즉시 추진 가능 사업, 55개 THB11.491 billion은 추가 제안으로 구분된다. Land Bridge 구상 약화 이후 지역 지지 회복의 정치적 의미도 크다."
+    }
+   ],
+   "point": "‘사업 목록’과 승인·예산·착공을 분리해야 한다. 남부개발이 관광·교통·소득 개선으로 이어지는지, 선거 전 배분정치에 머무는지가 핵심이다.",
+   "next_check": "내각 승인항목, 예산원천, 지역·종교 공동체 협의, 조달·착공, 태국 남부 평화대화와의 연계."
+  },
+  {
+   "type": "country",
+   "title": "데이터센터의 전력·용수 가격을 누가 부담하는가",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국은 데이터센터에 전력망 접속 보증금, 전력·용수 심사, 수자원 계획, 효율기준을 강화하는 방향을 추진한다. 고효율 인센티브 기준에는 PUE 1.3 이하, 인력·수자원·청정에너지 조건이 포함된다. 일부 규칙은 4분기 도입 예정이어서 오늘 기준으로 완전 집행된 것은 아니다."
+    }
+   ],
+   "point": "데이터센터 투자유치가 지역 전기·물 가격과 산업용량을 잠식하지 않도록 비용을 투자자에게 내부화하는 단계다. 디지털산업정책이 자원정책으로 바뀌고 있다.",
+   "next_check": "최종 요금·보증금, 직접 PPA 시범, 지역별 물 스트레스, 실제 PUE·재생에너지 조달, 투자취소·착공률."
+  },
+  {
+   "type": "country",
+   "title": "Resolution 27: 국가 발전공간 재편의 설계",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "베트남 공산당 정치국은 8월 28일 Resolution 27-NQ/TW를 공포했다."
+    },
+    {
+     "label": null,
+     "text": "육지·해양·공중·지하와 디지털·신공간을 연결하고, 성장극·경제회랑·지역"
+    },
+    {
+     "label": null,
+     "text": "공동투자·책임공유를 강화한다. 기존 6개 권역별 결의를 대체하는 상위 공간전략이다."
+    },
+    {
+     "label": null,
+     "text": "(https://en.baochinhphu.vn/politburo-sets-out-new-approach-to-regional-development-11126 0901101002314.htm), Resolution 27 원문"
+    },
+    {
+     "label": null,
+     "text": "(https://xaydungchinhsach.chinhphu.vn/nghi-quyet-so-27-nq-tw-ve-phat-trien-cac-vung-va-to"
+    },
+    {
+     "label": null,
+     "text": "chuc-khong-gian-phat-trien-quoc-gia-trong-giai-doan-moi-119260831221104171.htm)"
+    }
+   ],
+   "point": "이는 지방행정 경계 너머의 산업·물류·에너지·도시화를 중앙전략 아래 묶는 결의 단계다. 메가프로젝트 완공이나 지역격차 개선 성과는 아니다.",
+   "next_check": "정부 행동계획, 부처·성별 예산, 지역협의체 권한, 수익·환경비용 배분, PPP·토지수용 규칙."
+  },
+  {
+   "type": "country",
+   "title": "정상급 재관여와 ASEAN 원칙의 긴장",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "베트남은 Min Aung Hlaing을 국가방문 형식으로 맞을 예정이다. 양자외교와 경제협력 확대 가능성이 있지만 ASEAN의 비정치 대표 원칙과 Five-Point Consensus가 사라진 것은 아니다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.internazionale.it/ultime-notizie-reuters/2026/09/01/myanmar-s-min-aung-hlaing-t o-visit-vietnam-this-week-continuing-push-for-re-engagement)"
+    }
+   ],
+   "point": "베트남의 국가이익 중심 외교와 ASEAN의 집단규범이 어디서 접점을 찾는지 시험한다. 방문 자체를 미얀마 정상화나 ASEAN 승인으로 해석해서는 안 된다.",
+   "next_check": "의전 수준, 공동성명, 인도지원·폭력중단·포용대화 언급, 신규 경제·안보협정, ASEAN 회원국 반응."
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN·역내",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "16) Big Tech 규율: 미국 합의의 역내 이전 가능성",
+     "text": "Meta의 미국 내 대규모 합의와 청소년 시간제한·야간차단·비알고리즘 피드 조치가 ASEAN 규율 논의를 자극했다. 그러나 조치의 역내 적용은 확정되지 않았고 Meta는 싱가포르·ASEAN 확대 여부를 명시하지 않았다."
+    },
+    {
+     "label": null,
+     "text": "투명성·권리구제가 필요하다."
+    },
+    {
+     "label": null,
+     "text": "(https://www.channelnewsasia.com/singapore/facebook-instagram-teen-restrictions-social-m edia-lawsuit-6347956), ISEAS Daily News Alerts 원항목, 2026-09-01 (https://www.iseas.edu.sg/library/blog/daily-news-alerts/260901)"
+    },
+    {
+     "label": "17) 핵심광물 경쟁: 가공 확대와 에너지·환경 비용",
+     "text": "ASEAN은 반도체·EV·배터리·청정에너지 공급망을 위해 핵심광물의 채굴뿐 아니라 정제·소재·재활용까지 역내 가치사슬로 연결하려 한다. 인도네시아의 captive coal 사례는 다운스트리밍이 국내 부가가치를 높이면서도 탄소·보건·지역사회 비용을 확대할 수 있음을 보여준다."
+    },
+    {
+     "label": "포인트",
+     "text": "‘국내가공’은 곧 ‘지속가능한 가치포획’이 아니다. 전력원, 물, 주민동의, 세수, 기술이전과 재활용까지 봐야 한다."
+    },
+    {
+     "label": "다음 확인점",
+     "text": "ASEAN Semiconductor Roadmap·Critical Minerals 의제의 최종 채택, 공동기준·추적성, 지역기업 참여, 발전원별 탄소집약도."
+    },
+    {
+     "label": null,
+     "text": "(https://www.eria.org/news-and-views/eria--philippines-advance-asean-energy-security-and-economic-resilience-agenda), CREA 알루미늄 보고서, 2026-07 (https://energyandcleanair.org/wp/wp-content/uploads/2026/07/EN-Indonesias-aluminium-do wnstream_-Following-nickel-into-a-captive-coal-boom.pdf)"
+    }
+   ],
+   "point": "단일국 규제만으로는 플랫폼의 지역 일관성을 강제하기 어렵다. ASEAN 공동최저기준은 협상력을 높일 수 있지만, 표현통제 도구로 변질되지 않도록",
+   "next_check": "필리핀 ASEAN 의장국 의제화, 연령확인·데이터보호 기준, 플랫폼별 동일의무, 독립감사와 이용자 이의제기."
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "heading": "3. 변화 Chronology",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "| 시점 | 단계 변화 | 의미 | 다음 확인점 |"
+    },
+    {
+     "label": null,
+     "text": "| 8/14→국회심의 | 인도네시아 2027 예산안 제출 | 6% 성장목표가 재정·보조금·산업정책의 숫자로 전환 | 국회 수정, 세수·보조금 집행 |"
+    },
+    {
+     "label": null,
+     "text": "| 8/28→9/1 | 베트남 Resolution 27 공포·공개 | 권역별 정책이 통합 국가공간 전략으로 상향 | 정부 행동계획·지역별 예산 |"
+    },
+    {
+     "label": null,
+     "text": "| 8/31 | 인도네시아 헌재가 정부모욕죄 무효화 | 표현규제 수단 하나 제거, 실제 효과는 후속 법집행에 달림 | 계류사건·대체기소 |"
+    },
+    {
+     "label": null,
+     "text": "| 8/31→9/1 | 사라왁 선거구안이 공개검토 진입 | 정치경계 재설계가 정당경쟁·대표성 문제로 이동 | 이의제기·의회 승인 |"
+    },
+    {
+     "label": null,
+     "text": "| 8/31→9/1 | 미얀마인 송환계획·베트남 방문일정 공개 | 난민정책과 군정 외교 재관여가 동시에 가시화 | 자발성 검증·공동성명 |"
+    },
+    {
+     "label": null,
+     "text": "| 9/1 | 필리핀 홍수대응이 no-build zone 집행으로 확대 | 구호에서 토지이용·공공사업 책임으로 단계 이동 | 보상·감사·지방 집행 |"
+    },
+    {
+     "label": null,
+     "text": "| 9/1 | 태국 남부 96개 사업과 DC 자원규율 부상 | 지역개발·디지털투자가 예산·전력·물 배분 문제로 전환 | 승인·요금·착공 |"
+    },
+    {
+     "label": null,
+     "text": "| 9/4–6 예정 | Min Aung Hlaing 베트남 방문 | 양자 재관여와 ASEAN 5PC 규범의 긴장 시험 | 의전·합의·ASEAN 반응 |"
+    }
+   ]
+  },
+  {
+   "type": "deep_dive",
+   "title": "4. 베트남 정밀분석 — 발전전략·민간부문·정치통제",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "① 발전전략·정책",
+     "text": "Resolution 27은 성장극·경제회랑·해양·공중·지하·디지털 공간을 하나의 체계로 묶는다. 지역 간 공동의사결정·공동투자·책임공유를 강조해 2030/2045 발전비전의 공간적 집행틀을 다시 설계한다. 기존 6개 권역별 결의를 대체한다는 점에서 정책 위계가 높다."
+    },
+    {
+     "label": null,
+     "text": "현재 위치는 정치국 결의 공포다. 법령·정부 행동계획·예산·프로젝트"
+    },
+    {
+     "label": null,
+     "text": "승인·착공·가동·성과는 뒤따라야 한다."
+    },
+    {
+     "label": "② 추진현황·산업/거시 지표",
+     "text": "오늘 새로 확인된 것은 Resolution 27의 시행성과가 아니라 제도설계다. 전일 확인한 하노이 17개 사업 중 11개 준공·기술개통, 하이퐁 1~8월 물동량 1억3,434만 톤은 기존 실행·운영지표로 남는다. 이들을 새 결의의 성과로 소급 귀속하지 않는다."
+    },
+    {
+     "label": "포인트",
+     "text": "발전공간 재편의 첫 성과판정은 새 사업 발표 수가 아니라 지역 간 연결 프로젝트의 승인·재원·착공과 이미 가동 중인 인프라의 생산성이다."
+    },
+    {
+     "label": "다음 확인점",
+     "text": "국가·지방 예산 반영, PPP 계약, 전력망·항만·철도 연결의 병목, 민간투자 집행률과 지역격차."
+    },
+    {
+     "label": "③ 민간기업 사례",
+     "text": "Resolution 27은 국내 민간기업이 지역 인프라·디지털·에너지·물류의 실행주체로 참여할 여지를 넓힌다. 그러나 오늘 Vingroup/VinFast, Viettel, FPT, THACO, Masan, Hoa Phat, Sovico/Vietjet, Techcombank에 대해 새 결의와 직접 연결된 독립검증 가능한 신규 계약·착공·생산성과는 확인되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "FPT의 미국산 Nvidia 칩 기반 AI Factory와 sovereign cloud 조합은 기술자율성을 추구하는 기존 사례지만, 오늘의 신규 성과로 승격하지 않는다. 민간기업 확대는 시장자유화라기보다 당–국가가 정한 공간·산업전략 안에서 선택된 기업의 실행역할을 키우는 방식에 가깝다."
+    },
+    {
+     "label": "포인트",
+     "text": "민간기업의 ‘참여 가능성’과 실제 수주·자본투입·가동을 구분한다. 규모 확대만큼 정부지원·토지·금융·보증, 경쟁중립성, 부채위험이 중요하다."
+    },
+    {
+     "label": "다음 확인점",
+     "text": "Resolution 27 연계 입찰·PPP, 기업별 자본조달·보증, 국내 공급망·고용·R&D, 중소기업 접근성과 정책특혜."
+    },
+    {
+     "label": "④ 정치·거버넌스/권위주의화 신호",
+     "text": "오늘 신규 체포·재판·검열·플랫폼 통제·조직숙청의 독립적으로 확인된 material evidence는 없다. 따라서 권위주의화 신호는 연속성으로 코딩한다. Resolution 27은 중앙의 전략조정·정보수집·지역관리 능력을 높일 수 있지만 경제공간 결의만으로 신규 통제강화라고 판정하지 않는다."
+    },
+    {
+     "label": null,
+     "text": "Min Aung Hlaing 방문은 선택적 국가외교와 정권 간 재관여를 보여주지만 베트남 국내 정치통제의 직접지표는 아니다. 다만 ASEAN 규범과 양자 국가이익 사이의 우선순위를 보여주는 거버넌스 신호다."
+    },
+    {
+     "label": "포인트",
+     "text": "생산적 국가역량과 정치적 통제역량은 같은 행정·데이터·공간관리 기반을 공유할수 있다. 오늘은 구조적 연속성이지 신규 단절은 아니다."
+    },
+    {
+     "label": "다음 확인점",
+     "text": "시행령의 데이터·토지·감독권한, 중앙–지방 인사·예산권, 플랫폼·출판 규율 후속조치, 활동가·독립언론 관련 법집행."
+    }
+   ],
+   "point": "베트남은 산업·도시·물류·에너지·디지털을 개별 부문이 아니라 공간 전체의 생산성 문제로 재구성한다. 중앙의 전략조정은 강해지지만 지방 간 자율·협상·비용배분 구조는 아직 불명확하다.",
+   "next_check": "정부 시행계획, 부처와 지역의 권한표, 성장극·회랑별 예산, 토지·환경·수익배분 기준."
+  },
+  {
+   "type": "country",
+   "title": "대표성·신탁·산업의 세 규칙",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "사라왁 경계안은 대표성의 규칙, Tabung Haji 개편은 종교신탁의 규칙, 중국 기술투자는 산업유치의 규칙을 다시 묻는다. 세 사안 모두 큰 발표보다 공개검토·법개정·실제 투자집행을 확인해야 한다."
+    }
+   ],
+   "point": "정치연합 담론보다 선거·기관·투자의 절차적 신뢰가 중기 안정성을 좌우한다.",
+   "next_check": "선거구 이의신청, Tabung Haji 법안, Anwar의 다섯 번째 예산안에서 보조금·투자·생활비 배분."
+  },
+  {
+   "type": "country",
+   "title": "큰 목표를 받치는 법·재정·인력의 경계",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "6% 성장예산, 다국적 군사훈련, 광물가공 확대는 국가의 동원력을 보여준다. 정부모욕죄 무효화와 러시아군 합류 조사는 그 동원력의 법적·사회적 경계를 보여준다."
+    }
+   ],
+   "point": "전략적 자율성은 목표의 크기보다 예산가정의 현실성, 시민권 보호, 해외인력 보호, 탄소비용 통제에서 판정된다.",
+   "next_check": "예산심의, 보조금·주택금융 집행, 헌재 판결 후속, 모집사기 수사, captive coal 가동."
+  },
+  {
+   "type": "country",
+   "title": "외부 억지와 내부 회복력의 연결",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "안보파트너 다변화는 해양억지와 조달선 다변화를 돕는다. 그러나 홍수·부패·토지이용 실패가 반복되면 국내 회복력과 정부 신뢰가 약해진다."
+    }
+   ],
+   "point": "외부안보 네트워크와 국내 재난거버넌스는 별개 예산항목이지만 국가신뢰라는 동일한 기반을 사용한다.",
+   "next_check": "방위협정 이행·현지정비와 홍수사업 감사·보상·no-build zone 집행을 병렬 추적."
+  },
+  {
+   "type": "country",
+   "title": "발전공간의 중앙설계와 선택적 재관여",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Resolution 27은 공간·산업·인프라를 통합하는 당–국가의 설계역량을 강화한다. 미얀마 방문은 국가이익 중심 외교의 폭을 넓힌다. 민간기업은 확대되지만"
+    },
+    {
+     "label": null,
+     "text": "독립경제권력이라기보다 전략의 실행주체로 편입되는 경향이 강하다."
+    }
+   ],
+   "point": "성장·민간부문·중앙통제는 상쇄관계가 아니라 동시에 강화될 수 있다.",
+   "next_check": "결의의 예산·계약 전환, 민간기업의 경쟁중립성, ASEAN 5PC 언급, 정치통제 신규증거."
+  },
+  {
+   "type": "country",
+   "title": "지역개발과 디지털투자의 자원정치",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "남부사업은 지역불균형과 선거경쟁, 데이터센터 규율은 전력·용수와 투자유치를 연결한다. 관광세 논의까지 더해지며 성장재원을 누가 부담할지가 공통 질문이다."
+    }
+   ],
+   "point": "승인 전 사업목록과 시행 전 규제안을 성과로 쓰지 않는다.",
+   "next_check": "내각·재무부 승인, 조달·착공, 지역협의, 전력·용수 요금, 관광세 최종안."
+  },
+  {
+   "type": "country",
+   "title": "외교적 재관여와 보호의 공백",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "베트남 방문과 Chin 휴전접촉은 외교채널이 넓어지는 신호다. 그러나 말레이시아 송환계획은 귀환자의 안전과 독립검증 공백을 드러낸다."
+    }
+   ],
+   "point": "접촉의 수와 정상급 의전을 폭력감소·정치포용·난민안전으로 대체해 평가할 수 없다.",
+   "next_check": "공동성명, 휴전문안, 5PC, UNHCR 접근, 귀환 후 모니터링."
+  },
+  {
+   "type": "other",
+   "title": "6. 5개국 Snapshot",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "| 국가 | 오늘의 점검결과 | 단계 | 다음 확인점 |"
+    },
+    {
+     "label": null,
+     "text": "|---|---|---|---| | 캄보디아 | 중앙은행의 대출유예 연장 거부 보도; 자산건전성 인식과 손실인식 압력 | 보도·감독방향, 공식문서 추가확인 | NBC 지침, 부실채권·충당금, 취약차주 보호 | | 라오스 | 당일 핵심 정책전환 없음; 베트남 교역·국경연결의 연속성 | continuity | 통관·결제·철도·송전망 집행 | | 브루나이 | 당일 독립검증 가능한 material update 없음 | no material update | 금융안정·에너지전환·ASEAN 이행 | | 싱가포르 | AI·Big Tech 규율의 역내 파급 논의; 신규 국내 강제조치는 미확인 | 분석·정책검토 | Meta 조치의 국내 적용, 연령확인·개인정보 기준 | | 동티모르 | 당일 material update 없음; ASEAN 협정 가입·행정역량의 연속 추적 | continuity | Priority 2·3 경제협정, 국내 이행인력·예산 |"
+    }
+   ]
+  },
+  {
+   "type": "theme",
+   "title": "7. Digital / AI 주요동향",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "오늘의 디지털·AI 핵심은 세 갈래다. 첫째, ASEAN Big Tech 규율은 미국 합의의 역내 복제 여부가 아니라 공동최저기준과 권리구제 설계가 관건이다. 둘째, 태국 데이터센터 정책은 투자승인 경쟁에서 전력·용수·PUE·직접 PPA의 비용규율로 이동한다. 셋째, Fulcrum은 베트남 FPT 등 역내 기업의 ‘제3 스택’ 전략을 분석했지만, 미국·중국의 칩·클라우드·소프트웨어 의존을 완전히 벗어난 것은 아니라고 평가했다."
+    },
+    {
+     "label": null,
+     "text": "(https://fulcrum.sg/southeast-asia-and-ai-adoption-the-return-of-cold-war-strategies/), CNA, 2026-08-30"
+    },
+    {
+     "label": null,
+     "text": "(https://www.channelnewsasia.com/singapore/facebook-instagram-teen-restrictions-social-m edia-lawsuit-6347956)"
+    },
+    {
+     "label": "8. ASEAN과 대외관계",
+     "text": "ASEAN의 오늘 과제는 규범과 양자외교의 병행이다. 베트남의 미얀마 군정 지도자 초청은 회원국의 국가대 국가 외교권 안에 있지만 5PC와 비정치 대표 원칙의 신뢰를 시험한다. 필리핀의 방위파트너 다변화와 인도네시아의 다국적 훈련은 ASEAN 자체작전은 아니지만 역내 안보네트워크를 촘촘하게 만든다."
+    },
+    {
+     "label": null,
+     "text": "ERIA가 제안한 공동 석유비축 최소실행모델, 반도체 로드맵, 핵심광물 가치사슬은 모두 개념에서 시범·최종채택으로 넘어가야 한다. RSIS가 지적한 ASEAN의 ‘운영화 격차’가 그대로 적용된다."
+    },
+    {
+     "label": "포인트",
+     "text": "ASEAN의 성과는 회의 개최가 아니라"
+    },
+    {
+     "label": null,
+     "text": "공동규칙·시범사업·국내예산·상호운용성으로 판정해야 한다."
+    },
+    {
+     "label": "다음 확인점",
+     "text": "미얀마 방문에 대한 ASEAN 반응, Big Tech 공동안, 석유비축 파일럿, 반도체·핵심광물 로드맵 채택."
+    },
+    {
+     "label": null,
+     "text": "(https://www.eria.org/news-and-views/eria--philippines-advance-asean-energy-security-and-economic-resilience-agenda), RSIS, 2026-07-09 (https://www.rsis.edu.sg/rsis-publication/rsis/co26148/)"
+    }
+   ],
+   "point": "디지털 주권은 국산 브랜드 수가 아니라 compute·데이터·인재·전력·표준의 실질 통제와 외부의존 관리로 판단한다.",
+   "next_check": "ASEAN 공동규율 의제화, 태국 최종 자원요금, 베트남 AI 전략의 예산·센터·모델 가동, 공급망·감시 인프라의 이중용도."
+  },
+  {
+   "type": "special",
+   "title": "10. 특별 이슈 분석",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "국가의 운영지도를 다시 그리는 정치",
+     "text": "오늘의 핵심 사안들은 서로 달라 보이지만 모두 ‘경계와 배분’을 다시 설계한다."
+    },
+    {
+     "label": null,
+     "text": "사라왁은 누가 어느 선거구에서 대표되는지 정치적 경계를 다시 긋는다."
+    },
+    {
+     "label": null,
+     "text": "베트남은 지역·해양·지하·디지털을 묶어 경제발전의 공간경계를 다시 긋는다."
+    },
+    {
+     "label": null,
+     "text": "인도네시아는 2027 예산으로 국가가 누구에게 얼마를 배분할지 재정경계를 정한다."
+    },
+    {
+     "label": null,
+     "text": "태국은 남부사업과 데이터센터 규율로 지역·산업 간 자원경계를 조정한다."
+    },
+    {
+     "label": null,
+     "text": "말레이시아의 미얀마인 송환과 베트남의 군정 재관여는 보호·정상성의 외교경계를 시험한다."
+    },
+    {
+     "label": null,
+     "text": "공통위험은 중앙이 더 정교한 지도를 갖게 되더라도 시민·지역·기업이 결정과정에 접근하지 못할 수 있다는 점이다. 공통기회는 분절된 사업과 규칙을 하나의 전략 아래 묶어 집행력을 높일 수 있다는 점이다."
+    },
+    {
+     "label": null,
+     "text": "판정기준은 네 가지다."
+    },
+    {
+     "label": null,
+     "text": "1. 공개성: 경계·예산·사업의 근거와 데이터가 공개되는가."
+    },
+    {
+     "label": null,
+     "text": "2. 이의제기: 주민·야당·지방·기업이 실질적으로 수정요구를 할 수 있는가."
+    },
+    {
+     "label": null,
+     "text": "3. 단계성: 결의·승인·착공·가동·성과가 구분되는가."
+    },
+    {
+     "label": null,
+     "text": "4. 비용배분: 토지·물·전력·환경·재정비용을 누가 부담하는가."
+    },
+    {
+     "label": null,
+     "text": "이 네 조건이 약하면 국가의 운영지도는 집행력보다 특혜와 통제의 지도가 될 수 있다. 조건이 갖춰지면 지역통합과 산업전환의 기반이 된다."
+    }
+   ]
+  },
+  {
+   "type": "macro",
+   "title": "11. 경제 6개 하위축",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "| 축 | 오늘의 변화 | 단계 | 다음 확인점 |"
+    },
+    {
+     "label": null,
+     "text": "| Macro | 인도네시아 2027 성장 6%·적자 2.40% 가정 | 정부안·심의 | 세수·환율·금리 민감도 |"
+    },
+    {
+     "label": null,
+     "text": "| 금융 | Tabung Haji 개혁논쟁, 캄보디아 대출유예 종료 압력 | 법개정 예고 / 감독방향 | 자산평가·충당금·예금자 보호 |"
+    },
+    {
+     "label": null,
+     "text": "| 대외경제 | 필리핀 안보파트너·말레이시아 중국기술투자 다변화 | 협력확대 / 투자누적 | 집행률·현지조달·규제충돌 |"
+    },
+    {
+     "label": null,
+     "text": "| 산업 | 인도네시아 광물가공·태국 DC·베트남 성장회랑 | 계획·규율·결의 혼재 | 전력·용수·기술이전·착공 |"
+    },
+    {
+     "label": null,
+     "text": "| 통상 | 핵심광물·반도체 역내 가치사슬 구상 | 연구·로드맵 | 공동기준·추적성·재활용 | | 구조정책 | 사라왁 대표성, 태국 남부개발, 베트남 공간재편 | 공개검토·제안·결의 | 이의제기·예산·지역배분 |"
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "Research Signal: Mapped State Capacity",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "오늘의 신호는 Mapped State Capacity, 즉 국가가 사회·경제·영토를 더 정교하게 지도화하고 그 위에 자원을 배분하는 능력이다. 예산표, 선거구, 성장회랑, 데이터센터 자원계정, 난민명단, 해저지도는 모두 국가와 기업이 무엇을 보고 어디에 개입할 수 있는지를 바꾼다."
+    },
+    {
+     "label": null,
+     "text": "지도화는 생산성을 높일 수 있다. 중복투자를 줄이고, 물류·전력·도시를 연결하며, 취약계층을 식별하고, 안보위험을 조기에 파악할 수 있다. 동시에"
+    },
+    {
+     "label": null,
+     "text": "감시·배제·게리맨더링·특혜의 기반이 될 수도 있다. 그러므로 지도화 능력 자체보다 데이터 공개, 이의제기, 사법통제, 성과검증이 중요하다."
+    },
+    {
+     "label": null,
+     "text": "베트남의 장기질문에는 Resolution 27이 새로운 증거를 보탠다."
+    },
+    {
+     "label": null,
+     "text": "고성장·산업고도화·민간부문 확대를 위해 국가가 공간을 더 강하게 설계하면서도 정치적 다원성은 제한하는 모델이 어떤 균형을 만드는가. 오늘은 민간기업의 독립성이 커졌다는 증거보다 당–국가 전략 안에서 역할이 선택·확대되는 연속성이 더 강하다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "13. 기관·연구 입력 점검",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ISEAS Daily News Alerts 2026-09-01을 선행 입력으로 사용해 51개 항목을 검토했다. 링크 제한 항목은 제목·저자·날짜·키워드로 공식자료·통신사·현지 주요매체·연구기관 대체본을 검색했다. EAF는 오늘 기준 신규 material update를 확인하지 못했다. Fulcrum의 AI 제3경로, ISEAS의 중국 기술투자, RSIS의 ASEAN 운영화 격차, ERIA의 에너지·반도체·핵심광물 논의를 분석배경으로 사용했다."
+    },
+    {
+     "label": null,
+     "text": "수집로그에 제한사항을 기록했다. 수요일이므로 YouTube 주간 입력일은 아니다."
+    },
+    {
+     "label": "14. 다음 확인점",
+     "text": "인도네시아 2027 예산안의 국회 수정, LPG·주택금융·사회지출의 실제 배분"
+    },
+    {
+     "label": null,
+     "text": "정부모욕죄 무효화 후 계류사건과 다른 조항을 통한 대체기소 여부"
+    },
+    {
+     "label": null,
+     "text": "러시아군 합류 조사에서 모집사기·영사보호·형사책임의 구분"
+    },
+    {
+     "label": null,
+     "text": "Super Garuda Shield 종료 후 교리·조달·중국 반응"
+    },
+    {
+     "label": null,
+     "text": "사라왁 경계안의 이의신청·유권자 편차·의회 승인"
+    },
+    {
+     "label": null,
+     "text": "Tabung Haji 법안·RCI 권고·수사절차와 재정비용"
+    },
+    {
+     "label": null,
+     "text": "말레이시아 중국 기술투자의 가동률·현지조달·미국 규제준수"
+    },
+    {
+     "label": null,
+     "text": "9월 29일 미얀마인 송환의 자발성·UNHCR 접근·귀환 후 안전"
+    },
+    {
+     "label": null,
+     "text": "9월 4~6일 미얀마–베트남 공동성명과 5PC 언급"
+    },
+    {
+     "label": null,
+     "text": "Chinland 휴전접촉의 문안·중재·현장 폭력 변화"
+    },
+    {
+     "label": null,
+     "text": "필리핀 방위협정 이행과 홍수사업 감사·보상·no-build zone 집행"
+    },
+    {
+     "label": null,
+     "text": "태국 남부사업의 승인·착공과 데이터센터 전력·용수 최종규칙"
+    },
+    {
+     "label": null,
+     "text": "베트남 Resolution 27의 정부 행동계획·지역별 예산·민간기업 계약"
+    },
+    {
+     "label": null,
+     "text": "ASEAN Big Tech 공동안과 반도체·핵심광물 로드맵의 채택·시범사업"
+    }
+   ]
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [
+  "오늘 동남아는 지도를 다시 그리는 중이다. 인도네시아는 예산과 법의 경계를, 말레이시아는 선거와 신탁·기술투자의 경계를, 베트남은 국가발전 공간을, 태국은 지역개발과 디지털산업의 자원경계를 조정한다. 미얀마 관련 송환과 외교재관여는 보호와 정상성의 경계를 시험한다.",
+  "따라서 오늘의 판단은 발표의 크기가 아니라 절차의 공개성, 단계의 명확성, 비용의 분배, 다음 검증점의 존재에 달려 있다. 국가가 더 정교한 지도를 갖는 것만으로는 충분하지 않다. 그 지도를 누가 수정할 수 있고, 그 위에서 누가 이익과 비용을 가져가는지가 핵심이다."
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "인도네시아 내각사무국, 2026-08-14",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ANTARA, 2026-09-01",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Reuters relay, 2026-08-31",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "주인도네시아 미국대사관, 2026-08-31",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Malay Mail/Borneo Post, 2026-09-01",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Tabung Haji Act 개정 방침, Malay Mail/Bernama, 2026-08-17 ( RCI·구제비용 분석 대체본",
+   "url": "https://www.malaymail.com/news/malaysia/2026/08/17/pm-anwar-moves-to-amend-tabung-haji-act-vows-stronger-governance-to-safeguard-muslim-trust/231624"
+  },
+  {
+   "id": null,
+   "text": "ISEAS Perspective 2026/59, 2026-08-18",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "AP, 2026-08-31 (",
+   "url": "https://apnews.com/article/0ca2bf669c26726311f50cdecdcd396d"
+  },
+  {
+   "id": null,
+   "text": "Reuters relay, 2026-09-01",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "MP-IDSA Issue Brief, 2026-08-31",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Philippine News Agency, 2026-09-01 ( ISEAS Daily News Alerts의 홍수정치 원항목, 2026-09-01 (",
+   "url": "https://www.pna.gov.ph/articles/1283027"
+  },
+  {
+   "id": null,
+   "text": "The Nation, 2026-09-01 (",
+   "url": "https://www.nationthailand.com/news/politics/40070519"
+  },
+  {
+   "id": null,
+   "text": "Business & Human Rights Resource Centre/The Nation 대체본, 2026-08-31 ( ations-for-data-centres-citing-concerns-about-their-impact-on-water-resources-electricity/)",
+   "url": "https://www.business-humanrights.org/en/latest-news/thailand-govt-introduces-tighter-regul"
+  },
+  {
+   "id": null,
+   "text": "베트남 정부, 2026-09-01",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Reuters relay, 2026-09-01",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "CNA, 2026-08-30",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ERIA–필리핀 DTI, 2026-08-25",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Fulcrum, 2026-08-31",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ERIA, 2026-08-25",
+   "url": null
+  }
+ ]
+}

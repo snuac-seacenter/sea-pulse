@@ -30,22 +30,7 @@
   --w: 1200px;
   --col: 880px;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #15191f; --panel: #1b2027; --ground: #20262e; --ink: #e9edf2; --text: #c8ced6; --muted: #8e96a2;
-    --line: #2d343d; --band: #7fa6e8; --band-deep: #a9c4f2; --tab: #3f78bf; --tab-ink: #f3f7fc; --link: #8db5f2;
-    --tint: #1c2a3e; --soft: #18212d; --hl: #5a4b12;
-    --red: #f0857c; --red-bg: #3a2120; --orange: #f0aa62; --orange-bg: #3a2b19; --green: #6fd09d; --green-bg: #18332a; --gray-bg: #262c34;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #15191f; --panel: #1b2027; --ground: #20262e; --ink: #e9edf2; --text: #c8ced6; --muted: #8e96a2;
-  --line: #2d343d; --band: #7fa6e8; --band-deep: #a9c4f2; --tab: #3f78bf; --tab-ink: #f3f7fc; --link: #8db5f2;
-  --tint: #1c2a3e; --soft: #18212d; --hl: #5a4b12;
-  --red: #f0857c; --red-bg: #3a2120; --orange: #f0aa62; --orange-bg: #3a2b19; --green: #6fd09d; --green-bg: #18332a; --gray-bg: #262c34;
-  color-scheme: dark;
-}
+:root { color-scheme: light; }
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 15px; line-height: 1.8; word-break: keep-all; overflow-wrap: anywhere; }
 a { color: var(--link); text-decoration: none; }
@@ -148,6 +133,13 @@ section:first-child > .sh:first-child { margin-top: 4px; }
 .field { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 14px; }
 .field .k { font-size: 13px; font-weight: 700; color: var(--band-deep); padding-top: 2px; }
 .field p { margin: 0; }
+
+.cpanel.multi { padding: 8px 28px 24px; }
+.cpanel.multi .sub { padding-top: 18px; border-top: 1px solid var(--line); margin-top: 18px; }
+.cpanel.multi .sub:first-child { border-top: 0; margin-top: 0; }
+.cpanel.multi .sub h3 { font-size: 17px; margin: 0 0 10px; }
+.cpanel.multi .cpanel { background: none; border: 0; padding: 0; }
+.ctabs .tab .n { font-size: 11.5px; color: var(--muted); margin-left: 2px; }
 .cpanel .point { margin-top: 20px; background: var(--bg); }
 
 /* 표 */
@@ -191,6 +183,7 @@ table.wide { min-width: 720px; }
 .pill.orange { color: var(--orange); background: var(--orange-bg); }
 .pill.green { color: var(--green); background: var(--green-bg); }
 .pill.gray { color: var(--muted); background: var(--gray-bg); }
+.pill.yellow { color: #a07c00; background: rgba(214, 170, 0, .15); }
 
 .list { list-style: none; margin: 0; padding: 0; }
 .list li { padding: 13px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 8px; }
@@ -280,6 +273,30 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
 .flash { animation: flash 1.6s ease-out; }
 @keyframes flash { from { background: var(--hl); } to { background: transparent; } }
 
+/* v1 블록 */
+.cite { font-family: var(--mono); font-size: 10.5px; color: var(--muted); background: var(--gray-bg); padding: 0 4px; margin-left: 2px; white-space: nowrap; vertical-align: 1px; letter-spacing: 0; }
+.lede { font-weight: 500; color: var(--ink); margin: 0 0 12px; }
+.lede.c { text-align: center; }
+.pp { margin: 0; }
+.fields .pp + .pp { margin-top: 0; }
+.cards { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.card { border: 1px solid var(--line); padding: 22px 26px; background: var(--bg); min-width: 0; }
+.card h3 { margin: 0 0 10px; font-size: 17px; font-weight: 700; color: var(--ink); display: flex; align-items: baseline; gap: 8px; line-height: 1.5; }
+.card .upd { display: inline-block; font-size: 12.5px; color: var(--muted); border: 1px solid var(--line); padding: 0 8px; margin-bottom: 10px; }
+.ccode { color: var(--band-deep); font-size: 12px; }
+.dl-lead.multi p { font-size: 16px; line-height: 1.8; }
+.dl-lead .cut { font-size: 12px; color: var(--muted); font-family: var(--mono); }
+.dl-date .ed { margin-top: 6px; font-size: 11.5px; color: var(--band-deep); font-family: var(--mono); line-height: 1.4; }
+.enote { display: block; font-size: 12.5px; color: var(--muted); }
+.enote::before { content: "→ "; color: var(--band); }
+.chrono.one { grid-template-columns: minmax(0, 1fr); }
+.bottom { background: var(--soft); border-top: 3px solid var(--ink); padding: 18px 24px; display: grid; gap: 10px; }
+.bottom p { margin: 0; color: var(--ink); }
+.subh { font-size: 14px; font-weight: 700; color: var(--band-deep); letter-spacing: .04em; margin: 28px 0 0; padding-bottom: 6px; border-bottom: 2px solid var(--ink); }
+.iss h3 small { font-family: var(--mono); font-size: 12px; color: var(--muted); font-weight: 400; margin-left: 10px; }
+.step .nt { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.pill.blue { color: var(--band-deep); background: var(--tint); }
+ol.src { list-style: none; padding-left: 0 !important; }
 @media (max-width: 760px) {
   .dateline { grid-template-columns: minmax(0, 1fr); }
   .dl-date { border-right: 0; border-bottom: 1px solid var(--line); padding: 16px 0; flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
@@ -297,6 +314,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
   .reg > li { grid-template-columns: 30px minmax(0, 1fr); gap: 4px 12px; }
   .reg .n { width: 26px; height: 26px; font-size: 12.5px; }
   .cpanel { padding: 18px 16px; }
+  .card { padding: 18px 16px; }
   .about .rows > div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .search { flex-basis: 100%; margin-left: 0; }
   .tab { padding: 8px 12px; font-size: 14px; white-space: nowrap; }
@@ -372,118 +390,150 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
     return S.briefs[date];
   }
 
+  /* ---------- 공통: v1 블록 ---------- */
+  const fmt = s => esc(s).replace(/\[(S\d{2,3}(?:\s*[·,;–\-]\s*S?\d{2,3})*)\]/g, '<span class="cite">$1</span>');
+  const STATUS = { NEW: ['NEW', 'blue'], UP: ['↑ 격화', 'red'], CONTINUITY: ['→ 유지', 'gray'], DOWN: ['↓ 완화', 'green'], WATCH: ['WATCH 대기', 'orange'], IMPLEMENTED: ['✓ 집행', 'green'] };
+  const monPill = m => {
+    if (m.status && STATUS[m.status]) return `<span class="pill ${STATUS[m.status][1]}">${STATUS[m.status][0]}</span>`;
+    if (m.level && m.status_label) return `<span class="pill ${esc(m.level)}">${esc(m.status_label)}</span>`;
+    return levelPill(m.level, m.status_label) || '';
+  };
+  const GROUPS = {
+    regional: ['아세안 역내 정세', 'REGIONAL OUTLOOK'], special: ['특별 이슈 · 특집', 'SPECIAL ISSUE'], country: ['국가별 동향', 'COUNTRY BRIEFING'],
+    country_brief: ['국가별 동향 요약', 'AT A GLANCE'], asean: ['ASEAN · 대외관계', 'ASEAN & EXTERNAL'], theme: ['주제 포커스', 'FOCUS'],
+    deep_dive: ['심층 분석', 'DEEP DIVE'], macro: ['핵심 거시경제 비교', 'MACRO SNAPSHOT'], research: ['연구·정책 분석', 'READINGS'],
+    watchlist: ['워치리스트', 'WATCHLIST'], other: ['', '']
+  };
+  const groupSections = secs => {
+    const g = [];
+    secs.forEach((s, i) => { const last = g[g.length - 1]; if (last && last.type === s.type && s.type !== 'special' && s.type !== 'deep_dive' && s.type !== 'other') last.items.push([s, i]); else g.push({ type: s.type, items: [[s, i]] }); });
+    return g;
+  };
+  const paras = ps => (ps || []).map(p => p.label ? `<div class="field"><div class="k">${esc(p.label)}</div><p>${fmt(p.text)}</p></div>` : `<p class="pp">${fmt(p.text)}</p>`).join('');
+  const tableHtml = t => t ? `${t.title ? `<p class="tcap">${esc(t.title)}</p>` : ''}<div class="tbl"><table class="wide num"><thead><tr>${t.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${t.rows.map(r => `<tr>${r.map(c => `<td>${fmt(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '';
+  const tail = s => (s.point ? `<div class="point"><b>포인트</b>${fmt(s.point)}</div>` : '') + (s.next_check ? `<div class="nextc"><b>다음 확인점</b>${fmt(s.next_check)}</div>` : '');
+  function sectionCard(s, i) {
+    return `<div class="cpanel" id="s${i}">${s.update ? `<div class="upd">${esc(s.update)}</div>` : ''}${s.lede ? `<p class="lede">${fmt(s.lede)}</p>` : ''}<div class="fields">${paras(s.paragraphs)}</div>${tableHtml(s.table)}${tail(s)}</div>`;
+  }
+  function tabPanel(b, idx, titled) {
+    if (!titled) return sectionCard(b.sections[idx[0]], idx[0]);
+    return `<div class="cpanel multi">` + idx.map(i => `<div class="sub" id="s${i}"><h3>${fmt(b.sections[i].title || '')}</h3>${sectionCard(b.sections[i], 'x' + i)}</div>`).join('') + `</div>`;
+  }
+  function renderGroup(g, b) {
+    const [s0] = g.items[0];
+    const [ko, en] = GROUPS[g.type] || ['', ''];
+    const head = s0.heading || ko || s0.title || '';
+    const gid = `g-${g.items[0][1]}`;
+    let h = '';
+    if (g.type === 'regional') {
+      h = `<ol class="reg">` + g.items.map(([s, i], k) => `<li id="s${i}"><div class="n num">${k + 1}</div><div>${tags(s.countries)}<h3>${fmt(s.title)}</h3>${(s.paragraphs || []).map(p => `<p>${fmt(p.text)}</p>`).join('')}${tail(s)}</div></li>`).join('') + `</ol>`;
+      return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en)}${h}</section>`;
+    }
+    if (g.type === 'special' || g.type === 'deep_dive') {
+      const labeled = (s0.paragraphs || []).length && s0.paragraphs.every(p => p.label);
+      const body = labeled ? `<dl class="dl">${s0.paragraphs.map(p => `<dt>${esc(p.label)}</dt><dd><p>${fmt(p.text)}</p></dd>`).join('')}</dl>` : `<div class="fields">${paras(s0.paragraphs)}</div>`;
+      const label = s0.heading || (g.type === 'special' ? '특별 이슈 · 특집' : '심층 분석');
+      return `<section id="${gid}" data-toc="${esc(s0.title || label)}">${sh(label, en)}<div class="special-box" id="s${g.items[0][1]}">${tags(s0.countries)}${s0.title ? `<h3>${fmt(s0.title)}</h3>` : ''}${s0.lede ? `<p class="lede c">${fmt(s0.lede)}</p>` : ''}${body}${tableHtml(s0.table)}${tail(s0)}</div></section>`;
+    }
+    if (g.type === 'country' && g.items.length >= 4) {
+      // 같은 나라 항목이 여럿이면 나라별 탭 하나로 묶는다
+      const tabs = [];
+      g.items.forEach(([s, i]) => { const c = (s.countries || [])[0] || ''; const t = c && tabs.find(x => x.c === c); if (t) t.idx.push(i); else tabs.push({ c, idx: [i], s }); });
+      const byCountry = tabs.length < g.items.length;
+      const curTab = tabs.find(t => t.idx.includes(S.cTab)) || tabs[0];
+      const label = t => byCountry && t.c ? `${esc(NAMES[t.c] || t.c)}${t.idx.length > 1 ? `<span class="n">${t.idx.length}</span>` : ''}` : esc(t.s.title || '');
+      h = `<div class="ctabs" role="tablist">${tabs.map(t => `<button class="tab" type="button" role="tab" data-ctab="${t.idx.join(' ')}" data-multi="${byCountry ? 1 : 0}" aria-current="${t === curTab ? 'page' : 'false'}">${t.c ? `<span class="code">${t.c}</span>` : ''}${label(t)}</button>`).join('')}</div><div class="cpanel-wrap" data-cpanel>${tabPanel(b, curTab.idx, byCountry)}</div>`;
+      const nc = new Set(g.items.map(([s]) => (s.countries || [])[0]).filter(Boolean)).size;
+      return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en, byCountry ? `${nc}개국 · ${g.items.length}개 항목` : nc + '개국')}${h}</section>`;
+    }
+    if (g.type === 'country_brief') {
+      h = `<div class="tbl"><table class="wide"><thead><tr><th>국가</th><th>핵심 동향</th><th>다음 확인점</th></tr></thead><tbody>` +
+        g.items.map(([s, i]) => `<tr id="s${i}"><td>${esc(s.title || '')}</td><td>${(s.paragraphs || []).map(p => fmt(p.text)).join(' ')}</td><td>${fmt(s.next_check || '')}</td></tr>`).join('') + `</tbody></table></div>`;
+      return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en, g.items.map(([s]) => s.title).join(' · '))}${h}</section>`;
+    }
+    if (g.type === 'macro') {
+      return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en)}${g.items.map(([s, i]) => `<div id="s${i}">${tableHtml(s.table)}</div>`).join('')}</section>`;
+    }
+    /* country(3개 이하) · asean · theme · research · watchlist · other: 카드 나열 */
+    h = `<div class="cards">` + g.items.map(([s, i]) => `<article class="card" id="s${i}">${s.title && !(g.items.length === 1 && s.title === head) ? `<h3>${s.countries?.length && g.type === 'country' ? `<span class="code ccode">${s.countries[0]}</span>` : ''}${fmt(s.title)}</h3>` : ''}${g.type !== 'country' ? tags(s.countries) : ''}${s.update ? `<div class="upd">${esc(s.update)}</div>` : ''}${s.lede ? `<p class="lede">${fmt(s.lede)}</p>` : ''}<div class="fields">${paras(s.paragraphs)}</div>${tableHtml(s.table)}${tail(s)}</article>`).join('') + `</div>`;
+    return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en)}${h}</section>`;
+  }
+
   /* ---------- 오늘의 브리프 ---------- */
   function renderBrief(b) {
     const dates = S.index.briefs.map(x => x.date);
     const i = dates.indexOf(b.date);
     const newer = dates[i - 1], older = dates[i + 1];
-    const mentioned = new Set(b.regional.flatMap(r => r.countries || []));
-    const toc = [['regional', '역내 정세'], b.special && ['special', '특별 이슈'], b.countries.length && ['countries6', '국가별 동향'],
-      b.macro && ['macro', '거시경제'], b.chronology?.length && ['chrono', '크로놀로지'], b.tracker?.length && ['tracker', '트래커'],
-      b.watch_next?.length && ['watch', '다음에 볼 것']].filter(Boolean);
-    let h = `<div class="col"><section id="top">
-      <div class="dateline"><div class="dl-date">${dayBlock(b.date, b.weekday ? b.weekday + '요일' : '')}<div class="no">제 <b class="num">${issueNo(b.date)}</b>호${i === 0 ? ' · 최신' : ''}</div></div>
-        <div class="dl-lead"><div class="lbl">오늘의 한 줄</div><p>${esc(b.headline)}</p></div></div>
-      <div class="subbar"><div class="mentions"><span class="lb">역내 정세 언급국</span>${ORDER.map(c => `<button type="button" class="cc code ${mentioned.has(c) ? 'on' : ''}" data-goto-country="${c}" title="${NAMES[c]} 모아보기">${c}</button>`).join('')}</div>
+    const mentioned = new Set(b.sections.filter(s => s.type !== 'country_brief').flatMap(s => s.countries || []));
+    const lead = b.headline ? { lbl: '오늘의 한 줄', ps: [b.headline] } : { lbl: "Today's Pulse", ps: b.pulse || [] };
+    const pulseBelow = b.headline && (b.pulse || []).length;
+    const groups = groupSections(b.sections);
+    let body = '';
+    if (pulseBelow) body += `<section id="pulse" data-toc="Today's Pulse">${sh("Today's Pulse", 'TODAY’S PULSE')}<div class="fields">${b.pulse.map(p => `<p class="pp">${fmt(p)}</p>`).join('')}</div></section>`;
+    if ((b.monitor || []).length) {
+      const st = b.monitor.some(m => m.stage), nt = b.monitor.some(m => m.next_trigger);
+      body += `<section id="monitor" data-toc="지속 이슈 모니터">${sh('지속 이슈 모니터', 'SEA PULSE MONITOR')}<div class="tbl"><table class="wide"><thead><tr><th>이슈</th><th>상태</th>${st ? '<th>현재 단계</th>' : ''}<th>오늘의 변화·판단</th>${nt ? '<th>다음 계기</th>' : ''}</tr></thead><tbody>` +
+        b.monitor.map(m => `<tr><td>${esc(m.issue)}</td><td>${monPill(m)}</td>${st ? `<td>${fmt(m.stage || '')}</td>` : ''}<td>${fmt(m.delta || '')}</td>${nt ? `<td>${fmt(m.next_trigger || '')}</td>` : ''}</tr>`).join('') + `</tbody></table></div></section>`;
+    }
+    body += groups.map(g => renderGroup(g, b)).join('');
+    if ((b.chronology || []).length) {
+      body += `<section id="chrono" data-toc="크로놀로지">${sh('크로놀로지', 'CHRONOLOGY')}<div class="chrono ${b.chronology.length === 1 ? 'one' : ''}">` + b.chronology.map(c =>
+        `<div class="issue">${c.issue ? `<h3>${esc(c.issue)}</h3>` : ''}<ul class="ev">${c.events.map(e => `<li><span class="d">${esc(e.date)}</span><span>${fmt(e.text)}${e.note ? `<span class="enote">${fmt(e.note)}</span>` : ''}</span></li>`).join('')}</ul>${c.status ? `<div class="status ${statusCls(c.status)}"><b>현재 상태</b>${fmt(c.status)}</div>` : ''}</div>`).join('') + `</div></section>`;
+    }
+    if ((b.bottom_line || []).length) body += `<section id="bottom" data-toc="정리">${sh('정리', 'BOTTOM LINE')}<div class="bottom">${b.bottom_line.map(p => `<p>${fmt(p)}</p>`).join('')}</div></section>`;
+    if ((b.watch_next || []).length) body += `<section id="watch" data-toc="다음에 볼 것">${sh('다음에 볼 것', 'WHAT TO WATCH')}<ol class="list">` + b.watch_next.map((w, k) => `<li><span class="i">${String(k + 1).padStart(2, '0')}</span><span>${fmt(w)}</span></li>`).join('') + `</ol></section>`;
+    let foot = `<section style="margin-top:52px">`;
+    if ((b.verification_notes || []).length) foot += `<details class="more"><summary>검증 노트 (${b.verification_notes.length})</summary><ul>${b.verification_notes.map(v => `<li>${fmt(v)}</li>`).join('')}</ul></details>`;
+    if ((b.sources || []).length) foot += `<details class="more"><summary>출처 (${b.sources.length})</summary><ol class="src">${b.sources.map(s => `<li>${s.id ? `<span class="cite">${esc(s.id)}</span> ` : ''}${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text)}</a>` : esc(s.text)}</li>`).join('')}</ol></details>`;
+    foot += `<p class="disclaimer">SEA Pulse는 연구 및 정보 제공을 목적으로 작성됩니다. 본 브리프의 분석과 평가는 편집자의 판단이며 서울대학교의 공식 입장을 의미하지 않습니다. 공개자료의 수집·정리 과정에서 AI 도구를 활용하며, 주요 사실은 원출처 확인과 교차검증을 원칙으로 합니다.</p></section>`;
+
+    const tmp = document.createElement('div'); tmp.innerHTML = body;
+    const toc = [...tmp.querySelectorAll('section[data-toc]')].map(sec => [sec.id, sec.dataset.toc]);
+    $view.innerHTML = `<div class="col"><section id="top">
+      <div class="dateline"><div class="dl-date">${dayBlock(b.date, b.weekday ? b.weekday + '요일' : '')}<div class="no">제 <b class="num">${issueNo(b.date)}</b>호${i === 0 ? ' · 최신' : ''}</div>${b.edition ? `<div class="ed">${esc(b.edition)}</div>` : ''}</div>
+        <div class="dl-lead"><div class="lbl">${lead.lbl}</div>${lead.ps.map(p => `<p>${fmt(p)}</p>`).join('')}${b.observation_cutoff ? `<div class="cut">관찰 마감 ${esc(b.observation_cutoff)}</div>` : ''}</div></div>
+      <div class="subbar"><div class="mentions"><span class="lb">오늘 다룬 국가</span>${ORDER.map(c => `<button type="button" class="cc code ${mentioned.has(c) ? 'on' : ''}" data-goto-country="${c}" title="${NAMES[c]} 모아보기">${c}</button>`).join('')}</div>
         <div class="btns"><button class="btn" type="button" data-go="${older || ''}" ${older ? '' : 'disabled'}>‹ 이전 호</button><button class="btn" type="button" data-go="${newer || ''}" ${newer ? '' : 'disabled'}>다음 호 ›</button></div></div>
-      <nav class="toc" aria-label="이번 호 구성">${toc.map(([id, l]) => `<a href="#brief-${b.date}" data-anchor="${id}">${l}</a>`).join('')}</nav></section>`;
-
-    h += `<section id="regional">${sh('아세안 역내 정세', 'REGIONAL OUTLOOK')}<ol class="reg">` + b.regional.map((r, k) =>
-      `<li id="r${k + 1}"><div class="n num">${k + 1}</div><div>${tags(r.countries)}<h3>${esc(r.title)}</h3><p>${esc(r.body)}</p>${r.point ? `<div class="point"><b>포인트</b>${esc(r.point)}</div>` : ''}</div></li>`).join('') + `</ol></section>`;
-
-    if (b.special) {
-      h += `<section id="special">${sh('오늘의 특별 이슈', 'SPECIAL ISSUE')}<div class="special-box"><h3>${esc(b.special.title)}</h3><dl class="dl">` +
-        b.special.sections.map(s => `<dt>${esc(s.label)}</dt><dd><p>${esc(s.text)}</p></dd>`).join('') + `</dl></div></section>`;
-    }
-    if (b.countries.length) {
-      const codes = b.countries.map(c => c.code);
-      if (!codes.includes(S.cTab)) S.cTab = codes[0];
-      h += `<section id="countries6">${sh('국가별 동향', 'COUNTRY BRIEFING', '정밀 분석 ' + b.countries.length + '개국')}
-        <div class="ctabs" role="tablist">${b.countries.map(c => `<button class="tab" type="button" role="tab" data-ctab="${c.code}" aria-current="${c.code === S.cTab ? 'page' : 'false'}"><span class="code">${c.code}</span>${esc(c.name)}</button>`).join('')}</div>
-        <div id="cpanel">${countryPanel(b.countries.find(c => c.code === S.cTab))}</div></section>`;
-    }
-    if (b.countries_brief?.length) {
-      h += `<section id="brief5">${sh('국가별 동향 요약', 'AT A GLANCE', b.countries_brief.map(c => c.name).join(' · '))}<div class="tbl"><table class="wide"><thead><tr><th>국가</th><th>핵심 동향</th><th>다음 확인점</th></tr></thead><tbody>` +
-        b.countries_brief.map(c => `<tr id="c-${c.code}"><td>${esc(c.name)}</td><td>${esc(c.trend)}</td><td>${esc(c.next_check)}</td></tr>`).join('') + `</tbody></table></div></section>`;
-    }
-    if (b.macro) {
-      h += `<section id="macro">${sh('핵심 거시경제 비교', 'MACRO SNAPSHOT')}${b.macro.title ? `<p class="tcap">${esc(b.macro.title)}</p>` : ''}<div class="tbl"><table class="wide num"><thead><tr>${b.macro.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>` +
-        b.macro.rows.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('') + `</tbody></table></div></section>`;
-    }
-    if (b.chronology?.length) {
-      h += `<section id="chrono">${sh('지속 이슈 크로놀로지', 'CHRONOLOGY')}<div class="chrono">` + b.chronology.map(c =>
-        `<div class="issue"><h3>${esc(c.issue)}</h3><ul class="ev">${c.events.map(e => `<li><span class="d">${esc(e.date)}</span><span>${esc(e.text)}</span></li>`).join('')}</ul>${c.status ? `<div class="status ${statusCls(c.status)}"><b>현재 상태</b>${esc(c.status)}</div>` : ''}</div>`).join('') + `</div></section>`;
-    }
-    if (b.tracker?.length) {
-      const nc = b.tracker.some(t => t.next_check);
-      h += `<section id="tracker">${sh('트래커 업데이트', 'TRACKER')}<div class="tbl"><table class="wide"><thead><tr><th>트래커</th><th>상태</th><th>오늘의 판단</th>${nc ? '<th>다음 확인점</th>' : ''}</tr></thead><tbody>` +
-        b.tracker.map(t => `<tr><td>${esc(t.name)}</td><td>${levelPill(t.level, t.change)}</td><td>${esc(t.judgement)}</td>${nc ? `<td>${esc(t.next_check || '')}</td>` : ''}</tr>`).join('') + `</tbody></table></div></section>`;
-    }
-    if (b.watchlist?.length) {
-      h += `<section id="watchlist">${sh('워치리스트', 'WATCHLIST')}<ul class="list">` + b.watchlist.map(w => `<li><span class="i">◦</span><span><span class="ttl">${esc(w.item)}</span> <span class="tag">${esc(w.stage)}</span><br>${esc(w.note)}</span></li>`).join('') + `</ul></section>`;
-    }
-    if (b.asean_overview?.length) {
-      h += `<section id="asean">${sh('ASEAN 개요 및 대외관계', 'ASEAN AFFAIRS')}<div class="fields">` + b.asean_overview.map(a => a.label ? `<div class="field"><div class="k">${esc(a.label)}</div><p>${esc(a.text)}</p></div>` : `<p style="margin:0">${esc(a.text)}</p>`).join('') + `</div></section>`;
-    }
-    if (b.research?.length) {
-      h += `<section id="research">${sh('오늘의 연구·정책 분석', 'READINGS')}<ul class="list">` + b.research.map(r => `<li><span class="i">◦</span><span><span class="tag">${esc(r.source)}</span> ${esc(r.author || '')} <span class="code" style="color:var(--muted)">${esc(r.date || '')}</span>${r.title ? `<br><i class="ttl">${esc(r.title)}</i>` : ''}<br>${esc(r.text)}</span></li>`).join('') + `</ul></section>`;
-    }
-    if (b.watch_next?.length) {
-      h += `<section id="watch">${sh('다음에 볼 것', 'WHAT TO WATCH')}<ol class="list">` + b.watch_next.map((w, k) => `<li><span class="i">${String(k + 1).padStart(2, '0')}</span><span>${esc(w)}</span></li>`).join('') + `</ol></section>`;
-    }
-    h += `<section style="margin-top:52px">`;
-    if (b.verification_notes?.length) h += `<details class="more"><summary>검증 노트 (${b.verification_notes.length})</summary><ul>${b.verification_notes.map(v => `<li>${esc(v)}</li>`).join('')}</ul></details>`;
-    if (b.sources?.length) h += `<details class="more"><summary>출처 (${b.sources.length})</summary><ol>${b.sources.map(s => `<li>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text)}</a>` : esc(s.text)}</li>`).join('')}</ol></details>`;
-    h += `<p class="disclaimer">SEA Pulse는 연구 및 정보 제공을 목적으로 작성됩니다. 본 브리프의 분석과 평가는 편집자의 판단이며 서울대학교의 공식 입장을 의미하지 않습니다. 공개자료의 수집·정리 과정에서 AI 도구를 활용하며, 주요 사실은 원출처 확인과 교차검증을 원칙으로 합니다.</p></section></div>`;
-    $view.innerHTML = h;
-  }
-  function countryPanel(c) {
-    if (!c) return '';
-    return `<div class="cpanel" id="c-${c.code}">${c.update ? `<div class="upd">${esc(c.update)}</div>` : ''}<div class="fields">` +
-      c.paragraphs.map(p => `<div class="field"><div class="k">${esc(p.field)}</div><p>${esc(p.text)}</p></div>`).join('') + `</div>` +
-      (c.point ? `<div class="point"><b>포인트</b>${esc(c.point)}</div>` : '') +
-      (c.next_check ? `<div class="nextc"><b>다음 확인점</b>${esc(c.next_check)}</div>` : '') + `</div>`;
+      <nav class="toc" aria-label="이번 호 구성">${toc.map(([id, l]) => `<a href="#brief-${b.date}" data-anchor="${id}">${esc(l)}</a>`).join('')}</nav></section>${body}${foot}</div>`;
+    if (lead.ps.length > 1) $view.querySelector('.dl-lead').classList.add('multi');
   }
 
   /* ---------- 지난 브리프 ---------- */
   function renderArchive() {
     $view.innerHTML = `<div class="col"><section>${sh('지난 브리프', 'ARCHIVE', `누적 ${S.index.briefs.length}호 · 최신순`)}<ul class="arch">` + S.index.briefs.map(x =>
       `<li><a href="#brief-${x.date}"><div class="dt">${dayBlock(x.date, x.weekday)}</div>
-       <div><div class="hd">${esc(x.headline)}</div><div class="sub">${x.special ? `<span class="sp">특별 이슈 · ${esc(x.special)}</span><br>` : ''}${x.regional.map(esc).join(' / ')}</div></div></a></li>`).join('') + `</ul></section></div>`;
+       <div><div class="hd">${fmt(x.headline)}</div><div class="sub">${x.featured?.length ? `<span class="sp">${x.featured.map(esc).join(' · ')}</span><br>` : ''}${(x.items || []).map(esc).join(' / ')}</div></div></a></li>`).join('') + `</ul></section></div>`;
   }
 
   /* ---------- 국가별 ---------- */
+  const KIND = { regional: '아세안 역내 정세', special: '특별 이슈 · 특집', country: '국가별 동향', country_brief: '국가별 동향 요약', asean: 'ASEAN · 대외관계', theme: '주제 포커스', deep_dive: '심층 분석', research: '연구·정책 분석', watchlist: '워치리스트', other: '기타' };
   function renderCountries() {
     const A = S.agg.countries;
     const chips = ORDER.map(c => `<button class="chip" type="button" data-country="${c}" aria-pressed="${c === S.country}"><span class="code">${c}</span>${NAMES[c]}<span class="c">${new Set(A[c].map(x => x.date)).size}</span></button>`).join('');
     const byDate = {};
     (A[S.country] || []).forEach(x => (byDate[x.date] = byDate[x.date] || []).push(x));
     const days = Object.keys(byDate).sort().reverse();
-    const ko = { regional: 0, country: 1, brief: 2 };
     const body = days.length ? days.map(d => `<div class="tlday"><div class="dt">${dayBlock(d)}<a href="#brief-${d}">브리프 보기</a></div><div class="tlitems">` +
-      byDate[d].sort((a, b) => ko[a.kind] - ko[b.kind]).map(x => {
-        if (x.kind === 'regional') return `<div class="tlitem"><div class="kind">아세안 역내 정세</div><h4>${esc(x.title)}</h4><p>${esc(x.text)}</p>${x.point ? `<div class="point"><b>포인트</b>${esc(x.point)}</div>` : ''}</div>`;
-        if (x.kind === 'country') return `<div class="tlitem"><div class="kind">국가별 동향${x.update ? ` · ${esc(x.update)}` : ''}</div>${x.paragraphs.map(p => `<div class="field"><div class="k">${esc(p.field)}</div><p>${esc(p.text)}</p></div>`).join('')}${x.point ? `<div class="point"><b>포인트</b>${esc(x.point)}</div>` : ''}${x.next_check ? `<div class="nextc"><b>다음 확인점</b>${esc(x.next_check)}</div>` : ''}</div>`;
-        return `<div class="tlitem"><div class="kind">국가별 동향 요약</div><p>${esc(x.text)}</p><div class="nextc"><b>다음 확인점</b>${esc(x.next_check)}</div></div>`;
-      }).join('') + `</div></div>`).join('') : `<p class="empty">아직 ${NAMES[S.country]} 관련 항목이 없습니다.</p>`;
+      byDate[d].map(x => `<div class="tlitem"><div class="kind">${esc(KIND[x.kind] || x.kind)}${x.update ? ` · ${esc(x.update)}` : ''}</div>${x.title && x.kind !== 'country' && x.kind !== 'country_brief' ? `<h4>${fmt(x.title)}</h4>` : ''}${x.lede ? `<p class="lede">${fmt(x.lede)}</p>` : ''}${paras(x.paragraphs)}${tail(x)}</div>`).join('') + `</div></div>`).join('')
+      : `<p class="empty">아직 ${NAMES[S.country]} 관련 항목이 없습니다.</p>`;
     $view.innerHTML = `<div class="col"><section>${sh('국가별 모아보기', 'BY COUNTRY', NAMES[S.country] + ' · 최신순')}<div class="chips">${chips}</div>${body}</section></div>`;
   }
 
   /* ---------- 지속 이슈 ---------- */
+  function issueBlock(it) {
+    const rows = it.entries.slice().reverse().map(e =>
+      `<li class="step ${statusCls(e.status_text)}"><div class="d">${parts(e.date)[1]}/${parts(e.date)[2]}</div><div>${e.status_text || e.pill || !e.sections?.length ? `<div class="s">${e.pill || ''} ${fmt(e.status_text || e.delta || '—')}</div>` : ''}${e.next_trigger ? `<div class="nt">다음 계기 · ${fmt(e.next_trigger)}</div>` : ''}
+        ${e.sections?.length ? `<div class="${e.status_text || e.pill ? 'nt' : 's'}">${e.sections.map(x => `<a href="#brief-${e.date}" data-anchor="${x.anchor}">${fmt(x.title || '본문')}</a>`).join(' · ')}</div>` : ''}
+        ${e.events?.length ? `<details><summary>이날 정리된 전개 ${e.events.length}건 보기</summary><ul class="ev">${e.events.map(v => `<li><span class="d">${esc(v.date)}</span><span>${fmt(v.text)}${v.note ? `<span class="enote">${fmt(v.note)}</span>` : ''}</span></li>`).join('')}</ul></details>` : ''}</div></li>`).join('');
+    return `<div class="iss"><h3>${esc(it.name)}<small>${shortDate(it.first)} ~ ${shortDate(it.last)} · ${it.days}회</small></h3><ol class="steps">${rows}</ol></div>`;
+  }
   function renderIssues() {
-    const A = S.agg;
-    const trDates = [...new Set(A.tracker.flatMap(t => t.history.map(h => h.date)))].sort();
-    let h = `<div class="col wide"><section>${sh('지속 이슈', 'ONGOING ISSUES', '브리프마다 기록한 상태를 날짜순으로 이어 봄')}`;
-    h += A.issues.map(it => `<div class="iss"><h3>${esc(it.name)}</h3><ol class="steps">` + it.entries.slice().reverse().map(e =>
-      `<li class="step ${statusCls(e.status)}"><div class="d">${parts(e.date)[1]}/${parts(e.date)[2]}</div><div><div class="s">${esc(e.status || '—')}</div>
-        <details><summary>이날 정리된 전개 ${e.events.length}건 보기</summary><ul class="ev">${e.events.map(v => `<li><span class="d">${esc(v.date)}</span><span>${esc(v.text)}</span></li>`).join('')}</ul></details></div></li>`).join('') + `</ol></div>`).join('');
-    h += `</section>`;
-    if (A.tracker.length) {
-      h += `<section>${sh('트래커', 'TRACKER', '브리프가 판정한 핵심 이슈의 상태')}<div class="tbl"><table class="matrix wide"><thead><tr><th>트래커</th>${trDates.map(d => `<th class="num">${shortDate(d)}</th>`).join('')}</tr></thead><tbody>` +
-        A.tracker.map(t => `<tr class="trkrow"><td>${esc(t.name)}</td>${trDates.map(d => { const x = t.history.find(h => h.date === d); return `<td>${x ? levelPill(x.level, x.change) + `<div class="j">${esc(x.judgement || '')}</div>` : '<span style="color:var(--muted)">—</span>'}</td>`; }).join('')}</tr>`).join('') +
-        `</tbody></table></div></section>`;
-    }
-    $view.innerHTML = h + `</div>`;
+    const I = S.agg.issues.map(it => ({ ...it, entries: it.entries.map(e => ({ ...e, pill: e.monitor ? monPill(e.monitor) : '', status_text: e.status || (e.monitor ? e.monitor.delta : null), next_trigger: e.monitor?.next_trigger })) }));
+    const active = I.filter(x => x.active), past = I.filter(x => !x.active);
+    let h = `<div class="col wide"><section>${sh('지속 이슈', 'ONGOING ISSUES', '여러 날에 걸쳐 추적한 이슈를 날짜순으로 이어 봄')}`;
+    h += active.length ? `<h3 class="subh">진행 중</h3>` + active.map(issueBlock).join('') : '<p class="empty">진행 중인 이슈가 없습니다.</p>';
+    if (past.length) h += `<h3 class="subh">지난 이슈</h3>` + past.map(issueBlock).join('');
+    $view.innerHTML = h + `</section></div>`;
   }
 
   /* ---------- 확인점 ---------- */
@@ -496,7 +546,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
     const chip = (k, label) => counts[k] ? `<button class="chip" type="button" data-check="${k}" aria-pressed="${k === f}">${label}<span class="c">${counts[k]}</span></button>` : '';
     $view.innerHTML = `<div class="col"><section>${sh('다음 확인점', 'OPEN QUESTIONS', '브리프가 남긴 질문을 날짜순으로 모음')}
       <div class="chips">${chip('all', '전체')}${chip('region', '역내 종합')}${ORDER.map(c => chip(c, NAMES[c])).join('')}</div>
-      <ul class="checks">${rows.map(x => `<li><span class="d"><a href="#brief-${x.date}">${parts(x.date)[1]}/${parts(x.date)[2]}</a></span><span>${x.country ? tag(x.country) : '<span class="tag">역내 종합</span>'}</span><span class="t">${esc(x.text)}</span></li>`).join('')}</ul></section></div>`;
+      <ul class="checks">${rows.map(x => `<li><span class="d"><a href="#brief-${x.date}">${parts(x.date)[1]}/${parts(x.date)[2]}</a></span><span>${x.country ? tag(x.country) : '<span class="tag">역내 종합</span>'}</span><span class="t">${fmt(x.text)}</span></li>`).join('')}</ul></section></div>`;
   }
 
   /* ---------- 소개 ---------- */
@@ -509,14 +559,15 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
       <p>매일의 브리프는 이 페이지에 쌓여 동남아 정세의 연대기가 됩니다. 국가별로, 이슈별로 다시 모아 보면 한 사건이 몇 주에 걸쳐 어떻게 전개되었는지 확인할 수 있습니다.</p>
 
       <h3>한 호의 구성</h3>
+      <p>매일 같은 자리에 오는 것은 첫머리 요약, 다음에 볼 것, 출처입니다. 그 사이의 본문은 그날 확인된 변화의 양과 중요도에 따라 구성이 달라집니다.</p>
       <div class="rows">
-        <div><div class="k">오늘의 한 줄</div><div class="v">그날 동남아 정세를 한 문장으로 요약합니다.</div></div>
-        <div><div class="k">아세안 역내 정세</div><div class="v">그날 가장 중요한 역내 사안 다섯 건을 중요도 순으로 정리합니다.</div></div>
-        <div><div class="k">오늘의 특별 이슈</div><div class="v">한 사안을 배경·전개·현재 상황·의미·전망의 순서로 깊이 다룹니다. 필요한 날에만 싣습니다.</div></div>
-        <div><div class="k">국가별 동향</div><div class="v">태국·베트남·인도네시아·필리핀·말레이시아·미얀마 6개국은 분야별로 자세히, 싱가포르·캄보디아·라오스·브루나이·동티모르 5개국은 표로 요약합니다.</div></div>
-        <div><div class="k">거시경제 비교</div><div class="v">주요국의 성장·물가·수출 지표와 현재 판단을 한 표로 비교합니다.</div></div>
-        <div><div class="k">지속 이슈 크로놀로지</div><div class="v">남중국해, 태국-캄보디아 국경, 미국의 관세·환적 규율처럼 여러 날에 걸친 이슈의 전개를 날짜순으로 기록합니다.</div></div>
-        <div><div class="k">다음에 볼 것</div><div class="v">다음 날 이후 확인해야 할 질문을 남깁니다.</div></div>
+        <div><div class="k">오늘의 한 줄 · Today's Pulse</div><div class="v">그날 가장 중요한 변화를 첫머리에서 요약합니다.</div></div>
+        <div><div class="k">지속 이슈 모니터</div><div class="v">여러 날에 걸쳐 추적하는 이슈의 현재 단계, 오늘의 변화, 다음 계기를 한 표로 보여 줍니다.</div></div>
+        <div><div class="k">국가별 동향</div><div class="v">변화가 확인된 나라를 중심으로 사실과 그 사실이 정책·행정·정치경제 과정에서 바꾸는 내용을 정리합니다.</div></div>
+        <div><div class="k">특별 이슈 · 특집</div><div class="v">선거처럼 특정 기간에 집중되는 사안이나 깊이 다룰 사안을 따로 엮습니다. 필요한 날에만 싣습니다.</div></div>
+        <div><div class="k">ASEAN · 대외관계, 주제 포커스</div><div class="v">역내 제도와 대외관계, 디지털·경제 같은 주제별 변화를 다룹니다.</div></div>
+        <div><div class="k">크로놀로지</div><div class="v">이슈의 전개를 날짜순으로 기록합니다.</div></div>
+        <div><div class="k">정리 · 다음에 볼 것</div><div class="v">그날의 판단을 정리하고, 이후 확인해야 할 결정·회의·발표를 남깁니다.</div></div>
       </div>
 
       <h3>이 페이지에서 보는 법</h3>
@@ -524,7 +575,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
         <div><div class="k">오늘의 브리프</div><div class="v">가장 최근 호를 보여 줍니다. 위쪽의 ‹ 이전 호, 다음 호 › 로 다른 날짜로 옮겨 갑니다. 국가 코드(TH, VN…)를 누르면 그 나라 모아보기로 갑니다.</div></div>
         <div><div class="k">지난 브리프</div><div class="v">발행된 모든 호의 한 줄 요약과 역내 정세 제목을 날짜순으로 보여 줍니다.</div></div>
         <div><div class="k">국가별</div><div class="v">한 나라를 고르면 그 나라가 다뤄진 항목을 날짜순으로 모아 보여 줍니다.</div></div>
-        <div><div class="k">지속 이슈</div><div class="v">크로놀로지 이슈의 상태가 날마다 어떻게 바뀌었는지, 트래커 판정이 어떻게 달라졌는지 비교합니다.</div></div>
+        <div><div class="k">지속 이슈</div><div class="v">여러 날에 걸쳐 다룬 이슈의 상태가 어떻게 바뀌었는지 날짜순으로 이어 봅니다. 최근 브리프에 나온 이슈는 '진행 중', 더 이상 다루지 않는 이슈는 '지난 이슈'로 나뉩니다.</div></div>
         <div><div class="k">확인점</div><div class="v">브리프가 남긴 '다음 확인점'과 '다음에 볼 것'을 국가별로 모읍니다. 후속 보도가 나왔는지 점검할 때 씁니다.</div></div>
         <div><div class="k">검색</div><div class="v">모든 호의 본문에서 낱말을 찾고, 결과를 누르면 해당 호의 그 위치로 갑니다.</div></div>
       </div>
@@ -534,7 +585,8 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
         <div><div class="k">포인트</div><div class="v">사실 정리 뒤에 붙는 편집자의 해석입니다.</div></div>
         <div><div class="k">다음 확인점</div><div class="v">후속 발표나 보도로 확인해야 할 질문입니다.</div></div>
         <div><div class="k">업데이트 · 날짜</div><div class="v">해당 국가 항목의 기준일입니다. ‘오늘 신규 아님’은 당일 새 사실이 없어 이전 동향을 유지했다는 뜻입니다.</div></div>
-        <div><div class="k">트래커 상태</div><div class="v">${levelPill('red')} ${levelPill('orange')} 는 위험 수준을, ${levelPill(null, '중요 변화')} ${levelPill(null, '변화 있음')} ${levelPill(null, '변화 없음')} 은 전날 대비 변화를 나타냅니다.</div></div>
+        <div><div class="k">이슈 상태</div><div class="v">${monPill({status:'NEW'})} 새 이슈, ${monPill({status:'UP'})} 중대한 진전·격화, ${monPill({status:'CONTINUITY'})} 단계 유지, ${monPill({status:'DOWN'})} 완화, ${monPill({status:'WATCH'})} 검증·결정 대기, ${monPill({status:'IMPLEMENTED'})} 집행 확인을 뜻합니다.</div></div>
+        <div><div class="k">[S013]</div><div class="v">본문의 출처 표시입니다. 본문 아래 '출처' 목록의 같은 번호와 짝을 이룹니다.</div></div>
         <div><div class="k">검증 노트</div><div class="v">보도마다 수치가 다르거나 한쪽 당사자의 주장에 기댄 사실을 따로 밝혀 둡니다.</div></div>
       </div>
 
@@ -581,7 +633,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
   function scrollAfter() {
     if (S.pendingAnchor) {
       const a = S.pendingAnchor; S.pendingAnchor = null;
-      if (a.startsWith('c-')) { const btn = $view.querySelector(`[data-ctab="${a.slice(2)}"]`); if (btn) btn.click(); }
+      if (a.startsWith('s')) { const btn = $view.querySelector(`[data-ctab~="${a.slice(1)}"]`); if (btn) btn.click(); }
       const el = document.getElementById(a);
       if (el) { el.scrollIntoView({ block: 'start' }); el.classList.add('flash'); }
     } else if (!S.keepScroll) { window.scrollTo(0, 0); if (EMBED && window.parent !== window) window.parent.postMessage({ type: 'sea-pulse-top' }, '*'); }
@@ -597,7 +649,7 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
     const g = e.target.closest('[data-go]'); if (g && g.dataset.go) { go('brief-' + g.dataset.go); return; }
     const gc = e.target.closest('[data-goto-country]'); if (gc) { S.country = gc.dataset.gotoCountry; go('countries'); return; }
     const ct = e.target.closest('[data-ctab]');
-    if (ct) { S.cTab = ct.dataset.ctab; const b = S.briefs[S.date]; $view.querySelectorAll('[data-ctab]').forEach(x => x.setAttribute('aria-current', x === ct ? 'page' : 'false')); document.getElementById('cpanel').innerHTML = countryPanel(b.countries.find(c => c.code === S.cTab)); postHeight(); return; }
+    if (ct) { const idx = ct.dataset.ctab.split(' ').map(Number); S.cTab = idx[0]; const b = S.briefs[S.date]; const sec = ct.closest('section'); sec.querySelectorAll('[data-ctab]').forEach(x => x.setAttribute('aria-current', x === ct ? 'page' : 'false')); sec.querySelector('[data-cpanel]').innerHTML = tabPanel(b, idx, ct.dataset.multi === '1'); postHeight(); return; }
     const ch = e.target.closest('[data-country]'); if (ch) { S.country = ch.dataset.country; renderCountries(); postHeight(); return; }
     const ck = e.target.closest('[data-check]'); if (ck) { S.checkFilter = ck.dataset.check; renderChecks(); postHeight(); return; }
     const an = e.target.closest('[data-anchor]');

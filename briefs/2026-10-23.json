@@ -1,0 +1,309 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-23",
+ "weekday": "금",
+ "title": "동남아 데일리 브리프",
+ "edition": null,
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": null,
+ "pulse": [
+  "산불 법인수사·정당 등록 효력정지·예산 위헌 판단은 제도적 책임의 범위를 좁혔다. 희토류 수출 허가, 베트남–EU 공동문서, 동티모르–호주 협력은 승인·서명 이후의 실제 집행이 관건이다."
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "other",
+   "title": "11-COUNTRY SNAPSHOT | 사건 · 현재 단계 · 다음 확인",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "ID 인도네시아 법인 11곳 산불 피의자·허가 6곳 정지 ↳ 기소·복구명령",
+     "MY 말레이시아 PN 등록취소 효력정지·희토류 수출 1건 승인 ↳ 본안·선적조건"
+    ],
+    "rows": [
+     [
+      "PH 필리핀 특정 예산 규정 위헌·재심 논점 ↳ 신청서·집행지침",
+      "VN 베트남 EU 공동보도문·EVIPA 비준 촉구 ↳ 사업목록·비준"
+     ],
+     [
+      "TL 동티모르 호주와 5년 6천만 AUD+ 안보협력 ↳ 연차예산·인도",
+      "SG 싱가포르 연무 PSI 실측 보통·다음날 악화 전망 ↳ 시간대별 실측"
+     ],
+     [
+      "KH 캄보디아 MSME 전략 출범·온라인 사기 자산 동결 ↳ 집행예산·몰수",
+      "LA 라오스 UN 협력틀·5억1천만 USD 목표 ↳ 확보 재원"
+     ],
+     [
+      "MM 미얀마 수치 여사 가족통화·일본 특사 회동 ↳ 정기접촉·사업",
+      "TH 태국 대마 규제 구상·플랫폼 규칙 의견수렴 ↳ 법안·최종 규칙"
+     ],
+     [
+      "BN 브루나이 ASEAN 중소기업 회의 진행 ↳ 폐막문서",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "FOUR INDICATORS | 서로 다른 단계의 숫자",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "A$60m+ $510m",
+     "text": "호주·동티모르 5년"
+    },
+    {
+     "label": null,
+     "text": "인니 산불 피의 법인"
+    },
+    {
+     "label": null,
+     "text": "말련 희토류 승인"
+    },
+    {
+     "label": null,
+     "text": "라오스·UN 목표"
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": "POLICY STAGE | 발표 ≠ 허가 ≠ 집행 ≠ 성과",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "수사: 인도네시아 법인 지정 · 사법: 말레이시아 임시 효력정지 · 행정: 희토류 조건부 허가 · 합의: 동티모르–호주 서명이 지면의 요약은 다음 페이지 상세 해설 및 공개 출처와 함께 읽어야 합니다."
+    },
+    {
+     "label": "1. 인도네시아 — 산불 대응이 기업 책임을 특정하는 수사·행정 단계로 이동",
+     "text": "인도네시아 당국은 22일 산불·산림화재 사건과 관련해 법인 11곳을 피의자로 지정했다고 밝혔다. 외국인투자 법인 3곳이 포함됐으나 개별 회사명은 공개되지 않았다. 산림당국은 중부 칼리만탄 소재 기업 6곳의 산림이용허가를 추가 정지했으며, 제재 대상이 모두 32곳으로 확대됐다고 집계했다. 발표된 피해면적은 1만 8,489 헥타르다."
+    },
+    {
+     "label": null,
+     "text": "이는 진화 목표나 화점 집계와 달리 형사책임과 사업허가에 직접 영향을 미칠 수 있는 조치다. 다만 수사상 피의자 지정, 행정허가 정지, 유죄판결과 최종 허가 취소는 서로 다른 단계다. 11개 법인의 신원과 32개사 제재의 중복 여부, 실제 복구 이행을 추적해야 기업별 책임 범위를 판단할 수 있다."
+    },
+    {
+     "label": "2. 말레이시아 — PN의 선거 참여 가능성이 법원 임시결정으로 회복",
+     "text": "말레이시아 고등법원은 22일 야권연합 Perikatan Nasional(PN)의 등록취소와 활동정지 처분의 효력을 사법심사 종료까지 정지하도록 허용했다. 앞서 13일 법원은 사법심사 개시는 허용하면서도 임시 효력정지 신청은 기각했고, 등록기관은 20일 등록취소를 발표했다. 22일 결정으로 PN은 11월 14일 믈라카 주의회 선거에 연합 명의로 참여할 수 있게 됐다. 핵심은 법원이 등록취소의 적법성을 최종 판단한 것이 아니라, 본안 심리 동안 정치활동이 불가능해지는 위험을 제한했다는 점이다. BN·PAS의 선거 협력 보도와 함께 후보등록 및 실제 연합 명의 출마 여부를 확인할 필요가 있다. 선거연합 재편의 확정적 전망으로 확대해석하지 않는다."
+    },
+    {
+     "label": "3. 필리핀 — 예산 위헌 판단 이후 쟁점은 정부의 이행과 재심",
+     "text": "필리핀 대법원은 2024년 비계획 예산(unprogrammed appropriations)의 의회 증액 4,495억 페소, 2025년 특별도로기금 증액 약 179억 9천만 페소와 관련된 예산 규정, 그리고 2026년 특정 비계획 예산 조항을 위헌으로 판단했다. 판결의 언론 공개 시점은 10월 20일로, 결정일과 구분할 필요가 있다. 대통령실과 정부 법률당국은 일부 제한의 해석과 재심 가능성을 검토하고 있다."
+    },
+    {
+     "label": null,
+     "text": "비계획 예산이라는 제도 자체가 일률적으로 금지된 것은 아니다. 정부가 어떤 조항의 효력과 향후 집행을 다툴지에 따라 2027년 예산안 상원 심사에도 영향을 줄 수 있다. 실제 재심 신청서, 예산 집행 지침 및 상원 수정안을 우선 확인해야 한다."
+    },
+    {
+     "label": "4. 베트남–EU — 공동보도문은 넓어졌지만 새 자금 집행은 별도",
+     "text": "22일 베트남과 EU 정상급 공동보도문은 기존 자유무역협정(EVFTA)의 이행, 투자보호협정(EVIPA) 비준, Global Gateway와 공정에너지전환 협력의 지속을 재확인했다. 핵심광물, 사이버보안, 전략 인프라와 해양안전도 협력 의제로 포함됐다. 여러 분야를 하나의 외교 문서로 연결했지만 그 자체가 신규 프로젝트 계약이나 재원 집행은 아니다."
+    },
+    {
+     "label": null,
+     "text": "향후 의미는 EU 회원국의 EVIPA 비준, 투자·에너지 프로젝트 목록, 담당 작업반 구성 및 사업별 예산에서 확인된다. 광물· 사이버 협력의 확대는 정책적 방향으로 기록하되, 구체적 구매계약이나 운영 조직의 발족으로 서술하지 않는다."
+    },
+    {
+     "label": "5. 동티모르–호주 — 다년간 방위·사이버 역량 지원에 서명",
+     "text": "동티모르와 호주는 22일 새로운 방위협력 프레임워크에 서명하고 5년 동안 6천만 호주달러 이상을 투입하기로 발표했다. 이 가운데 1,900만 호주달러 이상은 사이버보안 역량, 전문 자문, 사고대응 및 중요 시스템 보호에 배정될 예정이다. 해양경찰 선박과 디지털 포렌식, 경찰·재난 협력도 포함된다."
+    },
+    {
+     "label": null,
+     "text": "| PUBLIC SERVICE 서명과 재정 약속은 실제 지급·조달·인도와 구별된다. ASEAN 참여 확대와 병행해 자체 조직 및 유지운영 예산이 확보되 는지가 지속가능성을 좌우할 것이다. 향후 연차별 집행표, 선박 조달·인도 계약, 현지 기술인력 채용과 사고대응 조직의 가동 여부가 핵심 확인점이다."
+    },
+    {
+     "label": "정책·시장 추적",
+     "text": "인도네시아 Danantara는 MSCI 관련 시장 급락 뒤 주식 매입을 진행했다고 밝혔으나 종목과 규모를 공개하지 않았다. 말레이시아의 희토류 조건부 허가 역시 실제 물량·국내 가공 투자 실적으로 검증해야 한다."
+    },
+    {
+     "label": null,
+     "text": "미국 지원을 받는 MViSTA 해저케이블 사업은 말레이시아·베트남·싱가포르·태국을 잇는 계획으로 보도됐다. NEC와 Alcatel Submarine Networks가 공급 후보로 거론되지만 계약·공사 착수와 2028년 말 가동은 별도 검증 대상이다."
+    }
+   ],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가",
+     "확인된 동향과 다음 관찰점"
+    ],
+    "rows": [
+     [
+      "싱가포르",
+      "22일 PSI는 보통 수준에 머물렀으나 23일 악화 가능성 예보. 실측치 와 전망 구분."
+     ],
+     [
+      "캄보디아",
+      "중소기업 개발전략(2026~2030) 출범. 온라인 사기 관련 자산 동결은 몰수·유죄와 별개."
+     ],
+     [
+      "라오스",
+      "UN 5개년 협력틀 출범. 5억1천만 달러 중 확보재원과 미확보분 구분 필요."
+     ],
+     [
+      "미얀마",
+      "아웅산 수치 가족통화 및 일본 특사 회동. 석방 협상이나 새 중재안으 로 확대 해석 금물."
+     ],
+     [
+      "태국",
+      "대마 유통 규제 강화 구상 및 플랫폼 수수료 의견수렴. 확정 법규 이전 단계."
+     ],
+     [
+      "브루나이",
+      "ASEAN 중소기업 회의 진행. 신규 재정사업·결과문서는 폐막 후 확인 필요."
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "POLICY STAGE | 발표 ≠ 허가 ≠ 집행 ≠ 성과",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "정책 변화의 현재 위치 | PROCESS MAP",
+     "text": "같은 날의 사건도 제도적으로 서로 다른 단계에 있다. 발표·승인·효력·운영·성과를 구별해 읽는다."
+    }
+   ],
+   "table": {
+    "title": null,
+    "columns": [
+     "사안",
+     "후속 확인"
+    ],
+    "rows": [
+     [
+      "산불 기업 책임",
+      "법인명·기소와 복구 이행"
+     ],
+     [
+      "PN 등록 분쟁",
+      "사법심사와 실제 후보등록"
+     ],
+     [
+      "필리핀 재정",
+      "판결 적용범위·상원 예산 심의"
+     ],
+     [
+      "동티모르 지원",
+      "연차별 집행·사이버조직 인력"
+     ],
+     [
+      "베트남–EU",
+      "EVIPA 비준 및 공동사업 목록"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "POLICY STAGE | 발표 ≠ 허가 ≠ 집행 ≠ 성과",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "사안",
+     "확인된 단계",
+     "아직 필요한 증거"
+    ],
+    "rows": [
+     [
+      "인도네시아 산불",
+      "기업 11곳 피의자 지정·6곳 허가정지",
+      "법인별 기소·최종 처분·복구 이행"
+     ],
+     [
+      "말레이시아 PN",
+      "등록취소 효력 잠정 정지",
+      "사법심사 본안·후보등록"
+     ],
+     [
+      "필리핀 예산",
+      "일부 예산조항 위헌 판단",
+      "집행지침·재심 처리"
+     ],
+     [
+      "베트남–EU",
+      "정상급 공동보도문 발표",
+      "비준·사업별 자금확정"
+     ],
+     [
+      "동티모르–호주",
+      "5년 지원 프레임워크 서명",
+      "연차예산·조달·인력배치"
+     ]
+    ]
+   }
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": null,
+   "text": "ANTARA, 10/22 [S03].",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Bernama·The Star·Free Malaysia Today, 10/22.",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "GMA·Philstar·Philippine PCO, 10/20~22 [S10].",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "베트남 정부 영문포털·European Council, 10/22 [S13·S14].",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "호주 국방장관실·외교장관실, 10/22 [S21·S22].",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "ANTARA — 인도네시아 산불 법인 수사 —",
+   "url": "https://en.antaranews.com/news/437145/indonesia-names-11-corporations-as-suspects-in-forest-fire-cases"
+  },
+  {
+   "id": null,
+   "text": "Bernama — 말레이시아 PN 효력정지 —",
+   "url": "https://web26.bernama.com/en/region/news.php?id=2624119"
+  },
+  {
+   "id": null,
+   "text": "GMA — 필리핀 예산판결 —",
+   "url": "https://www.gmanetwork.com/news/topstories/nation/1006575/sc-strikes-down-2024-2025-budgets-sets-limits-for-unprogrammed-appropriations/story/"
+  },
+  {
+   "id": null,
+   "text": "The Star — 말레이시아 희토류 —",
+   "url": "https://www.thestar.com.my/business/business-news/2026/10/22/malaysia-allows-first-export-of-raw-rare-earths-under-new-rules"
+  },
+  {
+   "id": null,
+   "text": "European Council — 베트남·EU 공동보도문 —",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/22/joint-press-release-following-the-official-visit-of-to-lam-general-secretary-of-the-communist-party-of-viet-nam-to-the-european-union/"
+  },
+  {
+   "id": null,
+   "text": "호주 국방장관실 — 동티모르 협력 —",
+   "url": "https://www.minister.defence.gov.au/media-releases/2026-10-22/australia-timor-leste-advance-shared-security-regional-priorities"
+  },
+  {
+   "id": null,
+   "text": "UN — 라오스 협력틀 — 편집자 주: 본 브리프는 공개자료에 근거한 정보 제공용이며 기관의 공식 입장이 아닙니다. 보도에 나타난 계획·약속은 확정 집행과 구별했습니다.",
+   "url": "https://laopdr.un.org/en/324750-lao-pdr-and-united-nations-launch-new-five-year-cooperation-framework-accelerate-sustainable"
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-09-06",
+ "weekday": "일",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA Pulse",
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": null,
+ "pulse": [
+  "9월 5일의 변화는 외교와 사법에서 선명했다. 베트남과 미얀마는 국방·안보 협력을 양국 관계의 ‘핵심 축’으로 격상하기로 했다. 전날의 하노이 도착이 의전이었다면, 이번 합의는 군 교육·정보교환·초국가범죄 대응을 묶은 정책 선택이다. 다만 베트남 정부 발표에는 ASEAN 5개항 합의, 폭력 중단, 인도지원 접근에 관한 구체적 조건이 보이지 않는다.",
+  "필리핀의 Sara Duterte 부통령은 중대협박 세 건에 대해 36만 페소의 보석금을 내고 체포영장 해제 명령을 받았다. 사건은 ‘영장 발부’에서 ‘불구속 형사재판’으로 넘어갔다. 탄핵심판과 형사재판은 계속 별개의 판단기준과 일정을 가진다.",
+  "보르네오와 수마트라의 산불 연기는 여전히 여러 나라의 학교·사업장·보건지침을 흔들고 있다. 사라왁 세리안에서는 비상사태 아래에서도 산업시설과 건설현장이 예방조치를 조건으로 운영을 계속한다. 싱가포르 중부의 24시간 PSI는 9월 5일 저녁에도 104였다. 경보가 경제활동 전면중단으로 이어진 것은 아니며, 정부들은 노출을 줄이는 쪽으로 조치의 범위를 조정하고 있다."
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "To Lam과 Min Aung Hlaing은 국방·안보 협력을 양국 관계의 주요 축으로 격상했다. 젊은 장교 교육, 수색·구조, 재난대응, 정보교환, 마약·인신매매·온라인 사기 대응이 합의문에 포함됐다. 고위급 교류 확대와 함께 농업·식품가공·통신·디지털전환·에너지·교통 분야의 베트남 투자도 논의됐다. Min Aung Hlaing은 앞서 VinFast 공장과 Viettel을 방문했다."
+    },
+    {
+     "label": null,
+     "text": "포인트는 양자협력의 범위가 구체화됐다는 데 있다. 미얀마 군정에 대한 ASEAN의 정치적 제약보다 군·통신·범죄대응 협력이 전면에 섰다. Viettel의 Mytel 투자는 기존 사업이므로 정상방문 자체를 신규 투자성과로 계산하지 않았다."
+    },
+    {
+     "label": null,
+     "text": "다음에는 부처별 후속 합의, 군 교육 인원, Viettel·VinFast 관련 계약, 양국 공동성명에 빠진 ASEAN 5개항 합의가 다른 문서에서 보완되는지를 확인한다. 베트남 정부"
+    },
+    {
+     "label": null,
+     "text": "(https://en.baochinhphu.vn/viet-nam-myanmar-agree-to-transform-defense-security-cooperation-into-key-pillar-of"
+    },
+    {
+     "label": null,
+     "text": "bilateral-ties-111260905161629675.htm) · Reuters 대체 게재본 (https://www.internazionale.it/ultime-notizie-reuters/2026/09/05/vietnam-myanmar-agree-to-deepen-defence-ties-during-min-aung-hlaing-visit)"
+    },
+    {
+     "label": null,
+     "text": "농업환경부는 2030년까지 농업협동조합의 절반 이상을 기업 또는 경제조직과 가치사슬로 연결하고, 절반 이상이 디지털 도구를 사용하도록 하는 계획을 다시 제시했다. 2027년 공용 플랫폼 틀을 만들고 2028년부터 보급한다는 일정이다. 이것은 8월 24일 발표된 부처 계획의 목표치이며, 9월 5일 현재 연결된 조합 수나 예산 집행 실적은 공개되지 않았다. 베트남 농업환경부"
+    },
+    {
+     "label": null,
+     "text": "(https://mae.gov.vn/tin-tong-hop/bo-nong-nghiep-va-moi-truong-ban-hanh-ke-hoach-phat-trien-kinh-te-tap-the-gia i-doan-2026--2030-22753.htm)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "하노이 정상회담으로 베트남과의 관계는 ‘방문 중’에서 국방·안보 협력 격상으로 이동했다. 베트남은 미얀마의 개발·경제안보 경험 공유 요청과 투자 확대 요구에 응했고, 양국은 상대국 영토가 자국을 겨냥한 활동에 사용되지 않도록 하겠다고 밝혔다."
+    },
+    {
+     "label": null,
+     "text": "양자 관계의 진전이 미얀마 내부 폭력 감소나 정치적 포용으로 이어졌다는 증거는 없다. 9월 11~12일로 보도된 캄보디아 방문에서도 같은 외교 문법이 반복되는지, ASEAN 차원의 조건이 붙는지가 다음 비교자료다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Sara Duterte 부통령은 9월 5일 Quezon City 법원에 출석해 중대협박 세 건에 대해 36만 페소를 납부했다. 법원은 전날 발부한 체포영장을 해제했다. 혐의를 인정한 것은 아니며 부통령은 계속 다투겠다고 밝혔다."
+    },
+    {
+     "label": null,
+     "text": "이제 관찰 대상은 신병 확보가 아니라 공판의 속도와 증거다. 형사재판의 유죄판결은 공직 취임 자격에 영향을 줄 수 있지만, 그 효과와 상원의 탄핵판단을 미리 같게 볼 수 없다. 첫 공판일, 관할권 항변, 증거목록, 탄핵심판 일정이 갈림길이다. AP, 2026-09-05 (https://apnews.com/article/philippines-vice-president-sara-duterte-bail-253a1caa41ef2b831d307fbe2b0489df) · Inquirer (https://newsinfo.inquirer.net/2299522/sara-duterte-posts-p360000-bail-for-three-counts-of-grave-threats) 2027년 국가예산안에는 군·경찰 등 제복인력 약 58만3천 명의 기본급 5% 인상과 하루 350페소 식비가 들어갔다. 국방부문에는 3,167억1천만 페소, 군 현대화에는 올해보다 100억 페소 늘어난 500억 페소가 제안됐다. 의회가 확정한 예산은 아니다. 심의 과정에서 인건비와 장비·정비비의 배분이 바뀌는지를 볼 필요가 있다. Philippine News Agency (https://www.pna.gov.ph/articles/1283398)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Anak Krakatau가 9월 4일 밤부터 분화해 용암 분수와 최고 약 2.5km의 화산재 기둥이 관측됐다. 경보는 7월 2일부터 유지된 3단계이며 접근금지 반경도 3km로 변하지 않았다. 화산당국은 2018년 이후 형성된 화산체가 대규모 붕괴로 쓰나미를 일으킬 정도로 크지 않다고 평가했다. 현재 단계는 ‘분화 지속·기존 경보 유지’다. ANTARA/BNPB"
+    },
+    {
+     "label": null,
+     "text": "(https://en.antaranews.com/news/430005/bnpb-urges-public-not-to-panic-over-mount-anak-krakatau-eruption) · PVMBG 설명 보도"
+    },
+    {
+     "label": null,
+     "text": "(https://inet.detik.com/science/d-8649541/erupsi-anak-krakatau-tak-berpotensi-tsunami-ini-penjelasan-pvmbg) 산불 연무와 관련해 인도네시아 외교부는 ASEAN 경보 3단계에 따라 핫스폿·연무 이동·진화 정보를 매일 공유하고 있다고 밝혔다. 피해국의 비상조치와 달리 발생지 책임은 아직 기업별 처분과 복원비 자료가 부족하다. ASEAN 연무통제조정센터의 완전 가동 요구가 실제 예산·인력·권한으로 이어지는지도 남아 있다. ASEAN 관련 조정 보도 (https://www.businesstoday.com.my/2026/09/05/indonesia-strengthens-asean-coordination-amid-regional-haze/) 에너지부는 러시아 기업에 138개 석유·가스 탐사광구 입찰 참여를 제안했다. 정유시설과 저장터미널 협력도 논의 중이지만 특정 광구 낙찰이나 투자계약은 없다. 다음 자료는 입찰목록, 기술조건, 참여기업, 낙찰 결과다. ANTARA (https://en.antaranews.com/news/429943/indonesia-invites-russian-investors-to-bid-on-138-energy-blocks)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "세리안 비상사태의 운영범위가 구체화됐다. 정부·민간 사무실, 농장, 건설현장, 채석장은 보건조치를 지키면 문을 열 수 있다. 9월 5일 오전 API는 전날 500대에서 334로 낮아졌지만 여전히 위험 구간이었다. 재난위원회는 사흘간 추이를 본 뒤 비상사태 유지 여부를 건의할 방침이다."
+    },
+    {
+     "label": null,
+     "text": "전면 휴업보다 마스크·노출시간·현장안전 관리가 선택됐다. 노동자 보호지침의 구속력과 점검 결과가 공개되지 않으면 사업장별 대응 편차가 커질 수 있다. 3일 평균 API, 산업현장 점검, 학교 휴업 연장, 호흡기 환자 수가 다음 판단자료다. Bernama (https://www.bernama.com/en/general/news.php?id=2603324) · The Star (https://www.thestar.com.my/news/nation/2026/09/05/work-continues-in-serian-under-strict-precautionary-rules-a mid-hazardous-haze-emergency)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "9월 5일 저녁 중부의 24시간 PSI는 104로 ‘나쁨’ 구간에 남았다. 서부와 동부는 오전 한때 101을 넘었다가 각각 92와 85로 낮아졌다. NEA는 수마트라·칼리만탄의 화재와 남풍이 유지되면 연무가 이어질 수 있다고 예보했다. 정부의 다음 조치는 숫자에 연동돼 있다. PSI가 200을 넘으면 일부 주민시설의 냉방공간 개방이 검토된다. 학교·야외노동·군 훈련 지침도 24시간 예보와 시간당 PM2.5를 함께 사용한다. Singapore NEA (https://www.nea.gov.sg/corporate-functions/weather/regional-haze-situation) · The Straits Times (https://www.straitstimes.com/singapore/psi-in-western-singapore-hits-102-joins-central-region-in-having-unhealt hy-air)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "캄보디아군은 미국과의 Angkor Sentinel 훈련을 2027년 2월 재개하기로 합의했다고 발표했다. 2017년 중단 뒤 거의 10년 만이다. 재난대응과 상호운용성이 명시됐으며, 해상훈련 복원도 별도로 논의되고 있다."
+    },
+    {
+     "label": null,
+     "text": "훈련 재개는 중국과의 군사관계를 대체하기보다 미국과의 제한적 복원에 가깝다. 장소·규모·참가부대가 나오기 전까지는 ‘일정 합의’ 단계다. Ream 해군기지 접근, 인권문제를 둘러싼 미국의 조건, 2월 실제 개최가 후속 확인점이다. AP, 2026-09-04/05"
+    },
+    {
+     "label": null,
+     "text": "(https://apnews.com/article/cambodia-us-military-exercise-china-manet-colby-bffea503a189e25ee1d01d4a5764e e0a)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "전날 출범한 국가 데이터센터위원회와 전력신청 20GW 수치는 아직 새 승인·계약으로 이어지지 않았다. 방콕의 미승인 사업 세 곳 심사중단도 유지됐다. 한 달 안에 전력접속, 용수, 연료저장, 소음·환경 기준이 고시되는지가 실제 변화다. 오늘은 연속성으로 처리한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "브루나이·라오스·동티모르",
+   "countries": [
+    "BN",
+    "LA",
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "브루나이는 보르네오 연무 영향이 계속됐으나 새 학교·노동·보건 명령을 확인하지 못했다. 라오스에서도 독립 검증 가능한 당일 정책 단계변화가 없었다. 동티모르의 5% 성장 전망과 상반기 경상적자 자료는 전날 공개자료의 연속성이므로 반복하지 않는다."
+    }
+   ]
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN & External Relations",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ASEAN 연무 경보 3단계는 일일 상황보고와 연기 이동자료 공유를 가동하고 있다. 발생지 진화와 피해국 노출관리 사이의 정보 연결은 작동하지만, 기업별 양허권·민사책임·복원비를 역내 차원에서 집계하는 체계는 확인되지 않았다."
+    },
+    {
+     "label": null,
+     "text": "미얀마 문제에서는 회원국의 양자외교가 더 빨리 움직였다. 베트남–미얀마 합의는 군사훈련과 정보공유까지 구체화했지만 5개항 합의의 이행조건은 문서 전면에 나오지 않았다. 캄보디아–미국 훈련 재개는 중국 일변도의 안보관계를 부분적으로 조정하는 움직임이나, 아직 예정된 훈련이다."
+    },
+    {
+     "label": null,
+     "text": "남중국해와 행동준칙 협상에서는 06:00 KST 기준 새 충돌이나 문안 합의를 확인하지 못했다."
+    }
+   ]
+  },
+  {
+   "type": "special",
+   "title": "Weekend Economic Focus — 예산과 자원배분",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "필리핀의 2027년 제복인력 급여·국방예산은 국가예산안에 들어간 제안이다. 인도네시아의 러시아 대상 138개 광구 제시는 입찰 초대이며, 베트남의 농업협동조합 계획도 2030년 목표다. 세 사안을 현재 성과로 묶을 수는 없다. 예산 통과, 광구 낙찰, 협동조합 연결률처럼 각각 다른 행정 기록이 나온 뒤 비교가 가능하다. 사라왁 연무는 이미 사업장 운영비와 노동자 보호비용을 만들고 있다. 계획보다 비용이 먼저 발생한 사례다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Government of Vietnam — defence and security agreement, 5 Sep 2026 (https://en.baochinhphu.vn/viet-nam-myanmar-agree-to-transform-defense-security-cooperation-into-key-p illar-of-bilateral-ties-111260905161629675.htm)"
+    },
+    {
+     "label": null,
+     "text": "Reuters relay — Vietnam–Myanmar talks, 5 Sep 2026 (https://www.internazionale.it/ultime-notizie-reuters/2026/09/05/vietnam-myanmar-agree-to-deepen-defenc e-ties-during-min-aung-hlaing-visit)"
+    },
+    {
+     "label": null,
+     "text": "Vietnam Ministry of Agriculture and Environment — cooperative plan (https://mae.gov.vn/tin-tong-hop/bo-nong-nghiep-va-moi-truong-ban-hanh-ke-hoach-phat-trien-kinh-te-tap-the-giai-doan-2026--2030-22753.htm)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "AP — Sara Duterte posts bail, 5 Sep 2026 (https://apnews.com/article/philippines-vice-president-sara-duterte-bail-253a1caa41ef2b831d307fbe2b048 9df)"
+    },
+    {
+     "label": null,
+     "text": "Philippine News Agency — proposed 2027 uniformed-services budget (https://www.pna.gov.ph/articles/1283398)"
+    },
+    {
+     "label": null,
+     "text": "AP — Cambodia–US exercise to resume (https://apnews.com/article/cambodia-us-military-exercise-china-manet-colby-bffea503a189e25ee1d01d4 a5764ee0a)"
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": null,
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ANTARA/BNPB — Anak Krakatau eruption (https://en.antaranews.com/news/430005/bnpb-urges-public-not-to-panic-over-mount-anak-krakatau-erupt ion)"
+    },
+    {
+     "label": null,
+     "text": "ANTARA — Russian investors invited to 138 blocks (https://en.antaranews.com/news/429943/indonesia-invites-russian-investors-to-bid-on-138-energy-blocks )"
+    },
+    {
+     "label": null,
+     "text": "ASEAN Specialised Meteorological Centre (https://asmc.asean.org/home/)"
+    },
+    {
+     "label": null,
+     "text": "Bernama — Serian workplace rules (https://www.bernama.com/en/general/news.php?id=2603324)"
+    },
+    {
+     "label": null,
+     "text": "Singapore NEA — regional haze situation (https://www.nea.gov.sg/corporate-functions/weather/regional-haze-situation)"
+    },
+    {
+     "label": null,
+     "text": "*Edited by Hyung Jong Kim | SEA Pulse*"
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Issue Recent sequence 9/4 하노이 도착 → 9/5 Myanmar / ASEAN 국방·안보 축 격상 9/4 영장 → 9/5 출석·보석·영장 Sara Duterte 해제 Alert 3 → 세리안 비상 → Transboundary haze 조건부 사업장 운영 훈련 재개 논의 → 2027년 2월 Cambodia–US 일정 합의 Anak Krakatau 9/4 분화 → 기존 Level III 유지 Economic signal strip: Fiscal WATCH 필리핀 2027 예산안 | Energy announcement 인도네시아 138개 광구 | Industry continuity 태국 데이터센터 기준 | Agriculture target 베트남 협동조합 | Household/Health ↑ cost 연무 노출관리"
+    }
+   ]
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [],
+ "watch_next": [
+  "베트남–미얀마 국방·안보 합의를 이행할 부처별 문서와 계약",
+  "Sara Duterte 첫 공판일, 관할권 항변, 상원 탄핵심판 일정",
+  "세리안 비상사태의 유지·해제 결정과 사업장 점검 결과",
+  "인도네시아 산불 기업별 허가취소·민사청구·복원비 공개",
+  "Anak Krakatau 경보단계·접근반경 및 Sunda 해협 운항 변경 Status Next trigger",
+  "↑ agreement",
+  "후속 MOU, 군 교육, 5PC 문구",
+  "→ trial track",
+  "첫 공판, 증거목록, 탄핵일정",
+  "↑ exposure controls",
+  "3일 API, 기업 처분, 복원비",
+  "참가부대·장소, 실제 개최",
+  "경보·반경 변경, 항공·해운 제한",
+  "Angkor Sentinel 2027의 장소·병력·훈련범위",
+  "필리핀 2027 국방·경찰 예산의 의회 수정안"
+ ],
+ "verification_notes": [],
+ "sources": []
+}

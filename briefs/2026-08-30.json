@@ -1,0 +1,728 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-08-30",
+ "weekday": "일",
+ "title": "동남아 데일리 브리프",
+ "edition": null,
+ "editor": "김형종",
+ "observation_cutoff": "2026-08-30 06:00 KST",
+ "headline": "오늘 동남아의 핵심 변화는 AI가 산업지원 정책을 넘어 국가운영 체계로 진입하고, 기후·물가·사회갈등이 그 집행역량을 동시에 시험하기 시작했다는 점이다. 베트남은 2030/2045 국가 AI 전략을 공식 승인해 토종 AI 기업, 데이터·컴퓨팅, 중소기업 도입과 공공행정 AI화를 하나의 국가계획으로 묶었다. 반면 인도네시아의 산불과 시위, 말레이시아의 매우 나쁜 수준 연무, 필리핀의 고물가와 기상재난은 첨단산업 전략이 물리적 인프라·사회적 신뢰·생활비 안정과 분리될 수 없음을 보여준다.",
+ "pulse": [],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "regional",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "디지털·산업전략. 베트남 정부는 8월 28일 결정 제1671호로 2030년까지 ASEAN AI 연구개발 상위 3개국, 2045년까지 아시아 상위 10개국 진입을 목표로 하는 국가 AI 전략을 승인했다. 최소 5개 국가 공용 AI 플랫폼, 10개 베트남 AI 브랜드, 8개 베트남어 모델을 만들고 온라인 공공서비스와 행정절차 서류의 100%에 AI 지원을 적용한다는 목표다. 이는 기술산업 육성, 민간기업 지원, 행정 효율과 국가 데이터 관리가 하나의 정책체계로 결합된 변화다. 베트남 정부, 2026-08-29 기후·환경. 8월 29일 Sarawak의 Lubok Antu, Lundu, Sri Aman, Serian 네 곳에서 API가 200을 넘어 ‘매우 나쁨’ 수준에 진입했다. ASEAN 전문기상센터 자료를 인용한 말레이시아 당국은 Kalimantan 1,738개, Sumatra 36개, Malaysia 6개 hotspot을 확인했다. 문제는 연무가 단순 환경외교 이슈에서 학교 폐쇄, 야외노동, 보건과 National Disaster Management Committee 가동 조건으로 이동했다는 점이다. Malay Mail, 2026-08-29"
+    },
+    {
+     "label": null,
+     "text": "거시·금융. 필리핀 중앙은행은 8월 물가를 5.5~6.5%로 예상했다. 식품·연료·기상 충격이 상방요인이고, 7월 교역은 16.3% 늘었지만 peso는 달러당 62 수준으로 약세를 보였다. 일본신용평가사는 A-와 stable outlook을 유지했으나 성장둔화·공공사업 집행·고유가 위험을 함께 지적했다. PNA—물가, 2026-08-28 PNA—신용등급, 2026-08-28 정치·사회. Jakarta 의회 인근 시위 뒤 철도·버스·유료도로 일부가 중단 또는 우회됐고 65명이 체포됐다. 시위는 부패 처벌과 정부정책에 대한 불만을 결합했으며, 교통부는 8월 29일 공공교통 시설의 물리적 파손 보고는 없었다고 밝혔다. 따라서 ‘대규모 인프라 파괴’가 아니라 정치적 불만이 도시운영을 교란한 사건으로 코딩한다. Reuters relay, 2026-08-28 ANTARA, 2026-08-29 ASEAN 실행. ASEAN 지속가능인프라위원회는 2026~2030 행동계획과 우선사업 pipeline을 clean energy, digital infrastructure, resilient supply chains에 맞춰 갱신하고 투자자 연결과 project preparation 지원을 논의했다. 이는 공동계획·금융연계 단계이며 실제 사업의 financial close나 착공은 아니다. PNA, 2026-08-28"
+    }
+   ]
+  },
+  {
+   "type": "special",
+   "title": "베트남 국가 AI 전략: 성장 인프라인가, 국가운영 인프라인가",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "핵심 판단: 이번 전략은 AI 산업육성 계획에 그치지 않는다. 토종기업·인력·데이터센터·베트남어 모델을 성장기반으로 만들면서, 행정서류와 공공서비스를 AI로 처리하고 국가 AI 시스템을 등록·평가·감독하는 구조를 세운다. 생산적 국가역량과 정보·규율 역량이 함께 커질 수 있는 1. 이중용도 국가역량 구축이다."
+    },
+    {
+     "label": null,
+     "text": "1. 전략 승인 단계. 결정 제1671호가 승인됐으므로 단순 구상은 넘어섰다. 그러나 2030 목표치는 예산집행·조달·플랫폼 구축·기업도입 성과가 아니다. 각 부처 시행계획, 예산, 담당기관과 법령이 뒤따라야 한다."
+    },
+    {
+     "label": null,
+     "text": "2. 민간기업을 국가전략의 주체로 지정. 전략은 베트남 AI 기업을 연구·개발·배치와 국가 AI 전환의 핵심세력으로 규정하고 AI-native 기업, Make in Viet Nam 제품과 중소기업 도입을 지원한다. 민간부문 확대이지만 방향·표준·조달·금융은 국가가 설계한다."
+    },
+    {
+     "label": "3. 정량목표의 장점과 위험. 5개 공용플랫폼, 10개 브랜드, 8개 언어모델은 집행을 측정하기 쉽다. 반면 브랜드",
+     "text": "수·등록건수·공무원 사용률이 실제 생산성, 수출, 중소기업 수익성과 분리되면 목표달성의 형식화가 발생할 수 있다. 4. 국가통제와의 접점. 온라인 공공서비스와 행정서류의 100% AI 지원은 서비스 속도와 예측력을 높일 수 있다. 동시에 데이터 결합, 위험분류, 시스템 등록과 검사를 중앙화한다. 목적제한·접근권·감사·이의제기·오류구제 장치가 정책효율과 권리보호의"
+    },
+    {
+     "label": null,
+     "text": "분기점이다."
+    },
+    {
+     "label": null,
+     "text": "5. 오늘의 단계 판정. strategy approved / implementation architecture pending. 산업성과와 행정통제 효과 모두 아직 실증단계가 아니다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "연무가 환경문제에서 행정집행 문제로 이동. Sarawak 네 지점의 API가 200을 넘으면서 학교·유치원 즉시 폐쇄 기준이 충족됐고, API 150 이상이 24시간 지속되면 재난관리위원회 가동과 cloud seeding 준비가 가능해졌다. 환경부는 open burning 순찰과 단속을 강화했다. 이는 외교적 항의보다 국내보건·교육·재난 프로토콜이 실제 작동하는 단계다."
+    },
+    {
+     "label": null,
+     "text": "경제·산업 연계. 전날 확인된 상반기 승인투자 RM218.5 billion과 데이터센터·클라우드 RM95.8 billion은 강한 성장신호지만, 연무·열·전력·용수 충격은 대규모 산업단지와 도시서비스의 회복탄력성을 시험한다. ‘친환경 데이터센터’ 심사는 전력효율만이 아니라 기후위험, 근로자보호, 공급망 중단을 포함해야 한다."
+    },
+    {
+     "label": null,
+     "text": "정치·사회. National Day 행사 조정 가능성이 검토될 정도로 연무가 공공행사와 일상에 영향을 줬다. 오늘은 새로운 고위급 사법사건보다 연무 대응의 중앙–주정부 조정과 정보공개가 material governance issue다."
+    },
+    {
+     "label": null,
+     "text": "판정. 경제전략은 투자승인에서 기후회복력과 실제 운영조건의 검증으로 이동하고 있다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "산불 집행. 경찰 체포와 기업조사, 항공·지상 진화가 이어지지만 8월 29일 Kalimantan hotspot이 대규모로 확인돼 억지효과는 아직 불충분하다. 단속 건수보다 peatland 복원, 사업권 정지, 실소유주 책임, 재발률을 봐야 한다. Malaysia와 Singapore의 협력 촉구는 ASEAN 연무체제의 정보공유를 실제 공동진화·복구비 분담으로 확장하라는 압력이다. Bernama/SIIA, 2026-08-29 시위와 국가역량. 8월 27일 의회 인근 시위는 부패처벌과 정부정책 불만이 결합했고, 야간 충돌 뒤 일부 교통이 중단됐다. 다음날 시설 파손은 확인되지 않았지만 65명 체포와 tear gas 사용 보도가 있어 법집행의 비례성·절차가 후속 검증점이다."
+    },
+    {
+     "label": null,
+     "text": "경제정책 상호작용. Prabowo 정부의 대규모 사회·산업 프로그램은 성장·분배를 동시에 추구하지만 재정비용과 집행투명성에 대한 불안이 투자심리와 정치적 신뢰를 압박한다. AI·데이터센터·downstreaming 전략과 사회적 정당성을 분리해 볼 수 없다. 판정. 환경과 사회질서 양쪽에서 ‘동원 가능한 국가’는 확인되지만, 예방·책임·신뢰를 만드는 제도화는 미완성이다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "거시·금융. 8월 물가 전망 5.5~6.5%는 2~4% 목표범위를 크게 웃돈다. 식품·연료·기상 충격이 중첩돼 기준금리 5.0% 이후 추가정책 여지가 좁다. A- 등급 유지는 대외건전성의 완충장치지만 생활물가와 성장률 회복을 보장하지 않는다. 무역·물류. 7월 상품교역은 전년 대비 16.3% 증가했고, Philippine Ports Authority의 상반기 수입은 화물·컨테이너·크루즈 증가로 PHP16.34 billion을 기록했다. 이는 물류수요와 세입 기반의 개선이지만 수입증가·무역적자·peso 약세를 함께 봐야 한다. PNA Business, 2026-08-28"
+    },
+    {
+     "label": null,
+     "text": "재난·인프라. 8,823개 barangay가 산사태·홍수 위험경고를 받았다. 인프라 투자와 산업정책의 성과는 신규 승인보다 기존 교량·배수·전력망의 기후회복력에 좌우된다."
+    },
+    {
+     "label": null,
+     "text": "판정. 대외신용은 안정적이나 물가·기상·인프라 집행이 국내 성장의 병목이다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "도시안전. Bangkok Khlong Thom Centre 화재로 11명이 다치고 약 300개 stall이 피해를 입었다. 배터리와 가연성 전자제품, 건물 façade가 진화를 방해했고 유독연기 반경이 2~3km로 추정됐다. 이는 재난사건이지만 전자상가의 건축·소방·배터리 저장 규율이라는 구조적 도시관리 문제다. The Nation, 2026-08-29 디지털·AI. TH-AI Passport의 8월 31일 개시는 다음 확인점이다. 등록자 수보다 실제 model access, Thai-language 성능, 공공데이터 처리, 국내 개발자 수익배분을 봐야 한다."
+    },
+    {
+     "label": null,
+     "text": "남부안보. 지난주 동시다발 공격 뒤 평화대화 유지 여부가 핵심이다. 오늘 새 교전·대화결렬의 독립검증은 없어 continuity로 처리한다."
+    },
+    {
+     "label": null,
+     "text": "판정. AI 확산과 함께 도시의 물리적 안전규제가 기술집약적 경제의 숨은 기반으로 부상했다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "① 발전전략·정책 설계",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국가 AI 전략은 2030년 ASEAN 상위 3개국, 2045년 아시아 상위 10개국을 목표로 한다. 9개 축은 인력, 데이터·모델, 컴퓨팅·클라우드·edge AI·데이터센터, 기술자립, 국가거버넌스, 산업별 전환, SME·가계사업·협동조합, 생태계, 안전·신뢰 거버넌스다. 국가발전 비전, 고부가 제조, 디지털경제, 인력·R&D, 금융·조달이 하나의 설계로 연결됐다."
+    },
+    {
+     "label": null,
+     "text": "정부는 AI-native 기업과 Make in Viet Nam 플랫폼을 육성하고 연구개발·응용에 이자·세제지원, PPP와 국제펀드를 검토한다. 이는 민간기업을 성장엔진으로 키우지만, 국가가 우선순위·데이터·조달·평가체계를 쥐는 당–국가 주도형 민간부문 확대다. 단계: Decision 1671 approved. 부처별 계획·예산·조달·법률·플랫폼의 실제 착수는 확인되지 않았다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "② 추진현황·산업/거시 지표",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "전략 목표에는 2030년 기업 60% AI 도입, 공공 온라인서비스와 행정서류 100% AI 지원, 공용플랫폼 5개, 베트남 AI 브랜드 10개, 베트남어 모델 8개가 포함된다. 이는 성과가 아니라 KPI다. 기업도입은 단순 계정·license 보유가 아니라 매출·비용·품질·고용에 미친 효과로 측정해야 한다."
+    },
+    {
+     "label": null,
+     "text": "전날 Qualcomm의 연구거점 구상과 Samsung 누적 수출성과는 이번 전략의 외자·기술 파트너 축과 맞닿는다. 그러나 Qualcomm은 신규시설·투자액이 공개되지 않은 전략의향, Samsung은 누적 생산성과와 향후 기술이전 목표가 혼재한다. 오늘 전략 승인으로 foreign partner dialogue → national policy framework 단계가 추가됐지만 개별 프로젝트의 착공·가동은 아니다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "③ 민간기업 사례",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "당일 material company update: 없음. Vingroup/VinFast, FPT, THACO, Masan, Hoa Phat, Sovico/Vietjet, Techcombank와 신흥 AI·반도체·에너지 기업을 확인했으나 8월 29일 새로 독립검증된 투자·착공·생산·수출·재무 변화는 본문에 넣지 않았다."
+    },
+    {
+     "label": null,
+     "text": "다만 전략은 Vietnamese AI enterprises를 핵심 실행주체로 명시한다. 따라서 향후 FPT·Viettel 등 기업의 국가 플랫폼·공공조달 참여 여부, 중소기업 voucher, 해외모델·GPU·cloud 의존, 정부자금과 경쟁중립성을 확인해야 한다. 기업 PR이나 전략상 지정은 성과가 아니다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "④ 정치·거버넌스 / 권위주의화 신호",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "당일 코드: `혼합 신호`. 신규 체포·재판·검열·당 지도부 재편은 신뢰할 수 있는 복수 출처에서 확인되지 않았다. 그러나 새 전략이 AI를 국가거버넌스의 핵심능력으로 삼고 모든 행정서류와 온라인 공공서비스에 적용하며 시스템 등록·평가·감독 구조를 구축한다는 점은 국가의 행정·정보능력을 실질적으로 확장하는 제도신호다."
+    },
+    {
+     "label": null,
+     "text": "이 변화는 곧바로 권위주의화의 증거가 아니다. 민원처리·예측·부패탐지·서비스 접근을 개선할 수 있다. 동시에 데이터 결합과"
+    },
+    {
+     "label": null,
+     "text": "자동 위험분류가 표현·결사·기업활동에 적용될 경우 감시와 선별집행 능력도 커질 수 있다. 따라서 권리영향평가, 독립감사, human review, 이의제기, 데이터 목적제한과 보유기간을 후속 지표로 둔다."
+    },
+    {
+     "label": null,
+     "text": "경제–통제 상호작용. 국가가 AI 투자·토종기업·행정데이터를 같은 아키텍처로 묶으면서 성장역량과 통치역량이 동시에 강화될 수 있다. 오늘은 ‘통제 강화 확정’이 아니라 생산적 역량 확대와 통제 가능성 확대가 병존하는 혼합 단계다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "장기질문 누적판정. 베트남의 발전국가 모델은 민간기업을 독립적 권력으로 방치하기보다 국가가 설계한",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "플랫폼·조달·데이터·산업목표 안에서 성장시키는 방향을 더 분명히 했다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "노동·기후. 12월 1일부터 모든 야외작업에 시원한 식수, 고온노출 교육, 비상 ice pack·water spray, 통기성 의류가 의무화된다. 위반 시 stop-work order나 벌금이 가능하다. 권고가 강제규칙으로 전환된 것으로, El Niño와 연무에 대한 노동시장 적응이 guidance → enforceable requirement 단계로 이동했다. Singapore MOM, 2026-08-28 경제·AI. Economic Strategy Review는 AI가 노동자를 대체하기보다 보완하도록 기업전환·사전훈련·job matching을 묶고, cybersecurity·AI governance를 신뢰기반 서비스산업으로 육성한다. 오늘 신규 대규모 투자발표는 없으며 실행지침과 예산전환을 추적한다. Singapore Government, updated 2026-08-23 판정. 디지털 경쟁력과 기후적응을 고용규칙으로 연결하는 실행력이 강점이다."
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": "5개국 빠른 점검",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가",
+     "당일 material update",
+     "단계",
+     "핵심 의미",
+     "다음 확인점"
+    ],
+    "rows": [
+     [
+      "Cambodia",
+      "온라인 사기단지 근절 주장 후속",
+      "집행·정부 성과 주장",
+      "대규모 compound에서 분산형 범죄로 이동 인정",
+      "독립검증, 피해자 보호, 9/23–24 국제회의"
+     ],
+     [
+      "Laos",
+      "신규 독립검증 material update 없음",
+      "continuity",
+      "법안·거시·사이버정책 전일 상태 유지",
+      "국회제출, 부채·세입·디지털법"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "5개국 빠른 점검",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가",
+     "당일 material update",
+     "단계",
+     "핵심 의미",
+     "다음 확인점"
+    ],
+    "rows": [
+     [
+      "Myanmar",
+      "Dawei·분쟁 및 인권위기 continuity",
+      "현장위험·검증제약",
+      "메가프로젝트와 군사통제 결합 위험",
+      "위성·인도주의 접근·기업 확인"
+     ],
+     [
+      "Brunei",
+      "BICTA·Digital Brunei 2030 후속",
+      "생태계·실증 준비",
+      "혁신상을 제품·IP·수출로 전환해야 함",
+      "5G campus testbed, 사업화·조달"
+     ],
+     [
+      "Timor-Leste",
+      "IMF Article IV 진단 후속",
+      "정책권고",
+      "4.0% 성장과 Petroleum Fund 지속가능성 긴장",
+      "2027 예산, VAT·토지권·결제현대화"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "macro",
+   "title": "경제 6개 하위축",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "축",
+     "신규 신호",
+     "해석"
+    ],
+    "rows": [
+     [
+      "Macro",
+      "Philippines 물가 5.5~6.5%; Timor-Leste 4.0%",
+      "물가·재정 제약이 성장의 질 좌우"
+     ],
+     [
+      "Monetary/Financial",
+      "PH 5.0% 금리·peso 62선; TL 금융법 개혁",
+      "긴축과 금융심화 필요가 병존"
+     ],
+     [
+      "Fiscal",
+      "Vietnam AI 세제·이자지원 검토; TL Petroleum Fund 절제",
+      "전략지원과 재정규율의 균형"
+     ],
+     [
+      "External Economy",
+      "PH July trade +16.3%; ASEAN resilient supply-chain pipeline",
+      "교역 회복과 공급망 위험 동시 확대"
+     ],
+     [
+      "Industry/Infrastructure",
+      "Vietnam AI infra; Malaysia DC; ASEAN clean/digital pipeline",
+      "승인·계획에서 착공·가동으로의 전환율 중요"
+     ],
+     [
+      "Structural Policy",
+      "Vietnam 기업 60% AI 목표; Singapore heat rules",
+      "생산성정책과 노동·기후 규칙의 결합"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "theme",
+   "title": "디지털·AI 주요동향",
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가/차원",
+     "material update",
+     "단계",
+     "정책 의미·리스크"
+    ],
+    "rows": [
+     [
+      "Vietnam",
+      "국가 AI 전략 결정 제1671호 승인",
+      "전략 승인",
+      "산업·SME·행정·데이터 거버넌스 통합"
+     ],
+     [
+      "Vietnam",
+      "5개 플랫폼·10개 브랜드·8개 언어모델 목표",
+      "KPI",
+      "성과 아닌 목표; 예산·가동 검증 필요"
+     ],
+     [
+      "Vietnam",
+      "공공서비스·행정서류 100% AI 지원 목표",
+      "정책 설계",
+      "효율과 중앙 데이터·자동분류 위험 병존"
+     ],
+     [
+      "Malaysia",
+      "DC 투자와 연무·전력·회복력 연결",
+      "승인/운영조건",
+      "green compliance를 기후·노동까지 확대 필요"
+     ],
+     [
+      "Indonesia",
+      "AI·DC 전략 속 시위·산불 집행압력",
+      "계획/거버넌스 시험",
+      "사회신뢰·환경비용이 투자실행에 영향"
+     ],
+     [
+      "Philippines",
+      "e-invoice·AI bodycam continuity",
+      "협의/준비",
+      "조세효율·책임성과 개인정보 위험"
+     ],
+     [
+      "Thailand",
+      "TH-AI Passport 8/31 개시 대기",
+      "launch-ready",
+      "등록보다 사용·국내개발자·데이터보호 확인"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": "디지털·AI 주요동향",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "DIGITAL/AI 판정: 베트남의 전략 승인이 오늘의 유일한 대형 신규 정책전환이다. 나머지는 기존 투자·도입계획의 실행조건을 추적했으며 제품 PR은 제외했다."
+    }
+   ],
+   "table": {
+    "title": null,
+    "columns": [
+     "국가/차원",
+     "material update",
+     "단계",
+     "정책 의미·리스크"
+    ],
+    "rows": [
+     [
+      "ASEAN",
+      "digital infrastructure pipeline",
+      "project preparation",
+      "재원·상호운용·환경기준 필요"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "theme",
+   "title": "Politics / Security / Society",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Indonesia 시위: 정치적 불만이 도시교통을 교란한 material event. 체포·tear gas의 비례성과 절차를 추적한다."
+    },
+    {
+     "label": null,
+     "text": "Malaysia–Indonesia 연무: 재난·보건·교육·노동 문제로 확장됐다. hotspot 감소와 사업권 제재가 핵심 성과지표다."
+    },
+    {
+     "label": null,
+     "text": "Cambodia cyber scam: 624개 site 단속·약 3만 명 체포 주장은 규모가 크지만 ‘근절’은 독립검증 전까지 정부 주장으로 표시한다. AP, 2026-08-28"
+    },
+    {
+     "label": null,
+     "text": "Thailand 도시안전: Khlong Thom 화재는 배터리·전자상가·노후건물의 복합 위험을 드러냈다."
+    },
+    {
+     "label": null,
+     "text": "Singapore 노동보호: 열 스트레스 조치가 권고에서 강제의무로 이동했다."
+    },
+    {
+     "label": null,
+     "text": "Myanmar: 새로 교차검증된 대형 변화가 없어 continuity로 처리한다."
+    }
+   ]
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN Overview / Institutions",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ASEAN의 오늘 핵심은 기능적 인프라의 실행 전환이다. 지속가능인프라위원회는 clean energy, digital infrastructure, resilient supply chains를 장기 pipeline과 투자자 연결에 넣었다. 연무에서는 정보공유가 확대됐지만 공동진화, 원인기업 책임, 복구비 분담의 강제력은 여전히 약하다. 디지털 인프라는 빠르게 지역화되지만 환경·노동·데이터 규율은 국가별로 파편화돼 있다."
+    },
+    {
+     "label": null,
+     "text": "EAF는 본문 접근이 403으로 차단돼 실질 반영하지 못했다. ISEAS/Fulcrum은 8월 27일 Indonesia–US trade agreement와 중국의 대응, 8월 28일 Philippine air-power strategy 업데이트를 확인하고 원자료와 분리해 참고했다. Fulcrum, 2026-08-27 RSIS의 sustainable AI·technological sovereignty 논의를 오늘 베트남 전략의 분석틀과 대조했으나 신규 사실의 출처로 사용하지 · 2026-08-30 않았다. ERIA·Lowy·CSIS도 확인했으나 당일 핵심을 대체할 신규 primary evidence는 없었다. YouTube 주간 입력은 일요일이라 비대상이다."
+    }
+   ]
+  },
+  {
+   "type": "research",
+   "title": "Research / Policy Analysis",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "Core signal: `dual-use state capacity`",
+     "text": "오늘의 공통신호는 국가가 성장과 위험관리 양쪽에서 데이터·규칙·인프라를 동시에 확장한다는 점이다."
+    },
+    {
+     "label": null,
+     "text": "Vietnam의 AI 전략은 산업생산성과 행정예측·감독을 하나의 데이터 아키텍처로 묶는다."
+    },
+    {
+     "label": null,
+     "text": "Malaysia와 Indonesia의 연무 대응은 위성정보·단속·학교폐쇄·재난위원회라는 감시·집행체계를 요구한다."
+    },
+    {
+     "label": null,
+     "text": "Singapore는 기후위험을 기업의 강제적 노동보호 의무로 전환한다."
+    },
+    {
+     "label": null,
+     "text": "Philippines는 대외건전성을 유지하면서 물가·기상·공공사업 집행을 관리해야 한다."
+    },
+    {
+     "label": null,
+     "text": "국가역량은 그 자체로 민주적이거나 권위주의적이지 않다. 핵심은 누가 데이터를 통제하고, 어떤 목적으로 자동판단을 쓰며, 오류와 남용에 누가 이의를 제기할 수 있는가다. 생산성 지표와 함께 권리·감사·구제 지표를 병렬로 측정해야 한다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "장기질문 누적판정",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "‘고성장·산업고도화·민간부문 확대와 제한된 정치적 다원성의 균형’에 대해 오늘은 중요한 제도증거가 추가됐다. 국가 AI 전략은 민간 AI 기업과 중소기업을 성장주체로 올리지만, 공용플랫폼·데이터·행정서비스·평가·감독을 국가가 통합한다. 이는 시장자유화보다는 국가가 민간 혁신을 조직하면서 통치기술도 현대화하는 모델에 가깝다."
+    },
+    {
+     "label": null,
+     "text": "그러나 AI 행정화가 실제 시민통제로 전환됐다는 증거는 아직 없다. 오늘 코드는 혼합 신호이며, 다음 판정은 시행령·조달·데이터 접근권·human review·체포·검열 등 구체행동에 근거해야 한다."
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [],
+   "table": {
+    "title": null,
+    "columns": [
+     "Tracker",
+     "Current direction",
+     "Drivers",
+     "Risks",
+     "New signal",
+     "Watch"
+    ],
+    "rows": [
+     [
+      "ASEAN Delivery",
+      "계획→사업준비",
+      "SIAP, infrastructure pipeline",
+      "재원·국내집행 격차",
+      "투자자 연결",
+      "financial close/착공"
+     ],
+     [
+      "Digital/AI",
+      "국가운영 인프라화",
+      "Vietnam strategy, public AI",
+      "데이터집중·외산의존",
+      "Decision 1671",
+      "시행계획·감사"
+     ],
+     [
+      "Supply Chains",
+      "resilient/green 재설계",
+      "DC, trade, energy",
+      "기후·전력·연무",
+      "ASEAN pipeline",
+      "local vendor share"
+     ],
+     [
+      "Macro Stability",
+      "제약 확대",
+      "food, fuel, weather",
+      "PH inflation·peso",
+      "5.5~6.5%",
+      "9/4 actual CPI"
+     ],
+     [
+      "Governance",
+      "집행력 시험",
+      "protest, haze, AI administration",
+      "과잉집행·오류",
+      "ID arrests/VN AI",
+      "due process/redress"
+     ],
+     [
+      "Security",
+      "고강도 continuity",
+      "Myanmar, Thai south",
+      "민간피해·대화정체",
+      "",
+      "independent evidence"
+     ]
+    ]
+   }
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "Vietnam 결정 제1671호의 부처별 시행계획·예산·책임기관."
+    },
+    {
+     "label": null,
+     "text": "Vietnam 국가 AI portal/database의 등록대상, 접근권, risk classification, incident reporting."
+    },
+    {
+     "label": null,
+     "text": "Vietnam 공공서비스 AI의 human review·이의제기·감사·개인정보 안전장치."
+    },
+    {
+     "label": null,
+     "text": "FPT·Viettel 등 국내기업의 공공조달과 경쟁중립성, 실제 R&D·수출."
+    },
+    {
+     "label": null,
+     "text": "Sarawak 학교폐쇄·cloud seeding·재난위원회 실제 가동 여부."
+    },
+    {
+     "label": null,
+     "text": "Kalimantan hotspot과 Indonesia 제재기업의 허가정지·복구명령 이행."
+    },
+    {
+     "label": null,
+     "text": "Indonesia 시위 체포자의 혐의·절차, 추가시위와 시장영향."
+    },
+    {
+     "label": null,
+     "text": "Philippines 9월 4일 8월 CPI 실적과 추가긴축 신호."
+    },
+    {
+     "label": null,
+     "text": "ASEAN infrastructure pipeline의 사업명·재원·financial close·환경기준."
+    },
+    {
+     "label": null,
+     "text": "Singapore 12월 1일 열보호 의무의 산업별 시행지침과 단속."
+    },
+    {
+     "label": null,
+     "text": "Thailand TH-AI Passport 실제 개시·이용조건·개인정보 처리."
+    },
+    {
+     "label": null,
+     "text": "Cambodia scam ‘근절’ 주장에 대한 독립 현장검증과 피해자 보호."
+    },
+    {
+     "label": null,
+     "text": "Timor-Leste 2027 예산의 Petroleum Fund 인출과 VAT·토지권 개혁."
+    }
+   ]
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": null,
+   "issue": null,
+   "events": [
+    {
+     "date": "8/27",
+     "text": "Indonesia 의회 인근 시위·야간충돌",
+     "note": "불만표출→교통교란·체포"
+    },
+    {
+     "date": "8/28",
+     "text": "ASEAN 지속가능 인프라 pipeline 논의",
+     "note": "비전→project preparation·투자자 연결"
+    },
+    {
+     "date": "8/28",
+     "text": "Vietnam 결정 제1671호 승인",
+     "note": "AI 정책구상→국가전략 승인"
+    },
+    {
+     "date": "8/28",
+     "text": "Singapore 야외근로자 열보호 강화 발표",
+     "note": "권고→12/1 강제의무 예정"
+    },
+    {
+     "date": "8/28",
+     "text": "Bangkok Khlong Thom 화재",
+     "note": "재난→건축·배터리 안전점검"
+    },
+    {
+     "date": "8/29",
+     "text": "Sarawak 4개 지점 API 200 초과",
+     "note": "연무→학교·재난 프로토콜 기준 충족"
+    },
+    {
+     "date": "8/29",
+     "text": "Indonesia 교통부 시설 파손 없음 발표",
+     "note": "초기 혼란→물리피해 범위 조정"
+    },
+    {
+     "date": "8/29",
+     "text": "Vietnam AI 전략 세부목표 공개",
+     "note": "승인→KPI·집행아키텍처 공개"
+    },
+    {
+     "date": "8/30 06:00",
+     "text": "브리프 수집 마감",
+     "note": "시행계획·예산·현장효과 검증 시작"
+    }
+   ],
+   "status": null
+  }
+ ],
+ "bottom_line": [],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": []
+}

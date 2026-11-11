@@ -8,7 +8,7 @@
 ## 동작 방식
 
 ```
-교수님 클로드 → 구글 드라이브 '동남아브리프' 폴더에 YYYY-MM-DD.json 저장
+교수님 ChatGPT가 만든 YYYY-MM-DD.json → (담당자가) 구글 드라이브 '동남아브리프' 폴더에 올림
       ↓ (매시 23분 자동 실행: Actions 탭 '브리프 갱신')
 형식 검사 · 내부 메모 표현 검사 → 통과한 파일만 briefs/ 에 공개본으로 저장(비공개 필드 제거)
       ↓
@@ -24,7 +24,8 @@
 | `scripts/sync_drive.py` | 드라이브에서 가져오기, 형식·내부 메모 검사 |
 | `scripts/build_site.py` | 목록·국가별·지속 이슈·확인점·검색용 데이터 생성 |
 | `scripts/make_html.py` | 게시용 페이지 생성 |
-| `schema/brief.schema.json` | 브리프 JSON 형식 정의 |
+| `schema/brief.schema.json` | 브리프 JSON 형식 정의(v1: 고정 머리·꼬리 + 날마다 달라지는 본문 블록) |
+| `schema/issues.json` | 지속 이슈 ID와 화면에 보일 이름. 이름을 고정하고 싶을 때만 추가 |
 | `state/reported_problems.json` | 이미 알린 문제 파일 기록(같은 알림 반복 방지) |
 | `.github/workflows/update.yml` | 자동 실행 설정 |
 

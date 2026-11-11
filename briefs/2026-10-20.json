@@ -1,0 +1,475 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-20",
+ "weekday": "화",
+ "title": "동남아 데일리 브리프",
+ "edition": "SERIES | SEA PULSE DAILY",
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": null,
+ "pulse": [
+  "19일에는 인도네시아 증시가 MSCI의 강등 검토 충격에서 벗어나지 못했고, 싱가포르는 연무 관련 기업 통지 범위를 더 넓혔다. 예방조치 통지 대상은 칼리만탄 기업 세 곳을 포함해 열 곳이 됐다. 필리핀은 중국대사의 무력 암시 발언을 둘러싼 공개 항의를 정식 소환으로 끌어올렸다. 말레이시아 항소법원은 1MDB 관련 37억 8천만달러 사건을 새 재판부가 다시 심리하도록 돌려보냈다.",
+  "국경을 넘는 위험은 서로 다른 제도를 시험하고 있다. 인도네시아 산불 소실면적은 민간 위성 추정이 정부 누계를 앞섰고, 말레이시아는 학교 휴업과 수업 연속성을 중심으로 연무 행동계획을 손보고 있다. 브루나이에서는 첫 ASEAN 검찰·법무총장 고위관료회의가 열렸다. 베트남–EFTA 자유무역협정은 서명 단계에 도달했다. 말레이시아에서는 자체 설계한 반도체 혁신제품 6 종이 공개됐다. 이 제품들의 3억 링깃은 예상 매출 잠재력이며 판매 계약금액은 아니다. 유럽 순방과 함께 시장·기술 접근의 외교 기반은 넓어졌지만 비준, 관세양허 적용, 기업 이용률이 남아 있다.",
+  "오늘의 우선순위: MSCI 강등 검토에 대한 인도네시아 금융당국의 대응, 연무 기업통지의 후속 집행, 필리핀–중국 추가 외교조치와 베트"
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "독립 위성감시기관 누산타라 아틀라스는 1월부터 9월 말까지 불에 탄 면적을 191만 6천 588㏊로 추산했다. 정부의 7월 이후 공식 누계가 없는 가운데 나온 결과치다. 짙은 연무가 위성 판독을 방해해 실제 면적이 더 클 수 있다는 단서도 붙었다. 싱가포르의 기업 통지 확대와 맞물리지만, 소실면적만으로 특정 기업의 발화 책임을 정할 수는 없다. [S05]"
+    },
+    {
+     "label": null,
+     "text": "ISEAS 목록에는 빈곤율 8.07% 보도가 포함됐다. 원자료는 BPS가 8월 5일 발표한 3월 조사이며 2,293만 명, 전년 3월보다 92만 명 감소했다. 세계은행의 중상위소득국 빈곤선으로 계산한 비율과는 정의가 다르다. 오늘의 신규 결과처럼 쓰지 않고 사회정책 기준선으로 남겼다. [S01·S06·S07]"
+    },
+    {
+     "label": null,
+     "text": "MSCI가 인도네시아 주식시장의 신흥시장 지위를 최하위 독립시장(standalone)으로 낮추는 방안을 검토하겠다고 밝힌 이후, 자카르타종합 지수는 16일 11.6% 하락했고 19일에도 3.6% 추가 하락했다. 주식의 실질 유통물량, 집중 소유구조와 거래 투명성이 쟁점이다. 강등은 확정되지 않았고 2027년 6월 최종 판단이 예정돼 있다. 19일 낙폭은 장중 저점과 종가를 구분했다. [S27·S28]"
+    }
+   ],
+   "point": "위성 소실면적의 집계 차이와 주식시장 유동성 문제는 원인도 해결주체도 다르다. 증시에서는 MSCI가 문제 삼은 자유유통주식과 소유구조 공시를 금융당국이 어떻게 보완하는지가 먼저다.",
+   "next_check": "환경·산림당국의 8~9월 보정치와 양허지 화점 기록, IDX·OJK의 자유유통비율·지분공시 개선안, MSCI의 질의응답 및 2027년 심사일정."
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "안와르 총리는 학교 휴업 지침과 휴업 시 학습을 이어갈 준비를 중심으로 국가연무행동계획 개정 제안을 다듬고 있다고 밝혔다. 현행 운용에서는 대기오염지수 200이 학교 폐쇄, 100 초과가 야외활동 중단의 기준이지만, 19일 발표는 개정안 확정이 아니라 정책 설계 단계다. [S08]"
+    },
+    {
+     "label": null,
+     "text": "법원에서는 1MDB와 자회사 네 곳이 조 로우와 부친을 상대로 받은 37억 8천만달러 궐석판결 관련 신청을 새 재판부가 다시 심리하게 됐다. 항소법원은 사건을 고등법원으로 돌려보냈고 26일 사건관리를 잡았다. 자산 회수나 본안 승소가 확정된 것은 아니다. [S09]"
+    },
+    {
+     "label": null,
+     "text": "16일에는 말레이시아 반도체 IC 설계단지 참여기업들이 AI 처리기·산업용 반도체 등을 포함한 현지 개발 혁신제품 6 종을 공개했다. 정부가 언급한 합계 3억 링깃은 잠재 매출 추정치로, 고객 확보나 납품실적을 뜻하지 않는다. 품질인증, 구매자 채택과 양산계약이 향후 산업화 단계를 가를 자료다. [S29·S30]"
+    }
+   ],
+   "point": "연무 대응계획과 1MDB 재심리는 19일 절차의 변화다. 반도체 6 종 발표는 16일에 일어난 생산·설계 생태계의 성과로 별도 기록하며, 판매 전망을 실현된 매출로 바꾸지 않는다.",
+   "next_check": "연무 행동계획 승인과 원격수업 기준, 10월 26일 1MDB 사건관리, 반도체 6 종의 인증·고객채택·양산계약."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국가환경청은 칼리만탄 내 양허지에서 발생한 화재의 연기가 싱가포르로 이동했을 가능성을 근거로 인도네시아 기업 세 곳에 추가 예방조치 통지를 보내기로 했다. 16일 수마트라 관련 일곱 곳에 이어 대상이 열 곳으로 늘었다. 통지는 소방인력 투입, 소각 중단, 진화·재발방지 계획 제출을 요구하는 집행행위다. 법적 과실이나 손해배상 책임을 확정한 판정은 아니다. [S02·S04]"
+    },
+    {
+     "label": null,
+     "text": "19일 오후 6 시 24시간 PSI는 88~114, 1시간 PM2.5는 51~79㎍/㎥였다. 20일 전망은 90~160으로, 비와 남남동풍이 칼리만탄발 연무를 줄일 수 있으나 수마트라 연기가 유입될 가능성이 남았다. 야외활동 판단에는 당일 1시간 PM2.5가 더 직접적인 지표다. [S03]"
+    }
+   ],
+   "point": "기업 통지 범위가 넓어졌다는 사실과 실제 대기 개선을 분리해 추적해야 한다. 전자는 법집행의 폭, 후자는 바람·강수와 진화 성과의 합성 결과다.",
+   "next_check": "세 기업의 조치계획, NEA의 자료요구·소환, 20일 실측 PSI, 칼리만탄·수마트라 화점 이동."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "마. 테레사 라자로 외교장관은 중국의 징취안 대사를 소환해 15일 발언에 ‘심각한 우려와 강한 반대’를 전달했다. 16일 대통령과 외교부의 공개 항의가 19일 정식 소환으로 이어진 것이다. 외교부는 추가 조치 권리를 유보했으나, 대사 추방이나 관계 격하가 결정된 것은 아니다. [S10]"
+    },
+    {
+     "label": null,
+     "text": "대통령실은 Pax Silica를 루손경제회랑 안의 첨단 제조·혁신 허브로 소개했다. 반도체, AI, 핵심광물 공급망을 한 곳에 모으겠다는 제안이다. 허브가 실제 산업거점이 되려면 부지와 전력, 인허가, 농지 전용, 참여기업의 자본약정이 뒤따라야 한다. 현재 단계에서는 ‘투자 유치 가능성’과 ‘확정 투자’를 섞지 않았다. [S11]"
+    }
+   ],
+   "point": "대중 외교는 정식 항의로 수위가 올라간 반면, 첨단산업 구상은 아직 제안 단계다. 안보 메시지의 속도가 산업 기반 조성보다 빠르다.",
+   "next_check": "외교 문서와 후속 대화, Pax Silica 타당성조사·부지·전력계획·투자자 명단과 농민 보상 절차."
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "베트남과 아이슬란드·리히텐슈타인·노르웨이·스위스는 18일 하노이에서 자유무역협정에 서명했다. 상품·서비스·투자뿐 아니라 정부조달, 지식재산, 경쟁, 중소기업과 지속가능발전까지 포함한다. 협상 타결과 서명은 확인됐지만 관세 인하가 시작된 것은 아니다. [S12]"
+    },
+    {
+     "label": null,
+     "text": "19일 또 럼 국가주석은 코펜하겐에서 덴마크 국왕 부부를 만났다. 유럽 순방은 EFTA 협정 서명 직후 시장·기술 협력을 넓히는 외교 일정으로 이어졌다. 방문 자체보다 녹색해운·에너지·제약 분야의 계약, 금융조건, 착수일이 실제 산업효과를 가른다. [S13]"
+    }
+   ]
+  },
+  {
+   "type": "deep_dive",
+   "title": "베트남 4 단 Deep Dive",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "1. 정치·협상 결정: EFTA 4개국과의 협상이 서명으로 넘어갔다. 적용범위가 상품 관세를 넘어 서비스·투자·정부조달·지식재산과 지속가능발전까지 넓다."
+    },
+    {
+     "label": null,
+     "text": "2. 행정적 번역: 양허표, 원산지증명, 통관절차, 정부조달 개방범위와 담당기관 지침이 국내 문서로 옮겨져야 한다. 공개된 요약만으로 품목별 이익을 계산할 수 없다."
+    },
+    {
+     "label": null,
+     "text": "3. 법적 발효와 집행: 국내 승인과 상대국 절차, 발효통보가 남아 있다. 서명일을 관세 인하 개시일로 취급하지 않는다. 세관 시스템과 기업 안내가 실제 이용을 좌우한다."
+    },
+    {
+     "label": null,
+     "text": "4. 관측 결과: 대 EFTA 품목별 수출입, 스위스·노르웨이 자본의 투자신고와 집행, 정부조달 참여, 원산지증명 활용률을 확인한다. 덴마크 방문에서 나온 사업은 별도 프로젝트로 추적한다."
+    }
+   ],
+   "point": "하노이는 유럽과의 관계를 관세협정과 정상외교 두 경로로 넓히고 있다. 지금 확인된 것은 접근권을 만드는 절차이며 투자·수출 효과는 다음 단계다.",
+   "next_check": "양측 비준문서, 관세양허표와 원산지규정, 발효일, 덴마크 방문 공동성명과 프로젝트별 금액."
+  },
+  {
+   "type": "country",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "캄보디아와 태국은 유엔해양법협약에 따른 조정 과정에서 신뢰구축 조치를 추진하기로 했다. 9월 첫 회의에 이어 절차가 이어졌다는 점은 확인된다. 다만 조정 결과는 구속력이 없고, 분쟁수역의 경계선이나 공동개발 방식도 공개되지 않았다. [S14]"
+    },
+    {
+     "label": null,
+     "text": "온라인 사기 단속은 누적 계좌동결·송치 수치가 앞서 공개됐지만 유죄판결, 범죄수익 몰수, 피해자 배상으로 이어지는 연결고리가 여전히 불명확하다. 19일 신규 단계가 없어 후속 관찰로만 남겼다."
+    }
+   ],
+   "point": "해양 조정은 회담 재개의 의미가 있으나 에너지 매장량 추정치가 합의 가능성을 보장하지 않는다.",
+   "next_check": "조정위원회 시간표, 공동 기술조사, 분쟁수역 신규허가 자제 여부, 사기범죄 몰수·배상 통계."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "캄보디아와의 해양분쟁은 신뢰구축 조치에 합의하며 조정 절차를 이어갔다. 이는 2001년 양해각서의 복원이나 공동 석유·가스 개발 합의가 아니다. 군사 긴장을 낮추는 해양 대화와 자원배분 협상 사이에는 상당한 단계가 남아 있다. [S14]"
+    },
+    {
+     "label": null,
+     "text": "국내에서는 NIDA 조사 응답자의 34.27%가 경제문제 해결 실패를 불신임 논의의 최대 압박요인으로 꼽았다. 내무부가 가장 거센 검증을 받을 것이라는 응답은 38.78%였다. 조사결과는 정치적 취약성을 보여주지만 연정 이탈이나 표결결과를 예측하는 자료는 아니다. [S15]"
+    }
+   ],
+   "point": "대외 해양협상과 국내 불신임 공세가 같은 시기에 진행되지만 서로를 직접 설명하지 않는다. 별도 일정과 행위자를 따라가야 한다.",
+   "next_check": "조정위 후속회의, 공동개발 금지·허용 범위, 불신임안 문안·토론일·연정 표단속."
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "군정이 구성한 연방의회는 55개 타운십의 비상사태를 90일 더 연장했다. 대통령실 명령과 친군 매체 보도로 문서 발행은 확인된다. 그러나 의회의 정당성은 광범위하게 다퉈지고 있고, 타운십별 실제 행정·군사 통제도 균일하지 않다. [S16·S17]"
+    },
+    {
+     "label": null,
+     "text": "친민족전선(CNF)과 전버마학생민주전선(ABSDF)은 군정의 평화대화 초청을 거부했다. 공습이 계속되는 상황에서 제안의 진정성을 믿기 어렵다는 설명이다. 초청 대상 전체가 거부한 것은 아니므로, 다른 조직의 참여와 대화 조건을 따로 확인해야 한다. [S18]"
+    }
+   ],
+   "point": "비상권한 연장과 대화 초청이 나란히 진행됐지만, 두 무장조직의 거부로 정치협상 채널은 넓어지지 않았다.",
+   "next_check": "55개 타운십 명단·시행명령, 공습·체포 변화, 추가 무장조직의 답변, 대화 의제와 보장장치."
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "볼리캄사이주는 팍산에서 합계 15MW 규모 태양광 세 건의 투자협정에 서명했다. 작은 규모라도 지방 전력사업이 문서 단계로 이동했다. 사업자 자본금, 전력구매자, 계통연결과 착공일은 공개되지 않았다. [S19] 정부의 최근 투자관리 점검은 1~7월 34개 양허·통제사업, 승인액 85억달러, 실제 반입자본 10억달러 이상을 제시했다. 승인 규모가 곧 집행 규모가 아님을 보여주는 수치다. 정부는 절차 개선과 위반사업 정리를 예고했지만 세부 명단은 없다. [S20]"
+    }
+   ],
+   "point": "새 태양광 계약은 투자승인 통계의 한 항목이 될 수 있지만 전력판매계약과 자본반입이 확인돼야 실행사업으로 넘어간다.",
+   "next_check": "3개 사업의 투자자·PPA·착공, 계통연결 용량, 시행령 개정안과 지연사업 정리목록."
+  },
+  {
+   "type": "country",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "반다르스리브가완에서 ASEAN 검찰·법무총장 고위관료회의가 처음 열렸다. 20일 첫 검찰·법무총장회의를 준비하고 역내 검찰협력 방식을 논의한 회의다. 상설 사무국이나 사건정보 공유규칙이 채택된 단계는 아니다. [S23]"
+    },
+    {
+     "label": null,
+     "text": "브루나이는 같은 주 중국–ASEAN 검찰총장회의도 연다. 홍콩 정부는 아동을 겨냥한 사이버범죄 보호를 의제로 제시했다. 실제 공동수사와 증거공유에 쓰일 문서가 나오는지가 다음 판단 기준이다. [S24·S25]"
+    }
+   ],
+   "point": "브루나이가 새 사법협력 채널의 출범지를 제공했다. 행사의 상징성보다 연락창구·공조요청·전자증거 규칙이 남는지 봐야 한다.",
+   "next_check": "20일 공동성명, 연례회의 여부, 국가별 연락관, 사이버범죄·아동보호 사건정보 공유 절차."
+  },
+  {
+   "type": "country",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "동티모르와 인도네시아는 15일 투자촉진·보호협정에 서명했다. 2024년 11월 협상을 시작해 2025년 8월 법률검토를 마친 뒤 서명에 이르렀다. 2025년 양국 교역은 4억 2,363만달러였고, 2026년 1~8월은 2억 7,386만달러였다. 협정은 서명됐지만 발효일과 국내 승인 절차는 공개되지 않았다. [S21]"
+    },
+    {
+     "label": null,
+     "text": "딜리 정부는 니콜라우 로바투 국제공항 확장공사의 속도를 높여 달라고 인도네시아 측에 요청했다. 인도네시아 국영사 와스키타 카리야가 약 7,250만달러 설계·시공 계약을 수행하며 목표 완공은 2028년이다. 지연 우려가 고위급 조정으로 올라갔으나 새 공정표는 아직 없다. [S22]"
+    }
+   ],
+   "point": "투자보호협정은 새 민간투자를 위한 제도이고 공항은 이미 진행 중인 정부사업이다. 두 사안의 성과를 같은 ‘투자 확대’로 합산하지 않는다.",
+   "next_check": "협정 비준·발효, 투자분쟁 조항, 공항 월별 공정률·부지인도·터미널 재원과 2028일정."
+  },
+  {
+   "type": "asean",
+   "title": null,
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "연무: 면적, 책임, 노출은 같은 숫자가 아니다",
+     "text": "인도네시아의 191만 6천 588㏊는 위성으로 본 누적 소실면적이다. 싱가포르의 열 개 기업 통지는 양허지 화재와 연기 이동 가능성에 대응한 예방조치다. 말레이시아의 행동계획 개정은 학교 운영과 보건 대응을 조정한다. 세 수치를 서로 대신 쓰지 않는다."
+    }
+   ]
+  },
+  {
+   "type": "theme",
+   "title": "Digital & AI Watch",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "말레이시아 반도체 IC 설계단지의 6 종 제품 공개는 자국 설계 역량의 가시적 성과다. 그러나 제품 발표와 시장 검증은 구분한다. MARS1000 등 제품의 고객 채택·기술인증·상용 생산계약을 후속 지표로 삼는다. [S29·S30]"
+    },
+    {
+     "label": null,
+     "text": "필리핀 Pax Silica 허브는 AI·반도체·핵심광물 공급망 구상이다. 부지·전력·데이터센터 용량·투자자·보상 절차가 나오기 전에는 운영 거점으로 분류하지 않는다."
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "title": "금융시장: MSCI 검토는 아직 결정이 아니다",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "MSCI의 시장분류 검토와 16·19일 증시 급락은 연결돼 있다. 그러나 분류 변경 결정은 앞으로 남아 있다. IDX의 자유유통비율 규정과 금융 감독당국의 지분·거래 투명성 조치, MSCI 재평가 일정이 뒤따르는지 확인해야 한다. [S27·S28]"
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "heading": "Compact Chronology",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "15 Oct: 동티모르–인도네시아 투자보호협정 서명; 딜리 공항 조정"
+    },
+    {
+     "label": null,
+     "text": "16 Oct: MSCI 인도네시아 강등 가능성 제기와 증시 급락; 말레이시아 반도체 6 종 공개"
+    },
+    {
+     "label": null,
+     "text": "18 Oct: 베트남–EFTA FTA 서명; CNF·ABSDF 평화대화 거부 보도"
+    },
+    {
+     "label": null,
+     "text": "19 Oct: 자카르타 증시 추가 하락; 싱가포르 추가 기업통지; 필리핀 중국대사 소환; 1MDB 사건 환송"
+    },
+    {
+     "label": null,
+     "text": "20 Oct: 브루나이 APAGM 본회의와 싱가포르 PSI 전망 — 후속 확인"
+    },
+    {
+     "label": null,
+     "text": "26 Oct: 1MDB 사건관리 예정"
+    }
+   ]
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [
+  "앞으로 확인할 것은 IDX·OJK의 시장구조 개선안과 MSCI의 다음 판단, NEA의 기업 회신 후 조치, 베트남–EFTA 발효 문서다. 브루나이 검찰협력 회의의 공동성명은 20일 마감 이후 별도로 확인한다."
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": "S02",
+   "text": "Singapore NEA — NEA Issues Additional Notices Under the Transboundary Haze Pollution Act",
+   "url": null
+  },
+  {
+   "id": "S03",
+   "text": "Singapore NEA — Haze Situation Update (19 October 2026)",
+   "url": null
+  },
+  {
+   "id": "S04",
+   "text": "Associated Press — Singapore expands crackdown on Indonesian companies linked to haze",
+   "url": null
+  },
+  {
+   "id": "S05",
+   "text": "Free Malaysia Today / AFP — Indonesia’s fires burned over 1.9 million hectares through September, says monitor",
+   "url": null
+  },
+  {
+   "id": "S06",
+   "text": "BPS-Statistics Indonesia — In March 2026, the percentage of the poor population decreased to 8.07 percent",
+   "url": null
+  },
+  {
+   "id": "S07",
+   "text": "World Bank / BPS — Joint Statement on Indonesia Poverty Figures",
+   "url": null
+  },
+  {
+   "id": "S08",
+   "text": "Bernama — Govt Refining Proposals To Improve National Haze Action Plan",
+   "url": null
+  },
+  {
+   "id": "S09",
+   "text": "Bernama — 1MDB Wins Appeal For Fresh Hearing On US$3.78 Bln Judgment",
+   "url": null
+  },
+  {
+   "id": "S10",
+   "text": "Associated Press — Philippines summons Chinese ambassador to protest remarks it says threatened force",
+   "url": null
+  },
+  {
+   "id": "S11",
+   "text": "Philippine Presidential Communications Office — Pax Silica hub to boost PH role in global AI value chain",
+   "url": null
+  },
+  {
+   "id": "S12",
+   "text": "Viet Nam Government News — Viet Nam, EFTA member countries sign free trade agreement",
+   "url": null
+  },
+  {
+   "id": "S13",
+   "text": "Viet Nam Government News — Top Vietnamese leader meets Danish King Frederik X and Queen Mary in Copenhagen",
+   "url": null
+  },
+  {
+   "id": "S14",
+   "text": "The Star / Xinhua — Cambodia and Thailand agree on confidence-building measures to resolve maritime dispute",
+   "url": null
+  },
+  {
+   "id": "S15",
+   "text": "The Nation Thailand — NIDA Poll finds economy tops Thai censure pressure points at 34.27%",
+   "url": null
+  },
+  {
+   "id": "S16",
+   "text": "Myanmar President’s Office / Myawady — Ordinance No. 7/2026: Announcement on Validity of Ordinance",
+   "url": null
+  },
+  {
+   "id": "S17",
+   "text": "Eleven Myanmar — Union Parliament approves a 90-day extension of the state of emergency in 55 townships",
+   "url": null
+  },
+  {
+   "id": "S18",
+   "text": "DVB / Euro-Burma Office — Myanmar regime invitation to peace talks rejected by CNF and ABSDF",
+   "url": null
+  },
+  {
+   "id": "S19",
+   "text": "KPL – Lao News Agency — Borikhamxay Signs Agreements for Three Solar Power Projects with 15 MW Capacity",
+   "url": null
+  },
+  {
+   "id": "S20",
+   "text": "KPL – Lao News Agency — Laos Seeks Higher-Quality Investment Through Improved Management",
+   "url": null
+  },
+  {
+   "id": "S21",
+   "text": "TATOLI — Timor-Leste, Indonesia sign agreement on promotion and protection of investments",
+   "url": null
+  },
+  {
+   "id": "S22",
+   "text": "TATOLI — Govt steps up coordination with Indonesia to speed up airport expansion",
+   "url": null
+  },
+  {
+   "id": "S23",
+   "text": "ASEAN Secretariat — Inaugural ASEAN Senior Officials of the Prosecutors/Attorneys General Meeting",
+   "url": null
+  },
+  {
+   "id": "S24",
+   "text": "Attorney General’s Chambers Brunei — 1st ASEAN Prosecutors / Attorney General Meeting 2026",
+   "url": null
+  },
+  {
+   "id": "S25",
+   "text": "Hong Kong Government — Secretary for Justice to attend China-ASEAN Prosecutors-General Conference in Brunei",
+   "url": null
+  },
+  {
+   "id": "S27",
+   "text": "Reuters / Jakarta Post — Indonesian stocks slide to six-year low as MSCI standalone warning weighs",
+   "url": null
+  },
+  {
+   "id": "S28",
+   "text": "Financial Times — Indonesia tightens JCI membership to address MSCI concerns",
+   "url": null
+  },
+  {
+   "id": "S29",
+   "text": "Malay Mail — Malaysia unveils six homegrown chips with RM300m sales potential",
+   "url": null
+  },
+  {
+   "id": "S30",
+   "text": "Radio Televisyen Malaysia — Six locally developed chips and potential sales",
+   "url": null
+  }
+ ]
+}

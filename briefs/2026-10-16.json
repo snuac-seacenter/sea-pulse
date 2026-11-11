@@ -1,0 +1,487 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-10-16",
+ "weekday": "금",
+ "title": "동남아 데일리 브리프",
+ "edition": "SEA PULSE DAILY",
+ "editor": "김형종",
+ "observation_cutoff": null,
+ "headline": null,
+ "pulse": [
+  "15일에는 에너지·디지털 투자에 대한 정책 설계가 구체화됐다. 말레이시아는 데이터센터 전력요금의 ‘사용자 부담’ 방식을 검토하기 시작했고, 싱가포르는 AI 코딩 보조도구의 보안평가 안내서를 공개했다. 두 사안은 각각 향후 요율 연구와 당일 실무지침 발행으로 단계가 다르다. 인도네시아 국영전력 PLN은 전날 주주총회에서 결정된 사장 교체를 공식 확인했다. 산불·연무에 대한 항의시위는 수마트라에서 이어졌고, 여론조사는 정부의 국정방향에 대한 긍정 인식이 하락했음을 보여준다. 단기 사건과 장기 평가를 하나의 인과관계로 묶지는 않았다. 베트남은 외국인투자 혜택을 국내 공급업체 육성과 연결하려는 개정 방향을 공개했다. 해당 방안은 아직 재무부의 법 개정 검토 단계다. 태국은 동부 저수지·강수 위험을 관리하며 APEC 금융장관 공동성명 초안을 내각에 제출했다. 브루나이 수쿠크 발행, 필리핀의 9월 여론조사 발표와 동티모르의 휴교 시행도 함께 확인했다."
+ ],
+ "monitor": [],
+ "sections": [
+  {
+   "type": "country",
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국영 전력회사 PLN의 임시주주총회는 14일 수로소 이스난다르를 신임 사장으로 선임했다. 회사가 15일 이를 공식 확인하면서 전력 설비 신뢰도와 재생에너지 사업을 맡던 인사가 전체 회사를 지휘하게 됐다. 인사 변경은 완료됐지만 대통령이 주문한 전력회사 전환의 세부 목표나 신규 예산은 별도로 확인되지 않았다. [S06]"
+    },
+    {
+     "label": null,
+     "text": "수마트라에서는 산불과 연무에 항의하는 학생·시민 시위가 이어졌다. 팔렘방과 리아우 지역의 책임규명 요구, 일부 충돌·체포는 현지 보도로 확인된다. 건별 시위 발생일은 15일보다 앞서므로 이날 새로 시작된 전국적 시위로 묘사하지 않았다. [S08]"
+    },
+    {
+     "label": null,
+     "text": "SMRC의 10월 1~10일 조사(응답자 1,213명)에서는 국가가 바른 방향으로 가고 있다는 응답이 47.7%로 나타났다. 2024년 10월 83%와의 차이는 여론의 흐름을 보여주지만 질문·조사 설계의 동일성과 정책별 원인을 단정하지 않는다. 건조빙을 활용한 기상조절 시험은 산불 진압 성과가 아니라 시험 단계다. [S07,S30]"
+    },
+    {
+     "label": "주목",
+     "text": "전력공기업의 경영진 교체가 정전 대책과 장기투자계획에 반영되는 시점은 분리해서 확인한다. 산불 대응은 시위 규모보다 화점 감소, 진압면적, 회사 제재와 피해지역 의료자료가 유용하다."
+    }
+   ],
+   "next_check": "PLN 이사회·투자계획 개정, 바탐 전력공급 지표, 산불 발생면적·연무 관측치, 관련 시위·수사 공식 기록."
+  },
+  {
+   "type": "country",
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "파딜라 유소프 부총리는 15일 의회에서 전력 사용량이 큰 데이터센터와 산업체가 더 높은 부담을 지는 ‘사용자 부담’ 차등요금 방안을 검토한다고 말했다. 에너지위원회의 검토는 내년 추진할 예정이며, 새로운 요율·기준 사용량·시행일은 정해지지 않았다. 800kWh 이하 전기요금 지원의 향후 처리 문제와도 관련된다. [S11]"
+    },
+    {
+     "label": null,
+     "text": "믈라카 주선거를 앞두고 바리산나시오날(BN)의 자히드 하미디 의장은 자신들이 보유한 21 석을 유지하되 나머지 7 석을 놓고 정당 간 협상을 진행한다는 입장을 내놨다. 메를리마우 지역구를 PAS에 넘길 수 있다는 보도는 당내 소식통 발언으로, 공식 후보등록과 동일시할 수 없다. [S12,S13]"
+    },
+    {
+     "label": null,
+     "text": "페낭 지역개발청(PERDA) 의장이 공공사업 하도급과 관련된 15개 부패 혐의로 법원에 출석해 무죄를 주장했다. 검찰이 제시한 혐의 금액은 약 84만 7천 링깃이다. 이날의 단계는 기소 및 보석 결정으로, 유죄판결이 내려진 것은 아니다. [S33]"
+    },
+    {
+     "label": "주목",
+     "text": "전력요금 설계는 데이터센터 투자유치 비용을 누가 감당하는지 바꿀 수 있다. 주선거 협상은 지도부의 원칙과 개별 선거구 배분 사이에 아직 조정 공간이 남아 있다."
+    }
+   ],
+   "next_check": "에너지위원회 연구 착수 문서·산업별 요율표, 믈라카 10월 31일 후보등록, PERDA 사건 차기 공판."
+  },
+  {
+   "type": "country",
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "사이버보안청(CSA)은 15일 자율형 AI 코딩 보조도구를 안전하게 활용하기 위한 보안평가 안내서를 공개했다. 소스코드와 개발환경, 기밀 자격증명에 접근하는 도구를 대상으로 실무자가 위험을 평가하고 통제하도록 구성한 문서다. 지침 발행과 기업의 실제 준수·감사는 다른 단계다. [S18]"
+    },
+    {
+     "label": null,
+     "text": "CSA는 사이버보안 전문가의 실무능력을 인정하는 인증 틀을 2027년 2분기 시범운영하겠다고 밝혔다. 전날 실시한 자율형 AI 보안 도상훈련 결과도 15일 공개해 핵심 인프라 운영자와 정책당국이 자동화된 에이전트의 책임·통제 문제를 검토했다고 설명했다. [S19,S20]"
+    },
+    {
+     "label": "주목",
+     "text": "역내 사이버 협력의 다음 과제는 상위 전략의 반복 발표보다 기업 실무지침, 인증 기준과 침해사고 정보교환의 접점에 있다."
+    },
+    {
+     "label": null,
+     "text": "서울대 아시아연구소 동남아센터 •"
+    }
+   ],
+   "next_check": "CSA 안내서 평가항목, 2027년 인증 시범 대상·인증기관, 도상훈련 권고사항과 후속 시행 일정."
+  },
+  {
+   "type": "country",
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "15일 공개된 펄스아시아 조사에서 사라 두테르테 부통령은 신임 55%, 국정수행 긍정 54%를 기록했다. 마르코스 대통령의 신임은 29%, 긍정은 30%였다. 표본은 9월 17~24일 조사된 성인 2,400명으로, 10월 15일 현재의 실시간 지지율이나 탄핵심판 판결 전망이 아니다. [S16]"
+    },
+    {
+     "label": null,
+     "text": "대만과 가까운 바타네스 제도 주변에서는 중국 조사선 활동과 필리핀의 항의가 논의됐다. 15일의 CNA 분석은 앞선 10월 1일 해상 대치를 설명한 것으로, 중국 정부가 바타네스에 새 공식 영유권 주장을 제출했다는 증거는 없다. [S17]"
+    },
+    {
+     "label": "주목",
+     "text": "탄핵심판 일정과 여론조사 시점은 서로 다르다. 바타네스에서는 학술적 주장, 실제 선박 활동, 외교부 공식 입장을 별도로 기록한다."
+    }
+   ],
+   "next_check": "조사기관 원자료·지역별 응답, 탄핵심판 차기 기일, 해안경비대 AIS·항적 및 양국 공식 외교문서."
+  },
+  {
+   "type": "country",
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "15일 베트남 재무부 산하 외국인투자 담당자의 설명은 외국인투자(FDI) 우대혜택을 국내 공급업체 육성 약속과 더 밀접하게 연결하려는 방향을 드러냈다. 현지조달 비중은 약 20~25%로 소개됐고, 기술이전·인력훈련·국내업체 납품 기회가 성과 조건으로 논의됐다. 재무부는 투자법 개정을 연구 중이므로, 새로운 일반 의무가 이날 발효된 것은 아니다. [S26]"
+    },
+    {
+     "label": null,
+     "text": "산업부가 앞서 확정한 2026~2035년 지원산업 프로그램은 공급망 참여기업의 기술·품질기준을 다뤘다. 2030년까지 외국계 기업 공급망에 진입하는 국내 기업 약 1만 곳, 그중 1차 공급업체 500~1,000곳이라는 목표가 제시돼 있다. 삼성베트남은 공급업체 데이터베이스와 공동 역량강화 체계를 제안했다. [S27,S26]"
+    },
+    {
+     "label": null,
+     "text": "EU가 희토류·텅스텐 등 핵심광물 확보를 위해 베트남과 협력 확대를 검토한다는 로이터 보도는 14일 공개됐다. 내부 협의 문서의 존재가 공급계약이나 광산 투자 승인과 같은 것은 아니다. 당일 신규 합의가 확인되지 않아 이번 판에서는 투자정책의 대외 맥락으로만 사용한다. [S28]"
+    },
+    {
+     "label": "주목",
+     "text": "혜택을 단지 유치금액이 아니라 납품·훈련·기술이전 성과에 연동하려면 기업의 보고의무, 혜택 회수 조건과 공급업체 인정 기준이 필요하다. 실제 설계가 공개될 때 제도변화를 판단할 수 있다."
+    }
+   ],
+   "next_check": "투자법 개정안 제출·조항, FDI 우대 조건별 KPI, 1차 공급업체 신규 등록, EU-베트남 광물 협력 공식합의 여부."
+  },
+  {
+   "type": "country",
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국 기상청은 15~16일 방콕과 주변 지역의 약 60%에서 뇌우가 나타날 것으로 전망했다. 국가수자원청의 전날 공개 자료에는 동부 농쁠라라이 저수지가 명목 저장용량의 106%, 쁘라새 90%, 방프라 85%에 이른 것으로 나타났다. 저수율 수치는 13일 측정값이어서 15일의 실제 침수면적과 구분한다. [S21,S22]"
+    },
+    {
+     "label": null,
+     "text": "재무부는 가계 지원, 디지털 인프라 금융, 금융접근성, 전문인력 육성을 담은 APEC 재무장관 공동성명 초안을 내각에 제출했다고 15일 밝혔다. 이는 정부의 문서 제출이지 10월 21일 최종 합의문 채택은 아니다. 기업 홍수피해 4,635곳은 전일 집계로만 연결한다. [S23,S31]"
+    },
+    {
+     "label": "주목",
+     "text": "기상예보, 저수지 운영수치, 사업체 손실 집계는 서로 다른 자료다. 동부 산업단지의 실제 재가동 판단에는 방류량과 전력·도로 복구가 필요하다."
+    }
+   ],
+   "next_check": "10월 16일 실측강우, 동부 3개 저수지 방류량, 산업단지 재가동률, 내각 심의·APEC 21일 성명."
+  },
+  {
+   "type": "country",
+   "title": "캄보디아",
+   "countries": [
+    "KH"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부의 온라인사기 대응위원회 고위 관계자는 15일 보도된 설명에서 코콩주 롱베이 지역 관련 외신 보도를 언급하며 조직 재형성을 막고 배후 인물을 추적하겠다는 입장을 다시 밝혔다. 정부가 제시한 86개 거점 단속과 446건 법원 송치 수치는 과거 누적 실적으로, 15일 하루의 신규 검거 건수가 아니다. [S03,S05]"
+    },
+    {
+     "label": null,
+     "text": "Straits Times의 현지 취재는 국제 제재대상으로 거론된 유력 인물에 대한 기소 여부와 정치·사업 네트워크의 관계에 의문을 제기했다. 정부 주장과 독립 취재 사이의 차이는 수사기록·기소장·재산몰수 결정문으로 확인해야 한다. [S04]"
+    },
+    {
+     "label": "주목",
+     "text": "범죄거점 해체 건수만으로 수사망이 주요 자금·조직 책임자까지 이어졌는지 알기 어렵다."
+    }
+   ],
+   "next_check": "법원 사건번호·피고인 공개, 거점 몰수 완료 통계, 초국경 자금 동결·환수 판결."
+  },
+  {
+   "type": "country",
+   "title": "라오스",
+   "countries": [
+    "LA"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "비엔티안 북쪽 반큰의 중국·라오스 합동 지원·훈련시설은 9월 29일 개설됐다. 15일 AP의 현장·위성자료 보도는 공사가 여전히 진행 중이며 비행장 활용범위가 확대될 수 있음을 보여준다. 기존 시설의 상태 확인이지 신규 기지 개설 사건은 아니다. [S09]"
+    },
+    {
+     "label": null,
+     "text": "라오스가 중국과의 안보협력을 확대하는 양상은 베트남의 국경·인도차이나 안보 논의에 영향을 준다. 다만 시설에 중국군 대규모 상설 전력이 배치됐다거나 베트남의 비동맹 외교정책이 바뀌었다는 근거는 현재 확인되지 않았다. [S09,S10]"
+    }
+   ],
+   "next_check": "반큰 활주로 공정·항공기 배치, 중국·라오스 국방부 공동문서, 베트남 공식 외교반응."
+  },
+  {
+   "type": "country",
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "카친독립기구·카친독립군(KIO/KIA)이 군정의 평화회담 제안을 거부했다는 보도가 15일 나왔다. 군정의 카친주 군사활동이 계속되는 상황에서 대화가 현장 상황을 바꾸지 못한다는 입장이다. 회담 제안 원문·조건과 모든 관련 세력의 반응은 아직 확인되지 않았다. [S14]"
+    },
+    {
+     "label": null,
+     "text": "서울대 아시아연구소 동남아센터 •"
+    },
+    {
+     "label": null,
+     "text": "몬·카렌 접경 마을을 겨냥한 군정 공습으로 민간인이 최소 8명 숨졌다는 현지 주민·매체 기반 보고가 나왔다. 사망자 수, 일시, 군사작전 책임에 대한 현장 접근이 어려워 피해 규모는 잠정치로 기록한다. [S15]"
+    },
+    {
+     "label": "주목",
+     "text": "정치적 대화 제안과 전장의 군사행동은 별도 트랙으로 추적한다. 15일 ISEAS 목록의 옛 의원 국적 문제 회고는 동시기의 새로운 국적 규정 변화는 아니다."
+    }
+   ],
+   "next_check": "KIO 성명 전문·군정 협상조건, 접경 공습 피해 독립 검증, 실제 교전 중단 여부."
+  },
+  {
+   "type": "country",
+   "title": "브루나이",
+   "countries": [
+    "BN"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "브루나이 중앙은행은 15일 정부 수쿠크 알이자라 제265 회 91일물 발행을 확인했다. 발행액은 5,500만 브루나이달러, 표면상 임대율은 1.375%다. 제시액 1억 브루나이달러와 실제 낙찰·발행액은 구분해야 한다. [S02]"
+    }
+   ],
+   "next_check": "제266 회 발행 계획, 만기 롤오버와 총 발행잔액 변화, 노동력조사 결과 발표 일정."
+  },
+  {
+   "type": "country",
+   "title": "동티모르",
+   "countries": [
+    "TL"
+   ],
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "14일 결정됐던 전국 학교의 대면수업 중단이 15일부터 실제 적용되는 기간에 들어갔다. 적용대상은 유치·초등·중등 공립·사립 교육 기관으로, 기상당국은 나쁜 대기질이 17일까지 이어질 수 있다고 예보했다. 15일 새로 발표된 추가 연장 결정은 확인하지 못했다. [S24]"
+    },
+    {
+     "label": null,
+     "text": "외교부의 밀레나 랑겔 차관은 연무 대응에 ASEAN 협력기제를 활용하겠다는 뜻을 밝혔다. 발언 자체는 확인되지만 공동 조사·집행이나 공식 분쟁절차가 시작됐다는 근거는 없다. [S25]"
+    }
+   ],
+   "next_check": "16~17일 PM2.5·AQI, 18일 등교 결정, 학생 학습 보충안, ASEAN 정식 협의 요청 문서."
+  },
+  {
+   "type": "deep_dive",
+   "title": null,
+   "countries": [
+    "VN"
+   ],
+   "paragraphs": [
+    {
+     "label": "1 정치적 방향",
+     "text": "6월 정치국 결의와 기존 지원산업 계획은 외국인투자 평가를 유치액 중심에서 국내 기업과의 연계 성과로 옮기는 방향을 제시했다. 15일 보도는 재무부가 개정입법을 연구 중임을 확인했다."
+    },
+    {
+     "label": "2 행정적 번역",
+     "text": "기술이전, 직업훈련, 공급업체 입찰기회, 현지 납품률을 어떤 방식으로 기업별 혜택에 연결할지 남아 있다. 신고·감사·인센티브 회수 권한의 구체적 담당 부처도 개정안에서 확인해야 한다."
+    },
+    {
+     "label": "3 집행 단계",
+     "text": "기존 2026~2035년 지원산업 사업과 삼성의 협력 프로그램은 진행 중이지만 새 FDI 조건의 전국적 적용은 확인되지 않았다. 외국계기업과 국내 공급업체의 실제 계약 변경은 별도 관찰대상이다."
+    },
+    {
+     "label": "4 결과 검증",
+     "text": "2026년 기준 약 20~25%로 소개된 현지조달 비중과 2030년 국내 공급망 참여기업·1차 공급업체 목표를 분리해 측정한다. 신규 등록기업, 계약금액, 유효한 기술이전 건수가 후속 지표다."
+    }
+   ]
+  },
+  {
+   "type": "asean",
+   "title": "ASEAN and Regional",
+   "countries": [],
+   "paragraphs": [
+    {
+     "label": "전력·디지털 비용",
+     "text": "말레이시아의 데이터센터 전기요금 검토와 싱가포르의 AI 실무 보안지침은 각국이 디지털 산업 유치·운영에 서로 다른 정책수단을 사용하는 사례다. 전력 다소비 요율은 연구 단계, 안내서는 발행 단계이므로 같은 수준의 규제로 비교할 수 없다. [S11][S18]"
+    },
+    {
+     "label": "초국경 연무",
+     "text": "수마트라 시위, 동티모르 전국 휴교의 시행과 ASEAN 협력 언급은 피해 지역을 넘어 정치·교육·외교 일정에 영향을 미쳤다. 그러나 구체적인 ASEAN 합동조사 착수나 배상 절차의 개시는 아직 확인되지 않았다. [S08][S24][S25]"
+    },
+    {
+     "label": "공급망과 역외 관계",
+     "text": "베트남은 국내 공급업체 육성 조건을 법률에 어떻게 연결할지 검토 중이며, EU의 핵심광물 협력 구상은 아직 내부 검토 보도다. 두 사례 모두 최종 계약이나 발효를 앞당겨 적지 않았다. [S26][S28]"
+    }
+   ]
+  },
+  {
+   "type": "other",
+   "title": null,
+   "countries": [],
+   "heading": "Compact Chronology",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "15일 오전 브루나이 제265 회 수쿠크 발행일 · PLN 신임 사장 공식 확인 [S02][S06]"
+    },
+    {
+     "label": null,
+     "text": "15일 오전~낮 말레이시아 의회 전력요금 검토 설명 · 싱가포르 AI 코딩 보안지침 공개 [S11][S18]"
+    },
+    {
+     "label": null,
+     "text": "15일 낮 펄스아시아 조사 결과 공개 · 믈라카 의석 협상 설명 [S16][S12]"
+    },
+    {
+     "label": null,
+     "text": "15일 오후 태국 APEC 금융성명 초안 제출 발표 · 동티모르 ASEAN 연무협력 입장 보도 [S23][S25]"
+    },
+    {
+     "label": null,
+     "text": "15일 전일 동티모르 전국 대면수업 중단 기간 개시 · 베트남 현지조달 연계 우대 검토 보도 [S24][S26]"
+    }
+   ]
+  }
+ ],
+ "chronology": [],
+ "bottom_line": [
+  "말레이시아 전력 차등요금은 새 요율표와 2027년 검토 일정이 나와야 비용효과를 비교할 수 있다. PLN 인사 이후에는 사업계획과 정전지표를 확인한다. 베트남의 인센티브 개편은 법 개정안·성과지표가 공개되기 전까지 확정된 조건으로 다루지 않는다."
+ ],
+ "watch_next": [],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": "S02",
+   "text": "BDCB. 265th Government Sukuk Al-Ijarah Series (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S03",
+   "text": "Kampucheathmey. Cambodia vows to prevent return of online scam operations (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S04",
+   "text": "The Straits Times. Cambodia scam crackdown: powerful individuals? (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S05",
+   "text": "Cambodia Ministry of Information. Government anti-scam enforcement statistics (2026-09) 서울대 아시아연구소 동남아센터 • S06 ANTARA / PLN. PLN extraordinary shareholder meeting appoints Suroso Isnandar (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S07",
+   "text": "The Jakarta Post / SMRC. Survey: 47.7 percent right direction; n=1213 (2026-10-14)",
+   "url": null
+  },
+  {
+   "id": "S08",
+   "text": "The Jakarta Post. Sumatra anti-haze protests (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S09",
+   "text": "AP. New China-Laos joint airfield: construction status (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S11",
+   "text": "BERNAMA. Malaysia user-pays electricity tariff idea: Fadillah (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S12",
+   "text": "Malay Mail. Zahid: BN keeps 21 Melaka seats; seven under negotiation (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S13",
+   "text": "The Star. PAS insider says Merlimau is available to PAS (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S14",
+   "text": "Myanmar Now. KIO/KIA rejects peace talk proposal (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S15",
+   "text": "Myanmar Now. At least eight civilians killed Mon-Karen border airstrikes (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S16",
+   "text": "Pulse Asia / GMA. September national trust and approval survey (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S17",
+   "text": "CNA. Batanes in Luzon Strait maritime security assessment (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S18",
+   "text": "Singapore CSA. Security Assessment Handbook for Agentic AI Coding Assistants (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S19",
+   "text": "Singapore CSA. Cybersecurity professional accreditation / minister statement (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S20",
+   "text": "Singapore CSA. Agentic AI Security Tabletop Exercise outcome (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S21",
+   "text": "Thailand Nation / TMD. Bangkok 15-16 October rain advisory (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S22",
+   "text": "Thailand Nation / ONWR. Eastern 3 dams levels",
+   "url": null
+  },
+  {
+   "id": null,
+   "text": "Nong Pla Lai at 106% (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S23",
+   "text": "Thailand Nation / Finance Ministry. APEC Finance Ministers draft statement submitted (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S24",
+   "text": "Timor-Leste Government. Nationwide in-person school closure Oct 15-17 (2026-10-14)",
+   "url": null
+  },
+  {
+   "id": "S25",
+   "text": "TATOLI. Timor-Leste affirms intention to work through ASEAN on haze (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S26",
+   "text": "VietNamNet / VNA. FDI incentives and local supplier linkages (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S27",
+   "text": "Vietnam Ministry of Industry and Trade. Decision 929 supporting industry program 2026-35 (2026-05-26)",
+   "url": null
+  },
+  {
+   "id": "S28",
+   "text": "Reuters via MarketScreener. EU seeks Vietnam critical minerals ties; internal documents (2026-10-14)",
+   "url": null
+  },
+  {
+   "id": "S29",
+   "text": "Singapore CSA. US-Singapore 4th cyber policy dialogue, 13 Oct (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S30",
+   "text": "The Guardian. Indonesia dry ice rainmaking trial haze (2026-10-15)",
+   "url": null
+  },
+  {
+   "id": "S33",
+   "text": "The Edge Malaysia / Sessions Court. PERDA chairman pleads not guilty to 15 alleged corruption charges (2026-10-15) 서울대 아시아연구소 동남아센터 •",
+   "url": null
+  }
+ ]
+}
