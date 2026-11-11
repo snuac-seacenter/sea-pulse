@@ -72,7 +72,7 @@
     },
     {
      "label": null,
-     "text": "18일 오후 6 시 기준 24시간 오염지수(PSI)는 109~192로 '나쁨' 수준이었다. 기상청의 19일 공식 전망 범위는 100~190이다. 남풍으로 칼리만탄발 연무 유입이 다소 줄었으나 수마트라의 연기 영향 가능성도 남았다. 15일 공개된 AI 코딩 보조도구 보안평가 안내서는 앞선 판에서 다뤘으므로 오늘 새로운 규제로 재포장하지 않았다. 실무지침이 기업 감사나 인증으로 이어지는지는 별도로 추적한다. [S02][S18]"
+     "text": "18일 오후 6시 기준 24시간 오염지수(PSI)는 109~192로 '나쁨' 수준이었다. 기상청의 19일 공식 전망 범위는 100~190이다. 남풍으로 칼리만탄발 연무 유입이 다소 줄었으나 수마트라의 연기 영향 가능성도 남았다. 15일 공개된 AI 코딩 보조도구 보안평가 안내서는 앞선 판에서 다뤘으므로 오늘 새로운 규제로 재포장하지 않았다. 실무지침이 기업 감사나 인증으로 이어지는지는 별도로 추적한다. [S02][S18]"
     }
    ],
    "next_check": "7개 기업의 대응계획 회신, 국가환경청의 추가 절차, 시간대별 PM2.5와 PSI 관측값, AI 실무 지침의 채택 사례.",
@@ -230,14 +230,14 @@
    "paragraphs": [
     {
      "label": null,
-     "text": "브루나이 중앙은행(BDCB)은 16일 제270 회 이슬람 단기증권(I-Bills) 발행 결과를 공개했다. 발행일은 15일이며 14일물 2,500만 브루나이달러, 수익률 1.25%다. 응찰액과 실제 발행액이 같았으며, 29일 만기가 돌아온다. 이날 발표된 신규 금융운영 자료이되 경기부양책이나 정책금리 변경은 아니다. [S31]"
+     "text": "브루나이 중앙은행(BDCB)은 16일 제270회 이슬람 단기증권(I-Bills) 발행 결과를 공개했다. 발행일은 15일이며 14일물 2,500만 브루나이달러, 수익률 1.25%다. 응찰액과 실제 발행액이 같았으며, 29일 만기가 돌아온다. 이날 발표된 신규 금융운영 자료이되 경기부양책이나 정책금리 변경은 아니다. [S31]"
     },
     {
      "label": null,
-     "text": "연무와 관련해 정부 공식 채널은 18일 오전 7 시·11 시, 오후 2 시·4 시 대기질 현황을 연속 공지했다. 9월부터 오염지수(PSI) 산정에 초미세먼지(PM2.5)가 포함돼 종전 시계열과의 단순 비교에는 주의가 필요하다. 대기질 공지와 별도로 전국 휴교 또는 새로운 비상조치가 내려졌다는 사실은 확인되지 않았다. [S32]"
+     "text": "연무와 관련해 정부 공식 채널은 18일 오전 7시·11시, 오후 2시·4시 대기질 현황을 연속 공지했다. 9월부터 오염지수(PSI) 산정에 초미세먼지(PM2.5)가 포함돼 종전 시계열과의 단순 비교에는 주의가 필요하다. 대기질 공지와 별도로 전국 휴교 또는 새로운 비상조치가 내려졌다는 사실은 확인되지 않았다. [S32]"
     }
    ],
-   "next_check": "제270 회 단기증권의 29일 만기 및 차기 발행, 관측소별 PSI·PM2.5, 보건·학교 운영 지침 변경."
+   "next_check": "제270회 단기증권의 29일 만기 및 차기 발행, 관측소별 PSI·PM2.5, 보건·학교 운영 지침 변경."
   },
   {
    "type": "country",
@@ -327,7 +327,7 @@
  "sources": [
   {
    "id": "S27",
-   "text": "[Human Rights Watch, 캄보디아 대법원 판 결(10/15)](https://www.hrw.org/news/2026/10/15/cambodian-supreme-court-maximizes-sentence-for-opposition-activist) · [S28] [Bangkok Post, 태국 16일 시위(10/16)](https://www.bangkokpost.com/thailand/general/3338230/protesters-blocked-from-reaching-imf-meeting-venue) · [S29] [KPL, 라오스 도로교통법 개정(10/16)](https://kpl.gov.la/EN/detail.aspx?id=109194) · [S30] [KPL, 라오스 민간항공법 개정(10/15)] (https://kpl.gov.la/Detail.aspx?id=109154) · [S31] [BDCB, 제270 회 단기증권(10/16)](https://www.bdcb.gov.bn/publications/details?id=01m51wz9c9v4gqpq9adg0m9s86) · [S32] [브루나이 공식 채널, 18일 대기질 공지](https://t.me/s/govbnofficial)",
+   "text": "[Human Rights Watch, 캄보디아 대법원 판결(10/15)](https://www.hrw.org/news/2026/10/15/cambodian-supreme-court-maximizes-sentence-for-opposition-activist) · [S28] [Bangkok Post, 태국 16일 시위(10/16)](https://www.bangkokpost.com/thailand/general/3338230/protesters-blocked-from-reaching-imf-meeting-venue) · [S29] [KPL, 라오스 도로교통법 개정(10/16)](https://kpl.gov.la/EN/detail.aspx?id=109194) · [S30] [KPL, 라오스 민간항공법 개정(10/15)] (https://kpl.gov.la/Detail.aspx?id=109154) · [S31] [BDCB, 제270회 단기증권(10/16)](https://www.bdcb.gov.bn/publications/details?id=01m51wz9c9v4gqpq9adg0m9s86) · [S32] [브루나이 공식 채널, 18일 대기질 공지](https://t.me/s/govbnofficial)",
    "url": null
   },
   {

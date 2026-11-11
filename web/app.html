@@ -319,6 +319,8 @@ mark { background: var(--hl); color: inherit; padding: 0 1px; }
 .step .nt { font-size: 13px; color: var(--muted); margin-top: 2px; }
 .pill.blue { color: var(--band-deep); background: var(--tint); }
 ol.src { list-style: none; padding-left: 0 !important; }
+ol.src .smeta { color: var(--muted); }
+.esig { margin-top: 4px; font-size: 12.5px; color: var(--muted); }
 @media (max-width: 760px) {
   .dateline { grid-template-columns: minmax(0, 1fr); }
   .dl-date { border-right: 0; border-bottom: 1px solid var(--line); padding: 16px 0; flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
@@ -429,6 +431,13 @@ ol.src { list-style: none; padding-left: 0 !important; }
     return h.replace(GLRX, m => { const k = S.glMap[m]; if (k === undefined || seen.has(k)) return m; seen.add(k); return `<span class="gl" tabindex="0" data-g="${k}">${m}</span>`; });
   };
   const fmt = s => gloss(esc(s)).replace(/\[(S\d{2,3}(?:\s*[·,;–\-]\s*S?\d{2,3})*)\]/g, '<span class="cite">$1</span>');
+  const srcItem = s => {
+    const id = s.id ? `<span class="cite">${esc(s.id)}</span> ` : '';
+    const link = x => s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${x}</a>` : x;
+    if (!s.title && !s.publisher) return `<li>${id}${link(esc(s.text || s.url || ''))}</li>`;
+    const meta = [s.publisher, s.date].filter(Boolean).map(esc).join(' · ');
+    return `<li>${id}${meta ? `<span class="smeta">${meta}</span> · ` : ''}${link(esc(s.title || s.text || s.url || ''))}</li>`;
+  };
   const bgBox = s => (s.issue_ids || []).filter(id => S.bg && S.bg[id]).slice(0, 2).map(id => `<details class="bgx"><summary>배경 보기 · ${esc(S.bg[id].title || S.bg[id].name)}</summary>${S.bg[id].text.map(p => `<p>${fmt(p)}</p>`).join('')}</details>`).join('');
   const STATUS = { NEW: ['NEW', 'blue'], UP: ['↑ 격화', 'red'], CONTINUITY: ['→ 유지', 'gray'], DOWN: ['↓ 완화', 'green'], WATCH: ['WATCH 대기', 'orange'], IMPLEMENTED: ['✓ 집행', 'green'] };
   const monPill = m => {
@@ -491,9 +500,16 @@ ol.src { list-style: none; padding-left: 0 !important; }
   }
   function renderGroup(g, b) {
     const [s0] = g.items[0];
-    const [ko, en] = GROUPS[g.type] || ['', ''];
-    const head = s0.heading || ko || s0.title || '';
+    const [ko, en0] = GROUPS[g.type] || ['', '']; let en = en0;
+    let head = s0.heading || ko || s0.title || '';
     const gid = `g-${g.items[0][1]}`;
+    // 주제 섹션: 디지털·AI면 '디지털·AI 워치', 그 밖의 요일별 경제 주제면 '경제 포커스'
+    let themeSub = '';
+    if (g.type === 'theme') {
+      const digital = !s0.heading || /디지털|digital|\bAI\b|기술|tech/i.test(s0.heading);
+      if (digital) { en = 'DIGITAL & AI WATCH'; themeSub = '여러 나라의 디지털·AI 정책이 발표·검토·시행 중 어디에 있는지 나란히 봅니다'; }
+      else { en = 'ECONOMIC FOCUS'; themeSub = '요일마다 정해진 경제 주제로 여러 나라의 움직임을 나란히 봅니다'; }
+    }
     let h = '';
     if (g.type === 'regional') {
       h = `<ol class="reg">` + g.items.map(([s, i], k) => `<li id="s${i}"><div class="n num">${k + 1}</div><div>${tags(s.countries)}<h3>${fmt(s.title)}</h3>${(s.paragraphs || []).map(p => `<p>${fmt(p.text)}</p>`).join('')}${tail(s)}</div></li>`).join('') + `</ol>`;
@@ -529,7 +545,7 @@ ol.src { list-style: none; padding-left: 0 !important; }
     /* country(3개 이하) · asean · theme · research · watchlist · other: 카드 나열 */
     const hideT = t => g.type === 'theme' && /^(\d+\s*\/\s*)?(\d+\.\s*)?(digital\s*(&|and|\/)?\s*ai\s*(watch|주요동향)?|디지털\s*·\s*ai(\s*주요동향)?)$/i.test((t || '').trim());
     h = `<div class="cards">` + g.items.map(([s, i]) => `<article class="card" id="s${i}">${s.title && !hideT(s.title) && !(g.items.length === 1 && s.title === head) ? `<h3>${s.countries?.length && g.type === 'country' ? `<span class="code ccode">${s.countries[0]}</span>` : ''}${fmt(s.title)}</h3>` : ''}${g.type !== 'country' ? tags(s.countries) : ''}${s.update ? `<div class="upd">${esc(s.update)}</div>` : ''}${s.lede ? `<p class="lede">${fmt(s.lede)}</p>` : ''}<div class="fields">${paras(s.paragraphs)}</div>${tableHtml(s.table)}${tail(s)}${bgBox(s)}</article>`).join('') + `</div>`;
-    return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en, g.type === 'theme' ? '여러 나라의 디지털·AI 정책이 발표·검토·시행 중 어디에 있는지 나란히 봅니다' : '')}${h}</section>`;
+    return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en, themeSub)}${h}</section>`;
   }
 
   /* ---------- 오늘의 브리프 ---------- */
@@ -549,7 +565,7 @@ ol.src { list-style: none; padding-left: 0 !important; }
     if ((b.monitor || []).length) {
       const st = b.monitor.some(m => m.stage), nt = b.monitor.some(m => m.next_trigger);
       body += `<section id="monitor" data-toc="지속 이슈 모니터">${sh('지속 이슈 모니터', 'SEA PULSE MONITOR')}<div class="tbl"><table class="wide"><thead><tr><th>이슈</th><th>상태</th>${st ? '<th>현재 단계</th>' : ''}<th>오늘의 변화·판단</th>${nt ? '<th>다음 계기</th>' : ''}</tr></thead><tbody>` +
-        b.monitor.map(m => `<tr><td>${esc(m.issue)}</td><td>${monPill(m)}</td>${st ? `<td>${fmt(m.stage || '')}</td>` : ''}<td>${fmt(m.delta || '')}</td>${nt ? `<td>${fmt(m.next_trigger || '')}</td>` : ''}</tr>`).join('') + `</tbody></table></div></section>`;
+        b.monitor.map(m => `<tr><td>${esc(m.issue)}</td><td>${monPill(m)}</td>${st ? `<td>${fmt(m.stage || '')}</td>` : ''}<td>${fmt(m.delta || '')}${m.economic_signal ? `<div class="esig">경제 신호 · ${fmt(m.economic_signal)}</div>` : ''}</td>${nt ? `<td>${fmt(m.next_trigger || '')}</td>` : ''}</tr>`).join('') + `</tbody></table></div></section>`;
     }
     body += groups.map(g => renderGroup(g, b)).join('');
     // 크로놀로지: 이슈별 기록 / 다가오는 일정 / 최근 일지로 나눔
@@ -572,7 +588,7 @@ ol.src { list-style: none; padding-left: 0 !important; }
     if (pastLog.length) foot += `<details class="more" id="chrono"><summary>최근 일지 — 지난 며칠의 사건 순서 (${pastLog.length})</summary>${evList(pastLog)}</details>`;
     if (issueCh.length) foot += `<details class="more"><summary>이슈별 기록 (${issueCh.length}) — 지속 이슈 화면에서 날짜별로 이어 볼 수 있습니다</summary>` + issueCh.map(c => `<div class="issue-mini"><b>${esc(c.issue)}</b>${evList(c.events)}${c.status ? `<div class="status ${statusCls(c.status)}"><b>현재 상태</b>${fmt(c.status)}</div>` : ''}</div>`).join('') + `</details>`;
     if ((b.verification_notes || []).length) foot += `<details class="more"><summary>검증 노트 (${b.verification_notes.length})</summary><ul>${b.verification_notes.map(v => `<li>${fmt(v)}</li>`).join('')}</ul></details>`;
-    if ((b.sources || []).length) foot += `<details class="more"><summary>출처 (${b.sources.length})</summary><ol class="src">${b.sources.map(s => `<li>${s.id ? `<span class="cite">${esc(s.id)}</span> ` : ''}${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text)}</a>` : esc(s.text)}</li>`).join('')}</ol></details>`;
+    if ((b.sources || []).length) foot += `<details class="more"><summary>출처 (${b.sources.length})</summary><ol class="src">${b.sources.map(srcItem).join('')}</ol></details>`;
     foot += `<p class="disclaimer">SEA Pulse는 연구 및 정보 제공을 목적으로 작성됩니다. 본 브리프의 분석과 평가는 편집자의 판단이며 서울대학교의 공식 입장을 의미하지 않습니다. 공개자료의 수집·정리 과정에서 AI 도구를 활용하며, 주요 사실은 원출처 확인과 교차검증을 원칙으로 합니다.</p></section>`;
 
     const tmp = document.createElement('div'); tmp.innerHTML = body;
@@ -654,7 +670,7 @@ ol.src { list-style: none; padding-left: 0 !important; }
         <div><div class="k">지속 이슈 모니터</div><div class="v">여러 날에 걸쳐 추적하는 이슈의 현재 단계, 오늘의 변화, 다음 계기를 한 표로 보여 줍니다.</div></div>
         <div><div class="k">국가별 동향</div><div class="v">변화가 확인된 나라를 중심으로 사실과 그 사실이 정책·행정·정치경제 과정에서 바꾸는 내용을 정리합니다. 나라별 탭으로 넘겨 봅니다. 마지막 ASEAN·역내 탭에는 한 나라에 속하지 않는 ASEAN 회의·협정과 여러 나라에 걸친 공동 현안을 둡니다.</div></div>
         <div><div class="k">특별 이슈 · 심층 분석</div><div class="v">선거처럼 특정 기간에 집중되는 사안이나 깊이 다룰 사안을 따로 엮습니다. 필요한 날에만 싣습니다.</div></div>
-        <div><div class="k">디지털·AI 워치</div><div class="v">여러 나라의 디지털·AI 정책이 발표·검토·시행 중 어디에 있는지 나란히 봅니다.</div></div>
+        <div><div class="k">디지털·AI 워치 / 경제 포커스</div><div class="v">요일마다 정해진 경제 주제(월 디지털·AI, 화 투자·예산·산업정책, 수 금융·시장, 목 무역·공급망·에너지, 금 노동·사회·소비)로 여러 나라의 움직임을 나란히 봅니다.</div></div>
         <div><div class="k">다음에 볼 것</div><div class="v">그날 아직 결론이 나지 않은 쟁점, 날짜가 잡힌 다가오는 일정, 이후 확인할 결정·회의·발표를 한곳에 모읍니다.</div></div>
         <div><div class="k">최근 일지 · 이슈별 기록</div><div class="v">지난 며칠의 사건 순서와 이슈별 날짜 기록은 본문 아래에 접어 둡니다. 이슈별 흐름은 ‘지속 이슈’ 화면에서 이어 봅니다.</div></div>
       </div>

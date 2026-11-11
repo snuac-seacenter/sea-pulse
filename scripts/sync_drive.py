@@ -20,9 +20,9 @@ import jsonschema
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRIEFS = os.path.join(ROOT, 'briefs')
 SCHEMA = json.load(open(os.path.join(ROOT, 'schema', 'brief.schema.json'), encoding='utf-8'))
-# 파일명에 날짜가 들어 있고 .json 으로 끝나면 대상 (예: 2026-11-11.json, 2026-11-11 (1).json, 브리프_2026-11-11.json)
-NAME_RE = re.compile(r'(\d{4}-\d{2}-\d{2})[^/]*\.json$', re.IGNORECASE)
-PRIVATE = ('internal_notes', '_public_edits', 'pdf')
+# 대상 파일명: 2026-11-12.json, 2026-11-12_SERIES_Daily_Web.json, 2026-11-12 (1).json 등. _Run_Metadata.json 같은 다른 산출물은 무시
+NAME_RE = re.compile(r'.*?(\d{4}-\d{2}-\d{2})(?:_SERIES_Daily_Web|_Web)?(?:\s?\(\d+\))?\.json', re.IGNORECASE)
+PRIVATE = ('internal_notes', '_public_edits', 'new_terms', 'pdf')
 # 공개 필드에 있으면 게시를 멈추는 표현 (작업 메모가 섞였을 가능성)
 BLOCK = [r'Gemini', r'\bVERIFIED(-[A-Z])?\b', r'\bCLAIM\b', r'\bVERIFY\b', r'review[- ]pending', r'복구실행', r'canonical event',
          r'research lead', r'\b403\b', r'시간초과', r'원문을? 확보하지 못', r'읽지 못한 글']
@@ -84,7 +84,7 @@ def main():
     # 같은 날짜 파일이 여러 개면(다시 올린 경우) 가장 최근에 수정된 파일만 사용
     latest = {}
     for f in files:
-        m = NAME_RE.search(f['name'])
+        m = NAME_RE.fullmatch(f['name'])
         if m and (m.group(1) not in latest or f['modifiedTime'] > latest[m.group(1)]['modifiedTime']):
             latest[m.group(1)] = f
     for date, f in sorted(latest.items()):

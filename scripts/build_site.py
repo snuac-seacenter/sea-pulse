@@ -13,7 +13,7 @@ SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, 'briefs')
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, '_site')
 
 COUNTRIES = ["TH", "VN", "ID", "PH", "MY", "MM", "SG", "KH", "LA", "BN", "TL"]
-PRIVATE = ("internal_notes", "_public_edits")
+PRIVATE = ("internal_notes", "_public_edits", "new_terms")
 ACTIVE_WINDOW = 3          # 최근 몇 호 안에 나온 이슈를 '진행 중'으로 볼지
 CITE = re.compile(r'\s*\[S\d{2,3}(?:\s*[·,;–\-]\s*S?\d{2,3})*\]')
 
