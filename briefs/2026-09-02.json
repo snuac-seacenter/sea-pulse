@@ -382,7 +382,10 @@
     }
    ],
    "point": "베트남의 국가이익 중심 외교와 ASEAN의 집단규범이 어디서 접점을 찾는지 시험한다. 방문 자체를 미얀마 정상화나 ASEAN 승인으로 해석해서는 안 된다.",
-   "next_check": "의전 수준, 공동성명, 인도지원·폭력중단·포용대화 언급, 신규 경제·안보협정, ASEAN 회원국 반응."
+   "next_check": "의전 수준, 공동성명, 인도지원·폭력중단·포용대화 언급, 신규 경제·안보협정, ASEAN 회원국 반응.",
+   "issue_ids": [
+    "myanmar-normalisation"
+   ]
   },
   {
    "type": "asean",
@@ -468,7 +471,9 @@
   {
    "type": "deep_dive",
    "title": "4. 베트남 정밀분석 — 발전전략·민간부문·정치통제",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": "① 발전전략·정책",
@@ -642,7 +647,11 @@
   {
    "type": "theme",
    "title": "7. Digital / AI 주요동향",
-   "countries": [],
+   "countries": [
+    "VN",
+    "TH",
+    "MM"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -687,7 +696,10 @@
   {
    "type": "special",
    "title": "10. 특별 이슈 분석",
-   "countries": [],
+   "countries": [
+    "VN",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": "국가의 운영지도를 다시 그리는 정치",
@@ -777,7 +789,9 @@
   {
    "type": "research",
    "title": "Research Signal: Mapped State Capacity",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -804,7 +818,11 @@
   {
    "type": "research",
    "title": "13. 기관·연구 입력 점검",
-   "countries": [],
+   "countries": [
+    "VN",
+    "MY",
+    "MM"
+   ],
    "paragraphs": [
     {
      "label": null,

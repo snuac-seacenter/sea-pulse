@@ -259,9 +259,11 @@
    ]
   },
   {
-   "type": "theme",
+   "type": "research",
    "title": "12) 연구기관 신호: 제조·디지털 투자의 성과는 연결성에서 결정",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -364,7 +366,9 @@
   {
    "type": "deep_dive",
    "title": "4. Vietnam Deep Dive ① 발전전략·정책",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -620,7 +624,11 @@
   {
    "type": "theme",
    "title": "7. Digital / AI 주요동향 선택적 디지털 국가의 부상",
-   "countries": [],
+   "countries": [
+    "TH",
+    "VN",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -635,7 +643,9 @@
   {
    "type": "theme",
    "title": "Digital/AI 단계표",
-   "countries": [],
+   "countries": [
+    "MY"
+   ],
    "paragraphs": [],
    "table": {
     "title": null,
@@ -676,7 +686,11 @@
   {
    "type": "special",
    "title": "9. 특별 이슈 분석 박스 복합 국가역량의 시험: 성장전략만으로는 안정과 회복력을 만들 수 없다",
-   "countries": [],
+   "countries": [
+    "ID",
+    "PH",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -770,7 +784,12 @@
   {
    "type": "research",
    "title": "11. Research / Policy Analysis 오늘의 Research Signal: Compound State Capacity",
-   "countries": [],
+   "countries": [
+    "VN",
+    "ID",
+    "PH",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,

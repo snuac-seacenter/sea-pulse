@@ -245,7 +245,10 @@
     }
    ],
    "point": "대기질 회복은 풍향·강수 영향과 진화 성과를 구분해서 평가해야 한다. ASEAN 보고가 실제 회의자료로 등록될지도 확인이 필요하다.",
-   "next_check": "딜리 다중 관측소 PM2.5·AQI, 초국경 연무 피해보고서 원문 및 ASEAN 접수 확인."
+   "next_check": "딜리 다중 관측소 PM2.5·AQI, 초국경 연무 피해보고서 원문 및 ASEAN 접수 확인.",
+   "issue_ids": [
+    "climate-haze"
+   ]
   },
   {
    "type": "asean",
@@ -261,7 +264,9 @@
   {
    "type": "theme",
    "title": "Digital & AI Watch",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": "통신망 제재, 기술 공동선언, 플랫폼 차단 사례",
@@ -272,7 +277,10 @@
   {
    "type": "theme",
    "title": "기업범죄 및 디지털 규제의 서로 다른 검증 기준",
-   "countries": [],
+   "countries": [
+    "MY",
+    "SG"
+   ],
    "paragraphs": [
     {
      "label": null,

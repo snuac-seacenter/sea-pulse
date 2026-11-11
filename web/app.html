@@ -183,6 +183,28 @@ table.wide { min-width: 720px; }
 .pill.orange { color: var(--orange); background: var(--orange-bg); }
 .pill.green { color: var(--green); background: var(--green-bg); }
 .pill.gray { color: var(--muted); background: var(--gray-bg); }
+.special-box .tags { justify-content: center; margin-bottom: 10px; }
+.special-box .tag { font-size: 13px; padding: 2px 10px; background: var(--bg); border: 1px solid var(--line); }
+.special-box .tag .code { font-size: 12px; }
+.gl { border-bottom: 1px dotted var(--band); cursor: help; }
+.gl:focus { outline: none; background: var(--tint); }
+#gltip { position: absolute; z-index: 50; background: var(--ink); color: #fff; font-size: 13px; line-height: 1.65; padding: 10px 12px; box-shadow: 0 6px 20px rgba(0,0,0,.18); pointer-events: none; }
+#gltip b { display: block; font-weight: 700; margin-bottom: 2px; color: #fff; }
+.bgx { margin: 14px 0 4px; border: 1px solid var(--line); background: var(--bg); }
+.bgx summary { cursor: pointer; padding: 8px 12px; font-size: 13.5px; font-weight: 500; color: var(--band-deep); list-style: none; }
+.bgx summary::-webkit-details-marker { display: none; }
+.bgx summary::before { content: '+ '; }
+.bgx[open] summary::before { content: '− '; }
+.bgx p { margin: 0; padding: 0 14px 10px; font-size: 14px; line-height: 1.75; }
+.special-box .bgx { text-align: left; margin-bottom: 14px; }
+.iss .bgx { margin: -4px 0 14px; }
+.adesc { font-size: 13px; color: var(--muted); margin: 0 0 14px; }
+.adesc b { color: var(--ink); font-weight: 500; }
+.subh2 { font-size: 15px; font-weight: 700; color: var(--ink); margin: 26px 0 10px; }
+#watch .bottom { margin-bottom: 4px; }
+.issue-mini { padding: 10px 0 14px; border-top: 1px dashed var(--line); }
+.issue-mini > b { display: block; color: var(--ink); margin-bottom: 6px; }
+details.more .ev { margin: 4px 0 16px; padding-left: 14px; }
 .pill.yellow { color: #a07c00; background: rgba(214, 170, 0, .15); }
 
 .list { list-style: none; margin: 0; padding: 0; }
@@ -391,7 +413,23 @@ ol.src { list-style: none; padding-left: 0 !important; }
   }
 
   /* ---------- 공통: v1 블록 ---------- */
-  const fmt = s => esc(s).replace(/\[(S\d{2,3}(?:\s*[·,;–\-]\s*S?\d{2,3})*)\]/g, '<span class="cite">$1</span>');
+  let GL = [], GLRX = null;
+  function setGlossary(g) {
+    GL = (g.terms || []);
+    const al = [];
+    GL.forEach((t, k) => (t.match || []).forEach(m => al.push([m, k])));
+    al.sort((a, b) => b[0].length - a[0].length);
+    S.glMap = Object.fromEntries(al.map(([m, k]) => [m, k]));
+    const part = m => { const e = esc(m).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); return /^[A-Za-z0-9]/.test(m) ? `(?<![A-Za-z0-9])${e}(?![A-Za-z0-9])` : e; };
+    GLRX = al.length ? new RegExp(al.map(([m]) => part(m)).join('|'), 'g') : null;
+  }
+  const gloss = h => {
+    if (!GLRX) return h;
+    const seen = new Set();
+    return h.replace(GLRX, m => { const k = S.glMap[m]; if (k === undefined || seen.has(k)) return m; seen.add(k); return `<span class="gl" tabindex="0" data-g="${k}">${m}</span>`; });
+  };
+  const fmt = s => gloss(esc(s)).replace(/\[(S\d{2,3}(?:\s*[·,;–\-]\s*S?\d{2,3})*)\]/g, '<span class="cite">$1</span>');
+  const bgBox = s => (s.issue_ids || []).filter(id => S.bg && S.bg[id]).slice(0, 2).map(id => `<details class="bgx"><summary>배경 보기 · ${esc(S.bg[id].title || S.bg[id].name)}</summary>${S.bg[id].text.map(p => `<p>${fmt(p)}</p>`).join('')}</details>`).join('');
   const STATUS = { NEW: ['NEW', 'blue'], UP: ['↑ 격화', 'red'], CONTINUITY: ['→ 유지', 'gray'], DOWN: ['↓ 완화', 'green'], WATCH: ['WATCH 대기', 'orange'], IMPLEMENTED: ['✓ 집행', 'green'] };
   const monPill = m => {
     if (m.status && STATUS[m.status]) return `<span class="pill ${STATUS[m.status][1]}">${STATUS[m.status][0]}</span>`;
@@ -400,20 +438,52 @@ ol.src { list-style: none; padding-left: 0 !important; }
   };
   const GROUPS = {
     regional: ['아세안 역내 정세', 'REGIONAL OUTLOOK'], special: ['특별 이슈 · 특집', 'SPECIAL ISSUE'], country: ['국가별 동향', 'COUNTRY BRIEFING'],
-    country_brief: ['국가별 동향 요약', 'AT A GLANCE'], asean: ['ASEAN · 대외관계', 'ASEAN & EXTERNAL'], theme: ['주제 포커스', 'FOCUS'],
+    country_brief: ['국가별 동향 요약', 'AT A GLANCE'], asean: ['ASEAN · 대외관계', 'ASEAN & EXTERNAL'], theme: ['디지털·AI 워치', 'DIGITAL & AI WATCH'],
     deep_dive: ['심층 분석', 'DEEP DIVE'], macro: ['핵심 거시경제 비교', 'MACRO SNAPSHOT'], research: ['연구·정책 분석', 'READINGS'],
     watchlist: ['워치리스트', 'WATCHLIST'], other: ['', '']
   };
   const groupSections = secs => {
     const g = [];
-    secs.forEach((s, i) => { const last = g[g.length - 1]; if (last && last.type === s.type && s.type !== 'special' && s.type !== 'deep_dive' && s.type !== 'other') last.items.push([s, i]); else g.push({ type: s.type, items: [[s, i]] }); });
+    secs.forEach((s, i) => {
+      // 국가별 동향은 사이에 특집 등이 끼어 있어도 같은 묶음 제목끼리 한 탭 묶음으로 모음(첫 등장 위치에 둠)
+      if (s.type === 'country') {
+        const same = g.find(x => x.type === 'country' && (x.items[0][0].heading || '') === (s.heading || ''));
+        if (same) { same.items.push([s, i]); return; }
+      }
+      const last = g[g.length - 1];
+      if (last && last.type === s.type && s.type !== 'special' && s.type !== 'deep_dive' && s.type !== 'other') last.items.push([s, i]);
+      else g.push({ type: s.type, items: [[s, i]] });
+    });
+    // ASEAN·역내 항목은 국가별 동향 탭의 마지막 탭으로
+    const cg = g.find(x => x.type === 'country');
+    if (cg) {
+      g.filter(x => x.type === 'asean').forEach(x => cg.items.push(...x.items));
+      return g.filter(x => x.type !== 'asean');
+    }
     return g;
   };
   const paras = ps => (ps || []).map(p => p.label ? `<div class="field"><div class="k">${esc(p.label)}</div><p>${fmt(p.text)}</p></div>` : `<p class="pp">${fmt(p.text)}</p>`).join('');
   const tableHtml = t => t ? `${t.title ? `<p class="tcap">${esc(t.title)}</p>` : ''}<div class="tbl"><table class="wide num"><thead><tr>${t.columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${t.rows.map(r => `<tr>${r.map(c => `<td>${fmt(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '';
   const tail = s => (s.point ? `<div class="point"><b>포인트</b>${fmt(s.point)}</div>` : '') + (s.next_check ? `<div class="nextc"><b>다음 확인점</b>${fmt(s.next_check)}</div>` : '');
+  const MON = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 };
+  function evDate(t, ref) {
+    const [ry, rm] = ref.split('-').map(Number);
+    t = String(t || '').trim(); let y, m, d, mm;
+    if ((mm = t.match(/^(\d{4})-(\d{2})-(\d{2})/))) [y, m, d] = [+mm[1], +mm[2], +mm[3]];
+    else if ((mm = t.match(/(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})/))) [y, m, d] = [+mm[1], +mm[2], +mm[3]];
+    else if ((mm = t.match(/^(\d{4})\.(\d{2})$/))) [y, m, d] = [+mm[1], +mm[2], 15];
+    else if ((mm = t.match(/(\d{1,2})월\s*(\d{1,2})/))) [m, d] = [+mm[1], +mm[2]];
+    else if ((mm = t.match(/(\d{1,2})월\s*(중|초|말)/))) [m, d] = [+mm[1], { 초: 5, 중: 15, 말: 25 }[mm[2]]];
+    else if ((mm = t.match(/^(\d{1,2})[./](\d{1,2})/))) [m, d] = [+mm[1], +mm[2]];
+    else if ((mm = t.match(/^(\d{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/))) [m, d] = [MON[mm[2]], +mm[1]];
+    else if ((mm = t.match(/^(\d{1,2})일/))) [m, d] = [rm, +mm[1]];
+    else return null;
+    if (!y) y = ry + (m < rm - 6 ? 1 : 0);
+    return y * 10000 + m * 100 + d;
+  }
+  const ASEAN_DESC = '한 나라에 속하지 않는 ASEAN 회의·협정과 여러 나라에 걸친 역내 공동 현안';
   function sectionCard(s, i) {
-    return `<div class="cpanel" id="s${i}">${s.update ? `<div class="upd">${esc(s.update)}</div>` : ''}${s.lede ? `<p class="lede">${fmt(s.lede)}</p>` : ''}<div class="fields">${paras(s.paragraphs)}</div>${tableHtml(s.table)}${tail(s)}</div>`;
+    return `<div class="cpanel" id="s${i}">${s.type === 'asean' ? `<p class="adesc">${ASEAN_DESC}${s.title && !/^ASEAN\s*([/·]|and|및|과)?\s*(Regional|External Relations|역내|지역|대외관계)?$/i.test(s.title) ? ` · <b>${fmt(s.title)}</b>` : ''}</p>` : ''}${s.update ? `<div class="upd">${esc(s.update)}</div>` : ''}${s.lede ? `<p class="lede">${fmt(s.lede)}</p>` : ''}<div class="fields">${paras(s.paragraphs)}</div>${tableHtml(s.table)}${tail(s)}${bgBox(s)}</div>`;
   }
   function tabPanel(b, idx, titled) {
     if (!titled) return sectionCard(b.sections[idx[0]], idx[0]);
@@ -433,18 +503,20 @@ ol.src { list-style: none; padding-left: 0 !important; }
       const labeled = (s0.paragraphs || []).length && s0.paragraphs.every(p => p.label);
       const body = labeled ? `<dl class="dl">${s0.paragraphs.map(p => `<dt>${esc(p.label)}</dt><dd><p>${fmt(p.text)}</p></dd>`).join('')}</dl>` : `<div class="fields">${paras(s0.paragraphs)}</div>`;
       const label = s0.heading || (g.type === 'special' ? '특별 이슈 · 특집' : '심층 분석');
-      return `<section id="${gid}" data-toc="${esc(s0.title || label)}">${sh(label, en)}<div class="special-box" id="s${g.items[0][1]}">${tags(s0.countries)}${s0.title ? `<h3>${fmt(s0.title)}</h3>` : ''}${s0.lede ? `<p class="lede c">${fmt(s0.lede)}</p>` : ''}${body}${tableHtml(s0.table)}${tail(s0)}</div></section>`;
+      const four = g.type === 'deep_dive' && /4\s*단/.test(s0.title || '') ? '한 사안을 네 단계로 나눠 각 단계가 어디까지 진행됐는지 확인하는 베트남 정례 분석' : '';
+      return `<section id="${gid}" data-toc="${esc(s0.title || label)}">${sh(label, en, four)}<div class="special-box" id="s${g.items[0][1]}">${tags(s0.countries)}${s0.title ? `<h3>${fmt(s0.title)}</h3>` : ''}${s0.lede ? `<p class="lede c">${fmt(s0.lede)}</p>` : ''}${bgBox(s0)}${body}${tableHtml(s0.table)}${tail(s0)}</div></section>`;
     }
-    if (g.type === 'country' && g.items.length >= 4) {
+    if (g.type === 'country' && (g.items.length >= 4 || g.items.some(([s]) => s.type === 'asean') && g.items.length >= 2)) {
       // 같은 나라 항목이 여럿이면 나라별 탭 하나로 묶는다
       const tabs = [];
-      g.items.forEach(([s, i]) => { const c = (s.countries || [])[0] || ''; const t = c && tabs.find(x => x.c === c); if (t) t.idx.push(i); else tabs.push({ c, idx: [i], s }); });
+      g.items.forEach(([s, i]) => { const c = s.type === 'asean' ? 'ASEAN' : (s.countries || [])[0] || ''; const t = c && tabs.find(x => x.c === c); if (t) t.idx.push(i); else tabs.push({ c, idx: [i], s }); });
       const byCountry = tabs.length < g.items.length;
       const curTab = tabs.find(t => t.idx.includes(S.cTab)) || tabs[0];
-      const label = t => byCountry && t.c ? `${esc(NAMES[t.c] || t.c)}${t.idx.length > 1 ? `<span class="n">${t.idx.length}</span>` : ''}` : esc(t.s.title || '');
-      h = `<div class="ctabs" role="tablist">${tabs.map(t => `<button class="tab" type="button" role="tab" data-ctab="${t.idx.join(' ')}" data-multi="${byCountry ? 1 : 0}" aria-current="${t === curTab ? 'page' : 'false'}">${t.c ? `<span class="code">${t.c}</span>` : ''}${label(t)}</button>`).join('')}</div><div class="cpanel-wrap" data-cpanel>${tabPanel(b, curTab.idx, byCountry)}</div>`;
-      const nc = new Set(g.items.map(([s]) => (s.countries || [])[0]).filter(Boolean)).size;
-      return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en, byCountry ? `${nc}개국 · ${g.items.length}개 항목` : nc + '개국')}${h}</section>`;
+      const label = t => t.c === 'ASEAN' ? `ASEAN·역내${t.idx.length > 1 ? `<span class="n">${t.idx.length}</span>` : ''}` : byCountry && t.c ? `${esc(NAMES[t.c] || t.c)}${t.idx.length > 1 ? `<span class="n">${t.idx.length}</span>` : ''}` : esc(t.s.title || '');
+      h = `<div class="ctabs" role="tablist">${tabs.map(t => `<button class="tab" type="button" role="tab" data-ctab="${t.idx.join(' ')}" data-multi="${byCountry || t.idx.length > 1 ? 1 : 0}" aria-current="${t === curTab ? 'page' : 'false'}">${t.c && t.c !== 'ASEAN' ? `<span class="code">${t.c}</span>` : ''}${label(t)}</button>`).join('')}</div><div class="cpanel-wrap" data-cpanel>${tabPanel(b, curTab.idx, byCountry)}</div>`;
+      const nc = new Set(g.items.filter(([s]) => s.type === 'country').map(([s]) => (s.countries || [])[0]).filter(Boolean)).size;
+      const hasA = g.items.some(([s]) => s.type === 'asean');
+      return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en, (byCountry ? `${nc}개국 · ${g.items.filter(([s]) => s.type === 'country').length}개 항목` : nc + '개국') + (hasA ? ' + ASEAN·역내' : ''))}${h}</section>`;
     }
     if (g.type === 'country_brief') {
       h = `<div class="tbl"><table class="wide"><thead><tr><th>국가</th><th>핵심 동향</th><th>다음 확인점</th></tr></thead><tbody>` +
@@ -455,8 +527,9 @@ ol.src { list-style: none; padding-left: 0 !important; }
       return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en)}${g.items.map(([s, i]) => `<div id="s${i}">${tableHtml(s.table)}</div>`).join('')}</section>`;
     }
     /* country(3개 이하) · asean · theme · research · watchlist · other: 카드 나열 */
-    h = `<div class="cards">` + g.items.map(([s, i]) => `<article class="card" id="s${i}">${s.title && !(g.items.length === 1 && s.title === head) ? `<h3>${s.countries?.length && g.type === 'country' ? `<span class="code ccode">${s.countries[0]}</span>` : ''}${fmt(s.title)}</h3>` : ''}${g.type !== 'country' ? tags(s.countries) : ''}${s.update ? `<div class="upd">${esc(s.update)}</div>` : ''}${s.lede ? `<p class="lede">${fmt(s.lede)}</p>` : ''}<div class="fields">${paras(s.paragraphs)}</div>${tableHtml(s.table)}${tail(s)}</article>`).join('') + `</div>`;
-    return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en)}${h}</section>`;
+    const hideT = t => g.type === 'theme' && /^(\d+\s*\/\s*)?(\d+\.\s*)?(digital\s*(&|and|\/)?\s*ai\s*(watch|주요동향)?|디지털\s*·\s*ai(\s*주요동향)?)$/i.test((t || '').trim());
+    h = `<div class="cards">` + g.items.map(([s, i]) => `<article class="card" id="s${i}">${s.title && !hideT(s.title) && !(g.items.length === 1 && s.title === head) ? `<h3>${s.countries?.length && g.type === 'country' ? `<span class="code ccode">${s.countries[0]}</span>` : ''}${fmt(s.title)}</h3>` : ''}${g.type !== 'country' ? tags(s.countries) : ''}${s.update ? `<div class="upd">${esc(s.update)}</div>` : ''}${s.lede ? `<p class="lede">${fmt(s.lede)}</p>` : ''}<div class="fields">${paras(s.paragraphs)}</div>${tableHtml(s.table)}${tail(s)}${bgBox(s)}</article>`).join('') + `</div>`;
+    return `<section id="${gid}" data-toc="${esc(head)}">${sh(head, en, g.type === 'theme' ? '여러 나라의 디지털·AI 정책이 발표·검토·시행 중 어디에 있는지 나란히 봅니다' : '')}${h}</section>`;
   }
 
   /* ---------- 오늘의 브리프 ---------- */
@@ -467,7 +540,10 @@ ol.src { list-style: none; padding-left: 0 !important; }
     const mentioned = new Set(b.sections.filter(s => s.type !== 'country_brief').flatMap(s => s.countries || []));
     const lead = b.headline ? { lbl: '오늘의 한 줄', ps: [b.headline] } : { lbl: "Today's Pulse", ps: b.pulse || [] };
     const pulseBelow = b.headline && (b.pulse || []).length;
-    const groups = groupSections(b.sections);
+    const isChron = s => s.type === 'other' && /chronology|크로놀로지/i.test((s.heading || '') + ' ' + (s.title || ''));
+    const allGroups = groupSections(b.sections);
+    const chronGroups = allGroups.filter(g => isChron(g.items[0][0]));
+    const groups = allGroups.filter(g => !isChron(g.items[0][0]));
     let body = '';
     if (pulseBelow) body += `<section id="pulse" data-toc="Today's Pulse">${sh("Today's Pulse", 'TODAY’S PULSE')}<div class="fields">${b.pulse.map(p => `<p class="pp">${fmt(p)}</p>`).join('')}</div></section>`;
     if ((b.monitor || []).length) {
@@ -476,13 +552,25 @@ ol.src { list-style: none; padding-left: 0 !important; }
         b.monitor.map(m => `<tr><td>${esc(m.issue)}</td><td>${monPill(m)}</td>${st ? `<td>${fmt(m.stage || '')}</td>` : ''}<td>${fmt(m.delta || '')}</td>${nt ? `<td>${fmt(m.next_trigger || '')}</td>` : ''}</tr>`).join('') + `</tbody></table></div></section>`;
     }
     body += groups.map(g => renderGroup(g, b)).join('');
-    if ((b.chronology || []).length) {
-      body += `<section id="chrono" data-toc="크로놀로지">${sh('크로놀로지', 'CHRONOLOGY')}<div class="chrono ${b.chronology.length === 1 ? 'one' : ''}">` + b.chronology.map(c =>
-        `<div class="issue">${c.issue ? `<h3>${esc(c.issue)}</h3>` : ''}<ul class="ev">${c.events.map(e => `<li><span class="d">${esc(e.date)}</span><span>${fmt(e.text)}${e.note ? `<span class="enote">${fmt(e.note)}</span>` : ''}</span></li>`).join('')}</ul>${c.status ? `<div class="status ${statusCls(c.status)}"><b>현재 상태</b>${fmt(c.status)}</div>` : ''}</div>`).join('') + `</div></section>`;
+    // 크로놀로지: 이슈별 기록 / 다가오는 일정 / 최근 일지로 나눔
+    const issueCh = (b.chronology || []).filter(c => c.issue);
+    const evs = (b.chronology || []).filter(c => !c.issue).flatMap(c => c.events);
+    const bd = evDate(b.date, b.date);
+    const upcoming = evs.filter(e => { const d = evDate(e.date, b.date); return d && d > bd; });
+    const pastLog = evs.filter(e => !upcoming.includes(e));
+    if ((b.bottom_line || []).length || upcoming.length || (b.watch_next || []).length) {
+      body += `<section id="watch" data-toc="다음에 볼 것">${sh('다음에 볼 것', 'WHAT TO WATCH', '남은 쟁점 · 다가오는 일정 · 확인 목록')}`;
+      if ((b.bottom_line || []).length) body += `<div class="bottom">${b.bottom_line.map(p => `<p>${fmt(p)}</p>`).join('')}</div>`;
+      if (upcoming.length) body += `<h3 class="subh2">다가오는 일정</h3><div class="tbl"><table class="wide"><thead><tr><th>날짜</th><th>일정</th>${upcoming.some(e => e.note) ? '<th>볼 것</th>' : ''}</tr></thead><tbody>` +
+        upcoming.map(e => `<tr><td>${esc(e.date)}</td><td>${fmt(e.text)}</td>${upcoming.some(x => x.note) ? `<td>${fmt(e.note || '')}</td>` : ''}</tr>`).join('') + `</tbody></table></div>`;
+      if ((b.watch_next || []).length) body += `${(b.bottom_line || []).length || upcoming.length ? '<h3 class="subh2">확인 목록</h3>' : ''}<ol class="list">` + b.watch_next.map((w, k) => `<li><span class="i">${String(k + 1).padStart(2, '0')}</span><span>${fmt(w)}</span></li>`).join('') + `</ol>`;
+      body += `</section>`;
     }
-    if ((b.bottom_line || []).length) body += `<section id="bottom" data-toc="정리">${sh('정리', 'BOTTOM LINE')}<div class="bottom">${b.bottom_line.map(p => `<p>${fmt(p)}</p>`).join('')}</div></section>`;
-    if ((b.watch_next || []).length) body += `<section id="watch" data-toc="다음에 볼 것">${sh('다음에 볼 것', 'WHAT TO WATCH')}<ol class="list">` + b.watch_next.map((w, k) => `<li><span class="i">${String(k + 1).padStart(2, '0')}</span><span>${fmt(w)}</span></li>`).join('') + `</ol></section>`;
     let foot = `<section style="margin-top:52px">`;
+    const evList = list => `<ul class="ev">${list.map(e => `<li><span class="d">${esc(e.date)}</span><span>${fmt(e.text)}${e.note ? `<span class="enote">${fmt(e.note)}</span>` : ''}</span></li>`).join('')}</ul>`;
+    chronGroups.forEach(g => g.items.forEach(([c, i]) => { foot += `<details class="more" id="s${i}"><summary>최근 일지 — ${esc((c.heading || c.title || '').replace(/^\d+\.\s*/, ''))}</summary>${tableHtml(c.table)}${(c.paragraphs || []).length ? `<div class="fields" style="margin-bottom:14px">${paras(c.paragraphs)}</div>` : ''}${tail(c)}</details>`; }));
+    if (pastLog.length) foot += `<details class="more" id="chrono"><summary>최근 일지 — 지난 며칠의 사건 순서 (${pastLog.length})</summary>${evList(pastLog)}</details>`;
+    if (issueCh.length) foot += `<details class="more"><summary>이슈별 기록 (${issueCh.length}) — 지속 이슈 화면에서 날짜별로 이어 볼 수 있습니다</summary>` + issueCh.map(c => `<div class="issue-mini"><b>${esc(c.issue)}</b>${evList(c.events)}${c.status ? `<div class="status ${statusCls(c.status)}"><b>현재 상태</b>${fmt(c.status)}</div>` : ''}</div>`).join('') + `</details>`;
     if ((b.verification_notes || []).length) foot += `<details class="more"><summary>검증 노트 (${b.verification_notes.length})</summary><ul>${b.verification_notes.map(v => `<li>${fmt(v)}</li>`).join('')}</ul></details>`;
     if ((b.sources || []).length) foot += `<details class="more"><summary>출처 (${b.sources.length})</summary><ol class="src">${b.sources.map(s => `<li>${s.id ? `<span class="cite">${esc(s.id)}</span> ` : ''}${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text)}</a>` : esc(s.text)}</li>`).join('')}</ol></details>`;
     foot += `<p class="disclaimer">SEA Pulse는 연구 및 정보 제공을 목적으로 작성됩니다. 본 브리프의 분석과 평가는 편집자의 판단이며 서울대학교의 공식 입장을 의미하지 않습니다. 공개자료의 수집·정리 과정에서 AI 도구를 활용하며, 주요 사실은 원출처 확인과 교차검증을 원칙으로 합니다.</p></section>`;
@@ -525,7 +613,8 @@ ol.src { list-style: none; padding-left: 0 !important; }
       `<li class="step ${statusCls(e.status_text)}"><div class="d">${parts(e.date)[1]}/${parts(e.date)[2]}</div><div>${e.status_text || e.pill || !e.sections?.length ? `<div class="s">${e.pill || ''} ${fmt(e.status_text || e.delta || '—')}</div>` : ''}${e.next_trigger ? `<div class="nt">다음 계기 · ${fmt(e.next_trigger)}</div>` : ''}
         ${e.sections?.length ? `<div class="${e.status_text || e.pill ? 'nt' : 's'}">${e.sections.map(x => `<a href="#brief-${e.date}" data-anchor="${x.anchor}">${fmt(x.title || '본문')}</a>`).join(' · ')}</div>` : ''}
         ${e.events?.length ? `<details><summary>이날 정리된 전개 ${e.events.length}건 보기</summary><ul class="ev">${e.events.map(v => `<li><span class="d">${esc(v.date)}</span><span>${fmt(v.text)}${v.note ? `<span class="enote">${fmt(v.note)}</span>` : ''}</span></li>`).join('')}</ul></details>` : ''}</div></li>`).join('');
-    return `<div class="iss"><h3>${esc(it.name)}<small>${shortDate(it.first)} ~ ${shortDate(it.last)} · ${it.days}회</small></h3><ol class="steps">${rows}</ol></div>`;
+    const bgp = S.bg && S.bg[it.id] ? `<details class="bgx"><summary>배경 보기</summary>${S.bg[it.id].text.map(p => `<p>${fmt(p)}</p>`).join('')}</details>` : '';
+    return `<div class="iss"><h3>${esc(it.name)}<small>${shortDate(it.first)} ~ ${shortDate(it.last)} · ${it.days}회</small></h3>${bgp}<ol class="steps">${rows}</ol></div>`;
   }
   function renderIssues() {
     const I = S.agg.issues.map(it => ({ ...it, entries: it.entries.map(e => ({ ...e, pill: e.monitor ? monPill(e.monitor) : '', status_text: e.status || (e.monitor ? e.monitor.delta : null), next_trigger: e.monitor?.next_trigger })) }));
@@ -563,11 +652,11 @@ ol.src { list-style: none; padding-left: 0 !important; }
       <div class="rows">
         <div><div class="k">오늘의 한 줄 · Today's Pulse</div><div class="v">그날 가장 중요한 변화를 첫머리에서 요약합니다.</div></div>
         <div><div class="k">지속 이슈 모니터</div><div class="v">여러 날에 걸쳐 추적하는 이슈의 현재 단계, 오늘의 변화, 다음 계기를 한 표로 보여 줍니다.</div></div>
-        <div><div class="k">국가별 동향</div><div class="v">변화가 확인된 나라를 중심으로 사실과 그 사실이 정책·행정·정치경제 과정에서 바꾸는 내용을 정리합니다.</div></div>
-        <div><div class="k">특별 이슈 · 특집</div><div class="v">선거처럼 특정 기간에 집중되는 사안이나 깊이 다룰 사안을 따로 엮습니다. 필요한 날에만 싣습니다.</div></div>
-        <div><div class="k">ASEAN · 대외관계, 주제 포커스</div><div class="v">역내 제도와 대외관계, 디지털·경제 같은 주제별 변화를 다룹니다.</div></div>
-        <div><div class="k">크로놀로지</div><div class="v">이슈의 전개를 날짜순으로 기록합니다.</div></div>
-        <div><div class="k">정리 · 다음에 볼 것</div><div class="v">그날의 판단을 정리하고, 이후 확인해야 할 결정·회의·발표를 남깁니다.</div></div>
+        <div><div class="k">국가별 동향</div><div class="v">변화가 확인된 나라를 중심으로 사실과 그 사실이 정책·행정·정치경제 과정에서 바꾸는 내용을 정리합니다. 나라별 탭으로 넘겨 봅니다. 마지막 ASEAN·역내 탭에는 한 나라에 속하지 않는 ASEAN 회의·협정과 여러 나라에 걸친 공동 현안을 둡니다.</div></div>
+        <div><div class="k">특별 이슈 · 심층 분석</div><div class="v">선거처럼 특정 기간에 집중되는 사안이나 깊이 다룰 사안을 따로 엮습니다. 필요한 날에만 싣습니다.</div></div>
+        <div><div class="k">디지털·AI 워치</div><div class="v">여러 나라의 디지털·AI 정책이 발표·검토·시행 중 어디에 있는지 나란히 봅니다.</div></div>
+        <div><div class="k">다음에 볼 것</div><div class="v">그날 아직 결론이 나지 않은 쟁점, 날짜가 잡힌 다가오는 일정, 이후 확인할 결정·회의·발표를 한곳에 모읍니다.</div></div>
+        <div><div class="k">최근 일지 · 이슈별 기록</div><div class="v">지난 며칠의 사건 순서와 이슈별 날짜 기록은 본문 아래에 접어 둡니다. 이슈별 흐름은 ‘지속 이슈’ 화면에서 이어 봅니다.</div></div>
       </div>
 
       <h3>이 페이지에서 보는 법</h3>
@@ -582,6 +671,8 @@ ol.src { list-style: none; padding-left: 0 !important; }
 
       <h3>표기 읽는 법</h3>
       <div class="rows">
+        <div><div class="k"><span class="gl" style="cursor:default">점선 밑줄</span></div><div class="v">약어·기관·정당·협정 이름입니다. 마우스를 올리거나 누르면 짧은 풀이가 뜹니다.</div></div>
+        <div><div class="k">배경 보기</div><div class="v">여러 날에 걸친 이슈에는 처음 읽는 사람을 위한 배경 설명을 접어 두었습니다. 눌러서 펼칩니다.</div></div>
         <div><div class="k">포인트</div><div class="v">사실 정리 뒤에 붙는 편집자의 해석입니다.</div></div>
         <div><div class="k">다음 확인점</div><div class="v">후속 발표나 보도로 확인해야 할 질문입니다.</div></div>
         <div><div class="k">업데이트 · 날짜</div><div class="v">해당 국가 항목의 기준일입니다. ‘오늘 신규 아님’은 당일 새 사실이 없어 이전 동향을 유지했다는 뜻입니다.</div></div>
@@ -667,14 +758,35 @@ ol.src { list-style: none; padding-left: 0 !important; }
   window.addEventListener('hashchange', route);
 
   /* 홈페이지 iframe 높이 자동 맞춤 */
+  /* 용어 풀이 말풍선 */
+  const tip = document.createElement('div'); tip.id = 'gltip'; tip.setAttribute('role', 'tooltip'); tip.hidden = true; document.body.appendChild(tip);
+  let tipFor = null;
+  function showTip(el) {
+    const t = GL[+el.dataset.g]; if (!t) return;
+    tip.innerHTML = `<b>${esc(t.term)}</b>${esc(t.desc)}`; tip.hidden = false; tipFor = el;
+    const r = el.getBoundingClientRect(), w = Math.min(320, innerWidth - 24);
+    tip.style.width = w + 'px';
+    let x = Math.max(12, Math.min(r.left + r.width / 2 - w / 2, innerWidth - w - 12));
+    let y = r.bottom + 8; tip.style.left = x + scrollX + 'px'; tip.style.top = y + scrollY + 'px';
+    const th = tip.offsetHeight; if (r.bottom + 8 + th > innerHeight && r.top - th - 8 > 0) tip.style.top = r.top - th - 8 + scrollY + 'px';
+  }
+  function hideTip() { tip.hidden = true; tipFor = null; }
+  document.addEventListener('mouseover', e => { const el = e.target.closest('.gl'); if (el) showTip(el); });
+  document.addEventListener('mouseout', e => { if (e.target.closest('.gl')) hideTip(); });
+  document.addEventListener('focusin', e => { const el = e.target.closest('.gl'); if (el) showTip(el); });
+  document.addEventListener('focusout', e => { if (e.target.closest('.gl')) hideTip(); });
+  document.addEventListener('click', e => { const el = e.target.closest('.gl'); if (el) { if (tipFor === el) hideTip(); else showTip(el); } else if (!e.target.closest('#gltip')) hideTip(); });
+  window.addEventListener('scroll', () => { if (tipFor && !matchMedia('(hover: hover)').matches) hideTip(); }, { passive: true });
+
   function postHeight() {
     if (!EMBED || window.parent === window) return;
     window.parent.postMessage({ type: 'sea-pulse-height', height: Math.ceil(document.body.getBoundingClientRect().height) }, '*');
   }
   if (EMBED && 'ResizeObserver' in window) new ResizeObserver(postHeight).observe(document.body);
 
-  Promise.all([getJSON('data/index.json'), getJSON('data/agg.json')]).then(([idx, agg]) => {
-    S.index = idx; S.agg = agg;
+  const opt = u => getJSON(u).catch(() => ({}));
+  Promise.all([getJSON('data/index.json'), getJSON('data/agg.json'), opt('data/glossary.json'), opt('data/backgrounds.json')]).then(([idx, agg, gl, bg]) => {
+    S.index = idx; S.agg = agg; S.bg = bg; setGlossary(gl);
     const latest = idx.briefs[0];
     document.getElementById('updated').innerHTML = latest ? `최근 호 <b class="num">${fmtDate(latest.date, latest.weekday)}</b><br>누적 <b class="num">${idx.briefs.length}</b>호` : '';
     route();

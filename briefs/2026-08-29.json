@@ -44,7 +44,11 @@
   {
    "type": "special",
    "title": "‘승인된 AI 투자’에서 ‘국내 가치 포획’으로",
-   "countries": [],
+   "countries": [
+    "VN",
+    "ID",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -387,7 +391,12 @@
   {
    "type": "theme",
    "title": "디지털·AI 주요동향",
-   "countries": [],
+   "countries": [
+    "TH",
+    "VN",
+    "ID",
+    "PH"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -455,9 +464,12 @@
    }
   },
   {
-   "type": "theme",
+   "type": "other",
    "title": "Politics / Security / Society",
-   "countries": [],
+   "countries": [
+    "MY",
+    "KH"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -503,7 +515,12 @@
   {
    "type": "research",
    "title": "Research / Policy Analysis",
-   "countries": [],
+   "countries": [
+    "TH",
+    "VN",
+    "ID",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": "Core signal: `selective-capability state`",
@@ -774,11 +791,6 @@
   {
    "id": null,
    "text": "CNA — Saravanan charged with three bribery counts, 2026-08-28.",
-   "url": null
-  },
-  {
-   "id": null,
-   "text": "Malay Mail — Saravanan claims trial, 2026-08-28.",
    "url": null
   },
   {

@@ -58,7 +58,10 @@
     }
    ],
    "point": "연무 대응계획과 1MDB 재심리는 19일 절차의 변화다. 반도체 6 종 발표는 16일에 일어난 생산·설계 생태계의 성과로 별도 기록하며, 판매 전망을 실현된 매출로 바꾸지 않는다.",
-   "next_check": "연무 행동계획 승인과 원격수업 기준, 10월 26일 1MDB 사건관리, 반도체 6 종의 인증·고객채택·양산계약."
+   "next_check": "연무 행동계획 승인과 원격수업 기준, 10월 26일 1MDB 사건관리, 반도체 6 종의 인증·고객채택·양산계약.",
+   "issue_ids": [
+    "climate-haze"
+   ]
   },
   {
    "type": "country",
@@ -266,7 +269,10 @@
   {
    "type": "theme",
    "title": "Digital & AI Watch",
-   "countries": [],
+   "countries": [
+    "PH",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,

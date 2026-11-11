@@ -40,7 +40,9 @@
   {
    "type": "special",
    "title": "인도네시아 대통령 감청, 1998~2026",
-   "countries": [],
+   "countries": [
+    "ID"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -107,12 +109,18 @@
      "label": null,
      "text": "후속 일정 최저임금 시행명령과 기업 예외 범위, 직종별 중위임금; Melaka 조기투표율과 14일 개표, Sarawak 후보등록."
     }
+   ],
+   "issue_ids": [
+    "malaysia-politics",
+    "my-state-elections-2026"
    ]
   },
   {
    "type": "special",
    "title": "집중 분석 | 최저임금과 임금 사다리",
-   "countries": [],
+   "countries": [
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -148,7 +156,9 @@
   {
    "type": "special",
    "title": "주선거 고정 특집 | Melaka · Sarawak",
-   "countries": [],
+   "countries": [
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -388,7 +398,11 @@
   {
    "type": "theme",
    "title": "Digital / AI Watch",
-   "countries": [],
+   "countries": [
+    "VN",
+    "ID",
+    "SG"
+   ],
    "paragraphs": [
     {
      "label": null,

@@ -448,7 +448,9 @@
   {
    "type": "deep_dive",
    "title": "4. 베트남 정밀분석 — 발전전략·민간부문·정치통제",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -589,9 +591,14 @@
    ]
   },
   {
-   "type": "theme",
+   "type": "other",
    "title": "국가 정치·안보·사회·경제 신호 단계",
-   "countries": [],
+   "countries": [
+    "TH",
+    "VN",
+    "SG",
+    "KH"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -606,7 +613,11 @@
   {
    "type": "theme",
    "title": "7. Digital / AI 주요동향",
-   "countries": [],
+   "countries": [
+    "VN",
+    "PH",
+    "LA"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -633,7 +644,9 @@
   {
    "type": "special",
    "title": "10. 특별 이슈 분석",
-   "countries": [],
+   "countries": [
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": "외부안보 역량과 내부 정당성은 함께 평가해야 한다",
@@ -708,7 +721,9 @@
   {
    "type": "research",
    "title": "Research Signal: Dual-Legitimacy State Capacity",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": null,

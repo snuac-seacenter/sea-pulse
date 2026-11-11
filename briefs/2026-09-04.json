@@ -105,6 +105,9 @@
      "label": null,
      "text": "Source: The Vibes, 3 Sep 2026 — https://www.thevibes.com/articles/news/126891/umno-pas- reunion-gains-pace-as-hadi-puts-pas-on-ge16-alert"
     }
+   ],
+   "issue_ids": [
+    "malaysia-politics"
    ]
   },
   {
@@ -734,6 +737,9 @@
      "label": null,
      "text": "경제 측면에서는 비석유 다변화와 에너지전환이 여전히 장기축이다. 연무가 지속되면 보건·학교·실외노동에 미치는 영향과 함께 석유·가스 중심 재정구조에서 환경·보건 비용이 어떻게 처리되는지 볼 필요가 있다. Official update channel: GOV.BN/JASTRe — https://t.me/s/govbnofficial Regional reference: ASMC — https://asmc.asean.org/"
     }
+   ],
+   "issue_ids": [
+    "climate-haze"
    ]
   },
   {
@@ -760,7 +766,9 @@
   {
    "type": "research",
    "title": "10. Source Index — 공식·핵심 연구기관",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": null,

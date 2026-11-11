@@ -23,7 +23,7 @@
    "paragraphs": [
     {
      "label": null,
-     "text": "프라보워 대통령은 산불을 고의로 낸 개인과 기업을 끝까지 수사하고, 기업의 연루가 확인되면 허가를 취소하라고 내각에 지시했다. 전일판의 경찰 수사 98건에서 한 단계 나아간 정치적 지시지만, 기업별 취소처분이 내려진 것은 아니다. [S03]"
+     "text": "프라보워 대통령은 산불을 고의로 낸 개인과 기업을 끝까지 수사하고, 기업의 연루가 확인되면 허가를 취소하라고 내각에 지시했다. [S03]"
     },
     {
      "label": null,
@@ -66,7 +66,10 @@
     }
    ],
    "point": "보안 명분이 특정 앱 차단을 넘어 공공기관의 클라우드·지도·위치정보 조달 기준으로 확대되는지 살핀다.",
-   "next_check": "NACSA FAQ와 정부 단말 지침, TuJu의 공공기관 채택 실적, 말라카 PH 후보·선거구 배분안(24일)."
+   "next_check": "NACSA FAQ와 정부 단말 지침, TuJu의 공공기관 채택 실적, 말라카 PH 후보·선거구 배분안(24일).",
+   "issue_ids": [
+    "malaysia-politics"
+   ]
   },
   {
    "type": "country",
@@ -287,7 +290,11 @@
   {
    "type": "theme",
    "title": "Digital & AI Watch",
-   "countries": [],
+   "countries": [
+    "TH",
+    "MY",
+    "SG"
+   ],
    "paragraphs": [
     {
      "label": null,

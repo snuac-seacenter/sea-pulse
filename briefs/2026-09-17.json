@@ -176,7 +176,10 @@
     }
    ],
    "point": "전시·저항정부 내부에서 자체 감찰 규모를 공개했다는 점은 제도화의 단서지만, 숫자 자체가 책임성 성과를 입증하지는 않는다. 조사완료·처분·피해자 구제를 분리해 봐야 한다.",
-   "next_check": "사건별 처리상태, 독립 조사자 참여, 징계·형사이첩, 신고자 보호, 피해자 구제."
+   "next_check": "사건별 처리상태, 독립 조사자 참여, 징계·형사이첩, 신고자 보호, 피해자 구제.",
+   "issue_ids": [
+    "myanmar-normalisation"
+   ]
   },
   {
    "type": "country",
@@ -314,7 +317,7 @@
   },
   {
    "id": null,
-   "text": "지역·국제보도 AP · CNA · BERNAMA · Malaysiakini · FMT · The Vibes · Jakarta Globe · Inquirer · Manila Times · Philstar · Dân trí · Business Times · DVB · Eco-Business 자료 기준 2026년 9월 16일 23:59 KST. 전일판 중복 사안은 새 사실·단계 이동·병목 변화 또는 기존 판단의 수정이 확인된 경우에만 유지했다. 선거·왕위 분쟁·사법절차는 후속 공식문서에 따라 변경될 수 있다.",
+   "text": "지역·국제보도 AP · CNA · BERNAMA · Malaysiakini · FMT · The Vibes · Jakarta Globe · Inquirer · Manila Times · Philstar · Dân trí · Business Times · DVB · Eco-Business 자료 기준 2026년 9월 16일 23:59 KST. 선거·왕위 분쟁·사법절차는 후속 공식문서에 따라 변경될 수 있다.",
    "url": null
   }
  ]

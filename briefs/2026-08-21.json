@@ -40,7 +40,10 @@
      "text": "국경 통제가 1년 넘게 이어지며 캄보디아 반테아이메안체이 접경 제조업 공급망에 실물 타격이 나타났다. 현지 보도에 따르면 물류비 급증으로 공장 3곳이 폐쇄 또는 폐쇄 예정이며 약 4,000명의 근로자가 영향을 받았다."
     }
    ],
-   "point": "분쟁의 비용이 군사·외교 영역을 넘어 제조업·노동시장·접경경제로 확산되고 있다. 휴전 감시와 국경 정상화가 경제 회복의 직접 변수다."
+   "point": "분쟁의 비용이 군사·외교 영역을 넘어 제조업·노동시장·접경경제로 확산되고 있다. 휴전 감시와 국경 정상화가 경제 회복의 직접 변수다.",
+   "issue_ids": [
+    "th-kh-border"
+   ]
   },
   {
    "type": "regional",
@@ -136,7 +139,10 @@
     }
    ],
    "point": null,
-   "next_check": null
+   "next_check": null,
+   "issue_ids": [
+    "us-trade"
+   ]
   },
   {
    "type": "country",
@@ -188,7 +194,10 @@
     }
    ],
    "point": null,
-   "next_check": null
+   "next_check": null,
+   "issue_ids": [
+    "scs"
+   ]
   },
   {
    "type": "country",
@@ -212,7 +221,10 @@
     }
    ],
    "point": null,
-   "next_check": null
+   "next_check": null,
+   "issue_ids": [
+    "us-trade"
+   ]
   },
   {
    "type": "country",

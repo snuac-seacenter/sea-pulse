@@ -94,12 +94,19 @@
      "label": null,
      "text": "환경·사회. 말레이시아와 인도네시아는 국경지역 구름씨 살포와 화재진압 공조를 준비하고 있다. 8월 26일 기준 Kalimantan 287개, Sumatra 65개 핫스폿이 관측됐고 말레이시아 여러 지역의 대기질이 ‘unhealthy’였다. 이는 일회성 기상 이슈가 아니라 팜유·산림 허가 집행, 공중보건, 국경 간 재난협력이 교차하는 문제다."
     }
+   ],
+   "issue_ids": [
+    "scs"
    ]
   },
   {
    "type": "special",
    "title": "오늘의 특별 이슈 | AI 붐의 국내 파급효과 시험",
-   "countries": [],
+   "countries": [
+    "TH",
+    "VN",
+    "SG"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -160,7 +167,10 @@
     }
    ],
    "point": "반부패 집행의 확대와 혁신 관료주의 개혁이 동시에 진행된다. 두 흐름 모두 “집행의 비선택성·예측가능성”이 신뢰를 좌우한다.",
-   "next_check": "Saravanan의 실제 혐의·답변·보석조건, 혁신 상용화 관련 구체적 규정·예산, 연무 API와 핫스폿 감소."
+   "next_check": "Saravanan의 실제 혐의·답변·보석조건, 혁신 상용화 관련 구체적 규정·예산, 연무 API와 핫스폿 감소.",
+   "issue_ids": [
+    "climate-haze"
+   ]
   },
   {
    "type": "country",
@@ -458,9 +468,14 @@
    }
   },
   {
-   "type": "theme",
+   "type": "other",
    "title": "정치·안보·대외관계·사회 종합",
-   "countries": [],
+   "countries": [
+    "TH",
+    "MY",
+    "MM",
+    "KH"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -471,7 +486,12 @@
   {
    "type": "theme",
    "title": "디지털·AI 주요동향",
-   "countries": [],
+   "countries": [
+    "TH",
+    "VN",
+    "SG",
+    "BN"
+   ],
    "paragraphs": [],
    "table": {
     "title": null,
@@ -552,12 +572,17 @@
      "label": null,
      "text": "ASEAN 국방고위관리회의는 ADMM 업무계획과 10월 회의 준비를 점검했다. 이는 제도적 연속성 신호지만 남중국해 COC, Myanmar 5PC, Thailand-Cambodia 국경에서 새로운 구속력 있는 합의를 만들지는 않았다."
     }
+   ],
+   "issue_ids": [
+    "scs"
    ]
   },
   {
    "type": "research",
    "title": "오늘의 연구·정책 분석",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": "Core signal: 국내 파급효과를 조건으로 한 산업정책",
@@ -576,7 +601,9 @@
   {
    "type": "research",
    "title": "누적 연구 질문",
-   "countries": [],
+   "countries": [
+    "VN"
+   ],
    "paragraphs": [
     {
      "label": null,

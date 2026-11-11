@@ -521,9 +521,11 @@
    "next_check": "가스전 배분량·계약당사자 합의, 18일 경과 후 정상공급 여부와 싱가포르 에너지시장청의 후속 발표."
   },
   {
-   "type": "theme",
+   "type": "country",
    "title": "내각의 디지털·환경 안건은 초안 단계다",
-   "countries": [],
+   "countries": [
+    "LA"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -632,7 +634,10 @@
   {
    "type": "theme",
    "title": "Digital & AI Watch",
-   "countries": [],
+   "countries": [
+    "VN",
+    "ID"
+   ],
    "paragraphs": [
     {
      "label": null,

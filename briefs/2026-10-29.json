@@ -429,7 +429,11 @@
   {
    "type": "theme",
    "title": "DIGITAL & AI WATCH",
-   "countries": [],
+   "countries": [
+    "VN",
+    "ID",
+    "SG"
+   ],
    "paragraphs": [
     {
      "label": null,

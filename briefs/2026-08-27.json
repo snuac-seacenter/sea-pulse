@@ -103,7 +103,11 @@
   {
    "type": "special",
    "title": "“투자 유치”에서 “국내 가치 포획”으로",
-   "countries": [],
+   "countries": [
+    "VN",
+    "PH",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -405,9 +409,11 @@
    }
   },
   {
-   "type": "theme",
+   "type": "other",
    "title": "정치·안보·대외관계·사회 종합",
-   "countries": [],
+   "countries": [
+    "PH"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -473,7 +479,12 @@
   {
    "type": "research",
    "title": "오늘의 연구·정책 분석",
-   "countries": [],
+   "countries": [
+    "VN",
+    "ID",
+    "PH",
+    "MY"
+   ],
    "paragraphs": [
     {
      "label": null,

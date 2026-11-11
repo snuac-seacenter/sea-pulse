@@ -435,7 +435,7 @@
    "paragraphs": [
     {
      "label": null,
-     "text": "ASEAN 의장국을 맡을 싱가포르는 회원국 간 AI 사고유형 분류와 보안정보 공유를 제안했다. 공통 분류표, 참여 회원국, 보고 권한이 확정된 사업은 아니다. 말레이시아·싱가포르의 연무 대응은 국경을 넘어 기업 자료를 확보하는 문제와 연결되지만, 4일 싱가포르 법률 개정 내용은 전일판에서 이미 다뤄 오늘 다시 사건으로 올리지 않았다. [S09·S27]"
+     "text": "ASEAN 의장국을 맡을 싱가포르는 회원국 간 AI 사고유형 분류와 보안정보 공유를 제안했다. 공통 분류표, 참여 회원국, 보고 권한이 확정된 사업은 아니다. [S09·S27]"
     },
     {
      "label": null,
@@ -446,7 +446,11 @@
   {
    "type": "theme",
    "title": "Digital / AI Watch",
-   "countries": [],
+   "countries": [
+    "VN",
+    "ID",
+    "SG"
+   ],
    "paragraphs": [
     {
      "label": null,
@@ -542,11 +546,6 @@
   {
    "id": "S08",
    "text": "MDDI Singapore — Study of autonomous AI incident and near-miss reporting",
-   "url": null
-  },
-  {
-   "id": "S09",
-   "text": "MDDI Singapore — ASEAN Roundtable speech: AI agent verification and reporting pilot",
    "url": null
   },
   {

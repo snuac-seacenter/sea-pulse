@@ -85,7 +85,7 @@ for b in briefs:
         agg['checks'].append({"date": d, "country": None, "text": w})
         add(d, '다음에 볼 것', '', w, 'watch')
     for p in b.get('bottom_line', []):
-        add(d, '정리', '', p, 'bottom')
+        add(d, '다음에 볼 것', '', p, 'watch')
 
     # 지속 이슈: 이슈 ID가 있는 크로놀로지 묶음과 모니터 행을 날짜별로 이어 붙임
     day = {}
@@ -129,4 +129,12 @@ index.reverse()
 json.dump({"briefs": index, "updated": latest}, open(f'{OUT}/data/index.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 json.dump(agg, open(f'{OUT}/data/agg.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 json.dump(search, open(f'{OUT}/data/search.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+# 용어 풀이 · 이슈 배경 (없으면 빈 파일)
+for name in ('glossary', 'backgrounds'):
+    src = os.path.join(ROOT, 'schema', f'{name}.json')
+    data = json.load(open(src, encoding='utf-8')) if os.path.exists(src) else {}
+    data = {k: v for k, v in data.items() if not k.startswith('_')}
+    if name == 'backgrounds':
+        for k, v in data.items(): v.setdefault('name', REG.get(k) or k)
+    json.dump(data, open(f'{OUT}/data/{name}.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 print(f'{len(briefs)} briefs → {OUT} | issues {len(issues)} | search {len(search)}')

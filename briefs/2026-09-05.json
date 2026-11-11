@@ -27,6 +27,9 @@
      "label": "Sources",
      "text": "AP · ASMC · ISEAS"
     }
+   ],
+   "issue_ids": [
+    "malaysia-politics"
    ]
   },
   {
@@ -146,6 +149,9 @@
      "label": "Sources",
      "text": "NEA · Regional Haze"
     }
+   ],
+   "issue_ids": [
+    "climate-haze"
    ]
   },
   {
@@ -180,6 +186,9 @@
      "label": "Sources",
      "text": "ASMC"
     }
+   ],
+   "issue_ids": [
+    "climate-haze"
    ]
   },
   {
@@ -212,12 +221,20 @@
      "label": "Sources",
      "text": "ASMC · AP - Myanmar"
     }
+   ],
+   "issue_ids": [
+    "scs"
    ]
   },
   {
    "type": "special",
    "title": "Weekend Economic Lens",
-   "countries": [],
+   "countries": [
+    "MY",
+    "SG",
+    "KH",
+    "TL"
+   ],
    "paragraphs": [
     {
      "label": "Shock Absorption & Household Costs",

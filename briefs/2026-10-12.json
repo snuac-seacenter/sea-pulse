@@ -193,7 +193,10 @@
   {
    "type": "deep_dive",
    "title": "Deep Dive | 첫 이웃국 순방의 4단계",
-   "countries": [],
+   "countries": [
+    "KH",
+    "LA"
+   ],
    "paragraphs": [
     {
      "label": "1단계 · 정책 선택",
