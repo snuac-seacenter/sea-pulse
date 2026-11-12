@@ -1,0 +1,654 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-11-12",
+ "weekday": "목",
+ "title": "동남아 데일리 브리프",
+ "edition": "SERIES Daily 구독자판",
+ "editor": "김형종",
+ "observation_cutoff": "2026-11-11 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "인도네시아에서는 기브란 부통령의 사직서 제출이 보도됐지만 대통령 수리와 후임 선출 절차 개시는 확인되지 않았다. 하원 의원 120명이 서명한 별도 의견권 행사안도 12일 본회의를 앞두고 있다. 사임과 해임 경로를 구분해 추적해야 한다. [S002·S003·S004]",
+  "정상회의를 앞두고 ASEAN의 남중국해 행동준칙(COC) 협상에는 새로운 시한 문제가 드러났다. AP가 인용한 동남아 외교관들은 문안의 약 80%에 잠정 합의했지만 적용 해역과 법적 구속력 등을 정하지 못해 2026년 안에 마치기 어렵다고 밝혔다. 태국의 온라인 수입관세 개편은 각료 승인 뒤 관보·시행일을 기다리는 단계다. [S025·S009]"
+ ],
+ "monitor": [
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "indonesia-vp-succession",
+   "issue": "인도네시아 부통령 승계",
+   "status": "NEW",
+   "stage": "서면 제출 보도 · 수리 미확인",
+   "delta": "사직서 제출을 보도했으나 대통령의 수리 및 의회의 후속 절차는 아직 확인되지 않았다. [S002·S003]",
+   "next_trigger": "11월 12일 하원 본회의, 대통령 수리·MPR 접수 문서",
+   "economic_signal": null,
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "malaysia-politics",
+   "issue": "말레이시아 교통부 인선",
+   "status": "WATCH",
+   "stage": "장관 사임 효력 발생 · 후임 대기",
+   "delta": "로크가 사임 철회 의사가 없다고 확인했고 DAP는 후임 후보를 아직 정하지 않았다. [S005]",
+   "next_trigger": "안와르 총리의 권한대행 또는 새 장관 임명",
+   "economic_signal": "항만·철도·항공사업 결재권 확인",
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "my-state-elections-2026",
+   "issue": "말레이시아 주 선거",
+   "status": "WATCH",
+   "stage": "멜라카 본투표 대기 · 사라왁 후보등록 대기",
+   "delta": "멜라카 28석에 79명이 출마했고 14일 본투표가 예정됐다. [S006]",
+   "next_trigger": "11월 14일 멜라카 결과, 28일 사라왁 후보등록",
+   "economic_signal": null,
+   "period": {
+    "start": "2026-11-14",
+    "end": "2026-12-12"
+   }
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "th-online-imports",
+   "issue": "태국 온라인 수입관세",
+   "status": "NEW",
+   "stage": "각료 승인 · 관보 대기",
+   "delta": "특송·국제우편 전자상거래 수입품에 품목별 최대 30% 관세를 적용하는 안이 승인됐다. [S009]",
+   "next_trigger": "재무부 고시 관보 게재일 및 15일 경과 후 시행일",
+   "economic_signal": "해외 플랫폼·소액상품 수입 비용",
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "scs",
+   "issue": "남중국해 행동준칙(COC)",
+   "status": "UP",
+   "stage": "협상 중 · 연내 타결 불투명",
+   "delta": "AP가 익명 외교관들을 인용해 초안 약 80%의 잠정 합의와 2026년 타결 실패 전망을 보도했다. 공동 공식 문안은 미공개다. [S025]",
+   "next_trigger": "11월 14~17일 ASEAN 관련 회의의 의장성명·협상 일정",
+   "economic_signal": "해상 물류의 위험관리 규칙은 아직 미확정",
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "myanmar-conflict-control",
+   "issue": "미얀마 남부 지역 통제",
+   "status": "NEW",
+   "stage": "군정 점령 주장 · 독립 확인 대기",
+   "delta": "군정이 몬·바고 접경의 지휘본부와 10개 기지를 점령했다고 발표했으나 현장 확인은 이루어지지 않았다. [S018·S019]",
+   "next_trigger": "저항세력 입장과 위치 확인 자료·독립 영상",
+   "economic_signal": null,
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "asean-agenda",
+   "issue": "ASEAN 49차 정상회의",
+   "status": "CONTINUITY",
+   "stage": "11월 14일 장관회의 · 15~17일 정상급 회의",
+   "delta": "ASEAN 사무국이 14~17일 전체 회의 및 신규 TAC 가입 서명 계획을 확인했다. [S024]",
+   "next_trigger": "14일 각료 결과, 15~17일 공동성명·실제 서명문",
+   "economic_signal": "DEFA 합의·서명·시행의 법적 단계 구별",
+   "period": {
+    "start": "2026-11-14",
+    "end": "2026-11-17"
+   }
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "heading": null,
+   "title": "인도네시아",
+   "lede": "사퇴 의사 표명에서 서면 제출 보도로 이동했지만 부통령직 공석은 확정되지 않았다.",
+   "countries": [
+    "ID"
+   ],
+   "issue_ids": [
+    "indonesia-vp-succession"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "부통령 기브란 라카부밍 라카의 측근 부디 아리에 세티아디는 11일 사직서 제출을 확인했다. 로이터는 대통령에게 사표를 냈으며 국민협의회(MPR)에는 12일 아침 서한을 전달할 계획이라고 보도했다. 대통령실이 이를 수리했다는 발표나 MPR의 공석 확인은 11일 마감까지 없었다. [S002·S003]"
+    },
+    {
+     "label": null,
+     "text": "하원에서는 8개 정파의 의원 120명이 교육자격 관련 의견권 행사안에 서명했다. 12일 본회의 상정이 예고됐지만, 사임 접수와 해임 심사는 법적 경로가 다르다. 당장의 판단 기준은 대통령의 공식 처리와 의회에 제출되는 문서다. [S004]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "대통령 수리 공표, MPR 서면 접수, 12일 하원 본회의 처리."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "말레이시아",
+   "lede": "장관 사임은 확정됐고, 연정이 후임을 정하는 과정과 두 주 선거가 이어진다.",
+   "countries": [
+    "MY"
+   ],
+   "issue_ids": [
+    "malaysia-politics",
+    "my-state-elections-2026"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "앤서니 로크는 11일 교통장관 사임이 전날부터 효력을 가졌고 철회하지 않겠다고 말했다. 민주행동당(DAP)은 후임 후보를 아직 논의하지 않았으며 임명은 안와르 총리 권한이라고 밝혔다. 이는 연정 탈퇴 발표가 아니지만 교통부의 장관급 결재 체계에는 당장의 공백이 생겼다. [S005·S028]"
+    },
+    {
+     "label": null,
+     "text": "멜라카 주의회 선거는 14일 28개 선거구에서 실시된다. 후보 79명, 등록 유권자 68만7,697명이며, 10일 현장 조기투표율은 94.96%(9,417/9,917명)였다. 조기투표율이 본투표 결과를 예고하는 지표는 아니다. 사라왁은 28일 후보등록, 12월 12일 본투표를 실시한다. [S006·S007·S008]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "교통장관 후임 또는 권한대행 임명, 14일 멜라카 선거구별 결과."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "태국",
+   "lede": "수입품 과세와 데이터센터 인허가 기준을 동시에 손질하며 중국과의 산업협력 문서도 준비한다.",
+   "countries": [
+    "TH"
+   ],
+   "issue_ids": [
+    "th-online-imports",
+    "econ-digital-resilience"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "정부는 특송·국제우편으로 들어오는 전자상거래 상품에 품목별 관세를 적용하되 세율 상한을 30%로 두는 방안을 승인했다. 관세청과 재무부가 고시를 마련한 뒤 관보에 게재하고 15일이 지나야 효력이 발생한다. 관세 인상 시행일이나 모든 품목의 일률적 30% 과세가 확정된 것은 아니다. [S009·S010]"
+    },
+    {
+     "label": null,
+     "text": "13~15일 리창 중국 총리 방문을 앞두고 양국은 두리안·살라카 검역, 식품안전, 자동차·전기차, 직업교육, 안보, 영사 분야의 협력문서 7건을 준비하고 있다. 태국 내각이 서명 초안을 승인했지만, 협정문과 효력은 실제 서명 후 확인해야 한다. 중국 외교부는 리 총리의 15~16일 마닐라 ASEAN–중국 정상회의 참석도 발표했다. [S012·S013]"
+    },
+    {
+     "label": null,
+     "text": "태국 내각은 데이터센터의 전력·용수·환경조건과 허가체계를 정비하는 방향도 승인했다. 현재는 정책 방향이 정해진 단계이며 허가를 좌우할 수치기준과 시행 세칙은 공개 후 확인해야 한다. [S011]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "관세 고시·적용 품목, 데이터센터 허가기준, 13~15일 협정문 서명."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "베트남",
+   "lede": "일본 방문은 종료됐고 공동문서를 실제 예산과 계약으로 옮기는 후속 단계가 남았다.",
+   "countries": [
+    "VN"
+   ],
+   "issue_ids": [],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "또 럼 당서기장 겸 국가주석이 11일 일본 방문을 마치고 귀국길에 올랐다. 방문 중 양국은 공동비전성명과 AI·반도체·에너지 협력문서를 채택·교환했다. 베트남 외교장관은 11일 후속 이행 방향을 설명했지만 각 사업의 자금 조건, 발주기관, 착수일을 확정하는 계약 자료는 별도 공개가 필요하다. [S015·S016]"
+    },
+    {
+     "label": null,
+     "text": "정부가 앞서 발표한 1~10월 등록 외국인투자 548억5천만 달러(+74.0%)와 실제 집행액 240억8천만 달러(+13.1%)의 차이는 산업협력의 집행능력을 평가할 기준이다. 해당 통계는 11일 신규 집계가 아니라 11월 초 발표 자료이며, 외교성과와 합산하지 않는다. [S017]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "일본 협력문서별 실행기관·차관조건·조달 일정, FDI 집행 추이."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "미얀마",
+   "lede": "남부의 군사적 통제 변화 가능성이 제기됐지만 출처는 군정 발표에 의존한다.",
+   "countries": [
+    "MM"
+   ],
+   "issue_ids": [
+    "myanmar-conflict-control"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "군정은 몬주와 바고 지역 접경에서 저항세력 지휘본부와 기지 10곳을 점령했다고 밝혔다. 국영매체를 인용한 AP와 DVB 보도는 작전이 11월 초 여러 날에 걸쳐 진행됐다고 설명한다. 그러나 현장 접근이 제한돼 점령 위치와 통제 지속 여부는 독립적으로 확인되지 않았다. [S018·S019]"
+    },
+    {
+     "label": null,
+     "text": "이 지역은 양곤 동쪽에서 남부로 이어지는 저항세력의 연결축과 맞닿아 있다. 전과 발표만으로 지휘체계 붕괴나 전선 전체의 변화를 단정하기 어렵고, 카렌민족연합(KNU) 등 해당 세력의 확인이 우선이다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "NUG·KNU의 부인 또는 확인, 검증 가능한 위치정보 및 보급로 상황."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "캄보디아",
+   "lede": "소규모 지방 군부대의 재편이 발표됐고, 수출 누계는 증가했으나 두 변화의 성격은 다르다.",
+   "countries": [
+    "KH"
+   ],
+   "issue_ids": [
+    "kh-military-reform"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "훈 마넷 총리는 지방 행정단위에 분산돼 있던 16명 규모의 군 하부작전구역을 폐지하고 병력 일부를 대대 단위로 재편할 계획을 밝혔다. 경찰·헌병 등이 일상 치안을 담당하도록 역할도 재조정한다. 11일 현지 보도와 앞선 징집 개시 발표를 통해 확인되지만 실제 부대 해체·전속 명령과 지역별 병력 배치표는 별도 점검이 필요하다. [S020]"
+    },
+    {
+     "label": null,
+     "text": "1~10월 수출은 약 299억9천만 달러로 전년 동기 대비 20.4% 증가했다는 관세통계 인용 보도도 나왔다. 새 군 지휘체계 발표와 수출 증가를 하나의 정책 결과로 연결할 근거는 없다. [S021]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "국방부 재편 명령과 실제 병력 이동, 수출 품목·시장별 관세통계."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "동티모르",
+   "lede": "2027년 예산안이 국회 일반심의를 통과했으며 세부배분과 최종 가결 절차가 남았다.",
+   "countries": [
+    "TL"
+   ],
+   "issue_ids": [],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "국회는 11일 2027년도 국가예산안 25억6,850만 달러를 찬성 41표, 반대 0표, 기권 23표로 일반심의 단계에서 승인했다. 최종 법률 통과와 대통령 공포까지 끝난 것은 아니다. 본예산의 세부 항목 심의는 11월 24일부터 시작할 예정이다. [S022·S023]"
+    },
+    {
+     "label": null,
+     "text": "정부는 생산투자와 경제 다변화를 목표로 내세웠다. 석유수입 의존도를 실제로 얼마나 낮추는지는 수정예산의 부문별 배정, 개발자본 지출의 집행, 향후 결산 자료에서 확인해야 한다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "11월 24일 시작되는 세부심의, 수정안·최종 표결·공포."
+  },
+  {
+   "type": "asean",
+   "heading": null,
+   "title": "ASEAN과 대외관계",
+   "lede": "회의 일정은 공식화됐지만 COC 문안과 디지털경제프레임워크협정(DEFA)의 최종 법적 상태는 후속 문서로 확인해야 한다.",
+   "countries": [],
+   "issue_ids": [
+    "asean-agenda",
+    "scs"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ASEAN 사무국은 제49차 정상회의 및 관련 회의가 마닐라에서 11월 14~17일 열리며, 14일에는 경제공동체·정치안보공동체 관련 장관급 회의가 진행된다고 확인했다. 15~17일 정상급 회의와는 구분해야 한다. 키프로스·슬로바키아·슬로베니아의 우호협력조약(TAC) 가입서명도 예정돼 있다. [S024]"
+    },
+    {
+     "label": null,
+     "text": "남중국해 행동준칙(COC)을 두고 AP는 익명 동남아 외교관 3명의 말을 인용해 초안 문단 약 80%에 잠정 합의했으나 2026년 안에 협상을 끝내지 못할 전망이라고 전했다. 적용범위·용어 정의·법적 구속력이 남은 쟁점이다. 수치는 공식 공동문서가 아니라 협상 참가자를 인용한 보도이므로 최종 합의율로 취급하지 않는다. [S025]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "정상회의 의장성명, COC 협상 후속 일정, TAC 가입서명 및 DEFA 문안."
+  },
+  {
+   "type": "theme",
+   "heading": "경제 포커스 · 무역·공급망·에너지",
+   "title": "관세 강화와 현지 생산의 간극",
+   "lede": null,
+   "countries": [
+    "TH",
+    "KH",
+    "VN"
+   ],
+   "issue_ids": [
+    "th-online-imports"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "태국의 온라인 수입관세 개편은 해외 플랫폼에 대한 비용규칙을 바꾸려는 결정이고, 내년부터의 수입 전기차 개별소비세 인상은 현지 생산을 유도하는 조치다. CNA에 따르면 완성차 수입분 세율은 현행 10%에서 2027년 35%로 높아질 예정이다. 관세와 개별소비세는 서로 다른 제도이며 각 조치의 시행문서와 원산지·현지화 요건을 구분해야 한다. [S009·S014]"
+    },
+    {
+     "label": null,
+     "text": "캄보디아 수출 누계와 베트남의 등록·집행 투자통계는 공급망 확대를 가늠할 수 있지만 두 통계의 집계기간과 지표가 다르다. 실제 생산능력 확대를 보려면 수출 물량, 공장 준공, 설비 반입 및 집행액을 비교해야 한다. [S021·S017]"
+    }
+   ],
+   "table": {
+    "title": "목요일 경제 초점 · 무역·공급망·에너지",
+    "columns": [
+     "분야",
+     "확인된 단계",
+     "다음 문서·지표"
+    ],
+    "rows": [
+     [
+      "태국 온라인 수입",
+      "품목별 최대 30% 관세안 각료 승인",
+      "관보·품목표·시행일 [S009]"
+     ],
+     [
+      "태국 완성차",
+      "2027년 수입 전기차 세율 상향 예정",
+      "현지 부품요건·가격·재고 [S014]"
+     ],
+     [
+      "캄보디아 무역",
+      "1~10월 수출 약 299.9억달러",
+      "관세청 품목·시장별 물량 [S021]"
+     ],
+     [
+      "베트남 외국인투자",
+      "등록 548.5억달러, 집행 240.8억달러",
+      "사업별 집행·시설투자 [S017]"
+     ]
+    ]
+   },
+   "point": null,
+   "next_check": "태국 관보·EV 현지화 요건, 캄보디아 수출 물량, 베트남 투자 집행자료."
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": "indonesia-vp-succession",
+   "issue": "인도네시아 부통령 승계",
+   "status": "사직서 제출 보도 · 수리 미확인",
+   "events": [
+    {
+     "date": "2026-11-10",
+     "text": "사임 의사 표명",
+     "note": null
+    },
+    {
+     "date": "2026-11-11",
+     "text": "대통령에게 사직서 제출 보도",
+     "note": "수리·공석 확정과 구분 [S002]"
+    }
+   ]
+  },
+  {
+   "issue_id": "scs",
+   "issue": "남중국해 행동준칙",
+   "status": "연내 타결 불투명",
+   "events": [
+    {
+     "date": "2026-11-11",
+     "text": "AP가 약 80% 잠정 문단 합의·연내 마무리 불가 전망 보도",
+     "note": "익명 외교관 인용, 공식문안 아님 [S025]"
+    }
+   ]
+  },
+  {
+   "issue_id": null,
+   "issue": null,
+   "status": null,
+   "events": [
+    {
+     "date": "2026-11-12",
+     "text": "인도네시아 하원 본회의 예정",
+     "note": "부통령 의견권 행사안 처리"
+    },
+    {
+     "date": "2026-11-13~15",
+     "text": "중국 리창 총리 태국 방문",
+     "note": "7개 협력문서 실제 서명 [S012]"
+    },
+    {
+     "date": "2026-11-14",
+     "text": "멜라카 주 선거·ASEAN 장관급 회의",
+     "note": "투표결과·회의 문서 [S006·S024]"
+    },
+    {
+     "date": "2026-11-15~17",
+     "text": "ASEAN 정상급 회의",
+     "note": "COC·DEFA 및 TAC 문서 [S024]"
+    },
+    {
+     "date": "2026-11-24",
+     "text": "동티모르 예산 세부심의 시작",
+     "note": "수정안·최종가결 절차 [S022]"
+    },
+    {
+     "date": "2026-11-28",
+     "text": "사라왁 후보등록",
+     "note": "후보구도 [S008]"
+    }
+   ]
+  }
+ ],
+ "bottom_line": [],
+ "watch_next": [
+  "11월 12일 인도네시아 하원 본회의의 부통령 의견권 행사안 처리와 대통령의 사표 수리 문서.",
+  "태국 전자상거래 관세 고시의 관보 게재·품목별 세율·실제 시행일.",
+  "11월 13~15일 태국·중국 협력문서 7건의 서명본과 농산물 검역 규정.",
+  "11월 14일 멜라카 주 선거구별 결과와 ASEAN 장관급 회의 문서.",
+  "ASEAN 49차 정상회의 COC 협상 일정·DEFA 최종 문안·TAC 가입서명.",
+  "11월 24일 동티모르 예산 세부심의의 수정안과 최종 가결 시점."
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": "S002",
+   "publisher": "Reuters / ThePrint",
+   "title": "Indonesia’s vice president has resigned, aide says",
+   "date": "2026-11-11",
+   "url": "https://theprint.in/world/indonesias-vice-president-has-resigned-aide-says/3096285/",
+   "text": null
+  },
+  {
+   "id": "S003",
+   "publisher": "ANTARA",
+   "title": "Budi Arie confirms Gibran’s resignation as VP",
+   "date": "2026-11-11",
+   "url": "https://en.antaranews.com/news/441863/budi-arie-confirms-gibrans-resignation-as-vp",
+   "text": null
+  },
+  {
+   "id": "S004",
+   "publisher": "AP News",
+   "title": "120 Indonesian lawmakers seek vice president’s impeachment after education credentials questioned",
+   "date": "2026-11-11",
+   "url": "https://apnews.com/article/5d90e45eaa627513e83f5b5861e87d9e",
+   "text": null
+  },
+  {
+   "id": "S005",
+   "publisher": "Bernama",
+   "title": "Loke To Focus On DAP, MP Duties After Resigning As Minister",
+   "date": "2026-11-11",
+   "url": "https://bernama.com/en/news.php?id=2632760",
+   "text": null
+  },
+  {
+   "id": "S006",
+   "publisher": "Bernama",
+   "title": "The 16th Melaka State Election",
+   "date": "2026-11-11",
+   "url": "https://garasi.bernama.com/stories/the-16th-melaka-state-election",
+   "text": null
+  },
+  {
+   "id": "S007",
+   "publisher": "Bernama",
+   "title": "Melaka Polls: Early Voting Ends, All 31 Polling Centres Closed",
+   "date": "2026-11-10",
+   "url": "https://www.bernama.com/en/news.php?id=2632420",
+   "text": null
+  },
+  {
+   "id": "S008",
+   "publisher": "Bernama",
+   "title": "Sarawak Polls Set For Dec 12, Nomination Nov 28",
+   "date": "2026-11-06",
+   "url": "https://bernama.com/en/general/news.php?id=2630833",
+   "text": null
+  },
+  {
+   "id": "S009",
+   "publisher": "Ministry of Finance, Thailand",
+   "title": "Cabinet decision on customs duties for e-commerce imports",
+   "date": "2026-11-10",
+   "url": "https://www.mof.go.th/news/118641/",
+   "text": null
+  },
+  {
+   "id": "S010",
+   "publisher": "Royal Thai Government",
+   "title": "Government adjusts online trade rules to support SMEs and protect consumers",
+   "date": "2026-11-10",
+   "url": "https://www.thaigov.go.th/th/news/171055",
+   "text": null
+  },
+  {
+   "id": "S011",
+   "publisher": "Royal Thai Government",
+   "title": "Cabinet approves data-centre governance standards",
+   "date": "2026-11-10",
+   "url": "https://www.thaigov.go.th/th/news/171071",
+   "text": null
+  },
+  {
+   "id": "S012",
+   "publisher": "The Nation Thailand",
+   "title": "Thailand and China prepare seven agreements on trade and security",
+   "date": "2026-11-11",
+   "url": "https://www.nationthailand.com/business/economy/40073362",
+   "text": null
+  },
+  {
+   "id": "S013",
+   "publisher": "Ministry of Foreign Affairs, PRC",
+   "title": "Li Qiang to Visit Thailand and Travel to the Philippines for the China-ASEAN Summit",
+   "date": "2026-11-11",
+   "url": "https://www.fmprc.gov.cn/eng/xw/wsrc/202611/t20261111_12057259.html",
+   "text": null
+  },
+  {
+   "id": "S014",
+   "publisher": "CNA",
+   "title": "As Chinese EVs reshape Thailand’s car industry, higher taxes bring new uncertainty",
+   "date": "2026-11-11",
+   "url": "https://www.channelnewsasia.com/asia/thailand-ev-prices-chinese-imports-6538306",
+   "text": null
+  },
+  {
+   "id": "S015",
+   "publisher": "Government of Viet Nam",
+   "title": "Top Vietnamese leader concludes official visit to Japan",
+   "date": "2026-11-11",
+   "url": "https://en.baochinhphu.vn/top-vietnamese-leader-concludes-official-visit-to-japan-11126111115505461.htm",
+   "text": null
+  },
+  {
+   "id": "S016",
+   "publisher": "VietnamPlus / VNA",
+   "title": "Vietnam, Japan agree on new direction for cooperation: FM",
+   "date": "2026-11-11",
+   "url": "https://en.vietnamplus.vn/vietnam-japan-agree-on-new-direction-for-cooperation-fm-post355240.vnp",
+   "text": null
+  },
+  {
+   "id": "S017",
+   "publisher": "Government of Viet Nam",
+   "title": "Viet Nam’s 10-month FDI inflows reach over US$54 billion",
+   "date": "2026-11-04",
+   "url": "https://en.baochinhphu.vn/viet-nams-10-month-fdi-inflows-reach-over-us54-billion-111261104104955436.htm",
+   "text": null
+  },
+  {
+   "id": "S018",
+   "publisher": "AP News",
+   "title": "Myanmar army seizes key resistance headquarters and 10 bases held by opposition, state media says",
+   "date": "2026-11-11",
+   "url": "https://apnews.com/article/b87feab3fa1e6d0ddb4b602a5ca09539",
+   "text": null
+  },
+  {
+   "id": "S019",
+   "publisher": "DVB",
+   "title": "Myanmar military seizes key resistance headquarters and 10 bases, regime media reports",
+   "date": "2026-11-11",
+   "url": "https://english.dvb.no/myanmar-military-seizes-key-resistance-headquarters-and-10-bases-regime-media-reports/",
+   "text": null
+  },
+  {
+   "id": "S020",
+   "publisher": "Cambodianess",
+   "title": "Cambodia Inducts First 5,000 Conscripts in Historic Military Recruitment Drive",
+   "date": "2026-11-10",
+   "url": "https://cambodianess.com/article/cambodia-inducts-first-5000-conscripts-in-historic-military-recruitment-drive",
+   "text": null
+  },
+  {
+   "id": "S021",
+   "publisher": "The Star / Cambodian customs",
+   "title": "Cambodian exports hit US$30bil Jan-Oct, up 20%",
+   "date": "2026-11-11",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/11/cambodian-exports-hit-us30bil-jan-oct-up-20",
+   "text": null
+  },
+  {
+   "id": "S022",
+   "publisher": "National Parliament, Timor-Leste",
+   "title": "Plenário aprova OGE 2027 na Generalidade",
+   "date": "2026-11-11",
+   "url": "https://www.parlamento.tl/index.php/noticias/plenario-aprova-oge-2027-na-generalidade",
+   "text": null
+  },
+  {
+   "id": "S023",
+   "publisher": "TATOLI",
+   "title": "OGE para 2027 aprovado na generalidade",
+   "date": "2026-11-11",
+   "url": "https://pt.tatoli.tl/2026/11/11/oge-para-2027-aprovado-na-generalidade/",
+   "text": null
+  },
+  {
+   "id": "S024",
+   "publisher": "ASEAN Secretariat",
+   "title": "Secretary-General of ASEAN to Participate in the 49th ASEAN Summit and Related Summits in the Philippines",
+   "date": "2026-11-11",
+   "url": "https://asean.org/secretary-general-of-asean-to-participate-in-the-49th-asean-summit-and-related-summits-in-the-philippines/",
+   "text": null
+  },
+  {
+   "id": "S025",
+   "publisher": "Associated Press",
+   "title": "China and ASEAN make progress on South China Sea pact but cannot finish talks this year",
+   "date": "2026-11-11",
+   "url": "https://apnews.com/article/8ef757e6ed486a5632e4c2299ee00064",
+   "text": null
+  },
+  {
+   "id": "S028",
+   "publisher": "Bernama",
+   "title": "Loke Resigns As Transport Minister With Immediate Effect",
+   "date": "2026-11-10",
+   "url": "https://www.bernama.com/en/general/news.php?id=2632446",
+   "text": null
+  }
+ ]
+}
