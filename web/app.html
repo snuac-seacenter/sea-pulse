@@ -572,7 +572,7 @@ ol.src .smeta { color: var(--muted); }
     const issueCh = (b.chronology || []).filter(c => c.issue);
     const evs = (b.chronology || []).filter(c => !c.issue).flatMap(c => c.events);
     const bd = evDate(b.date, b.date);
-    const upcoming = evs.filter(e => { const d = evDate(e.date, b.date); return d && d > bd; });
+    const upcoming = evs.filter(e => { const d = evDate(e.date, b.date); return d && d >= bd; });
     const pastLog = evs.filter(e => !upcoming.includes(e));
     if ((b.bottom_line || []).length || upcoming.length || (b.watch_next || []).length) {
       body += `<section id="watch" data-toc="다음에 볼 것">${sh('다음에 볼 것', 'WHAT TO WATCH', '남은 쟁점 · 다가오는 일정 · 확인 목록')}`;
