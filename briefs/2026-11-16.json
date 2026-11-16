@@ -1,0 +1,912 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-11-16",
+ "weekday": "월",
+ "title": "동남아 데일리 브리프",
+ "edition": "SERIES Daily 구독자판",
+ "editor": "김형종",
+ "observation_cutoff": "2026-11-15 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "주말 사이 동남아의 여러 사안이 ‘예정’에서 다음 단계로 넘어갔다. ASEAN 디지털경제프레임워크협정은 14일 서명됐고 15일 정상회의 개막식에서 사무총장에게 인계됐다. 멜라카에서는 개표가 끝나 BN 21석, PH 4석, PN 3석이 확정됐으며 아브 라우프 유소가 다음 날 주총리에 취임했다. 태국과 중국도 사전 예고보다 한 건 많은 8개 협력문서에 서명했다. [S005·S006·S011·S012·S015]",
+  "남은 일정도 선명해졌다. 인도네시아 MPR은 부통령 후보 두 명 가운데 한 명을 12월 2일 선출해 같은 날 취임·인준하기로 했다. ASEAN은 미얀마의 정상회의·외교장관회의 비정치 대표 원칙을 유지하면서 다른 부문별 장관회의 참여는 제한하지 않기로 했다. 전면 복귀는 5개 합의의 지속적이고 구체적인 진전에 묶였다. [S003·S013]"
+ ],
+ "monitor": [
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "indonesia-vp-succession",
+   "issue": "인도네시아 부통령 승계",
+   "status": "UP",
+   "stage": "12월 2일 선출 일정 확정 · 후보 명단 대기",
+   "delta": "MPR이 후보 2명 중 1명 선출·취임·인준을 12월 2일에 처리하기로 정했다. 후보 검증 및 대통령의 명단 제출은 아직 남았다. [S003]",
+   "next_trigger": "대통령 후보 제출 공문, MPR 검증기준과 표결 방식",
+   "economic_signal": null,
+   "period": {
+    "start": "2026-11-13",
+    "end": "2026-12-02"
+   }
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "indonesia-wiretap",
+   "issue": "인도네시아 감청 사건",
+   "status": "WATCH",
+   "stage": "조사 계속 · 공개 포렌식 목록 미확인",
+   "delta": "12일 국회 청문에서 대상 범위가 확대됐다는 경찰 설명이 나왔으나 추가 기소장이나 법원 증거목록은 확인되지 않았다. [S004]",
+   "next_trigger": "기소장·포렌식 증거목록·법원 기록",
+   "economic_signal": null,
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "my-state-elections-2026",
+   "issue": "말레이시아 멜라카·사라왁 주 선거",
+   "status": "UP",
+   "stage": "멜라카 28석 확정 · 사라왁 후보 발표 대기",
+   "delta": "멜라카 BN 21·PN 3·PH 4석, 투표율 71.77%; 아브 라우프 주총리 취임. 사라왁 GPS 82명 명단은 25일 발표 예정이다. [S005·S006·S007]",
+   "next_trigger": "멜라카 주행정평의회·선거구별 득표, GPS 후보 명단",
+   "economic_signal": null,
+   "period": {
+    "start": "2026-11-14",
+    "end": "2026-12-12"
+   }
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "my-minimum-wage-2027",
+   "issue": "말레이시아 최저임금",
+   "status": "WATCH",
+   "stage": "2027년 6월 적용 발표 · 시행령 미확인",
+   "delta": "월 2,000링깃 기준과 수혜 전망은 발표 단계이며 영세기업 예외와 적용범위는 관보 전문으로 확인해야 한다. [S009·S010]",
+   "next_trigger": "2027 최저임금명령 관보 및 예외 기간",
+   "economic_signal": "임금비용·중소기업 적용범위",
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "th-china-documents",
+   "issue": "태국·중국 협력문서",
+   "status": "UP",
+   "stage": "7개 계획에서 8개 문서 서명으로",
+   "delta": "농산물 검역, 식품안전, 전기차·자동차, 직업교육, 안보 등의 8개 문서를 서명·교환했다. 물관리 MOU는 준비 단계에 남았다. [S015·S016]",
+   "next_trigger": "서명 전문, 시행 고시, 검역 등록 및 투자 착수",
+   "economic_signal": "농산물 시장 접근·전기차 부품 투자",
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "asean-defa",
+   "issue": "ASEAN 디지털경제프레임워크협정",
+   "status": "UP",
+   "stage": "11월 14일 서명 · 발효 전",
+   "delta": "14일 서명돼 15일 인계됐다. 2027년 초 발효 예상과 달리 실제 효력 발생 조건 및 회원국 국내조치는 아직 확인해야 한다. [S011·S012]",
+   "next_trigger": "최종 협정문, 발효조건, 이행·예외 일정",
+   "economic_signal": "역내 데이터·결제·디지털 무역",
+   "period": {
+    "start": "2026-11-14",
+    "end": "2027-03-31"
+   }
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "myanmar-asean-participation",
+   "issue": "미얀마의 ASEAN 대표권",
+   "status": "UP",
+   "stage": "고위급 제한 유지 · 부문별 참석 허용",
+   "delta": "정상회의·외교장관회의의 비정치 대표 원칙을 유지하되 다른 부문별 회의 참여는 제한하지 않기로 결정했다. [S013·S023]",
+   "next_trigger": "5개 합의 진전판정 기준, 특사체계, 지원 접근",
+   "economic_signal": null,
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "timor-leste-asean-integration",
+   "issue": "동티모르의 ASEAN 제도 통합",
+   "status": "NEW",
+   "stage": "11개 회원국 반영 문장·깃발 공개",
+   "delta": "Cebu Protocol 발효를 반영한 11개 볏단의 ASEAN 문장과 깃발이 공개됐다. 플랫폼·문서 적용은 순차적이다. [S014]",
+   "next_trigger": "ASEAN 헌장·부속서 개정, 문서 적용 현황",
+   "economic_signal": null,
+   "period": null
+  },
+  {
+   "status_label": null,
+   "level": null,
+   "issue_id": "vietnam-asean-digital",
+   "issue": "베트남의 ASEAN 디지털·안보 외교",
+   "status": "WATCH",
+   "stage": "정상회의 정책 제안 · 국내 이행 대기",
+   "delta": "베트남은 DEFA 이행, AI·사이버 협력, 전력망과 COC 협상을 우선시했다. 국내 정책문서·예산은 추가 확인이 필요하다. [S017·S018·S019]",
+   "next_trigger": "DEFA 국내계획, 전력망 사업 목록, COC 협상문 및 AI 담당기관",
+   "economic_signal": "AI·데이터 협력, 전력망 연결",
+   "period": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "heading": null,
+   "title": "인도네시아",
+   "lede": "부통령 후임 선출일은 확정됐으나 후보 검증과 감청 수사의 증거 공개는 별도 경로에 있다.",
+   "countries": [
+    "ID"
+   ],
+   "issue_ids": [
+    "indonesia-vp-succession",
+    "indonesia-wiretap"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "MPR 지도부와 교섭단체·지역대표그룹은 13일 합동회의에서 후임 부통령 선출 본회의를 12월 2일로 정했다. 그날 선출, 취임, MPR 인준을 한꺼번에 처리한다. MPR은 프라보워 대통령에게 후보 두 명을 요청하는 공문을 같은 날 보냈고, 대통령은 공문 수령 뒤 14일 안에 명단을 제출해야 한다. 후보 검증팀과 MPR 결정문 준비팀은 각각 36명으로 구성된다. [S003]"
+    },
+    {
+     "label": null,
+     "text": "두 후보의 이름과 자격서류는 아직 공개되지 않았다. 정당별 추천 보도는 대통령의 공식 제출과 다르다. 이번 주 판단 기준은 후보의 출신보다 MPR 검증기준과 공개 범위, 본회의 표결 방식이다."
+    },
+    {
+     "label": "감청 사건 별도 집중",
+     "text": "12일 국회 청문에서 감청 대상이 대통령을 넘어 정치인·수사기관·활동가로 확대됐다는 경찰 설명이 나온 뒤, 마감 시각까지 새 기소장이나 법원 증거목록은 확인되지 않았다. 부통령 승계 일정과 감청 수사는 같은 권력환경에 놓였지만 증거가 공개되기 전 둘을 하나의 지휘선으로 묶지 않는다. [S004]"
+    },
+    {
+     "label": "다음 확인점",
+     "text": "대통령의 후보 두 명 제출일, 36인 검증팀의 자격심사 기록, 12월 2일 표결 규칙, 감청 기소장·디지털 포렌식 목록."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "대통령 후보 명단 제출, MPR 검증결과와 12월 2일 표결, 감청 증거목록."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "말레이시아",
+   "lede": "멜라카 주 선거는 개표와 주총리 취임을 마쳤고, 사라왁은 후보 배분 단계에 있다.",
+   "countries": [
+    "MY"
+   ],
+   "issue_ids": [
+    "my-state-elections-2026",
+    "my-minimum-wage-2027"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": "확정 결과와 2021년 대비 변화",
+     "text": "14일 투표에서 BN은 28석 중 21석, PN은 3석, PH는 4석을 차지했다. 2021년(각각 21·2·5석)과 비교하면 BN의 의석 수는 같고 PN이 한 석 늘어난 만큼 PH가 줄었다. BN 21석만으로도 과반(15석)과 3분의 2(19석)를 넘는다. BN–PN의 합계 24석은 선거 협력의 의석상 결과이지만 양측의 법적·정치적 지위를 하나의 당으로 계산해서는 안 된다. 투표자는 49만3,573명, 투표율은 71.77%였다. [S005·S042·S046]"
+    },
+    {
+     "label": "후보 조정과 접전지의 이동",
+     "text": "BN은 23곳, PN은 5곳에 후보를 내 서로 맞붙지 않았다. PH는 24곳에 출마했고, 신생 베르사마는 16곳, 베르사투는 7곳에서 경쟁했다. PN은 파야 룸풋을 BN에서, 부킷 카틸을 PH에서 가져왔으며 벰반을 지켰다. BN은 2021년 PN이 근소하게 이겼던 숭아이 우당을 되찾았다. PH 의석 네 곳은 DAP가 지킨 아예르 케로·케시당·코타 락사마나·반다르 힐리르다. 13일 언론이 주목한 네 선거구의 실제 승패가 서로 달랐다는 사실부터 기록할 필요가 있다. [S042·S044·S046·S049]"
+    },
+    {
+     "label": null,
+     "text": "부킷 카틸에서 전 주총리이자 PH 주 대표인 아들리 자하리는 PN 소속 모하마드 리즈두안에게 6,607표 차로 패했다. 반면 BN의 아브 라우프 유소는 탄중 비다라에서 8,615표 차로 재선했다. 숭아이 우당의 BN 당선자는 1만6,214표의 차이를 기록했다. 당선 지역의 분포와 격차는 BN–PN의 후보 중복 회피가 작동했을 가능성을 뒷받침하지만, 다른 선거구에서 각 당 지지층의 표가 얼마나 이전됐는지는 개별 득표를 비교해야 한다. [S006·S044·S045]"
+    },
+    {
+     "label": "투표율과 실제 유권자 구성",
+     "text": "2021년 65.85%였던 투표율이 2026년 71.77%로 5.92%포인트 올랐다. 등록 유권자도 49만5,195명에서 68만7,697명으로 늘었다. 선거 전 공개된 자료상 18~39세는 32만5,047명으로 전체의 47.34%였으나, 이 수치만으로 청년층이 특정 연합을 지지했거나 투표율 상승을 주도했다고 단정할 수는 없다. 민족별 투표율 추정치도 선관위 공식 집계와 별도로 다룬다. [S026·S044·S047]"
+    },
+    {
+     "label": "나집 가택수감 논란과 생활경제 의제",
+     "text": "선거운동 마지막 주에는 나집 전 총리의 조건부 사면·가택수감 결정이 법 앞의 평등과 연방 연합정치에 관한 논쟁을 불렀다. CNA 인터뷰에서 일부 유권자는 특혜를 우려했고, 다른 이들은 생활수준과 지역 대표의 문제 해결을 더 강조했다. 제한된 거리 인터뷰를 표심의 인과관계로 확대하지 않는다. 청년 유권자 보도에서는 현지 일자리, 통학·교통, 주택, 여가시설, 책임 있는 의원에 대한 요구가 반복됐다. [S025·S026]"
+    },
+    {
+     "label": null,
+     "text": "미완공 개발사업 문제도 선거 과정에서 다시 떠올랐다. FMT가 짚은 아랍 시티와 멜라카 모노레일, 멜라카 게이트웨이는 사업별 계약·예산·재개 여부를 따져야 할 별개의 사례다. PH는 지명직 주의원 7석을 허용한 주법을 폐지하고 절감 재원을 청년 주거·창업에 쓰겠다고 공약했지만 선거 결과로 집행된 것은 아니다. 15일 취임한 아브 라우프는 투자유치, 지연 개발사업의 추진, 민원 처리를 새 임기의 우선순위로 밝혔다. PN 출신 주행정평의회 위원 기용 여부는 계속 검토 중이라고 말했다. [S027·S039·S043]"
+    },
+    {
+     "label": "다음 확인점",
+     "text": "주행정평의회 실제 인선과 PN 배분 여부, 28개 선거구의 상세 득표·투표율, 기존 개발사업의 예산·계약 재검토, 지명직 7석 관련 주법의 존치·개정 여부. 이를 연방 총선에서의 BN–PN 후보배분 합의로 미리 환산하지 않는다. [S043·S044]"
+    },
+    {
+     "label": "주 선거 연속 관찰 — Sarawak",
+     "text": "GPS는 11월 25일 82개 선거구의 후보를 발표할 예정이다. BN은 UMNO–PBB 간 양해에 따라 출마하지 않겠다고 밝혔고, PN은 불출마도 선택지라며 결정을 유보했다. 후보등록은 28일, 본투표는 12월 12일이다. 멜라카의 후보 조정 방식이 사라왁에 그대로 적용된다고 볼 근거는 없다. [S007·S008·S021]"
+    },
+    {
+     "label": "최저임금 후속 점검",
+     "text": "월 2,000링깃 최저임금을 2027년 6월부터 적용한다는 예산 발표와 400만 명 이상 수혜 추산에는 변화가 없다. 연매출 5천만 링깃 미만 중소·영세기업의 예외가 어떤 기간과 근로자 범위에 적용되는지는 관보 전문이 나와야 확정된다. 15일 마감까지 새 시행명령을 확인하지 못했다. [S009·S010]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "멜라카 PN 주행정평의회 인선과 28개 선거구 상세 득표, 개발사업 예산·계약, 사라왁 후보 발표 및 최저임금 관보."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "태국",
+   "lede": "대중 협력은 사전 예고한 7건에서 실제 8건 서명으로 이동했다.",
+   "countries": [
+    "TH"
+   ],
+   "issue_ids": [
+    "th-china-documents"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "13일 양국 정상은 두리안 검역 개정, 살라카 수출, 일대일로 식품안전, 자동차·전기차, 직업교육, 글로벌안보구상 아래 안보협력, 영사인력 상한 해제, 법정계량 협력 등 8개 문서를 서명·교환했다. 물 관리 양해각서는 ‘준비’ 단계로 남았다. [S015·S016]"
+    },
+    {
+     "label": null,
+     "text": "농산물 의정서는 시장 접근의 문을 열지만 실제 매출은 등록·검역·물류·수요에 달렸다. 자동차 양해각서도 투자금, 기술이전, 현지조달, 고용이 뒤따라야 산업효과를 측정할 수 있다. 글로벌안보구상 문서는 경제협력과 분리해 공개 문구와 회의체를 확인할 필요가 있다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "8개 서명 문서의 공개 전문·등록, 농산물 검역 및 전기차 투자 후속."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "미얀마",
+   "lede": "ASEAN은 정상·외교장관급의 대표권 제한을 유지하면서 부문별 참여를 허용했다.",
+   "countries": [
+    "MM"
+   ],
+   "issue_ids": [
+    "myanmar-asean-participation"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "ASEAN 정상들은 정상회의와 외교장관회의의 비정치 대표 원칙을 유지했다. 반면 다른 부문별 장관기구와 메커니즘에는 모든 수준의 참여를 제한하지 않기로 했다. 향후 완전한 정치대표 복원은 5개 합의에서 ‘지속적이고 구체적인 진전’이 확인될 때 단계적으로 검토한다. [S013·S023]"
+    },
+    {
+     "label": null,
+     "text": "이 결정은 복귀를 승인한 것이 아니다. 고위급 제한과 실무·부문별 접촉을 분리해 관리하는 틀을 명문화했다. 지도부는 장기 임기의 특별대사 방안도 계속 검토하도록 고위당국자에게 맡겼다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "5개 합의 진전의 공식 평가 기준, 인도지원 접근과 장기 특사안."
+  },
+  {
+   "type": "country",
+   "heading": "베트남 4단 Deep Dive",
+   "title": "베트남",
+   "lede": "정상회의에서 제안한 디지털·안보 협력을 국내의 사업과 예산으로 연결할 후속 자료가 필요하다.",
+   "countries": [
+    "VN"
+   ],
+   "issue_ids": [
+    "vietnam-asean-digital",
+    "asean-defa"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": "지역 규범",
+     "text": "레민흥 총리는 대화와 신뢰, 국제법 자문포럼, 위기정보 공유규칙을 제안했다. 회원국 간 이견을 규범과 절차로 관리하자는 제안이다. [S017]"
+    },
+    {
+     "label": "경제·디지털",
+     "text": "베트남은 DEFA의 효과적 시행, 고품질 투자, 공급망·에너지·식량 안보를 우선순위로 뒀다. 서명은 끝났지만 국내 의무와 예외는 최종문·부속서를 대조해야 한다. [S017·S019]"
+    },
+    {
+     "label": "해양·안보",
+     "text": "비공개회의에서 남중국해 행동준칙을 UNCLOS에 맞는 실효적 문서로 조속히 마무리하자고 촉구했다. 미얀마에는 인도지원을 확대하면서 관여방식을 조정하자는 입장을 냈다. [S018]"
+    },
+    {
+     "label": "이행 확인",
+     "text": "베트남의 DEFA 국내계획, ASEAN 전력망 참여사업, 행동준칙 협상문, 사이버범죄·책임 있는 AI 협력의 담당기관과 예산이 다음 자료다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "DEFA 국내계획, ASEAN 전력망 사업, COC 문안, AI·사이버 예산 및 담당기관."
+  },
+  {
+   "type": "asean",
+   "heading": null,
+   "title": "ASEAN과 대외관계",
+   "lede": "DEFA 서명과 미얀마 대표권 결정, 동티모르 가입 반영이 서로 다른 법적 단계로 진전됐다.",
+   "countries": [],
+   "issue_ids": [
+    "asean-defa",
+    "myanmar-asean-participation",
+    "timor-leste-asean-integration"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "DEFA는 14일 경제공동체이사회 계기에 서명됐고 15일 정상회의 개막식에서 인계됐다. ASEAN 사무국은 2027년 초 발효를 예상한다. 서명과 발효 사이에 필요한 요건, 데이터 이동·전자결제·온라인 안전·AI 관련 조항은 법문이 공개돼야 평가할 수 있다. [S011·S012]"
+    },
+    {
+     "label": null,
+     "text": "정상회의에서는 동티모르 가입을 반영한 11개 볏단의 새 문장과 깃발도 공개했다. Cebu Protocol의 발효와 함께 헌장·부속서가 11개 회원국 체제로 바뀌었다. 사무국은 디지털 플랫폼, 청사 표식, 문서에 단계적으로 적용한다. [S014]"
+    },
+    {
+     "label": null,
+     "text": "필리핀 의장국은 19개 경제 우선성과를 연말까지 마무리하겠다고 밝혔다. ‘100여 개 결과문서가 진전됐다’는 집계는 각 문서가 모두 발효됐다는 뜻이 아니다. [S020]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "DEFA 발효문서·부속서, 미얀마 평가체계, 11개 회원국 체제 후속 적용 문서."
+  },
+  {
+   "type": "theme",
+   "heading": "경제 포커스 · 디지털·AI",
+   "title": "디지털·AI",
+   "lede": "DEFA의 서명은 확인됐고 AI 관련 결과문서의 국내 적용은 별도 검증이 필요하다.",
+   "countries": [
+    "VN"
+   ],
+   "issue_ids": [
+    "asean-defa",
+    "vietnam-asean-digital"
+   ],
+   "update": null,
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "이번 주말의 검증 가능한 변화는 DEFA의 서명이다. 베트남 산업부가 함께 열거한 ‘AI 기반 중소기업 성장 선언’, ‘보건 AI 행동계획’, ‘국경 간 디지털 인재 이동 선언’은 정상급 결과문서와 국내 이행계획을 별도로 확인한다. ISEAS 목록의 베트남 외국계 AI 숏드라마 앱 보도는 시장 신호로 보존하되 규제조치가 확인되지 않아 구독자판의 시행사실로 올리지 않았다. [S001·S019]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "DEFA 법문·회원국 이행계획, 베트남의 책임 있는 AI·사이버 담당기관과 예산."
+  },
+  {
+   "type": "theme",
+   "heading": null,
+   "title": "SEA Pulse Monitor",
+   "lede": "11개 회원국을 검토하되 독자판에는 당일 새 시행 변화가 확인되지 않은 국가를 간단히 기록했다.",
+   "countries": [],
+   "issue_ids": [],
+   "update": null,
+   "paragraphs": [],
+   "table": {
+    "title": "11월 15일 관찰 마감 · 국가별 상태",
+    "columns": [
+     "국가",
+     "15일 마감 상태"
+    ],
+    "rows": [
+     [
+      "브루나이",
+      "정상회의 참석 외 구독자판에 올릴 새 국내 시행결정 없음."
+     ],
+     [
+      "캄보디아",
+      "13일 ISEAS 선행목록과 주말 공식 검색에서 새 국내 집행문서 없음."
+     ],
+     [
+      "라오스",
+      "새 법령·예산 집행 변화 없음. ASEAN 발언과 전력·철도 후속문서 추적."
+     ],
+     [
+      "필리핀",
+      "의장국 결과문서 집계는 확인. 개별 문서의 채택·발효 단계는 분리."
+     ],
+     [
+      "싱가포르",
+      "2027년 ASEAN 의장국 인수 관련 최종 폐막문서는 16~17일 확인."
+     ],
+     [
+      "동티모르",
+      "11개 볏단 문장·깃발과 Cebu Protocol 발효로 제도 통합이 시각화됨."
+     ]
+    ]
+   },
+   "point": null,
+   "next_check": null
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": "my-state-elections-2026",
+   "issue": "멜라카·사라왁 주 선거",
+   "status": "멜라카 개표·주총리 취임 완료, 사라왁 후보등록 대기",
+   "events": [
+    {
+     "date": "2026-11-14",
+     "text": "멜라카 BN 21석·PH 4석·PN 3석 확정",
+     "note": "투표율 71.77% [S005]"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "아브 라우프 주총리 취임",
+     "note": "주행정평의회 인선 미확정 [S006·S043]"
+    },
+    {
+     "date": "2026-11-25",
+     "text": "사라왁 GPS 후보 발표 예정",
+     "note": "82개 선거구 [S007]"
+    },
+    {
+     "date": "2026-11-28",
+     "text": "사라왁 후보등록 예정",
+     "note": "본투표 12월 12일 [S008]"
+    }
+   ]
+  },
+  {
+   "issue_id": "asean-defa",
+   "issue": "ASEAN DEFA",
+   "status": "서명됐으나 발효 전",
+   "events": [
+    {
+     "date": "2026-11-14",
+     "text": "DEFA 서명",
+     "note": "협정문·발효조건 확인 필요 [S011]"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "정상회의에서 협정 인계",
+     "note": "발효 예상은 2027년 초 [S012]"
+    }
+   ]
+  },
+  {
+   "issue_id": null,
+   "issue": null,
+   "status": null,
+   "events": [
+    {
+     "date": "11.13",
+     "text": "인도네시아 MPR 합동회의",
+     "note": "12.2 선출 확정 → 후보 두 명 대기"
+    },
+    {
+     "date": "11.13",
+     "text": "태국–중국 8개 문서 서명",
+     "note": "서명 완료 → 문서 전문·집행 고시"
+    },
+    {
+     "date": "11.14",
+     "text": "DEFA 서명 · 멜라카 투표",
+     "note": "발효요건 / 28석 결과 확정"
+    },
+    {
+     "date": "11.15",
+     "text": "아브 라우프 취임",
+     "note": "주정부 구성 → 행정평의회 인선"
+    },
+    {
+     "date": "11.15",
+     "text": "ASEAN 미얀마 결정",
+     "note": "고위급 제한 유지 · 부문별 참여 허용"
+    },
+    {
+     "date": "11.25 / 11.28",
+     "text": "GPS 발표 / 사라왁 후보등록",
+     "note": "82명 명단 / 최종 대진표"
+    },
+    {
+     "date": "12.02",
+     "text": "인도네시아 부통령 선출",
+     "note": "표결·취임·MPR 인준"
+    },
+    {
+     "date": "12.12",
+     "text": "사라왁 본투표",
+     "note": "82석 결과"
+    }
+   ]
+  }
+ ],
+ "bottom_line": [
+  "이번 주 판단선은 서명이나 승리 선언이 아니라 후속 문서다. DEFA 발효요건, 인도네시아 후보 명단, 말레이시아 최저임금 관보, 사라왁 최종 대진표가 각각 다음 단계의 실체를 보여준다."
+ ],
+ "watch_next": [
+  "인도네시아 대통령이 MPR에 제출할 후보 두 명과 검증팀의 공개 범위.",
+  "DEFA 법문·부속서에 적힌 발효조건과 회원국별 이행기간.",
+  "ASEAN이 미얀마 ‘구체적 진전’을 어떤 지표로 판정하는지.",
+  "사라왁에서 BN 불출마와 PN 결정이 실제 경쟁 선거구 수를 얼마나 줄이는지.",
+  "멜라카 PN 행정평의회 인선과 지명직 7석 법제·미완공 개발사업 관련 지출 승인."
+ ],
+ "verification_notes": [
+  "11월 16일자 이미 발행된 구독자 브리프의 멜라카 선거 특집 개정판을 웹 게시용으로 구조화했다.",
+  "멜라카 2026년 선거 결과·2021년 비교·후보 배분은 개표 및 보도된 선거결과이고, 투표자 면담을 승패의 인과적 증거로 보지 않는다.",
+  "DEFA 서명과 발효, 태국·중국 문서 서명과 사업 착수, 미얀마 제한 유지와 완전 복귀는 구별했다."
+ ],
+ "sources": [
+  {
+   "id": "S001",
+   "publisher": "ISEAS – Yusof Ishak Institute",
+   "title": "Daily News on Southeast Asia – 13 November 2026",
+   "date": "2026-11-13",
+   "url": "https://www.iseas.edu.sg/library/blog/daily-news-alerts/261113",
+   "text": null
+  },
+  {
+   "id": "S002",
+   "publisher": "ISEAS – Yusof Ishak Institute",
+   "title": "Special Issue on Melaka State Election 2026 – 13 November 2026",
+   "date": "2026-11-13",
+   "url": "https://www.iseas.edu.sg/library/blog/daily-news-alerts/261113si",
+   "text": null
+  },
+  {
+   "id": "S003",
+   "publisher": "MPR Republic of Indonesia",
+   "title": "MPR plenary to fill vice-presidential vacancy on 2 December 2026",
+   "date": "2026-11-13",
+   "url": "https://www.mpr.go.id/berita/sidang-paripurna-mpr-pengisian-wakil-presiden-2-desember-2026",
+   "text": null
+  },
+  {
+   "id": "S004",
+   "publisher": "Associated Press",
+   "title": "Police chief says illegal wiretapping extended to many others",
+   "date": "2026-11-12",
+   "url": "https://apnews.com/article/f51d8a85a34cb3f3db4640602d4c8de4",
+   "text": null
+  },
+  {
+   "id": "S005",
+   "publisher": "Bernama / Election Commission",
+   "title": "Melaka polls: BN wins 21 seats, PN 3, PH 4",
+   "date": "2026-11-15",
+   "url": "https://bernama.com/en/general/news.php?id=2634493",
+   "text": null
+  },
+  {
+   "id": "S006",
+   "publisher": "Bernama",
+   "title": "Ab Rauf sworn in as Melaka chief minister",
+   "date": "2026-11-15",
+   "url": "https://web26.bernama.com/en/news.php?id=2634604",
+   "text": null
+  },
+  {
+   "id": "S007",
+   "publisher": "Bernama",
+   "title": "GPS to announce list of 82 candidates on Nov 25",
+   "date": "2026-11-15",
+   "url": "https://web26.bernama.com/en/news.php?id=2634648",
+   "text": null
+  },
+  {
+   "id": "S008",
+   "publisher": "Bernama",
+   "title": "BN to stay out of Sarawak polls",
+   "date": "2026-11-15",
+   "url": "https://web26.bernama.com/en/news.php?id=2634746",
+   "text": null
+  },
+  {
+   "id": "S009",
+   "publisher": "Malaysia Ministry of Finance",
+   "title": "Speech: The Fifth MADANI Budget 2027",
+   "date": "2026-10-09",
+   "url": "https://www.mof.gov.my/portal/en/news/speech/speech-the-fifth-madani-budget-2027",
+   "text": null
+  },
+  {
+   "id": "S010",
+   "publisher": "Bernama / Human Resources Ministry",
+   "title": "Over four million workers to benefit from RM2,000 minimum wage from June 2027",
+   "date": "2026-10-10",
+   "url": "https://www.bernama.com/en/general/news.php?id=2618156",
+   "text": null
+  },
+  {
+   "id": "S011",
+   "publisher": "ASEAN Secretariat",
+   "title": "ASEAN DEFA signing ceremony",
+   "date": "2026-11-14",
+   "url": "https://asean.org/secretary-general-of-asean-attends-the-signing-ceremony-of-the-asean-digital-economic-framework-agreement-defa/",
+   "text": null
+  },
+  {
+   "id": "S012",
+   "publisher": "ASEAN Secretariat",
+   "title": "ASEAN DEFA handover at the 49th ASEAN Summit",
+   "date": "2026-11-15",
+   "url": "https://asean.org/secretary-general-of-asean-attends-the-handover-of-the-asean-digital-economic-framework-agreement-defa/",
+   "text": null
+  },
+  {
+   "id": "S013",
+   "publisher": "ASEAN Secretariat",
+   "title": "ASEAN Leaders’ Review and Decision on the Five-Point Consensus",
+   "date": "2026-11-15",
+   "url": "https://asean.org/wp-content/uploads/2026/11/FINAL-ASEAN-Leaders-Review-and-Decision-on-the-Implementation-of-the-Five-Point-Consensus-15-November-2026.pdf",
+   "text": null
+  },
+  {
+   "id": "S014",
+   "publisher": "ASEAN Secretariat",
+   "title": "ASEAN unveils updated emblem and flag",
+   "date": "2026-11-15",
+   "url": "https://asean.org/asean-unveils-updated-emblem-and-flag-marking-a-new-chapter-of-regional-unity/",
+   "text": null
+  },
+  {
+   "id": "S015",
+   "publisher": "Thailand Public Relations Department",
+   "title": "Thailand and China sign eight cooperation documents",
+   "date": "2026-11-13",
+   "url": "https://thailand.prd.go.th/en/content/category/detail/id/2078/iid/560047",
+   "text": null
+  },
+  {
+   "id": "S016",
+   "publisher": "Thailand Public Relations Department",
+   "title": "Strategic cooperation documents signed during Li Qiang visit",
+   "date": "2026-11-14",
+   "url": "https://thailand.prd.go.th/en/content/category/detail/id/48/iid/560228",
+   "text": null
+  },
+  {
+   "id": "S017",
+   "publisher": "Viet Nam Government Portal",
+   "title": "Prime Minister puts forward three strategic orientations to enhance ASEAN cooperation",
+   "date": "2026-11-15",
+   "url": "https://en.baochinhphu.vn/prime-minister-puts-forward-three-strategic-orientations-to-enhance-asean-cooperation-111261115185024795.htm",
+   "text": null
+  },
+  {
+   "id": "S018",
+   "publisher": "Viet Nam Government Portal",
+   "title": "Prime Minister urges ASEAN to consolidate trust and resolve differences through dialogue",
+   "date": "2026-11-15",
+   "url": "https://en.baochinhphu.vn/prime-minister-urges-asean-to-consolidate-trust-resolve-differences-through-dialogue-111261115205303577.htm",
+   "text": null
+  },
+  {
+   "id": "S019",
+   "publisher": "Viet Nam Ministry of Industry and Trade",
+   "title": "28th ASEAN Economic Community Council Meeting",
+   "date": "2026-11-14",
+   "url": "https://moit.gov.vn/tin-tuc/hoi-nghi-hoi-dong-cong-dong-kinh-te-asean-lan-thu-28-manila.html",
+   "text": null
+  },
+  {
+   "id": "S020",
+   "publisher": "Philippine News Agency",
+   "title": "Philippines targets completion of 19 ASEAN economic deliverables",
+   "date": "2026-11-15",
+   "url": "https://www.pna.gov.ph/article/ph-eyes-completion-of-all-19-asean-economic-deliverables-by-year-end",
+   "text": null
+  },
+  {
+   "id": "S021",
+   "publisher": "Malay Mail",
+   "title": "PN to decide stance on Sarawak polls as BN sits out",
+   "date": "2026-11-15",
+   "url": "https://www.malaymail.com/news/malaysia/2026/11/15/perikatan-to-decide-stance-on-sarawak-polls-as-bn-sits-out-says-annuar-musa/243412",
+   "text": null
+  },
+  {
+   "id": "S022",
+   "publisher": "Viet Nam Ministry of Industry and Trade",
+   "title": "58th ASEAN Economic Ministers’ Meeting",
+   "date": "2026-10-01",
+   "url": "https://moit.gov.vn/en/news/58th-asean-economic-ministers-meeting.html",
+   "text": null
+  },
+  {
+   "id": "S023",
+   "publisher": "Bernama",
+   "title": "ASEAN keeps Myanmar restrictions and sets conditions for gradual return",
+   "date": "2026-11-15",
+   "url": "https://web26.bernama.com/en/world/news.php?id=2634797",
+   "text": null
+  },
+  {
+   "id": "S024",
+   "publisher": "Berita Harian",
+   "title": "Persefahaman BN-PN di Melaka cabaran kritikal kepada PH",
+   "date": "2026-11-13",
+   "url": "https://www.bharian.com.my/amp/rencana/komentar/2026/11/1711916/persefahaman-bn-pn-di-melaka-cabaran-kritikal-kepada-ph",
+   "text": null
+  },
+  {
+   "id": "S025",
+   "publisher": "CNA",
+   "title": "Najib’s house arrest angers some Melaka voters, but will it matter at the ballot box?",
+   "date": "2026-11-13",
+   "url": "https://www.channelnewsasia.com/asia/malaysia-melaka-state-election-bn-pn-najib-razak-6545381",
+   "text": null
+  },
+  {
+   "id": "S026",
+   "publisher": "Free Malaysia Today",
+   "title": "Melaka’s first-time voters want jobs, opportunities and honest leaders",
+   "date": "2026-11-13",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/13/melaka-s-first-time-voters-want-jobs-opportunities-and-honest-leaders",
+   "text": null
+  },
+  {
+   "id": "S027",
+   "publisher": "Free Malaysia Today",
+   "title": "Melaka, the state of failed projects?",
+   "date": "2026-11-13",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/13/melaka-the-state-of-failed-projects",
+   "text": null
+  },
+  {
+   "id": "S028",
+   "publisher": "The Vibes",
+   "title": "PM hits out at public adulation of corrupt leaders, cites billions in national debt burden",
+   "date": "2026-11-13",
+   "url": "https://www.thevibes.com/articles/news/129477/pm-hits-out-at-public-adulation-of-corrupt-leaders-cites-billions-in-national-debt-burden",
+   "text": null
+  },
+  {
+   "id": "S029",
+   "publisher": "Bloomberg",
+   "title": "Anwar Faces Voter Test After Turbulent Week in Malaysia Politics",
+   "date": "2026-11-13",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-12/anwar-faces-malacca-voters-after-turbulent-week-for-malaysian-politics?srnd=phx-asean",
+   "text": null
+  },
+  {
+   "id": "S030",
+   "publisher": "Malaysiakini",
+   "title": "Harapan, BN-PN flex campaign muscle at final mega rallies ahead of polling day",
+   "date": "2026-11-13",
+   "url": "https://www.malaysiakini.com/news/888993-harapan-bn-pn-flex-campaign-muscle-at-final-mega-rallies-ahead-of-polling-day",
+   "text": null
+  },
+  {
+   "id": "S031",
+   "publisher": "Malaysiakini",
+   "title": "The most wicked of Muslims are not as oppressive as non-Muslims – Hadi",
+   "date": "2026-11-13",
+   "url": "https://www.malaysiakini.com/news/889001-the-most-wicked-of-muslims-are-not-as-oppressive-as-non-muslims-hadi",
+   "text": null
+  },
+  {
+   "id": "S032",
+   "publisher": "Malaysiakini",
+   "title": "Malacca Malays weigh service over race in state election",
+   "date": "2026-11-13",
+   "url": "https://www.malaysiakini.com/news/888990-malacca-polls-how-will-the-malays-vote",
+   "text": null
+  },
+  {
+   "id": "S033",
+   "publisher": "New Straits Times",
+   "title": "Melaka polls: PH hopes for 75pc voter turnout, banks on outstation voters",
+   "date": "2026-11-13",
+   "url": "https://www.nst.com.my/news/regional/2026/11/1576699/melaka-polls-ph-hopes-75pc-voter-turnout-banks-outstation-voters",
+   "text": null
+  },
+  {
+   "id": "S034",
+   "publisher": "New Straits Times",
+   "title": "Hadi hopes BN-PN cooperation continues beyond Melaka polls",
+   "date": "2026-11-13",
+   "url": "https://www.nst.com.my/news/nation/2026/11/1576592/hadi-hopes-bn-pn-cooperation-continues-beyond-melaka-polls",
+   "text": null
+  },
+  {
+   "id": "S035",
+   "publisher": "The Star",
+   "title": "All eyes on four key seats",
+   "date": "2026-11-13",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/13/all-eyes-on-four-key-seats",
+   "text": null
+  },
+  {
+   "id": "S036",
+   "publisher": "The Star",
+   "title": "Melaka polls: Political differences should not hinder fight for homeowners, says Dr Wee",
+   "date": "2026-11-13",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/13/melaka-polls-political-differences-should-not-hinder-fight-for-homeowners-says-dr-wee",
+   "text": null
+  },
+  {
+   "id": "S037",
+   "publisher": "The Star",
+   "title": "Experts: Last chance to snag voters, draw fence-sitters",
+   "date": "2026-11-13",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/13/experts-last-chance-to-snag-voters-draw-fence-sitters",
+   "text": null
+  },
+  {
+   "id": "S038",
+   "publisher": "Berita Harian",
+   "title": "Isu Najib balik rumah ujian getir PH, tingkat semangat penyokong BN",
+   "date": "2026-11-12",
+   "url": "https://www.bharian.com.my/rencana/lain-lain/2026/11/1710280/isu-najib-balik-rumah-ujian-getir-ph-tingkat-semangat-penyokong-bn",
+   "text": null
+  },
+  {
+   "id": "S039",
+   "publisher": "The Edge Malaysia / Bernama",
+   "title": "Melaka polls: PH pledges to scrap seven appointed assemblymen seats",
+   "date": "2026-11-12",
+   "url": "https://theedgemalaysia.com/node/825504",
+   "text": null
+  },
+  {
+   "id": "S040",
+   "publisher": "Free Malaysia Today",
+   "title": "BN-PN could win 25 of 28 Melaka seats, says Rauf",
+   "date": "2026-11-12",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/12/bn-pn-could-win-25-of-28-melaka-seats-says-rauf",
+   "text": null
+  },
+  {
+   "id": "S041",
+   "publisher": "Lianhe Zaobao",
+   "title": "Melaka State Election Outlines Contours of Malaysia’s General Election",
+   "date": "2026-11-12",
+   "url": "https://www.zaobao.com.sg/forum/views/story20261112-9986114",
+   "text": null
+  },
+  {
+   "id": "S042",
+   "publisher": "Bernama / Election Commission",
+   "title": "Melaka Polls: 79 Candidates Await People’s Mandate Today",
+   "date": "2026-11-14",
+   "url": "https://bernama.com/en/news.php?id=2634097",
+   "text": null
+  },
+  {
+   "id": "S043",
+   "publisher": "Bernama",
+   "title": "Melaka Focuses Efforts On Strengthening State Economy – Ab Rauf",
+   "date": "2026-11-15",
+   "url": "https://web26.bernama.com/en/general/news.php?id=2634654",
+   "text": null
+  },
+  {
+   "id": "S044",
+   "publisher": "CNA",
+   "title": "Melaka result bolsters Malay political alliance, posing challenge for PH",
+   "date": "2026-11-15",
+   "url": "https://www.channelnewsasia.com/asia/melaka-poll-results-analysis-malaysia-general-election-challenges-6552746",
+   "text": null
+  },
+  {
+   "id": "S045",
+   "publisher": "Bernama",
+   "title": "Melaka Polls: 26 Candidates Lose Deposits, Most From Bersama",
+   "date": "2026-11-15",
+   "url": "https://web26.bernama.com/en/news.php?id=2634499",
+   "text": null
+  },
+  {
+   "id": "S046",
+   "publisher": "Bernama",
+   "title": "The 16th Melaka State Election – seat-by-seat changes",
+   "date": "2026-11-15",
+   "url": "https://garasi.bernama.com/stories/the-16th-melaka-state-election",
+   "text": null
+  },
+  {
+   "id": "S047",
+   "publisher": "CNA",
+   "title": "Melaka heads to polls as PH faces BN-PN pact",
+   "date": "2026-11-14",
+   "url": "https://www.channelnewsasia.com/asia/melaka-election-anwar-ph-bn-pn-6545371",
+   "text": null
+  },
+  {
+   "id": "S048",
+   "publisher": "Bernama",
+   "title": "PH Accepts Melaka Polls Results – Adly",
+   "date": "2026-11-14",
+   "url": "https://bernama.com/en/news.php?id=2634445",
+   "text": null
+  },
+  {
+   "id": "S049",
+   "publisher": "The Star",
+   "title": "All eyes on four key seats",
+   "date": "2026-11-13",
+   "url": "https://www.thestar.com.my/news/nation/2026/11/13/all-eyes-on-four-key-seats",
+   "text": null
+  }
+ ]
+}
