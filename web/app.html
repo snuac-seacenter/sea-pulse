@@ -460,7 +460,7 @@ ol.src .smeta { color: var(--muted); }
         if (same) { same.items.push([s, i]); return; }
       }
       const last = g[g.length - 1];
-      if (last && last.type === s.type && s.type !== 'special' && s.type !== 'deep_dive' && s.type !== 'other') last.items.push([s, i]);
+      if (last && last.type === s.type && s.type !== 'special' && s.type !== 'deep_dive' && s.type !== 'other' && !(s.type === 'theme' && (last.items[0][0].heading || '') !== (s.heading || ''))) last.items.push([s, i]);
       else g.push({ type: s.type, items: [[s, i]] });
     });
     // ASEAN·역내 항목은 국가별 동향 탭의 마지막 탭으로
@@ -508,7 +508,8 @@ ol.src .smeta { color: var(--muted); }
     if (g.type === 'theme') {
       const digital = !s0.heading || /디지털|digital|\bAI\b|기술|tech/i.test(s0.heading);
       if (digital) { en = 'DIGITAL & AI WATCH'; themeSub = '여러 나라의 디지털·AI 정책이 발표·검토·시행 중 어디에 있는지 나란히 봅니다'; }
-      else { en = 'ECONOMIC FOCUS'; themeSub = '요일마다 정해진 경제 주제로 여러 나라의 움직임을 나란히 봅니다'; }
+      else if (/경제|econom/i.test(s0.heading)) { en = 'ECONOMIC FOCUS'; themeSub = '요일마다 정해진 경제 주제로 여러 나라의 움직임을 나란히 봅니다'; }
+      else { en = 'FOCUS'; themeSub = ''; }
     }
     let h = '';
     if (g.type === 'regional') {
