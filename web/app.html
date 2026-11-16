@@ -506,10 +506,12 @@ ol.src .smeta { color: var(--muted); }
     // 주제 섹션: 디지털·AI면 '디지털·AI 워치', 그 밖의 요일별 경제 주제면 '경제 포커스'
     let themeSub = '';
     if (g.type === 'theme') {
-      const digital = !s0.heading || /디지털|digital|\bAI\b|기술|tech/i.test(s0.heading);
+      const key = s0.heading || s0.title || '';
+      const digital = !key || /디지털|digital|\bAI\b|기술|tech/i.test(key);
+      if (!s0.heading && !digital) head = s0.title;   // 제목만 있는 주제 블록(예: SEA Pulse Monitor 표)은 제목을 묶음 이름으로
       if (digital) { en = 'DIGITAL & AI WATCH'; themeSub = '여러 나라의 디지털·AI 정책이 발표·검토·시행 중 어디에 있는지 나란히 봅니다'; }
       else if (/경제|econom/i.test(s0.heading)) { en = 'ECONOMIC FOCUS'; themeSub = '요일마다 정해진 경제 주제로 여러 나라의 움직임을 나란히 봅니다'; }
-      else { en = 'FOCUS'; themeSub = ''; }
+      else { en = /monitor/i.test(key) ? 'MONITOR' : 'FOCUS'; themeSub = ''; }
     }
     let h = '';
     if (g.type === 'regional') {
