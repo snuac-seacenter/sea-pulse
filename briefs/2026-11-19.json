@@ -1,0 +1,641 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-11-19",
+ "weekday": "목",
+ "title": "동남아 데일리 브리프",
+ "edition": "SERIES Daily 구독자판",
+ "editor": "김형종",
+ "observation_cutoff": "2026-11-18 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "인도네시아 대통령실은 부통령 후보 두 명을 11월 25일 MPR에 제출한다고 처음으로 일정을 확인했다. Dasco와 Sugiono가 유력 후보로 보도됐지만 대통령 지명은 아직 없다. 12월 9일 표결까지는 후보 제출과 MPR 검증이 남는다. [S002·S003]",
+  "말레이시아 느그리슴빌란에서는 해임된 주 집행위원들이 주총리 사퇴 보도 뒤 소송을 취하했다. 정치적 압박은 커졌지만 사퇴의 법적 효력과 후임 임명은 왕실 수락 뒤에 발생한다. 11월 20일 면담이 다음 분기점이다. [S004·S005]",
+  "미국의 새 AI 칩 수출통제는 싱가포르·말레이시아·태국·인도네시아의 첨단 칩과 대규모 중국 고객 대상 컴퓨팅 서비스에 허가를 요구한다. 데이터센터 투자계획보다 수출통제 법제와 고객 실사 능력이 먼저 시험받게 됐다. [S008]"
+ ],
+ "monitor": [
+  {
+   "issue_id": "id-succession",
+   "issue": "인도네시아 부통령 승계",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "제출일 확인 · 후보 미확정",
+   "delta": "대통령실이 11월 25일 두 후보 제출을 확인했다. [S002]",
+   "next_trigger": "후보 두 명·검증자료",
+   "period": null,
+   "economic_signal": null
+  },
+  {
+   "issue_id": "malaysia-politics",
+   "issue": "느그리슴빌란 주총리",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "사퇴 수락 전",
+   "delta": "소송 취하와 후임 논의가 진행됐지만 왕실 결정 전이다. [S004·S005]",
+   "next_trigger": "11월 20일 왕실 면담",
+   "period": null,
+   "economic_signal": null
+  },
+  {
+   "issue_id": "digital-ai",
+   "issue": "미국 AI 칩 통제",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "규칙 발표 · 허가 준비",
+   "delta": "동남아 4개국 칩·대중국 연산 서비스에 허가가 요구된다. [S008]",
+   "next_trigger": "세부지침·기업별 허가",
+   "period": null,
+   "economic_signal": "칩 인도·데이터센터 금융종결"
+  },
+  {
+   "issue_id": "asean-agenda",
+   "issue": "싱가포르 ASEAN 의장국",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "인계 완료 · 작업계획 전",
+   "delta": "단일시장·에너지·디지털 연결 우선선이 제시됐다. [S011]",
+   "next_trigger": "2027 작업계획·회의달력",
+   "period": null,
+   "economic_signal": "전력망·디지털무역"
+  },
+  {
+   "issue_id": "my-minwage",
+   "issue": "말레이시아 RM2,000",
+   "status": "CONTINUITY",
+   "status_label": null,
+   "level": null,
+   "stage": "2027년 6월 시행 방침",
+   "delta": "18일 새 관보·예외조항은 확인되지 않았다. [S006]",
+   "next_trigger": "최저임금 명령문",
+   "period": {
+    "start": "2026-10-16",
+    "end": "2027-06-01"
+   },
+   "economic_signal": "임금비용·물가"
+  },
+  {
+   "issue_id": "my-state-elections-2026",
+   "issue": "말레이시아 주 선거",
+   "status": "CONTINUITY",
+   "status_label": null,
+   "level": null,
+   "stage": "사라왁 후보등록 전",
+   "delta": "82석 일정은 유지되고 최종 대진표는 아직 없다. [S007]",
+   "next_trigger": "11월 28일 후보등록",
+   "period": {
+    "start": "2026-11-28",
+    "end": "2026-12-12"
+   },
+   "economic_signal": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "heading": null,
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "issue_ids": [
+    "id-succession",
+    "id-minerals",
+    "digital-ai"
+   ],
+   "lede": "부통령 승계는 추측 단계에서 제출일이 명시된 절차 단계로 한 칸 이동했다.",
+   "paragraphs": [
+    {
+     "label": "후보 제출 일정",
+     "text": "대통령실은 Prabowo 대통령이 11월 25일 두 후보를 MPR에 낼 것이라고 확인했다. MPR 표결·취임은 12월 9일로 잡혀 있다. 대통령이 직접 제출할지, 두 후보가 누구인지는 18일 마감까지 공개되지 않았다. [S002]"
+    },
+    {
+     "label": "후보군",
+     "text": "Dasco와 Sugiono가 유력 후보로 부상했다는 보도가 나왔다. Gerindra 내부 선호와 연정 지지는 후보 확정이 아니다. 공식 서한의 두 이름, 이해충돌 자료, MPR 검증 일정을 따로 확인해야 한다. [S001·S003]"
+    },
+    {
+     "label": "광물정책 집중",
+     "text": "광물 수익의 국내 유보 비율을 70%로 높이겠다는 대통령 지시는 유지된다. 18일 새 산식·대상광종·기존 계약 경과조치는 확인되지 않았다. ASEAN 핵심광물 선언도 역내 협력방향이지 인도네시아 기업의 즉시 의무는 아니다. [S016]"
+    },
+    {
+     "label": "AI 칩 통제",
+     "text": "새 미국 규칙은 첨단 칩의 수입·재수출과 중국 고객 대상 대규모 컴퓨팅 서비스에 허가를 요구한다. 인도네시아에는 전용 전략물자 통제법이 없어 통관·산업별 규정이 흩어져 있다는 지적이 나왔다. [S008]"
+    }
+   ],
+   "table": null,
+   "point": "승계 일정과 칩 허가체계가 같은 주에 겹친다. 새 부통령 후보의 경제·디지털 포트폴리오가 투자자 실사에서 빠르게 읽힐 가능성이 있다.",
+   "next_check": "11월 25일 후보 두 명과 MPR 검증자료, 광물 70% 시행규정, 미국 허가 신청의 대상 칩·고객·유예기한."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "issue_ids": [
+    "malaysia-politics",
+    "my-minwage",
+    "my-state-elections-2026",
+    "digital-ai"
+   ],
+   "lede": "주 정치의 헌법 절차와 노동비용·데이터센터 규제의 집행일정을 분리해 본다.",
+   "paragraphs": [
+    {
+     "label": "느그리슴빌란 주총리",
+     "text": "해임된 주 집행위원들이 주총리 사퇴 보도 뒤 소송을 취하했다. UMNO가 제시할 후임 선택지는 제한적이라는 평가가 이어지지만, 사퇴 수락과 후임 임명은 Yang Dipertuan Besar의 권한이다. [S004·S005]"
+    },
+    {
+     "label": "최저임금 집중 추적",
+     "text": "월 RM2,000은 2027년 6월 시행 방침이다. 정부는 400만 명 이상 수혜를 예상하지만 18일 새 관보나 업종별 유예조항은 확인되지 않았다. 사업비 계산은 적용대상·예외·벌칙이 담긴 명령문이 나온 뒤 가능하다. [S006]"
+    },
+    {
+     "label": "주 선거 특별 분석",
+     "text": "멜라카 선거 뒤 PH–BN 관계 재조정 논의가 이어진다. 사라왁은 82석을 대상으로 11월 28일 후보등록, 12월 8일 사전투표, 12월 12일 본투표가 확정돼 있다. 정당 발표명단과 최종 대진표를 구분한다. [S001·S007]"
+    },
+    {
+     "label": "AI 데이터센터",
+     "text": "말레이시아 데이터센터는 중국 고객 비중과 칩 조달구조에 따라 미국 허가 부담이 달라진다. 미국계 클라우드 임차는 상대적으로 영향이 작고, 자체 칩 보유·중국 고객 대상 사업은 지연 위험이 크다. [S008]"
+    }
+   ],
+   "table": {
+    "title": "말레이시아 확인 일정",
+    "columns": [
+     "사안",
+     "현재 단계",
+     "다음 문서·날짜"
+    ],
+    "rows": [
+     [
+      "느그리슴빌란",
+      "왕실 수락 전",
+      "11월 20일 면담"
+     ],
+     [
+      "최저임금 RM2,000",
+      "예산 발표·명령 대기",
+      "관보·2027년 6월"
+     ],
+     [
+      "사라왁 선거",
+      "후보등록 전",
+      "11월 28일·12월 12일"
+     ],
+     [
+      "AI 칩",
+      "미국 허가체계 발표",
+      "2027년 2월 중순 서비스 허가"
+     ]
+    ]
+   },
+   "point": null,
+   "next_check": "왕실 결정, 최저임금 명령문, 사라왁 후보등록, 데이터센터 사업자별 허가 신청과 고객구성."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "싱가포르",
+   "countries": [
+    "SG"
+   ],
+   "issue_ids": [
+    "asean-agenda",
+    "digital-ai"
+   ],
+   "lede": "의장국 인계가 끝나자 2027년 의제는 단일시장·전력망·디지털 연결로 좁혀졌다.",
+   "paragraphs": [
+    {
+     "label": "2027년 ASEAN 의제",
+     "text": "Lawrence Wong 총리는 단일 ASEAN 시장, 에너지·디지털 연결, 외부 파트너십을 의장국 우선선으로 제시했다. 공식 임기는 2027년 1월 1일 시작하므로 현재는 의제 설계 단계다. [S011]"
+    },
+    {
+     "label": "남중국해",
+     "text": "행동준칙 문안의 약 80%가 잠정 합의됐지만 적용 해역, 법적 구속력, 금지행위가 남았다. 싱가포르가 협상을 넘겨받아도 80%라는 수치가 곧 타결확률은 아니다. [S010]"
+    },
+    {
+     "label": "정보공간",
+     "text": "최근 연무·시장 논쟁을 둘러싼 허위서사가 인도네시아 국내 청중과 싱가포르 신뢰를 동시에 겨냥할 수 있다는 분석이 나왔다. 국가 차원의 디지털 방어와 독립적 팩트체크가 함께 요구된다. [S009]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "2027년 ASEAN 공식 일정, DEFA·전력망의 협상기한, 남중국해 행동준칙의 미합의 조항."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "issue_ids": [
+    "trade",
+    "digital-ai"
+   ],
+   "lede": "미국과의 무역협정은 실질 타결됐지만 법문·의회절차·발효가 남아 있다.",
+   "paragraphs": [
+    {
+     "label": "상호무역협정",
+     "text": "양국 정상은 협상 실질 타결을 확인하는 공동성명에 서명했다. 태국 정부는 이해관계자 의견을 받고 의회에 제출한 뒤 정식 협정 서명과 국내절차를 진행한다. [S013]"
+    },
+    {
+     "label": "칩 허가",
+     "text": "태국은 미국의 첨단 AI 칩 허가 대상 4개 동남아 국가에 포함됐다. 전략물자 통제체계의 완전한 시행 여부가 사업자의 조달 일정과 금융종결에 영향을 줄 수 있다. [S008]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "ART 법문·관세표·의회 제출일, 미국 칩 허가의 태국 담당기관과 기업지침."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "issue_ids": [
+    "vietnam-deep-dive"
+   ],
+   "lede": "정상회의 뒤에는 의회외교와 2027년 국내계획을 연결하는 후속 문서가 필요하다.",
+   "paragraphs": [
+    {
+     "label": "1 지역 환경",
+     "text": "베트남 국회의장과 싱가포르 의회의장은 18일 AIPA 계기 회담에서 포괄적 전략동반자 관계와 ASEAN 의회협력을 함께 추진하기로 했다. 정상외교 문구를 사업승인으로 계산하지 않는다. [S014]"
+    },
+    {
+     "label": "2 성장과 물가",
+     "text": "18일 마감까지 새 성장·물가 지표는 확인되지 않았다. 기존 고성장 전망은 신용확대, 공공투자 집행, 전력·연료가격의 상호작용과 함께 읽는다."
+    },
+    {
+     "label": "3 금융과 산업",
+     "text": "미국의 이번 칩 허가 대상에는 베트남이 포함되지 않았다. 다만 인접국의 데이터센터 조달지연이 베트남으로 수요를 옮길 가능성과 우회거래 감시 강화는 별개 변수다. [S008]"
+    },
+    {
+     "label": "4 이행 확인",
+     "text": "2027년 신용목표·재정계획, 국가전력계획 사업목록, APEC 후속 투자발표를 확인한다. 발표금액은 인허가·금융종결·착공으로 나눠 기록한다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "2027년 신용·재정 목표, 전력사업 승인·재원, 싱가포르와의 의회·투자 후속 합의."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "미얀마",
+   "countries": [
+    "MM"
+   ],
+   "issue_ids": [
+    "myanmar"
+   ],
+   "lede": "태국 중재 구상은 대화 상대와 대표성에서 다시 막혔다.",
+   "paragraphs": [
+    {
+     "label": "평화대화",
+     "text": "KNU와 KNPP는 개별 협상을 거부하고 태국이 중재할 경우 SCEF와의 대화여야 한다고 밝혔다. 회담 제안과 참가 합의가 갈라진 상태다. [S001·S015]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "태국이 제시할 참가자 명단, SCEF 공동입장, 군정·NUG의 공식 답변."
+  },
+  {
+   "type": "asean",
+   "heading": null,
+   "title": "ASEAN과 대외관계",
+   "countries": [
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MY",
+    "MM",
+    "PH",
+    "SG",
+    "TH",
+    "TL",
+    "VN"
+   ],
+   "issue_ids": [
+    "asean-agenda",
+    "digital-ai"
+   ],
+   "lede": "정상회의 문서는 이제 담당기구·예산·법적 효력을 확인하는 단계로 넘어간다.",
+   "paragraphs": [
+    {
+     "label": "의장국 전환",
+     "text": "필리핀은 17일 싱가포르에 의장국 의사봉을 넘겼다. 싱가포르는 단일시장, 에너지망, 디지털 연결을 예고했지만 작업계획과 협상달력은 아직 공개되지 않았다. [S011·S018]"
+    },
+    {
+     "label": "행동준칙과 EAS",
+     "text": "남중국해 행동준칙은 약 80% 잠정 합의에 그쳤고, EAS는 안정과 제도 재정비를 선언했다. 구속력·적용해역·이행감독이 남아 있어 채택문서와 분쟁관리 효과를 분리한다. [S010·S012]"
+    },
+    {
+     "label": "핵심광물",
+     "text": "ASEAN 핵심광물 선언은 공급망 회복력과 지속가능 성장을 공동목표로 잡았다. 회원국별 광업법, 수출통제, 환경허가가 바뀌기 전까지 기업 의무는 기존 국내법을 따른다. [S016]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "싱가포르 의장국 작업계획, 행동준칙 미합의 조항, 핵심광물 담당기구·사업목록·재원."
+  },
+  {
+   "type": "theme",
+   "heading": "디지털 AI 포커스",
+   "title": "칩 허가가 데이터센터 사업모델을 가른다",
+   "countries": [
+    "ID",
+    "MY",
+    "SG",
+    "TH"
+   ],
+   "issue_ids": [
+    "digital-ai"
+   ],
+   "lede": "미국 규칙은 서버가 놓이는 국가보다 칩 소유권과 고객에게 제공되는 컴퓨팅의 규모를 묻는다.",
+   "paragraphs": [
+    {
+     "label": "적용선",
+     "text": "싱가포르·말레이시아·태국·인도네시아로 첨단 반도체를 수출·재수출·이전하려면 미국 허가가 필요하다. 중국 본사 고객에게 상당한 컴퓨팅을 제공하는 해외 데이터센터도 2027년 2월 중순까지 별도 허가를 받아야 한다. [S008]"
+    },
+    {
+     "label": "사업별 차이",
+     "text": "미국계 클라우드에서 용량을 임차하는 기업은 자체 서버를 보유한 통신사·연구기관·국가 AI 사업보다 영향이 작을 수 있다. 중국계 고객과 복잡한 소유구조는 허가심사와 금융종결을 늦출 요인이다. [S008]"
+    }
+   ],
+   "table": {
+    "title": "노출도 판단표",
+    "columns": [
+     "사업모델",
+     "상대 노출",
+     "먼저 볼 자료"
+    ],
+    "rows": [
+     [
+      "미국계 클라우드 임차",
+      "낮음–중간",
+      "서비스 지역·계약조건"
+     ],
+     [
+      "자체 첨단칩 보유",
+      "높음",
+      "칩 원산지·소유권·최종사용자"
+     ],
+     [
+      "중국 고객 대규모 연산",
+      "매우 높음",
+      "별도 허가·서비스 규모"
+     ],
+     [
+      "서버 재수출·시스템 통합",
+      "높음",
+      "재수출경로·고객실사"
+     ]
+    ]
+   },
+   "point": "데이터센터 용량 발표보다 허가 획득과 칩 인도일이 투자 실행을 설명하는 지표가 된다.",
+   "next_check": "미 상무부 세부지침, 4개국 집행기관, 기업별 허가·프로젝트 지연 공시."
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": "id-succession",
+   "issue": "인도네시아 부통령",
+   "status": "후보 제출 전",
+   "events": [
+    {
+     "date": "2026-11-18",
+     "text": "대통령실 제출일 확인",
+     "note": "두 이름은 미공개"
+    },
+    {
+     "date": "2026-11-25",
+     "text": "후보 두 명 제출",
+     "note": "MPR 검증"
+    },
+    {
+     "date": "2026-12-09",
+     "text": "MPR 표결·취임",
+     "note": "선출 결과"
+    }
+   ]
+  },
+  {
+   "issue_id": "malaysia-politics",
+   "issue": "말레이시아 정치·선거",
+   "status": "결정 대기",
+   "events": [
+    {
+     "date": "2026-11-20",
+     "text": "느그리슴빌란 왕실 면담",
+     "note": "사퇴·후임 결정"
+    },
+    {
+     "date": "2026-11-28",
+     "text": "사라왁 후보등록",
+     "note": "최종 대진표"
+    },
+    {
+     "date": "2026-12-12",
+     "text": "사라왁 본투표",
+     "note": "82석 결과"
+    }
+   ]
+  },
+  {
+   "issue_id": "digital-ai",
+   "issue": "AI 칩 수출통제",
+   "status": "허가 준비",
+   "events": [
+    {
+     "date": "2026-11-16",
+     "text": "미국 새 규칙 발표",
+     "note": "4개 동남아국 대상"
+    },
+    {
+     "date": "2027-02-중순",
+     "text": "대중국 연산 서비스 허가선",
+     "note": "기업별 심사"
+    }
+   ]
+  },
+  {
+   "issue_id": "trade",
+   "issue": "무역 일정",
+   "status": "법문·발효 대기",
+   "events": [
+    {
+     "date": "2026-12-01",
+     "text": "인도네시아–캐나다 CEPA 발효",
+     "note": "관세·원산지 적용"
+    },
+    {
+     "date": "미정",
+     "text": "태국–미국 ART 정식 서명",
+     "note": "의회·국내절차"
+    }
+   ]
+  }
+ ],
+ "bottom_line": [],
+ "watch_next": [
+  "11월 20일 느그리슴빌란 왕실 면담과 사퇴·후임 결정.",
+  "11월 25일 인도네시아 부통령 후보 두 명과 MPR 검증자료.",
+  "미국 AI 칩 수출통제 세부지침과 4개국 기업의 허가 신청.",
+  "말레이시아 RM2,000 최저임금 관보와 업종·사업규모별 유예.",
+  "11월 28일 사라왁 후보등록과 12월 12일 82석 본투표.",
+  "싱가포르의 2027년 ASEAN 작업계획과 남중국해 행동준칙 협상달력.",
+  "베트남 2027년 신용·재정·전력사업 계획."
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": "S001",
+   "publisher": "ISEAS – Yusof Ishak Institute",
+   "title": "Daily News on Southeast Asia – 18 November 2026",
+   "date": "2026-11-18",
+   "url": "https://www.iseas.edu.sg/library/blog/daily-news-alerts/261118",
+   "text": null
+  },
+  {
+   "id": "S002",
+   "publisher": "Kompas",
+   "title": "Palace Confirms Prabowo Will Submit Vice Presidential Names on November 25",
+   "date": "2026-11-18",
+   "url": "https://go.kompas.com/read/2026/11/18/140447174/palace-confirms-prabowo-will-submit-vice-presidential-names-on-november-25",
+   "text": null
+  },
+  {
+   "id": "S003",
+   "publisher": "Jakarta Post",
+   "title": "Dasco Sugiono emerge as contenders to replace Gibran as VP",
+   "date": "2026-11-18",
+   "url": "https://www.thejakartapost.com/indonesia/2026/11/18/dasco-sugiono-emerge-as-contenders-to-replace-gibran-as-vp",
+   "text": null
+  },
+  {
+   "id": "S004",
+   "publisher": "Free Malaysia Today",
+   "title": "Sacked Negeri Sembilan exco members drop suit after MB resigns",
+   "date": "2026-11-18",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/18/sacked-negeri-sembilan-exco-members-drop-suit-after-mb-resigns",
+   "text": null
+  },
+  {
+   "id": "S005",
+   "publisher": "Free Malaysia Today",
+   "title": "Umno seen as having limited options for Ismail successor as MB",
+   "date": "2026-11-18",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/18/umno-seen-as-having-limited-options-for-ismail-s-successor-as-mb",
+   "text": null
+  },
+  {
+   "id": "S006",
+   "publisher": "Bernama",
+   "title": "RM2000 Minimum Wage Set After Careful Evaluation",
+   "date": "2026-10-16",
+   "url": "https://web26.bernama.com/en/region/news.php?id=2621437",
+   "text": null
+  },
+  {
+   "id": "S007",
+   "publisher": "Election Commission of Malaysia",
+   "title": "Sarawak State Election Key Dates",
+   "date": "2026-11-06",
+   "url": "https://spr.gov.my/wp-content/uploads/2026/11/KM-BIL-58_2026-MESYUARAT-KHAS-PRU-DUN-SARAWAK-KE-13.pdf",
+   "text": null
+  },
+  {
+   "id": "S008",
+   "publisher": "CNA",
+   "title": "US chip export curbs test Southeast Asia AI ambitions",
+   "date": "2026-11-18",
+   "url": "https://www.channelnewsasia.com/singapore/us-ai-chip-export-control-southeast-asia-singapore-6558276",
+   "text": null
+  },
+  {
+   "id": "S009",
+   "publisher": "CNA",
+   "title": "Disinformation can hurt Singapore even if Singaporeans are not the target",
+   "date": "2026-11-18",
+   "url": "https://www.channelnewsasia.com/commentary/disinformation-campaign-haze-singapore-information-resilience-6558396",
+   "text": null
+  },
+  {
+   "id": "S010",
+   "publisher": "CNA",
+   "title": "Why is a South China Sea Code of Conduct still unfinished",
+   "date": "2026-11-18",
+   "url": "https://www.channelnewsasia.com/asia/cna-explains-south-china-sea-talks-unfinished-asean-6558131",
+   "text": null
+  },
+  {
+   "id": "S011",
+   "publisher": "CNA",
+   "title": "Singapore to push for single ASEAN market closer energy and digital links",
+   "date": "2026-11-18",
+   "url": "https://www.channelnewsasia.com/singapore/asean-chairmanship-lawrence-wong-philippines-6556511",
+   "text": null
+  },
+  {
+   "id": "S012",
+   "publisher": "ASEAN Secretariat",
+   "title": "East Asia Summit Declaration on Navigating our Future Together Stability and Renewal",
+   "date": "2026-11-17",
+   "url": "https://asean.org/east-asia-summit-declaration-on-navigating-our-future-together-stability-and-renewal/",
+   "text": null
+  },
+  {
+   "id": "S013",
+   "publisher": "The Nation Thailand",
+   "title": "Thailand and US sign joint ART statement ahead of full trade agreement",
+   "date": "2026-11-17",
+   "url": "https://www.nationthailand.com/business/economy/40073614",
+   "text": null
+  },
+  {
+   "id": "S014",
+   "publisher": "VietnamPlus",
+   "title": "Afternoon briefing on November 18",
+   "date": "2026-11-18",
+   "url": "https://en.vietnamplus.vn/afternoon-briefing-on-november-18-post355696.vnp",
+   "text": null
+  },
+  {
+   "id": "S015",
+   "publisher": "DVB",
+   "title": "KNU and KNPP reject separate peace talks",
+   "date": "2026-11-17",
+   "url": "https://english.dvb.no/",
+   "text": null
+  },
+  {
+   "id": "S016",
+   "publisher": "ASEAN Secretariat",
+   "title": "Declaration on ASEAN Critical Minerals for Regional Resilience and Sustainable Growth",
+   "date": "2026-11-15",
+   "url": "https://asean.org/declaration-on-asean-critical-minerals-for-regional-resilience-and-sustainable-growth/",
+   "text": null
+  },
+  {
+   "id": "S017",
+   "publisher": "Government of Canada",
+   "title": "Canada Indonesia Comprehensive Economic Partnership Agreement",
+   "date": "2026-11-17",
+   "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/indonesia-indonesie/cepa-apeg/index.aspx?lang=eng",
+   "text": null
+  },
+  {
+   "id": "S018",
+   "publisher": "ASEAN Summit Monitor",
+   "title": "ASEAN Summit Monitor",
+   "date": "2026-11-18",
+   "url": "https://aseanx.co/monitors/summit/",
+   "text": null
+  }
+ ]
+}
