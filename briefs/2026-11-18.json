@@ -1,0 +1,562 @@
+{
+ "schema": "sea-pulse-brief/v1",
+ "date": "2026-11-18",
+ "weekday": "수",
+ "title": "동남아 데일리 브리프",
+ "edition": "SERIES Daily 구독자판",
+ "editor": "김형종",
+ "observation_cutoff": "2026-11-17 23:59 KST",
+ "headline": null,
+ "pulse": [
+  "마닐라 정상회의는 17일 싱가포르에 의장국을 넘겼다. 싱가포르는 2027년 1월 1일 의장국을 맡고 주제를 ‘더 깊은 통합, 더 넓은 파트너십’으로 정했다. 폐막은 일정의 종료이지 남중국해 행동준칙이나 미얀마 대표권 문제의 해결이 아니다. [S002·S018]",
+  "ASEAN+3는 해상무역·물류 연결성과 외부충격에 대한 에너지·식량안보 성명 두 건을 채택했다. 동아시아정상회의는 온라인 사기 대응 성명과 제도 재정비 선언을 냈다. 선언을 수사공조나 피해자 구제의 즉시 시행으로 읽을 단계는 아니다. [S003·S004·S005]",
+  "국가별로는 태국과 미국이 상호무역협정 협상을 실질적으로 마무리했지만 서명·발효 전 국내절차가 남았다. 인도네시아에서는 부통령 선출일이 12월 9일로 미뤄졌고 대통령 후보 제출기한은 11월 25일이다. 말레이시아 느그리슴빌란 주총리 사퇴도 왕실 수락 전에는 효력이 없다. [S006·S008·S011]"
+ ],
+ "monitor": [
+  {
+   "issue_id": "asean-agenda",
+   "issue": "ASEAN 의장국 전환",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "인계 완료 · 취임 전",
+   "delta": "필리핀에서 싱가포르로 의장국을 인계했다. 2027년 1월 1일 공식 취임한다. [S002]",
+   "next_trigger": "싱가포르 우선순위와 회의달력",
+   "period": null,
+   "economic_signal": null
+  },
+  {
+   "issue_id": "digital-ai",
+   "issue": "온라인 사기·AI",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "정상성명·별도 구상",
+   "delta": "EAS는 온라인 사기 대응 성명을, Quad는 AI·해양감시·케이블 구상을 발표했다. [S004·S007]",
+   "next_trigger": "집행기관·재원·일정",
+   "period": null,
+   "economic_signal": "데이터·케이블·규제 비용"
+  },
+  {
+   "issue_id": "trade",
+   "issue": "태국–미국 무역",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "협상 실질 타결 · 서명 전",
+   "delta": "공동성명은 국내절차 개시를 확인했다. 협정문 서명과 발효는 남았다. [S006]",
+   "next_trigger": "협정문·관세표·발효일",
+   "period": null,
+   "economic_signal": "관세·원산지·비관세장벽"
+  },
+  {
+   "issue_id": "id-succession",
+   "issue": "인도네시아 부통령 승계",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "후보 미제출 · 일정 변경",
+   "delta": "후보 제출기한 11월 25일, MPR 표결일 12월 9일로 정리됐다. [S008]",
+   "next_trigger": "대통령 제출 후보 두 명",
+   "period": null,
+   "economic_signal": null
+  },
+  {
+   "issue_id": "malaysia-politics",
+   "issue": "말레이시아 정치지형",
+   "status": "UP",
+   "status_label": null,
+   "level": null,
+   "stage": "주총리 사퇴 수락 전",
+   "delta": "느그리슴빌란 왕실은 사퇴 효력이 아직 발생하지 않았다고 밝혔다. [S011]",
+   "next_trigger": "11월 20일 왕실 면담·결정",
+   "period": null,
+   "economic_signal": null
+  },
+  {
+   "issue_id": "my-state-elections-2026",
+   "issue": "말레이시아 주 선거",
+   "status": "CONTINUITY",
+   "status_label": null,
+   "level": null,
+   "stage": "멜라카 확정 · 사라왁 후보 발표 전",
+   "delta": "새 결과는 없고 11월 25일 GPS 82명 발표가 다음 분기점이다. [S014·S015]",
+   "next_trigger": "11월 25일 명단·28일 후보등록",
+   "period": {
+    "start": "2026-11-14",
+    "end": "2026-12-12"
+   },
+   "economic_signal": null
+  }
+ ],
+ "sections": [
+  {
+   "type": "country",
+   "heading": null,
+   "title": "인도네시아",
+   "countries": [
+    "ID"
+   ],
+   "issue_ids": [
+    "id-succession",
+    "econ-digital-resilience"
+   ],
+   "lede": "후임 부통령 절차는 후보군 추측에서 법정 제출기한과 표결일 관리로 이동했다.",
+   "paragraphs": [
+    {
+     "label": "부통령 선출 일정",
+     "text": "정부는 대통령이 아직 후보를 MPR에 제출하지 않았다고 확인했다. 표결일은 12월 2일에서 9일로 바뀌었고, 대통령은 법정기한에 맞춰 11월 25일까지 두 명을 제출해야 한다. 후보 미제출 상태와 거론되는 인물을 구분할 필요가 있다. [S008]"
+    },
+    {
+     "label": "후보군과 연정",
+     "text": "Gerindra 인사 세 명이 공개적으로 거론되고 연정 정당들이 대통령의 선택에 맡기는 흐름이 확인됐다. 당 지도부는 최종 결정이 대통령 권한이라고 선을 그었다. 후보 확정이나 MPR 검증 완료는 아니다. [S009]"
+    },
+    {
+     "label": "경제 일정",
+     "text": "인도네시아–캐나다 CEPA는 12월 1일 발효 예정이다. 발효일이 명시된 협정과 광업수익 70% 대통령 지시를 같은 단계로 묶지 않는다. 전자는 비준·통보를 마친 시행 예정 협정이고, 후자는 산식과 경과조치가 남은 국내 지시다. [S010]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "11월 25일까지 제출될 두 후보, MPR 검증자료와 12월 9일 표결규칙, CEPA 관세표와 원산지 절차."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "말레이시아",
+   "countries": [
+    "MY"
+   ],
+   "issue_ids": [
+    "malaysia-politics",
+    "my-state-elections-2026"
+   ],
+   "lede": "주총리 사퇴와 후임 추천이 나왔지만 헌법상 효력은 왕실 결정에 달려 있다.",
+   "paragraphs": [
+    {
+     "label": "느그리슴빌란 주총리",
+     "text": "주 왕실은 Ismail Lasim의 사퇴가 Yang Dipertuan Besar의 수락을 받아야 효력이 생긴다고 밝혔다. 사퇴서 진위도 아직 확인하지 않았고 11월 20일 면담이 예정돼 있다. BN은 후임 후보를 제출했지만 임명과 취임은 별도 단계다. [S011·S012]"
+    },
+    {
+     "label": "최저임금 집중 추적",
+     "text": "월 RM2,000을 2027년 6월부터 적용한다는 예산 방침은 유지된다. 17일 마감까지 새 최저임금 명령이나 중소기업 예외기간의 법문은 확인되지 않았다. 수혜 추산보다 관보의 적용대상·유예·벌칙을 기다린다. [S013]"
+    },
+    {
+     "label": "주 선거 특별 분석",
+     "text": "멜라카 결과는 BN 21석, PH 4석, PN 3석으로 확정돼 있다. 17일 ISEAS 목록의 평가는 PKR 약세와 UMNO 지렛대 약화를 다뤘지만 새 선거결과는 아니다. 사라왁은 GPS 후보 82명 발표가 11월 25일, 후보등록이 28일, 투표가 12월 12일이다. [S001·S014·S015]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "11월 20일 왕실 면담과 사퇴 수락 여부, RM2,000 관보, 25일 GPS 후보명단과 28일 최종 대진표."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "태국",
+   "countries": [
+    "TH"
+   ],
+   "issue_ids": [
+    "trade"
+   ],
+   "lede": "미국과의 상호무역협정은 협상 실질 타결 단계에 들어갔지만 아직 발효되지 않았다.",
+   "paragraphs": [
+    {
+     "label": "상호무역협정",
+     "text": "트럼프 대통령과 아누틴 총리는 17일 협상의 실질적 마무리를 확인하는 공동성명에 서명했다. 양국은 협정문 서명과 발효를 위한 국내절차를 시작한다. 관세표·예외품목·원산지 규정이 공개되기 전에는 기업별 효과를 계산할 수 없다. [S006]"
+    },
+    {
+     "label": "단계 구분",
+     "text": "정치적 합의와 공동성명은 확인됐지만 협정 서명·비준·발효는 남아 있다. 발효 전 기존 관세와 통관규칙이 자동으로 바뀌지는 않는다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "협정문과 부속 관세표, 태국 내 승인절차, 서명일·발효일."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "필리핀",
+   "countries": [
+    "PH"
+   ],
+   "issue_ids": [
+    "asean-agenda",
+    "digital-ai"
+   ],
+   "lede": "의장국은 100여 건의 결과문서를 묶어 회의를 닫았지만 미합의 쟁점도 그대로 넘겼다.",
+   "paragraphs": [
+    {
+     "label": "정상회의 폐막",
+     "text": "필리핀은 싱가포르에 의장국을 인계했다. 남중국해 행동준칙은 미완료 상태이고 미얀마 군정 지도자의 고위급 참여 제한도 유지된다. 폐막문서 수와 쟁점 해결을 동일시하지 않는다. [S002·S018]"
+    },
+    {
+     "label": "동아시아정상회의",
+     "text": "정상들은 EAS의 전략대화 역할을 재확인하고 온라인 사기·관련 범죄 대응 성명을 냈다. 수사기관 간 증거공유, 자산동결, 피해자 구제의 세부 절차는 국가별 이행문서가 필요하다. [S003·S004]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "필리핀 의장성명 최종본, EAS 온라인 사기 후속 작업계획, 싱가포르 의장국 일정."
+  },
+  {
+   "type": "country",
+   "heading": null,
+   "title": "베트남",
+   "countries": [
+    "VN"
+   ],
+   "issue_ids": [
+    "asean-agenda",
+    "econ-digital-resilience"
+   ],
+   "lede": "정상외교의 제안과 국내 거시정책을 분리해 추적한다.",
+   "paragraphs": [
+    {
+     "label": "1 지역 환경",
+     "text": "베트남 총리는 EAS를 전략적 신뢰와 지역 안정의 축으로 강화하자고 제안했고 ASEAN+3·Mekong–Japan·AZEC 회의에도 참석했다. 발언은 협력방향이며 국내 예산 배정이나 사업승인이 아니다. [S016]"
+    },
+    {
+     "label": "2 성장과 물가",
+     "text": "IMF 실무진의 2026년 9.2%, 2027년 8.9% 성장 전망과 10월 물가 5.1% 평가는 유지된다. 17일 새 거시지표 발표는 확인되지 않았다. [S017]"
+    },
+    {
+     "label": "3 금융과 산업",
+     "text": "ASEAN+3의 에너지·식량 회복력 성명과 AZEC 참여는 베트남의 전력·전환금융 선택지에 영향을 줄 수 있다. 사업명·재원·정부보증이 없는 정상회의 문구를 투자확정으로 계산하지 않는다. [S005·S016]"
+    },
+    {
+     "label": "4 이행 확인",
+     "text": "APEC 일정과 정상외교 이후 공개될 2027년 신용목표, 재정계획, 공공투자 조정, 에너지가격 보조 일정을 확인한다. IMF 이사회 보고서는 아직 남아 있다."
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "2027년 신용·재정 목표, AZEC·Mekong–Japan 사업목록, IMF 이사회 보고서."
+  },
+  {
+   "type": "asean",
+   "heading": null,
+   "title": "ASEAN과 대외관계",
+   "countries": [
+    "BN",
+    "KH",
+    "ID",
+    "LA",
+    "MY",
+    "MM",
+    "PH",
+    "SG",
+    "TH",
+    "TL",
+    "VN"
+   ],
+   "issue_ids": [
+    "asean-agenda",
+    "digital-ai"
+   ],
+   "lede": "정상회의 마지막 날은 의장국 인계와 분야별 성명 채택에 무게가 실렸다.",
+   "paragraphs": [
+    {
+     "label": "ASEAN+3",
+     "text": "정상들은 해상무역·물류 연결성, 외부충격과 공급망 차질에 대응한 에너지·식량안보 성명 두 건을 채택했다. 2027년 ASEAN+3 30주년을 앞두고 2023~2027 작업계획을 재점검했다. [S005]"
+    },
+    {
+     "label": "EAS와 온라인 사기",
+     "text": "동아시아정상회의 선언은 EAS의 역할 재정비를 제시했고, 별도 성명은 온라인 사기 대응을 UN 협약과 ASEAN 기존 문서에 연결했다. 구속력 있는 공동수사기구나 자동 자산환수 장치가 만들어진 것은 아니다. [S003·S004]"
+    },
+    {
+     "label": "2027년 의장국",
+     "text": "싱가포르는 2027년 1월 1일부터 의장국을 맡는다. 남중국해 행동준칙, 미얀마 5개 합의, 디지털경제협정 후속 이행표가 새 의장국의 초기 판단선이다. [S002]"
+    }
+   ],
+   "table": null,
+   "point": null,
+   "next_check": "싱가포르 의장국 우선순위·회의달력, APT·EAS 성명의 담당기구·기한·재원."
+  },
+  {
+   "type": "theme",
+   "heading": "디지털 AI 포커스",
+   "title": "선언에서 수사와 기반시설로",
+   "countries": [
+    "PH",
+    "SG"
+   ],
+   "issue_ids": [
+    "digital-ai"
+   ],
+   "lede": "온라인 사기 대응과 AI 기반시설 경쟁이 정상회의 문서에서 나란히 다뤄졌다.",
+   "paragraphs": [
+    {
+     "label": null,
+     "text": "EAS 성명은 온라인 사기를 초국경 조직범죄·부패·사이버범죄 체계와 연결한다. Quad는 별도 회의에서 신뢰 가능한 AI 접근과 해양감시·케이블·사이버 협력을 발표했다. 두 경로는 회원 구성과 집행수단이 다르므로 ASEAN 결정으로 합쳐 서술하지 않는다. [S004·S007]"
+    }
+   ],
+   "table": {
+    "title": "확인된 단계",
+    "columns": [
+     "경로",
+     "확인된 문서",
+     "다음 문서"
+    ],
+    "rows": [
+     [
+      "EAS",
+      "온라인 사기 대응 정상성명",
+      "수사·증거·자산환수 절차"
+     ],
+     [
+      "Quad",
+      "AI·해양감시·케이블 발표",
+      "예산·사업국·일정"
+     ]
+    ]
+   },
+   "point": null,
+   "next_check": "EAS 후속 작업계획과 Quad 사업별 대상국·재원."
+  }
+ ],
+ "chronology": [
+  {
+   "issue_id": "asean-agenda",
+   "issue": "ASEAN 정상회의",
+   "status": "폐막·인계",
+   "events": [
+    {
+     "date": "2026-11-17",
+     "text": "ASEAN+3 성명 2건 채택",
+     "note": "물류·에너지·식량 후속계획"
+    },
+    {
+     "date": "2026-11-17",
+     "text": "EAS 선언·온라인 사기 성명",
+     "note": "국가별 집행문서 대기"
+    },
+    {
+     "date": "2026-11-17",
+     "text": "싱가포르에 의장국 인계",
+     "note": "2027-01-01 취임"
+    }
+   ]
+  },
+  {
+   "issue_id": "id-succession",
+   "issue": "인도네시아 부통령 승계",
+   "status": "후보 제출 전",
+   "events": [
+    {
+     "date": "2026-11-25",
+     "text": "대통령 후보 두 명 제출기한",
+     "note": "MPR 검증"
+    },
+    {
+     "date": "2026-12-09",
+     "text": "MPR 부통령 표결",
+     "note": "선출·취임 절차"
+    }
+   ]
+  },
+  {
+   "issue_id": "malaysia-politics",
+   "issue": "말레이시아 정치·선거",
+   "status": "결정 대기",
+   "events": [
+    {
+     "date": "2026-11-20",
+     "text": "느그리슴빌란 왕실 면담",
+     "note": "사퇴 수락·후임 결정"
+    },
+    {
+     "date": "2026-11-25",
+     "text": "GPS 후보 82명 발표",
+     "note": "현역 교체·연합배분"
+    },
+    {
+     "date": "2026-11-28",
+     "text": "사라왁 후보등록",
+     "note": "최종 대진표"
+    },
+    {
+     "date": "2026-12-12",
+     "text": "사라왁 본투표",
+     "note": "82석 결과"
+    }
+   ]
+  },
+  {
+   "issue_id": "trade",
+   "issue": "무역 일정",
+   "status": "시행 예정",
+   "events": [
+    {
+     "date": "2026-12-01",
+     "text": "인도네시아–캐나다 CEPA 발효",
+     "note": "관세·원산지 적용"
+    },
+    {
+     "date": "미정",
+     "text": "태국–미국 협정 서명·발효",
+     "note": "국내절차·관세표"
+    }
+   ]
+  }
+ ],
+ "bottom_line": [],
+ "watch_next": [
+  "싱가포르의 2027년 ASEAN 우선순위와 공식 회의달력.",
+  "태국–미국 무역협정문·관세표·서명 및 발효일.",
+  "11월 25일 인도네시아 부통령 후보 두 명과 MPR 검증자료.",
+  "11월 20일 느그리슴빌란 왕실 결정, RM2,000 최저임금 관보.",
+  "11월 25일 GPS 후보명단과 28일 사라왁 최종 대진표.",
+  "EAS 온라인 사기 성명과 ASEAN+3 성명의 담당기구·기한·재원.",
+  "베트남 2027년 신용·재정계획과 AZEC 사업목록."
+ ],
+ "verification_notes": [],
+ "sources": [
+  {
+   "id": "S001",
+   "publisher": "ISEAS – Yusof Ishak Institute",
+   "title": "Daily News on Southeast Asia – 17 November 2026",
+   "date": "2026-11-17",
+   "url": "https://www.iseas.edu.sg/library/blog/daily-news-alerts/261117",
+   "text": null
+  },
+  {
+   "id": "S002",
+   "publisher": "ASEAN Secretariat",
+   "title": "Closing Ceremony and Handover of the ASEAN Chairmanship to Singapore",
+   "date": "2026-11-17",
+   "url": "https://asean.org/secretary-general-of-asean-attends-the-closing-ceremony-of-the-49th-asean-summit-and-related-summits-and-handover-of-the-asean-chairmanship-to-singapore/",
+   "text": null
+  },
+  {
+   "id": "S003",
+   "publisher": "ASEAN Secretariat",
+   "title": "East Asia Summit Declaration on Navigating our Future Together Stability and Renewal",
+   "date": "2026-11-17",
+   "url": "https://asean.org/east-asia-summit-declaration-on-navigating-our-future-togheter-stability-and-renewal/",
+   "text": null
+  },
+  {
+   "id": "S004",
+   "publisher": "ASEAN Secretariat",
+   "title": "EAS Leaders Statement on Strengthening Cooperation Against Online Scams and Related Offenses",
+   "date": "2026-11-17",
+   "url": "https://asean.org/wp-content/uploads/2026/11/FINAL-EAS-Leaders-Statement-on-Cooperation-Against-Online-Scams-and-Related-Offenses.pdf",
+   "text": null
+  },
+  {
+   "id": "S005",
+   "publisher": "ASEAN Plus Three",
+   "title": "29th ASEAN Plus Three Summit",
+   "date": "2026-11-17",
+   "url": "https://aseanplusthree.asean.org/29th-asean-plus-three-summit/",
+   "text": null
+  },
+  {
+   "id": "S006",
+   "publisher": "The White House",
+   "title": "Joint Statement on an Agreement Between the United States and Thailand on Reciprocal Trade",
+   "date": "2026-11-17",
+   "url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/",
+   "text": null
+  },
+  {
+   "id": "S007",
+   "publisher": "The White House",
+   "title": "Quad Leaders Summit Joint Press Release",
+   "date": "2026-11-17",
+   "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+   "text": null
+  },
+  {
+   "id": "S008",
+   "publisher": "ANTARA",
+   "title": "Prabowo yet to submit VP candidates to MPR Yusril",
+   "date": "2026-11-17",
+   "url": "https://en.antaranews.com/amp/news/443199/prabowo-yet-to-submit-vp-candidates-to-mpr-yusril",
+   "text": null
+  },
+  {
+   "id": "S009",
+   "publisher": "Metro TV News",
+   "title": "Dasco Calls Three Vice Presidential Hopefuls Gerindra Best Cadres",
+   "date": "2026-11-17",
+   "url": "https://www.metrotvnews.com/read/NgxClBav-dasco-calls-three-vice-presidential-hopefuls-gerindra-s-best-cadres",
+   "text": null
+  },
+  {
+   "id": "S010",
+   "publisher": "Government of Canada",
+   "title": "Canada Indonesia Comprehensive Economic Partnership Agreement",
+   "date": "2026-11-17",
+   "url": "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/indonesia-indonesie/cepa-apeg/index.aspx?lang=eng",
+   "text": null
+  },
+  {
+   "id": "S011",
+   "publisher": "Malay Mail / Negeri Sembilan Palace",
+   "title": "Royal assent needed before MB resignation takes effect says Palace",
+   "date": "2026-11-17",
+   "url": "https://www.malaymail.com/news/malaysia/2026/11/17/royal-assent-needed-before-mb-resignation-takes-effect-says-palace/243561",
+   "text": null
+  },
+  {
+   "id": "S012",
+   "publisher": "Bernama",
+   "title": "BN Submits New Negeri Sembilan MB Candidate for Tuanku Muhriz Approval",
+   "date": "2026-11-17",
+   "url": "https://web26.bernama.com/en/region/news.php?id=2635601",
+   "text": null
+  },
+  {
+   "id": "S013",
+   "publisher": "Malaysia Ministry of Finance",
+   "title": "Speech The Fifth MADANI Budget 2027",
+   "date": "2026-10-09",
+   "url": "https://www.mof.gov.my/portal/en/news/speech/speech-the-fifth-madani-budget-2027",
+   "text": null
+  },
+  {
+   "id": "S014",
+   "publisher": "Bernama",
+   "title": "Melaka Polls BN Wins 21 Seats PN 3 PH 4 EC",
+   "date": "2026-11-15",
+   "url": "https://bernama.com/en/news.php?id=2634493",
+   "text": null
+  },
+  {
+   "id": "S015",
+   "publisher": "Sarawak Daily",
+   "title": "GPS to Announce 82 Sarawak Election Candidates on 25 November",
+   "date": "2026-11-16",
+   "url": "https://sarawakdaily.com/gps-sarawak-election-candidates-25-november/",
+   "text": null
+  },
+  {
+   "id": "S016",
+   "publisher": "Government of Viet Nam",
+   "title": "Prime Minister calls for consolidating EAS as pillar of regional peace stability and strategic trust",
+   "date": "2026-11-17",
+   "url": "https://en.baochinhphu.vn/asean.html",
+   "text": null
+  },
+  {
+   "id": "S017",
+   "publisher": "International Monetary Fund via Mirage News",
+   "title": "IMF Staff Completes 2026 Article IV Mission to Vietnam",
+   "date": "2026-11-13",
+   "url": "https://www.miragenews.com/imf-staff-completes-2026-article-iv-mission-to-1777208/",
+   "text": null
+  },
+  {
+   "id": "S018",
+   "publisher": "Philstar",
+   "title": "ASEAN Summit Day 3 handover to Singapore",
+   "date": "2026-11-17",
+   "url": "https://www.philstar.com/headlines/2026/11/17/2570791/asean-summit-day-3-trumps-late-arrival-handover-singapore/amp/",
+   "text": null
+  }
+ ]
+}
